@@ -1,0 +1,64 @@
+﻿{
+	"tracker_broadcast": {
+		"type": "dock",
+		"dropshadow": true,
+		"background": "#333",
+		"content": [{
+			"type": "dock",
+			"dock": "left",
+			"v_alignment": "stretch",
+			"margin": "0,0,0,0",
+			"content": [
+				{
+					"type": "dock",
+					"dock": "left",
+					"content": [
+						{
+							"type": "dock",
+							"dock": "top",
+							"v_alignment": "stretch",
+							"content": [
+								{
+									"type": "group",
+									"header": "Weapons",
+									"dock": "top",
+									"content": {
+										"type": "layout",
+										"key": "weapon_grid"
+									}
+								},
+								{
+									"type": "group",
+									"header": "Keepsakes",
+									"dock": "top",
+									"content": {
+										"type": "layout",
+										"key": "keepsake_grid"
+									}
+								},
+								{
+									"type": "group",
+									"header": "Pact of Punishment",
+									"dock": "top",
+									"content": {
+										"type": "layout",
+										"key": "pact_grid"
+									}
+								},
+								{
+									"type": "group",
+									"header": "Items",
+									"dock": "top",
+									"content": {
+										"type": "layout",
+										"key": "item_grid"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}]
+	}
+}

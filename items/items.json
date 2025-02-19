@@ -1,0 +1,327 @@
+[
+	// weapons
+	{
+		"name": "Stygius",
+		"type": "toggle",
+		"img": "images/items/Stygius_Base.png",
+		"codes": "weapon, weapon_stygius"
+	},
+	{
+		"name": "Aspect of Arthur",
+		"type": "toggle",
+		"img": "images/items/Stygius_Hidden.png",
+		"codes": "aspect, aspect_arthur"
+	},
+	{
+		"name": "Varatha",
+		"type": "toggle",
+		"img": "images/items/Varatha_Base.png",
+		"codes": "weapon, weapon_varatha"
+	},
+	{
+		"name": "Aspect of Guan Yu",
+		"type": "toggle",
+		"img": "images/items/Varatha_Hidden.png",
+		"codes": "aspect, aspect_guan_yu"
+	},
+	{
+		"name": "Aegis",
+		"type": "toggle",
+		"img": "images/items/Aegis_Base.png",
+		"codes": "weapon, weapon_aegis"
+	},
+	{
+		"name": "Aspect of Beowulf",
+		"type": "toggle",
+		"img": "images/items/Aegis_Hidden.png",
+		"codes": "aspect, aspect_beowulf"
+	},
+	{
+		"name": "Coronacht",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Base.png",
+		"codes": "weapon, weapon_coronacht"
+	},
+	{
+		"name": "Aspect of Rama",
+		"type": "toggle",
+		"img": "images/items/Coronacht_Hidden.png",
+		"codes": "aspect, aspect_rama"
+	},
+	{
+		"name": "Malphon",
+		"type": "toggle",
+		"img": "images/items/Malphon_Base.png",
+		"codes": "weapon, weapon_malphon"
+	},
+	{
+		"name": "Aspect of Gilgamesh",
+		"type": "toggle",
+		"img": "images/items/Malphon_Hidden.png",
+		"codes": "aspect, aspect_gilgamesh"
+	},
+	{
+		"name": "Exagryph",
+		"type": "toggle",
+		"img": "images/items/Exagryph_Base.png",
+		"codes": "weapon, weapon_exagryph"
+	},
+	{
+		"name": "Aspect of Lucifer",
+		"type": "toggle",
+		"img": "images/items/Exagryph_Hidden.png",
+		"codes": "aspect, aspect_lucifer"
+	},
+	// keepsakes
+	{
+		"name": "Myrmidon Bracer",
+		"type": "toggle",
+		"img": "images/items/MyrmidonBracer.png",
+		"codes": "keepsake, keepsake_achilles"
+	},
+	{
+		"name": "Eternal Rose",
+		"type": "toggle",
+		"img": "images/items/EternalRose.png",
+		"codes": "keepsake, keepsake_aphrodite"
+	},
+	{
+		"name": "Blood-Filled Vial",
+		"type": "toggle",
+		"img": "images/items/BloodFilledVial.png",
+		"codes": "keepsake, keepsake_ares"
+	},
+	{
+		"name": "Adamant Arrowhead",
+		"type": "toggle",
+		"img": "images/items/AdamantArrowhead.png",
+		"codes": "keepsake, keepsake_artemis"
+	},
+	{
+		"name": "Owl Pendant",
+		"type": "toggle",
+		"img": "images/items/OwlPendant.png",
+		"codes": "keepsake, keepsake_athena"
+	},
+	{
+		"name": "Old Spiked Collar",
+		"type": "toggle",
+		"img": "images/items/OldSpikedCollar.png",
+		"codes": "keepsake, keepsake_cerberus"
+	},
+	{
+		"name": "Cosmic Egg",
+		"type": "toggle",
+		"img": "images/items/CosmicEgg.png",
+		"codes": "keepsake, keepsake_chaos"
+	},
+	{
+		"name": "Bone Hourglass",
+		"type": "toggle",
+		"img": "images/items/BoneHourglass.png",
+		"codes": "keepsake, keepsake_charon"
+	},
+	{
+		"name": "Frostbitten Horn",
+		"type": "toggle",
+		"img": "images/items/FrostbittenHorn.png",
+		"codes": "keepsake, keepsake_demeter"
+	},
+	{
+		"name": "Overflowing Cup",
+		"type": "toggle",
+		"img": "images/items/OverflowingCup.png",
+		"codes": "keepsake, keepsake_dionysus"
+	},
+	{
+		"name": "Evergreen Acorn",
+		"type": "toggle",
+		"img": "images/items/EvergreenAcorn.png",
+		"codes": "keepsake, keepsake_eurydice"
+	},
+	{
+		"name": "Harpy Feather Duster",
+		"type": "toggle",
+		"img": "images/items/HarpyFeatherDuster.png",
+		"codes": "keepsake, keepsake_dusa"
+	},
+	{
+		"name": "Lambent Plume",
+		"type": "toggle",
+		"img": "images/items/LambentPlume.png",
+		"codes": "keepsake, keepsake_hermes"
+	},
+	{
+		"name": "Chthonic Coin Purse",
+		"type": "toggle",
+		"img": "images/items/ChthonicCoinPurse.png",
+		"codes": "keepsake, keepsake_hypnos"
+	},
+	{
+		"name": "Skull Earring",
+		"type": "toggle",
+		"img": "images/items/SkullEarring.png",
+		"codes": "keepsake, keepsake_megaera"
+	},
+	{
+		"name": "Black Shawl",
+		"type": "toggle",
+		"img": "images/items/BlackShawl.png",
+		"codes": "keepsake, keepsake_nyx"
+	},
+	{
+		"name": "Distant Memory",
+		"type": "toggle",
+		"img": "images/items/DistantMemory.png",
+		"codes": "keepsake, keepsake_orpheus"
+	},
+	{
+		"name": "Broken Spearpoint",
+		"type": "toggle",
+		"img": "images/items/BrokenSpearpoint.png",
+		"codes": "keepsake, keepsake_patroclus"
+	},
+	{
+		"name": "Conch Shell",
+		"type": "toggle",
+		"img": "images/items/ConchShell.png",
+		"codes": "keepsake, keepsake_poseidon"
+	},
+	{
+		"name": "Shattered Shackle",
+		"type": "toggle",
+		"img": "images/items/ShatteredShackle.png",
+		"codes": "keepsake, keepsake_sisyphus"
+	},
+	{
+		"name": "Lucky Tooth",
+		"type": "toggle",
+		"img": "images/items/LuckyTooth.png",
+		"codes": "keepsake, keepsake_skelly"
+	},
+	{
+		"name": "Pierced Butterfly",
+		"type": "toggle",
+		"img": "images/items/PiercedButterfly.png",
+		"codes": "keepsake, keepsake_thanatos"
+	},
+	{
+		"name": "Thunder Signet",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "keepsake, keepsake_zeus"
+	},
+	// pact
+	{
+		"name": "Hard Labor Pact Level",
+		"type": "consumable",
+		"img": "images/items/HardLabor.png",
+		"codes": "pact, pact_hard_labor",
+		"max_quantity": 5
+	},
+	{
+		"name": "Lasting Consequences Pact Level",
+		"type": "consumable",
+		"img": "images/items/LastingConsequences.png",
+		"codes": "pact, pact_lasting_consequences",
+		"max_quantity": 4
+	},
+	{
+		"name": "Convenience Fee Pact Level",
+		"type": "consumable",
+		"img": "images/items/ConvenienceFee.png",
+		"codes": "pact, pact_convenience_fee",
+		"max_quantity": 2
+	},
+	{
+		"name": "Jury Summons Pact Level",
+		"type": "consumable",
+		"img": "images/items/JurySummons.png",
+		"codes": "pact, pact_jury_summons",
+		"max_quantity": 3
+	},
+	{
+		"name": "Extreme Measures Pact Level",
+		"type": "consumable",
+		"img": "images/items/ExtremeMeasures.png",
+		"codes": "pact, pact_extreme_measures",
+		"max_quantity": 4
+	},
+	{
+		"name": "Calisthenics Program Pact Level",
+		"type": "consumable",
+		"img": "images/items/CalisthenicsProgram.png",
+		"codes": "pact, pact_calisthenics_program",
+		"max_quantity": 2
+	},
+	{
+		"name": "Benefits Package Pact Level",
+		"type": "consumable",
+		"img": "images/items/BenefitsPackage.png",
+		"codes": "pact, pact_benefits_package",
+		"max_quantity": 2
+	},
+	{
+		"name": "Middle Management Pact Level",
+		"type": "consumable",
+		"img": "images/items/MiddleManagement.png",
+		"codes": "pact, pact_middle_management",
+		"max_quantity": 1
+	},
+	{
+		"name": "Underworld Customs Pact Level",
+		"type": "consumable",
+		"img": "images/items/UnderworldCustoms.png",
+		"codes": "pact, pact_underworld_customs",
+		"max_quantity": 1
+	},
+	{
+		"name": "Forced Overtime Pact Level",
+		"type": "consumable",
+		"img": "images/items/ForcedOvertime.png",
+		"codes": "pact, pact_forced_overtime",
+		"max_quantity": 2
+	},
+	{
+		"name": "Heightened Security Pact Level",
+		"type": "consumable",
+		"img": "images/items/HeightenedSecurity.png",
+		"codes": "pact, pact_heightened_security",
+		"max_quantity": 1
+	},
+	{
+		"name": "Routine Inspection Pact Level",
+		"type": "consumable",
+		"img": "images/items/RoutineInspection.png",
+		"codes": "pact, pact_routine_inspection",
+		"max_quantity": 4
+	},
+	{
+		"name": "Damage Control Pact Level",
+		"type": "consumable",
+		"img": "images/items/DamageControl.png",
+		"codes": "pact, pact_damage_control",
+		"max_quantity": 2
+	},
+	{
+		"name": "Approval Process Pact Level",
+		"type": "consumable",
+		"img": "images/items/ApprovalProcess.png",
+		"codes": "pact, pact_approval_process",
+		"max_quantity": 2
+	},
+	{
+		"name": "Tight Deadline Pact Level",
+		"type": "consumable",
+		"img": "images/items/TightDeadline.png",
+		"codes": "pact, pact_tight_deadline",
+		"max_quantity": 3
+	},
+	{
+		"name": "Personal Liability Pact Level",
+		"type": "consumable",
+		"img": "images/items/PersonalLiability.png",
+		"codes": "pact, pact_personal_liability",
+		"max_quantity": 1
+	}
+]

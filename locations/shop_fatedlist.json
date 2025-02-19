@@ -1,0 +1,298 @@
+[
+	{
+		"name": "Contractor",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveGray.png",
+		"visibility_rules": ["storesanity_on"],
+		"children": [
+			{
+				"name": "House Contractor (Gems)",
+				"sections": [
+					{
+						"name": "Fountain Chamber, Tartarus"
+					},
+					{
+						"name": "Underworld Fountains, Purified",
+						"access_rules": ["fountain_tartarus"]
+					},
+					{
+						"name": "Underworld Fountains, Holy",
+						"access_rules": ["fountain_upgrade1"]
+					},
+					{
+						"name": "Fountain Chamber, Asphodel",
+						"access_rules": ["fountain_tartarus, keepsake_rack, ^$CanReach|Asphodel"]
+					},
+					{
+						"name": "Fountain Chamber, Elysium",
+						"access_rules": ["fountain_asphodel, keepsake_rack, ^$CanReach|Elysium"]
+					},
+					{
+						"name": "Plunder, Lesser"
+					},
+					{
+						"name": "Plunder, Greater",
+						"access_rules": ["trove1"]
+					},
+					{
+						"name": "Plunder, Superior",
+						"access_rules": ["trove2"]
+					},
+					{
+						"name": "Urns of Wealth, Lesser",
+						"access_rules": ["fountain_asphodel"]
+					},
+					{
+						"name": "Urns of Wealth, Greater",
+						"access_rules": ["urn1"]
+					},
+					{
+						"name": "Urns of Wealth, Superior",
+						"access_rules": ["urn2"]
+					},
+					{
+						"name": "Keepsake Collection, Regional",
+						"access_rules": ["^$CanReach|Megaera, fountain_tartarus"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 880,
+						"y": 2025,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "House Contractor (Diamonds)",
+				"sections": [
+					{
+						"name": "Contractor's Desk, Deluxe",
+						"access_rules": ["fountain_elysium, orpheus_sentence"]
+					},
+					{
+						"name": "Pitch-Black Darkness",
+						"access_rules": ["deluxe_desk"]
+					},
+					{
+						"name": "Fated Keys",
+						"access_rules": ["deluxe_desk"]
+					},
+					{
+						"name": "Brilliant Gemstones",
+						"access_rules": ["deluxe_desk"]
+					},
+					{
+						"name": "Vintage Nectar",
+						"access_rules": ["deluxe_desk"]
+					},
+					{
+						"name": "Darker Thirst",
+						"access_rules": ["deluxe_desk"]
+					},
+					{
+						"name": "Vanquisher's Keep",
+						"access_rules": ["deluxe_desk"]
+					},
+					{
+						"name": "Rod of Fishing",
+						"access_rules": ["^$CanReach|Styx, fountain_tartarus"]
+					},
+					{
+						"name": "Court Musician's Sentence",
+						"access_rules": ["^$CanReach|Asphodel, fountain_tartarus"]
+					},
+					{
+						"name": "Court Music Stand",
+						"access_rules": ["orpheus_sentence"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 940,
+						"y": 2025,
+						"size": 50
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Fated List",
+		"chest_unopened_img": "images/labels/Nectar.png",
+		"chest_opened_img": "images/labels/NectarGray.png",
+		"visibility_rules": ["fatesanity_on"],
+		"children": [
+			{
+				"name": "Fated List of Minor Prophecies",
+				"sections": [
+					{
+						"name": "Is There No Escape?",
+						"access_rules": ["^$CanReach|HadesBoss"]
+					},
+					{
+						"name": "Distant Relatives"
+					},
+					{
+						"name": "Chthonic Colleagues",
+						"access_rules": ["^$CanReach|HadesBoss"]
+					},
+					{
+						"name": "The Reluctant Musician",
+						"access_rules": [
+							"storesanity_on, orpheus_sentence",
+							"storesanity_off, ^$CanReach|Megaera"
+						]
+					},
+					{
+						"name": "Goddess Of Wisdom",
+						"access_rules": ["keepsakesanity_on, ^$CanReach|AthenaKeepsake"]
+					},
+					{
+						"name": "God Of The Heavens",
+						"access_rules": ["keepsakesanity_on, ^$CanReach|ZeusKeepsake"]
+					},
+					{
+						"name": "God Of The Sea",
+						"access_rules": ["keepsakesanity_on, ^$CanReach|PoseidonKeepsake"]
+					},
+					{
+						"name": "Goddess Of Love",
+						"access_rules": ["keepsakesanity_on, ^$CanReach|AphroditeKeepsake"]
+					},
+					{
+						"name": "God Of War",
+						"access_rules": ["keepsakesanity_on, ^$CanReach|AresKeepsake"]
+					},
+					{
+						"name": "Goddess Of The Hunt",
+						"access_rules": ["keepsakesanity_on, ^$CanReach|ArtemisKeepsake"]
+					},
+					{
+						"name": "God Of Wine",
+						"access_rules": ["keepsakesanity_on, ^$CanReach|DionysusKeepsake"]
+					},
+					{
+						"name": "God Of Swiftness",
+						"access_rules": ["keepsakesanity_on, ^$CanReach|HermesKeepsake"]
+					},
+					{
+						"name": "Goddess Of Seasons",
+						"access_rules": ["keepsakesanity_on, ^$CanReach|DemeterKeepsake"]
+					},
+					{
+						"name": "Power Without Equal",
+						"access_rules": ["^$CanReach|Besties"]
+					},
+					{
+						"name": "Divine Pairings",
+						"access_rules": ["^$CanReach|DivinePairings"]
+					},
+					{
+						"name": "Primordial Boons",
+						"access_rules": [
+							"keepsakesanity_on, ^$CanReach|Lernie, keepsake_chaos",
+							"keepsakesanity_off, ^$CanReach|Lernie"
+						]
+					},
+					{
+						"name": "Primordial Banes",
+						"access_rules": [
+							"keepsakesanity_on, ^$CanReach|Lernie, keepsake_chaos",
+							"keepsakesanity_off, ^$CanReach|Lernie"
+						]
+					},
+					{
+						"name": "Infernal Arms",
+						"access_rules": ["weapon_stygius, weapon_varatha, weapon_aegis, weapon_coronacht, weapon_malphon, weapon_exagryph"]
+					},
+					{
+						"name": "The Stygian Blade",
+						"access_rules": ["weapon_stygius"]
+					},
+					{
+						"name": "The Heart Seeking Bow",
+						"access_rules": ["weapon_coronacht"]
+					},
+					{
+						"name": "The Shield Of Chaos",
+						"access_rules": ["weapon_aegis"]
+					},
+					{
+						"name": "The Eternal Spear",
+						"access_rules": ["weapon_varatha"]
+					},
+					{
+						"name": "The Twin Fists",
+						"access_rules": ["weapon_malphon"]
+					},
+					{
+						"name": "The Adamant Rail",
+						"access_rules": ["weapon_exagryph"]
+					},
+					{
+						"name": "Master Of Arms",
+						"access_rules": ["weapon_stygius, weapon_varatha, weapon_aegis, weapon_coronacht, weapon_malphon, weapon_exagryph, ^$CanReach|HadesBoss"]
+					},
+					{
+						"name": "A Violent Past",
+						"access_rules": ["weapon_stygius, weapon_varatha, weapon_aegis, weapon_coronacht, weapon_malphon, weapon_exagryph"]
+					},
+					{
+						"name": "Harsh Conditions",
+						"access_rules": ["^$CanReach|HadesBoss"]
+					},
+					{
+						"name": "Slashed Benefits",
+						"access_rules": ["^$CanReach|HadesBoss"]
+					},
+					{
+						"name": "Wanton Ransacking",
+						"access_rules": ["^$CanReach|HadesBoss"]
+					},
+					{
+						"name": "A Simple Job"
+					},
+					{
+						"name": "Chthonic Knowledge"
+					},
+					{
+						"name": "Customer Loyalty"
+					},
+					{
+						"name": "Dark Reflections",
+						"access_rules": ["^$CanReach|HadesBoss"]
+					},
+					{
+						"name": "Close At Heart",
+						"access_rules": [
+							"keepsakesanity_on, keepsake:23",
+							"keepsakesanity_off"
+						]
+					},
+					{
+						"name": "Denizens Of The Deep",
+						"access_rules": [
+							"^$CanReach|HadesBoss, storesanity_on, fishing_rod",
+							"^$CanReach|HadesBoss, storesanity_off"
+						]
+					},
+					{
+						"name": "The Useless Trinket",
+						"access_rules": ["^$CanReach|HadesBoss"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 160,
+						"y": 2025,
+						"size": 50
+					}
+				]
+			}
+		]
+	}
+]

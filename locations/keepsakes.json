@@ -1,0 +1,353 @@
+﻿[
+	{
+		"name": "Keepsakes",
+		"chest_unopened_img": "images/labels/Nectar.png",
+		"chest_opened_img": "images/labels/NectarGray.png",
+		"visibility_rules": ["keepsakesanity_on"],
+		"children": [
+			{
+				"name": "Achilles",
+				"sections": [{}],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 135,
+						"y": 250,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Aphrodite",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|AphroditeKeepsake"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 405,
+						"y": 250,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Ares",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|AresKeepsake"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 675,
+						"y": 250,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Artemis",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|ArtemisKeepsake"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 945,
+						"y": 250,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Athena",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|AthenaKeepsake"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 135,
+						"y": 650,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Cerberus",
+				"sections": [{}],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 405,
+						"y": 650,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Chaos",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|ChaosKeepsake"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 675,
+						"y": 650,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Charon",
+				"sections": [{}],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 945,
+						"y": 650,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Demeter",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|DemeterKeepsake"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 135,
+						"y": 1050,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Dionysus",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|DionysusKeepsake"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 405,
+						"y": 1050,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Eurydice",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|Lernie"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 675,
+						"y": 1050,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Dusa",
+				"sections": [{}],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 945,
+						"y": 1050,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Hermes",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|HermesKeepsake"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 135,
+						"y": 1450,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Hypnos",
+				"sections": [{}],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 405,
+						"y": 1450,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Megaera",
+				"sections": [{}],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 675,
+						"y": 1450,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Nyx",
+				"sections": [{}],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 945,
+						"y": 1450,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Orpheus",
+				"sections": [{}],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 135,
+						"y": 1850,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Patroclus",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|Besties"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 405,
+						"y": 1850,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Poseidon",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|PoseidonKeepsake"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 675,
+						"y": 1850,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Sisyphus",
+				"sections": [{}],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 945,
+						"y": 1850,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Skelly",
+				"sections": [{}],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 135,
+						"y": 2250,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Thanatos",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|HadesBoss"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 405,
+						"y": 2250,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Zeus",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|ZeusKeepsake"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 675,
+						"y": 2250,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Hades",
+				"sections": [
+					{"name": "Daddy Issues", "ref": "Styx/Hades/Daddy Issues"},
+					{"name": "Goal", "ref": "Styx/Hades/Goal"}
+				],
+				"map_locations": [
+					{
+						"map": "keepsakes",
+						"x": 945,
+						"y": 2250,
+						"size": 50
+					}
+				]
+			}
+		]
+	}
+]

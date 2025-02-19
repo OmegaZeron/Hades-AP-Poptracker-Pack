@@ -1,0 +1,1255 @@
+[
+	{
+		"name": "Tartarus",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveGray.png",
+		"children": [
+			{
+				"name": "Tartarus",
+				"visibility_rules": ["location_room", "location_score"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 540,
+						"y": 1850,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Tartarus (Stygius)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["weapon_stygius"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 390,
+						"y": 1850,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Tartarus (Varatha)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["weapon_varatha"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 450,
+						"y": 1850,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Tartarus (Aegis)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["weapon_aegis"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 510,
+						"y": 1850,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Tartarus (Coronacht)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["weapon_coronacht"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 570,
+						"y": 1850,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Tartarus (Malphon)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["weapon_malphon"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 630,
+						"y": 1850,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Tartarus (Exagryph)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["weapon_exagryph"],
+				"sections": [
+					{"name": "Room 1"},
+					{"name": "Room 2"},
+					{"name": "Room 3"},
+					{"name": "Room 4"},
+					{"name": "Room 5"},
+					{"name": "Room 6"},
+					{"name": "Room 7"},
+					{"name": "Room 8"},
+					{"name": "Room 9"},
+					{"name": "Room 10"},
+					{"name": "Room 11"},
+					{"name": "Room 12"},
+					{"name": "Room 13"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 690,
+						"y": 1850,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Megaera",
+				"sections": [
+					{
+						"name": "Whip Me Harder",
+						"visibility_rules": ["location_room", "location_score"],
+						"access_rules": ["^$CanReach|Megaera"]
+					},
+					{
+						"name": "Stygius",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Megaera, weapon_stygius"]
+					},
+					{
+						"name": "Varatha",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Megaera, weapon_varatha"]
+					},
+					{
+						"name": "Aegis",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Megaera, weapon_aegis"]
+					},
+					{
+						"name": "Coronacht",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Megaera, weapon_coronacht"]
+					},
+					{
+						"name": "Malphon",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Megaera, weapon_malphon"]
+					},
+					{
+						"name": "Exagryph",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Megaera, weapon_exagryph"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 540,
+						"y": 1700,
+						"size": 50
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Asphodel",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveGray.png",
+		"children": [
+			{
+				"name": "Asphodel",
+				"visibility_rules": ["location_room", "location_score"],
+				"access_rules": ["^$CanReach|Asphodel"],
+				"sections": [
+					{"name": "Room 14"},
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 620,
+						"y": 1500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Asphodel (Stygius)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Asphodel, weapon_stygius"],
+				"sections": [
+					{"name": "Room 14"},
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 470,
+						"y": 1500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Asphodel (Varatha)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Asphodel, weapon_varatha"],
+				"sections": [
+					{"name": "Room 14"},
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 530,
+						"y": 1500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Asphodel (Aegis)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Asphodel, weapon_aegis"],
+				"sections": [
+					{"name": "Room 14"},
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 590,
+						"y": 1500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Asphodel (Coronacht)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Asphodel, weapon_coronacht"],
+				"sections": [
+					{"name": "Room 14"},
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 650,
+						"y": 1500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Asphodel (Malphon)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Asphodel, weapon_malphon"],
+				"sections": [
+					{"name": "Room 14"},
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 710,
+						"y": 1500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Asphodel (Exagryph)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Asphodel, weapon_exagryph"],
+				"sections": [
+					{"name": "Room 14"},
+					{"name": "Room 15"},
+					{"name": "Room 16"},
+					{"name": "Room 17"},
+					{"name": "Room 18"},
+					{"name": "Room 19"},
+					{"name": "Room 20"},
+					{"name": "Room 21"},
+					{"name": "Room 22"},
+					{"name": "Room 23"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 770,
+						"y": 1500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Lernaean Bone Hydra",
+				"sections": [
+					{
+						"name": "Lernie",
+						"visibility_rules": ["location_room", "location_score"],
+						"access_rules": ["^$CanReach|Lernie"]
+					},
+					{
+						"name": "Stygius",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Lernie, weapon_stygius"]
+					},
+					{
+						"name": "Varatha",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Lernie, weapon_varatha"]
+					},
+					{
+						"name": "Aegis",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Lernie, weapon_aegis"]
+					},
+					{
+						"name": "Coronacht",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Lernie, weapon_coronacht"]
+					},
+					{
+						"name": "Malphon",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Lernie, weapon_malphon"]
+					},
+					{
+						"name": "Exagryph",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Lernie, weapon_exagryph"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 620,
+						"y": 1350,
+						"size": 50
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Elysium",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveGray.png",
+		"children": [
+			{
+				"name": "Elysium",
+				"visibility_rules": ["location_room", "location_score"],
+				"access_rules": ["^$CanReach|Elysium"],
+				"sections": [
+					{"name": "Room 24"},
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 560,
+						"y": 920,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Elysium (Stygius)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Elysium, weapon_stygius"],
+				"sections": [
+					{"name": "Room 24"},
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 410,
+						"y": 920,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Elysium (Varatha)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Elysium, weapon_varatha"],
+				"sections": [
+					{"name": "Room 24"},
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 470,
+						"y": 920,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Elysium (Aegis)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Elysium, weapon_aegis"],
+				"sections": [
+					{"name": "Room 24"},
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 530,
+						"y": 920,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Elysium (Coronacht)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Elysium, weapon_coronacht"],
+				"sections": [
+					{"name": "Room 24"},
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 590,
+						"y": 920,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Elysium (Malphon)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Elysium, weapon_malphon"],
+				"sections": [
+					{"name": "Room 24"},
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 650,
+						"y": 920,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Elysium (Exagryph)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Elysium, weapon_exagryph"],
+				"sections": [
+					{"name": "Room 24"},
+					{"name": "Room 25"},
+					{"name": "Room 26"},
+					{"name": "Room 27"},
+					{"name": "Room 28"},
+					{"name": "Room 29"},
+					{"name": "Room 30"},
+					{"name": "Room 31"},
+					{"name": "Room 32"},
+					{"name": "Room 33"},
+					{"name": "Room 34"},
+					{"name": "Room 35"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 710,
+						"y": 920,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Theseus and Asterius",
+				"sections": [
+					{
+						"name": "Besties",
+						"visibility_rules": ["location_room", "location_score"],
+						"access_rules": ["^$CanReach|Besties"]
+					},
+					{
+						"name": "Stygius",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Besties, weapon_stygius"]
+					},
+					{
+						"name": "Varatha",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Besties, weapon_varatha"]
+					},
+					{
+						"name": "Aegis",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Besties, weapon_aegis"]
+					},
+					{
+						"name": "Coronacht",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Besties, weapon_coronacht"]
+					},
+					{
+						"name": "Malphon",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Besties, weapon_malphon"]
+					},
+					{
+						"name": "Exagryph",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|Besties, weapon_exagryph"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 560,
+						"y": 730,
+						"size": 50
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Styx",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveGray.png",
+		"children": [
+			{
+				"name": "Styx (Early)",
+				"visibility_rules": ["location_room", "location_score"],
+				"access_rules": ["^$CanReach|Styx"],
+				"sections": [
+					{"name": "Room 36"},
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 545,
+						"y": 500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Early, Stygius)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Styx, weapon_stygius"],
+				"sections": [
+					{"name": "Room 36"},
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 395,
+						"y": 500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Early, Varatha)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Styx, weapon_varatha"],
+				"sections": [
+					{"name": "Room 36"},
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 455,
+						"y": 500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Early, Aegis)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Styx, weapon_aegis"],
+				"sections": [
+					{"name": "Room 36"},
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 515,
+						"y": 500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Early, Coronacht)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Styx, weapon_coronacht"],
+				"sections": [
+					{"name": "Room 36"},
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 575,
+						"y": 500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Early, Malphon)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Styx, weapon_malphon"],
+				"sections": [
+					{"name": "Room 36"},
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 635,
+						"y": 500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Early, Exagryph)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|Styx, weapon_exagryph"],
+				"sections": [
+					{"name": "Room 36"},
+					{"name": "Room 37"},
+					{"name": "Room 38"},
+					{"name": "Room 39"},
+					{"name": "Room 40"},
+					{"name": "Room 41"},
+					{"name": "Room 42"},
+					{"name": "Room 43"},
+					{"name": "Room 44"},
+					{"name": "Room 45"},
+					{"name": "Room 46"},
+					{"name": "Room 47"},
+					{"name": "Room 48"},
+					{"name": "Room 49"},
+					{"name": "Room 50"},
+					{"name": "Room 51"},
+					{"name": "Room 52"},
+					{"name": "Room 53"},
+					{"name": "Room 54"},
+					{"name": "Room 55"},
+					{"name": "Room 56"},
+					{"name": "Room 57"},
+					{"name": "Room 58"},
+					{"name": "Room 59"},
+					{"name": "Room 60"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 695,
+						"y": 500,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Late)",
+				"visibility_rules": ["location_room", "location_score"],
+				"access_rules": ["^$CanReach|StyxLate"],
+				"sections": [
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 545,
+						"y": 425,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Late, Stygius)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|StyxLate, weapon_stygius"],
+				"sections": [
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 395,
+						"y": 425,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Late, Varatha)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|StyxLate, weapon_varatha"],
+				"sections": [
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x":455,
+						"y": 425,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Late, Aegis)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|StyxLate, weapon_aegis"],
+				"sections": [
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 515,
+						"y": 425,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Late, Coronacht)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|StyxLate, weapon_coronacht"],
+				"sections": [
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 575,
+						"y": 425,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Late, Malphon)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|StyxLate, weapon_malphon"],
+				"sections": [
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 635,
+						"y": 425,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Styx (Late, Exagryph)",
+				"visibility_rules": ["location_weapon"],
+				"access_rules": ["^$CanReach|StyxLate, weapon_exagryph"],
+				"sections": [
+					{"name": "Room 61"},
+					{"name": "Room 62"},
+					{"name": "Room 63"},
+					{"name": "Room 64"},
+					{"name": "Room 65"},
+					{"name": "Room 66"},
+					{"name": "Room 67"},
+					{"name": "Room 68"},
+					{"name": "Room 69"},
+					{"name": "Room 70"},
+					{"name": "Room 71"},
+					{"name": "Room 72"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 695,
+						"y": 425,
+						"size": 50
+					}
+				]
+			},
+			{
+				"name": "Hades",
+				"sections": [
+					{
+						"name": "Daddy Issues",
+						"visibility_rules": ["location_room", "location_score"],
+						"access_rules": ["^$CanReach|HadesBoss"]
+					},
+					{
+						"name": "Stygius",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|HadesBoss, weapon_stygius"]
+					},
+					{
+						"name": "Varatha",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|HadesBoss, weapon_varatha"]
+					},
+					{
+						"name": "Aegis",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|HadesBoss, weapon_aegis"]
+					},
+					{
+						"name": "Coronacht",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|HadesBoss, weapon_coronacht"]
+					},
+					{
+						"name": "Malphon",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|HadesBoss, weapon_malphon"]
+					},
+					{
+						"name": "Exagryph",
+						"visibility_rules": ["location_weapon"],
+						"access_rules": ["^$CanReach|HadesBoss, weapon_exagryph"]
+					},
+					{
+						"name": "Goal",
+						"chest_unopened_img": "images/labels/DefeatHades.png",
+						"access_rules": ["^$CanReach|Goal"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 545,
+						"y": 315,
+						"size": 50
+					}
+				]
+			}
+		]
+	}
+]

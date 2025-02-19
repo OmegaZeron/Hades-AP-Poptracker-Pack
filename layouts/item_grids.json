@@ -1,0 +1,48 @@
+{
+	"weapon_grid": {
+		"type": "itemgrid",
+		"h_alignment": "left",
+		"item_margin": "3,2",
+		"item_size": 52,
+		"rows": [
+			["weapon_stygius", "weapon_varatha", "weapon_aegis", "weapon_coronacht", "weapon_malphon", "weapon_exagryph"],
+			["aspect_arthur", "aspect_guan_yu", "aspect_beowulf", "aspect_rama", "aspect_gilgamesh", "aspect_lucifer"]
+		]
+	},
+	"keepsake_grid": {
+		"type": "itemgrid",
+		"h_alignment": "left",
+		"item_margin": "3,2",
+		"item_size": 38,
+		"rows": [
+			["keepsake_achilles", "keepsake_aphrodite", "keepsake_ares", "keepsake_artemis", "keepsake_athena", "keepsake_cerberus", "keepsake_chaos", "keepsake_charon"],
+			["keepsake_demeter", "keepsake_dionysus", "keepsake_eurydice", "keepsake_dusa", "keepsake_hermes", "keepsake_hypnos", "keepsake_megaera", "keepsake_nyx"],
+			["keepsake_orpheus", "keepsake_patroclus", "keepsake_poseidon", "keepsake_sisyphus", "keepsake_skelly", "keepsake_thanatos", "keepsake_zeus"]
+		]
+	},
+	"pact_grid": {
+		"type": "itemgrid",
+		"rows": [
+			["pact_hard_labor", "pact_lasting_consequences", "pact_convenience_fee", "pact_jury_summons", "pact_extreme_measures", "pact_calisthenics_program", "pact_benefits_package", "pact_middle_management"],
+			["pact_underworld_customs", "pact_forced_overtime", "pact_heightened_security", "pact_routine_inspection", "pact_damage_control", "pact_approval_process", "pact_tight_deadline", "pact_personal_liability"]
+		]
+	},
+	"settings": {
+		"type": "array",
+		"orientation": "horizontal",
+		"content": [
+			{
+				"type": "itemgrid",
+				"h_alignment": "left",
+				"item_size": 100,
+				"item_margin": "1,2",
+				"rows": [
+					["location_system", "score_rewards_amount", "", "keepsakesanity", "weaponsanity", "fatesanity", "hidden_aspectsanity", "storesanity"],
+					["hades_defeats_needed", "", "", "keepsakes_needed", "weapons_clears_needed", "fates_needed", "heat_system", "reverse_order_em"],
+					["pactsetting_hard_labor", "pactsetting_lasting_consequences", "pactsetting_convenience_fee", "pactsetting_jury_summons", "pactsetting_extreme_measures", "pactsetting_calisthenics_program", "pactsetting_benefits_package", "pactsetting_middle_management"],
+					["pactsetting_underworld_customs", "pactsetting_forced_overtime", "pactsetting_heightened_security", "pactsetting_routine_inspection", "pactsetting_damage_control", "pactsetting_approval_process", "pactsetting_tight_deadline", "pactsetting_personal_liability"]
+				]
+			}
+		]
+	}
+}
