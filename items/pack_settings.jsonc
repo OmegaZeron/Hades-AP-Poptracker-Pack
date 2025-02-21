@@ -9,19 +9,19 @@
 		"stages": [
 			{
 				"name": "Room",
-				"img": "images/labels/RoomBased.png",
+				"img": "images/labels/LocationRoom.png",
 				"codes": "location_room",
 				"inherit_codes": false
 			},
 			{
 				"name": "Weapon Per Room",
-				"img": "images/labels/WeaponRoomBased.png",
+				"img": "images/labels/LocationWeapon.png",
 				"codes": "location_weapon",
 				"inherit_codes": false
 			},
 			{
 				"name": "Score",
-				"img": "images/labels/ScoreBased.png",
+				"img": "images/labels/LocationScore.png",
 				"codes": "location_score",
 				"inherit_codes": false
 			}
@@ -36,7 +36,36 @@
 		"allow_disabled": false,
 		"min_quantity": 72,
 		"max_quantity": 1000,
-		"img": "images/labels/Nectar.png"
+		"img": "images/labels/ScoreRequirement.png",
+		"overlay_background": "#66222222"
+	},
+	{
+		"name": "Score Multiplier",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"loop": true,
+		"codes": "scoremult",
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Score 1x",
+				"img": "images/labels/ScoreMult1.png",
+				"codes": "scoremult1",
+				"inherit_codes": false
+			},
+			{
+				"name": "Score 10x",
+				"img": "images/labels/ScoreMult10.png",
+				"codes": "scoremult10",
+				"inherit_codes": false
+			},
+			{
+				"name": "Score 100x",
+				"img": "images/labels/ScoreMult100.png",
+				"codes": "scoremult100",
+				"inherit_codes": false
+			}
+		]
 	},
 	{
 		"name": "Keepsakesanity",
@@ -48,13 +77,14 @@
 		"stages": [
 			{
 				"name": "Keepsakesanity Off",
-				"img": "images/labels/Nectar.png",
+				"img": "images/labels/Keepsakesanity.png",
+				"img_mods": "@disabled",
 				"codes": "keepsakesanity_off",
 				"inherit_codes": false
 			},
 			{
 				"name": "Keepsakesanity On",
-				"img": "images/labels/NectarGray.png",
+				"img": "images/labels/Keepsakesanity.png",
 				"codes": "keepsakesanity_on",
 				"inherit_codes": false
 			}
@@ -70,13 +100,14 @@
 		"stages": [
 			{
 				"name": "Weaponsanity Off",
-				"img": "images/labels/Nectar.png",
+				"img": "images/labels/Weaponsanity.png",
+				"img_mods": "@disabled",
 				"codes": "weaponsanity_off",
 				"inherit_codes": false
 			},
 			{
 				"name": "Weaponsanity On",
-				"img": "images/labels/NectarGray.png",
+				"img": "images/labels/Weaponsanity.png",
 				"codes": "weaponsanity_on",
 				"inherit_codes": false
 			}
@@ -92,13 +123,14 @@
 		"stages": [
 			{
 				"name": "Hidden Aspectsanity Off",
-				"img": "images/labels/Nectar.png",
+				"img": "images/labels/HiddenAspectsanity.png",
+				"img_mods": "@disabled",
 				"codes": "hidden_aspectsanity_off",
 				"inherit_codes": false
 			},
 			{
 				"name": "Hidden Aspectsanity On",
-				"img": "images/labels/NectarGray.png",
+				"img": "images/labels/HiddenAspectsanity.png",
 				"codes": "hidden_aspectsanity_on",
 				"inherit_codes": false
 			}
@@ -155,11 +187,11 @@
 		"type": "consumable",
 		"initial_quantity": 1,
 		"loop": true,
-		"codes": "weaopns_clears_needed",
+		"codes": "weapons_clears_needed",
 		"allow_disabled": false,
 		"min_quantity": 1,
 		"max_quantity": 6,
-		"img": "images/labels/Nectar.png"
+		"img": "images/labels/WeaponClearsNeeded.png"
 	},
 	{
 		"name": "Keepsakes Needed",
@@ -168,7 +200,7 @@
 		"codes": "keepsakes_needed",
 		"allow_disabled": false,
 		"max_quantity": 23,
-		"img": "images/labels/Nectar.png"
+		"img": "images/labels/KeepsakesNeeded.png"
 	},
 	{
 		"name": "Fates Needed",
@@ -177,7 +209,7 @@
 		"codes": "fates_needed",
 		"allow_disabled": false,
 		"max_quantity": 35,
-		"img": "images/labels/Nectar.png"
+		"img": "images/labels/FatesNeeded.png"
 	},
 	{
 		"name": "Heat System",
@@ -189,19 +221,19 @@
 		"stages": [
 			{
 				"name": "Reverse Heat",
-				"img": "images/labels/ReverseHeat.png",
+				"img": "images/labels/ReverseHeat_Alt.png",
 				"codes": "reverse_heat",
 				"inherit_codes": false
 			},
 			{
 				"name": "Minimal Heat",
-				"img": "images/labels/MinimalHeat.png",
+				"img": "images/labels/MinimalHeat_Alt.png",
 				"codes": "minimal_heat",
 				"inherit_codes": false
 			},
 			{
 				"name": "Vanilla Heat",
-				"img": "images/labels/VanillaHeat.png",
+				"img": "images/labels/VanillaHeat_Alt.png",
 				"codes": "vanilla_heat",
 				"inherit_codes": false
 			}
@@ -236,7 +268,7 @@
 		"min_quantity": 1,
 		"max_quantity": 20,
 		"initial_quantity": 10,
-		"img": "images/labels/DefeatHades.png"
+		"img": "images/labels/DefeatHades_Alt.png"
 	},
 	{
 		"name": "Hard Labor",

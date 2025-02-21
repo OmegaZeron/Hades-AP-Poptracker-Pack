@@ -1,19 +1,19 @@
 ﻿[
 	{
 		"name": "areas",
-		"location_size": 18,
+		"location_size": 50,
 		"location_border_thickness": 2,
 		"img": "images/maps/Map.png"
 	},
 	{
-		"name": "keepsakes",
-		"location_size": 16,
+		"name": "score",
+		"location_size": 50,
 		"location_border_thickness": 1,
-		"img": "images/maps/Keepsakes.png"
+		"img": "images/maps/ScoreGrid.png"
 	},
 	{
-		"name": "fated_list",
-		"location_size": 16,
+		"name": "keepsakes",
+		"location_size": 50,
 		"location_border_thickness": 1,
 		"img": "images/maps/Keepsakes.png"
 	}

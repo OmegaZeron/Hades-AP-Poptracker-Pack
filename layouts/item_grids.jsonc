@@ -22,9 +22,18 @@
 	},
 	"pact_grid": {
 		"type": "itemgrid",
+		"item_size": 34,
 		"rows": [
 			["pact_hard_labor", "pact_lasting_consequences", "pact_convenience_fee", "pact_jury_summons", "pact_extreme_measures", "pact_calisthenics_program", "pact_benefits_package", "pact_middle_management"],
 			["pact_underworld_customs", "pact_forced_overtime", "pact_heightened_security", "pact_routine_inspection", "pact_damage_control", "pact_approval_process", "pact_tight_deadline", "pact_personal_liability"]
+		]
+	},
+	"item_grid": {
+		"type": "itemgrid",
+		"item_size": 40,
+		"rows": [
+			["fountain_tartarus", "fountain_asphodel", "fountain_elysium", "fountain_upgrade1", "fountain_upgrade2", "deluxe_desk", "fishing_rod"],
+			["trove1", "trove2", "trove3", "urn1", "urn2", "urn3", "orpheus_sentence"]
 		]
 	},
 	"settings": {
@@ -37,8 +46,8 @@
 				"item_size": 100,
 				"item_margin": "1,2",
 				"rows": [
-					["location_system", "score_rewards_amount", "", "keepsakesanity", "weaponsanity", "fatesanity", "hidden_aspectsanity", "storesanity"],
-					["hades_defeats_needed", "", "", "keepsakes_needed", "weapons_clears_needed", "fates_needed", "heat_system", "reverse_order_em"],
+					["location_system", "score_rewards_amount", "keepsakesanity", "weaponsanity", "fatesanity", "hidden_aspectsanity", "storesanity"],
+					["hades_defeats_needed", "scoremult", "keepsakes_needed", "weapons_clears_needed", "fates_needed", "heat_system", "reverse_order_em"],
 					["pactsetting_hard_labor", "pactsetting_lasting_consequences", "pactsetting_convenience_fee", "pactsetting_jury_summons", "pactsetting_extreme_measures", "pactsetting_calisthenics_program", "pactsetting_benefits_package", "pactsetting_middle_management"],
 					["pactsetting_underworld_customs", "pactsetting_forced_overtime", "pactsetting_heightened_security", "pactsetting_routine_inspection", "pactsetting_damage_control", "pactsetting_approval_process", "pactsetting_tight_deadline", "pactsetting_personal_liability"]
 				]

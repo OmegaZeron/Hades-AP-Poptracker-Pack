@@ -1,0 +1,6209 @@
+[
+	{
+		"name": "Score Locations",
+		"chest_unopened_img": "images/labels/Nectar.png",
+		"chest_opened_img": "images/labels/NectarGray.png",
+		"children": [
+			{
+				"name": "Clear Score 1-10",
+				"sections": [
+					{
+						"name": "1",
+						"visibility_rules": ["$CanSeeScore|1"],
+						"access_rules": ["^$CanReachScore|1"]
+					},
+					{
+						"name": "2",
+						"visibility_rules": ["$CanSeeScore|2"],
+						"access_rules": ["^$CanReachScore|2"]
+					},
+					{
+						"name": "3",
+						"visibility_rules": ["$CanSeeScore|3"],
+						"access_rules": ["^$CanReachScore|3"]
+					},
+					{
+						"name": "4",
+						"visibility_rules": ["$CanSeeScore|4"],
+						"access_rules": ["^$CanReachScore|4"]
+					},
+					{
+						"name": "5",
+						"visibility_rules": ["$CanSeeScore|5"],
+						"access_rules": ["^$CanReachScore|5"]
+					},
+					{
+						"name": "6",
+						"visibility_rules": ["$CanSeeScore|6"],
+						"access_rules": ["^$CanReachScore|6"]
+					},
+					{
+						"name": "7",
+						"visibility_rules": ["$CanSeeScore|7"],
+						"access_rules": ["^$CanReachScore|7"]
+					},
+					{
+						"name": "8",
+						"visibility_rules": ["$CanSeeScore|8"],
+						"access_rules": ["^$CanReachScore|8"]
+					},
+					{
+						"name": "9",
+						"visibility_rules": ["$CanSeeScore|9"],
+						"access_rules": ["^$CanReachScore|9"]
+					},
+					{
+						"name": "10",
+						"visibility_rules": ["$CanSeeScore|10"],
+						"access_rules": ["^$CanReachScore|10"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 850,
+						"y": 1000
+					}
+				]
+			},
+			{
+				"name": "Clear Score 11-20",
+				"sections": [
+					{
+						"name": "11",
+						"visibility_rules": ["$CanSeeScore|11"],
+						"access_rules": ["^$CanReachScore|11"]
+					},
+					{
+						"name": "12",
+						"visibility_rules": ["$CanSeeScore|12"],
+						"access_rules": ["^$CanReachScore|12"]
+					},
+					{
+						"name": "13",
+						"visibility_rules": ["$CanSeeScore|13"],
+						"access_rules": ["^$CanReachScore|13"]
+					},
+					{
+						"name": "14",
+						"visibility_rules": ["$CanSeeScore|14"],
+						"access_rules": ["^$CanReachScore|14"]
+					},
+					{
+						"name": "15",
+						"visibility_rules": ["$CanSeeScore|15"],
+						"access_rules": ["^$CanReachScore|15"]
+					},
+					{
+						"name": "16",
+						"visibility_rules": ["$CanSeeScore|16"],
+						"access_rules": ["^$CanReachScore|16"]
+					},
+					{
+						"name": "17",
+						"visibility_rules": ["$CanSeeScore|17"],
+						"access_rules": ["^$CanReachScore|17"]
+					},
+					{
+						"name": "18",
+						"visibility_rules": ["$CanSeeScore|18"],
+						"access_rules": ["^$CanReachScore|18"]
+					},
+					{
+						"name": "19",
+						"visibility_rules": ["$CanSeeScore|19"],
+						"access_rules": ["^$CanReachScore|19"]
+					},
+					{
+						"name": "20",
+						"visibility_rules": ["$CanSeeScore|20"],
+						"access_rules": ["^$CanReachScore|20"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 783,
+						"y": 1000
+					}
+				]
+			},
+			{
+				"name": "Clear Score 21-30",
+				"sections": [
+					{
+						"name": "21",
+						"visibility_rules": ["$CanSeeScore|21"],
+						"access_rules": ["^$CanReachScore|21"]
+					},
+					{
+						"name": "22",
+						"visibility_rules": ["$CanSeeScore|22"],
+						"access_rules": ["^$CanReachScore|22"]
+					},
+					{
+						"name": "23",
+						"visibility_rules": ["$CanSeeScore|23"],
+						"access_rules": ["^$CanReachScore|23"]
+					},
+					{
+						"name": "24",
+						"visibility_rules": ["$CanSeeScore|24"],
+						"access_rules": ["^$CanReachScore|24"]
+					},
+					{
+						"name": "25",
+						"visibility_rules": ["$CanSeeScore|25"],
+						"access_rules": ["^$CanReachScore|25"]
+					},
+					{
+						"name": "26",
+						"visibility_rules": ["$CanSeeScore|26"],
+						"access_rules": ["^$CanReachScore|26"]
+					},
+					{
+						"name": "27",
+						"visibility_rules": ["$CanSeeScore|27"],
+						"access_rules": ["^$CanReachScore|27"]
+					},
+					{
+						"name": "28",
+						"visibility_rules": ["$CanSeeScore|28"],
+						"access_rules": ["^$CanReachScore|28"]
+					},
+					{
+						"name": "29",
+						"visibility_rules": ["$CanSeeScore|29"],
+						"access_rules": ["^$CanReachScore|29"]
+					},
+					{
+						"name": "30",
+						"visibility_rules": ["$CanSeeScore|30"],
+						"access_rules": ["^$CanReachScore|30"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 716,
+						"y": 1000
+					}
+				]
+			},
+			{
+				"name": "Clear Score 31-40",
+				"sections": [
+					{
+						"name": "31",
+						"visibility_rules": ["$CanSeeScore|31"],
+						"access_rules": ["^$CanReachScore|31"]
+					},
+					{
+						"name": "32",
+						"visibility_rules": ["$CanSeeScore|32"],
+						"access_rules": ["^$CanReachScore|32"]
+					},
+					{
+						"name": "33",
+						"visibility_rules": ["$CanSeeScore|33"],
+						"access_rules": ["^$CanReachScore|33"]
+					},
+					{
+						"name": "34",
+						"visibility_rules": ["$CanSeeScore|34"],
+						"access_rules": ["^$CanReachScore|34"]
+					},
+					{
+						"name": "35",
+						"visibility_rules": ["$CanSeeScore|35"],
+						"access_rules": ["^$CanReachScore|35"]
+					},
+					{
+						"name": "36",
+						"visibility_rules": ["$CanSeeScore|36"],
+						"access_rules": ["^$CanReachScore|36"]
+					},
+					{
+						"name": "37",
+						"visibility_rules": ["$CanSeeScore|37"],
+						"access_rules": ["^$CanReachScore|37"]
+					},
+					{
+						"name": "38",
+						"visibility_rules": ["$CanSeeScore|38"],
+						"access_rules": ["^$CanReachScore|38"]
+					},
+					{
+						"name": "39",
+						"visibility_rules": ["$CanSeeScore|39"],
+						"access_rules": ["^$CanReachScore|39"]
+					},
+					{
+						"name": "40",
+						"visibility_rules": ["$CanSeeScore|40"],
+						"access_rules": ["^$CanReachScore|40"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 649,
+						"y": 1000
+					}
+				]
+			},
+			{
+				"name": "Clear Score 41-50",
+				"sections": [
+					{
+						"name": "41",
+						"visibility_rules": ["$CanSeeScore|41"],
+						"access_rules": ["^$CanReachScore|41"]
+					},
+					{
+						"name": "42",
+						"visibility_rules": ["$CanSeeScore|42"],
+						"access_rules": ["^$CanReachScore|42"]
+					},
+					{
+						"name": "43",
+						"visibility_rules": ["$CanSeeScore|43"],
+						"access_rules": ["^$CanReachScore|43"]
+					},
+					{
+						"name": "44",
+						"visibility_rules": ["$CanSeeScore|44"],
+						"access_rules": ["^$CanReachScore|44"]
+					},
+					{
+						"name": "45",
+						"visibility_rules": ["$CanSeeScore|45"],
+						"access_rules": ["^$CanReachScore|45"]
+					},
+					{
+						"name": "46",
+						"visibility_rules": ["$CanSeeScore|46"],
+						"access_rules": ["^$CanReachScore|46"]
+					},
+					{
+						"name": "47",
+						"visibility_rules": ["$CanSeeScore|47"],
+						"access_rules": ["^$CanReachScore|47"]
+					},
+					{
+						"name": "48",
+						"visibility_rules": ["$CanSeeScore|48"],
+						"access_rules": ["^$CanReachScore|48"]
+					},
+					{
+						"name": "49",
+						"visibility_rules": ["$CanSeeScore|49"],
+						"access_rules": ["^$CanReachScore|49"]
+					},
+					{
+						"name": "50",
+						"visibility_rules": ["$CanSeeScore|50"],
+						"access_rules": ["^$CanReachScore|50"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 582,
+						"y": 1000
+					}
+				]
+			},
+			{
+				"name": "Clear Score 51-60",
+				"sections": [
+					{
+						"name": "51",
+						"visibility_rules": ["$CanSeeScore|51"],
+						"access_rules": ["^$CanReachScore|51"]
+					},
+					{
+						"name": "52",
+						"visibility_rules": ["$CanSeeScore|52"],
+						"access_rules": ["^$CanReachScore|52"]
+					},
+					{
+						"name": "53",
+						"visibility_rules": ["$CanSeeScore|53"],
+						"access_rules": ["^$CanReachScore|53"]
+					},
+					{
+						"name": "54",
+						"visibility_rules": ["$CanSeeScore|54"],
+						"access_rules": ["^$CanReachScore|54"]
+					},
+					{
+						"name": "55",
+						"visibility_rules": ["$CanSeeScore|55"],
+						"access_rules": ["^$CanReachScore|55"]
+					},
+					{
+						"name": "56",
+						"visibility_rules": ["$CanSeeScore|56"],
+						"access_rules": ["^$CanReachScore|56"]
+					},
+					{
+						"name": "57",
+						"visibility_rules": ["$CanSeeScore|57"],
+						"access_rules": ["^$CanReachScore|57"]
+					},
+					{
+						"name": "58",
+						"visibility_rules": ["$CanSeeScore|58"],
+						"access_rules": ["^$CanReachScore|58"]
+					},
+					{
+						"name": "59",
+						"visibility_rules": ["$CanSeeScore|59"],
+						"access_rules": ["^$CanReachScore|59"]
+					},
+					{
+						"name": "60",
+						"visibility_rules": ["$CanSeeScore|60"],
+						"access_rules": ["^$CanReachScore|60"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 513,
+						"y": 1000
+					}
+				]
+			},
+			{
+				"name": "Clear Score 61-70",
+				"sections": [
+					{
+						"name": "61",
+						"visibility_rules": ["$CanSeeScore|61"],
+						"access_rules": ["^$CanReachScore|61"]
+					},
+					{
+						"name": "62",
+						"visibility_rules": ["$CanSeeScore|62"],
+						"access_rules": ["^$CanReachScore|62"]
+					},
+					{
+						"name": "63",
+						"visibility_rules": ["$CanSeeScore|63"],
+						"access_rules": ["^$CanReachScore|63"]
+					},
+					{
+						"name": "64",
+						"visibility_rules": ["$CanSeeScore|64"],
+						"access_rules": ["^$CanReachScore|64"]
+					},
+					{
+						"name": "65",
+						"visibility_rules": ["$CanSeeScore|65"],
+						"access_rules": ["^$CanReachScore|65"]
+					},
+					{
+						"name": "66",
+						"visibility_rules": ["$CanSeeScore|66"],
+						"access_rules": ["^$CanReachScore|66"]
+					},
+					{
+						"name": "67",
+						"visibility_rules": ["$CanSeeScore|67"],
+						"access_rules": ["^$CanReachScore|67"]
+					},
+					{
+						"name": "68",
+						"visibility_rules": ["$CanSeeScore|68"],
+						"access_rules": ["^$CanReachScore|68"]
+					},
+					{
+						"name": "69",
+						"visibility_rules": ["$CanSeeScore|69"],
+						"access_rules": ["^$CanReachScore|69"]
+					},
+					{
+						"name": "70",
+						"visibility_rules": ["$CanSeeScore|70"],
+						"access_rules": ["^$CanReachScore|70"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 446,
+						"y": 1000
+					}
+				]
+			},
+			{
+				"name": "Clear Score 71-80",
+				"sections": [
+					{
+						"name": "71",
+						"visibility_rules": ["$CanSeeScore|71"],
+						"access_rules": ["^$CanReachScore|71"]
+					},
+					{
+						"name": "72",
+						"visibility_rules": ["$CanSeeScore|72"],
+						"access_rules": ["^$CanReachScore|72"]
+					},
+					{
+						"name": "73",
+						"visibility_rules": ["$CanSeeScore|73"],
+						"access_rules": ["^$CanReachScore|73"]
+					},
+					{
+						"name": "74",
+						"visibility_rules": ["$CanSeeScore|74"],
+						"access_rules": ["^$CanReachScore|74"]
+					},
+					{
+						"name": "75",
+						"visibility_rules": ["$CanSeeScore|75"],
+						"access_rules": ["^$CanReachScore|75"]
+					},
+					{
+						"name": "76",
+						"visibility_rules": ["$CanSeeScore|76"],
+						"access_rules": ["^$CanReachScore|76"]
+					},
+					{
+						"name": "77",
+						"visibility_rules": ["$CanSeeScore|77"],
+						"access_rules": ["^$CanReachScore|77"]
+					},
+					{
+						"name": "78",
+						"visibility_rules": ["$CanSeeScore|78"],
+						"access_rules": ["^$CanReachScore|78"]
+					},
+					{
+						"name": "79",
+						"visibility_rules": ["$CanSeeScore|79"],
+						"access_rules": ["^$CanReachScore|79"]
+					},
+					{
+						"name": "80",
+						"visibility_rules": ["$CanSeeScore|80"],
+						"access_rules": ["^$CanReachScore|80"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 379,
+						"y": 1000
+					}
+				]
+			},
+			{
+				"name": "Clear Score 81-90",
+				"sections": [
+					{
+						"name": "81",
+						"visibility_rules": ["$CanSeeScore|81"],
+						"access_rules": ["^$CanReachScore|81"]
+					},
+					{
+						"name": "82",
+						"visibility_rules": ["$CanSeeScore|82"],
+						"access_rules": ["^$CanReachScore|82"]
+					},
+					{
+						"name": "83",
+						"visibility_rules": ["$CanSeeScore|83"],
+						"access_rules": ["^$CanReachScore|83"]
+					},
+					{
+						"name": "84",
+						"visibility_rules": ["$CanSeeScore|84"],
+						"access_rules": ["^$CanReachScore|84"]
+					},
+					{
+						"name": "85",
+						"visibility_rules": ["$CanSeeScore|85"],
+						"access_rules": ["^$CanReachScore|85"]
+					},
+					{
+						"name": "86",
+						"visibility_rules": ["$CanSeeScore|86"],
+						"access_rules": ["^$CanReachScore|86"]
+					},
+					{
+						"name": "87",
+						"visibility_rules": ["$CanSeeScore|87"],
+						"access_rules": ["^$CanReachScore|87"]
+					},
+					{
+						"name": "88",
+						"visibility_rules": ["$CanSeeScore|88"],
+						"access_rules": ["^$CanReachScore|88"]
+					},
+					{
+						"name": "89",
+						"visibility_rules": ["$CanSeeScore|89"],
+						"access_rules": ["^$CanReachScore|89"]
+					},
+					{
+						"name": "90",
+						"visibility_rules": ["$CanSeeScore|90"],
+						"access_rules": ["^$CanReachScore|90"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 312,
+						"y": 1000
+					}
+				]
+			},
+			{
+				"name": "Clear Score 91-100",
+				"sections": [
+					{
+						"name": "91",
+						"visibility_rules": ["$CanSeeScore|91"],
+						"access_rules": ["^$CanReachScore|91"]
+					},
+					{
+						"name": "92",
+						"visibility_rules": ["$CanSeeScore|92"],
+						"access_rules": ["^$CanReachScore|92"]
+					},
+					{
+						"name": "93",
+						"visibility_rules": ["$CanSeeScore|93"],
+						"access_rules": ["^$CanReachScore|93"]
+					},
+					{
+						"name": "94",
+						"visibility_rules": ["$CanSeeScore|94"],
+						"access_rules": ["^$CanReachScore|94"]
+					},
+					{
+						"name": "95",
+						"visibility_rules": ["$CanSeeScore|95"],
+						"access_rules": ["^$CanReachScore|95"]
+					},
+					{
+						"name": "96",
+						"visibility_rules": ["$CanSeeScore|96"],
+						"access_rules": ["^$CanReachScore|96"]
+					},
+					{
+						"name": "97",
+						"visibility_rules": ["$CanSeeScore|97"],
+						"access_rules": ["^$CanReachScore|97"]
+					},
+					{
+						"name": "98",
+						"visibility_rules": ["$CanSeeScore|98"],
+						"access_rules": ["^$CanReachScore|98"]
+					},
+					{
+						"name": "99",
+						"visibility_rules": ["$CanSeeScore|99"],
+						"access_rules": ["^$CanReachScore|99"]
+					},
+					{
+						"name": "100",
+						"visibility_rules": ["$CanSeeScore|100"],
+						"access_rules": ["^$CanReachScore|100"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 245,
+						"y": 1000
+					}
+				]
+			},
+			{
+				"name": "Clear Score 101-110",
+				"sections": [
+					{
+						"name": "101",
+						"visibility_rules": ["$CanSeeScore|101"],
+						"access_rules": ["^$CanReachScore|101"]
+					},
+					{
+						"name": "102",
+						"visibility_rules": ["$CanSeeScore|102"],
+						"access_rules": ["^$CanReachScore|102"]
+					},
+					{
+						"name": "103",
+						"visibility_rules": ["$CanSeeScore|103"],
+						"access_rules": ["^$CanReachScore|103"]
+					},
+					{
+						"name": "104",
+						"visibility_rules": ["$CanSeeScore|104"],
+						"access_rules": ["^$CanReachScore|104"]
+					},
+					{
+						"name": "105",
+						"visibility_rules": ["$CanSeeScore|105"],
+						"access_rules": ["^$CanReachScore|105"]
+					},
+					{
+						"name": "106",
+						"visibility_rules": ["$CanSeeScore|106"],
+						"access_rules": ["^$CanReachScore|106"]
+					},
+					{
+						"name": "107",
+						"visibility_rules": ["$CanSeeScore|107"],
+						"access_rules": ["^$CanReachScore|107"]
+					},
+					{
+						"name": "108",
+						"visibility_rules": ["$CanSeeScore|108"],
+						"access_rules": ["^$CanReachScore|108"]
+					},
+					{
+						"name": "109",
+						"visibility_rules": ["$CanSeeScore|109"],
+						"access_rules": ["^$CanReachScore|109"]
+					},
+					{
+						"name": "110",
+						"visibility_rules": ["$CanSeeScore|110"],
+						"access_rules": ["^$CanReachScore|110"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 850,
+						"y": 932
+					}
+				]
+			},
+			{
+				"name": "Clear Score 111-120",
+				"sections": [
+					{
+						"name": "111",
+						"visibility_rules": ["$CanSeeScore|111"],
+						"access_rules": ["^$CanReachScore|111"]
+					},
+					{
+						"name": "112",
+						"visibility_rules": ["$CanSeeScore|112"],
+						"access_rules": ["^$CanReachScore|112"]
+					},
+					{
+						"name": "113",
+						"visibility_rules": ["$CanSeeScore|113"],
+						"access_rules": ["^$CanReachScore|113"]
+					},
+					{
+						"name": "114",
+						"visibility_rules": ["$CanSeeScore|114"],
+						"access_rules": ["^$CanReachScore|114"]
+					},
+					{
+						"name": "115",
+						"visibility_rules": ["$CanSeeScore|115"],
+						"access_rules": ["^$CanReachScore|115"]
+					},
+					{
+						"name": "116",
+						"visibility_rules": ["$CanSeeScore|116"],
+						"access_rules": ["^$CanReachScore|116"]
+					},
+					{
+						"name": "117",
+						"visibility_rules": ["$CanSeeScore|117"],
+						"access_rules": ["^$CanReachScore|117"]
+					},
+					{
+						"name": "118",
+						"visibility_rules": ["$CanSeeScore|118"],
+						"access_rules": ["^$CanReachScore|118"]
+					},
+					{
+						"name": "119",
+						"visibility_rules": ["$CanSeeScore|119"],
+						"access_rules": ["^$CanReachScore|119"]
+					},
+					{
+						"name": "120",
+						"visibility_rules": ["$CanSeeScore|120"],
+						"access_rules": ["^$CanReachScore|120"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 783,
+						"y": 932
+					}
+				]
+			},
+			{
+				"name": "Clear Score 121-130",
+				"sections": [
+					{
+						"name": "121",
+						"visibility_rules": ["$CanSeeScore|121"],
+						"access_rules": ["^$CanReachScore|121"]
+					},
+					{
+						"name": "122",
+						"visibility_rules": ["$CanSeeScore|122"],
+						"access_rules": ["^$CanReachScore|122"]
+					},
+					{
+						"name": "123",
+						"visibility_rules": ["$CanSeeScore|123"],
+						"access_rules": ["^$CanReachScore|123"]
+					},
+					{
+						"name": "124",
+						"visibility_rules": ["$CanSeeScore|124"],
+						"access_rules": ["^$CanReachScore|124"]
+					},
+					{
+						"name": "125",
+						"visibility_rules": ["$CanSeeScore|125"],
+						"access_rules": ["^$CanReachScore|125"]
+					},
+					{
+						"name": "126",
+						"visibility_rules": ["$CanSeeScore|126"],
+						"access_rules": ["^$CanReachScore|126"]
+					},
+					{
+						"name": "127",
+						"visibility_rules": ["$CanSeeScore|127"],
+						"access_rules": ["^$CanReachScore|127"]
+					},
+					{
+						"name": "128",
+						"visibility_rules": ["$CanSeeScore|128"],
+						"access_rules": ["^$CanReachScore|128"]
+					},
+					{
+						"name": "129",
+						"visibility_rules": ["$CanSeeScore|129"],
+						"access_rules": ["^$CanReachScore|129"]
+					},
+					{
+						"name": "130",
+						"visibility_rules": ["$CanSeeScore|130"],
+						"access_rules": ["^$CanReachScore|130"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 716,
+						"y": 932
+					}
+				]
+			},
+			{
+				"name": "Clear Score 131-140",
+				"sections": [
+					{
+						"name": "131",
+						"visibility_rules": ["$CanSeeScore|131"],
+						"access_rules": ["^$CanReachScore|131"]
+					},
+					{
+						"name": "132",
+						"visibility_rules": ["$CanSeeScore|132"],
+						"access_rules": ["^$CanReachScore|132"]
+					},
+					{
+						"name": "133",
+						"visibility_rules": ["$CanSeeScore|133"],
+						"access_rules": ["^$CanReachScore|133"]
+					},
+					{
+						"name": "134",
+						"visibility_rules": ["$CanSeeScore|134"],
+						"access_rules": ["^$CanReachScore|134"]
+					},
+					{
+						"name": "135",
+						"visibility_rules": ["$CanSeeScore|135"],
+						"access_rules": ["^$CanReachScore|135"]
+					},
+					{
+						"name": "136",
+						"visibility_rules": ["$CanSeeScore|136"],
+						"access_rules": ["^$CanReachScore|136"]
+					},
+					{
+						"name": "137",
+						"visibility_rules": ["$CanSeeScore|137"],
+						"access_rules": ["^$CanReachScore|137"]
+					},
+					{
+						"name": "138",
+						"visibility_rules": ["$CanSeeScore|138"],
+						"access_rules": ["^$CanReachScore|138"]
+					},
+					{
+						"name": "139",
+						"visibility_rules": ["$CanSeeScore|139"],
+						"access_rules": ["^$CanReachScore|139"]
+					},
+					{
+						"name": "140",
+						"visibility_rules": ["$CanSeeScore|140"],
+						"access_rules": ["^$CanReachScore|140"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 649,
+						"y": 932
+					}
+				]
+			},
+			{
+				"name": "Clear Score 141-150",
+				"sections": [
+					{
+						"name": "141",
+						"visibility_rules": ["$CanSeeScore|141"],
+						"access_rules": ["^$CanReachScore|141"]
+					},
+					{
+						"name": "142",
+						"visibility_rules": ["$CanSeeScore|142"],
+						"access_rules": ["^$CanReachScore|142"]
+					},
+					{
+						"name": "143",
+						"visibility_rules": ["$CanSeeScore|143"],
+						"access_rules": ["^$CanReachScore|143"]
+					},
+					{
+						"name": "144",
+						"visibility_rules": ["$CanSeeScore|144"],
+						"access_rules": ["^$CanReachScore|144"]
+					},
+					{
+						"name": "145",
+						"visibility_rules": ["$CanSeeScore|145"],
+						"access_rules": ["^$CanReachScore|145"]
+					},
+					{
+						"name": "146",
+						"visibility_rules": ["$CanSeeScore|146"],
+						"access_rules": ["^$CanReachScore|146"]
+					},
+					{
+						"name": "147",
+						"visibility_rules": ["$CanSeeScore|147"],
+						"access_rules": ["^$CanReachScore|147"]
+					},
+					{
+						"name": "148",
+						"visibility_rules": ["$CanSeeScore|148"],
+						"access_rules": ["^$CanReachScore|148"]
+					},
+					{
+						"name": "149",
+						"visibility_rules": ["$CanSeeScore|149"],
+						"access_rules": ["^$CanReachScore|149"]
+					},
+					{
+						"name": "150",
+						"visibility_rules": ["$CanSeeScore|150"],
+						"access_rules": ["^$CanReachScore|150"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 582,
+						"y": 932
+					}
+				]
+			},
+			{
+				"name": "Clear Score 151-160",
+				"sections": [
+					{
+						"name": "151",
+						"visibility_rules": ["$CanSeeScore|151"],
+						"access_rules": ["^$CanReachScore|151"]
+					},
+					{
+						"name": "152",
+						"visibility_rules": ["$CanSeeScore|152"],
+						"access_rules": ["^$CanReachScore|152"]
+					},
+					{
+						"name": "153",
+						"visibility_rules": ["$CanSeeScore|153"],
+						"access_rules": ["^$CanReachScore|153"]
+					},
+					{
+						"name": "154",
+						"visibility_rules": ["$CanSeeScore|154"],
+						"access_rules": ["^$CanReachScore|154"]
+					},
+					{
+						"name": "155",
+						"visibility_rules": ["$CanSeeScore|155"],
+						"access_rules": ["^$CanReachScore|155"]
+					},
+					{
+						"name": "156",
+						"visibility_rules": ["$CanSeeScore|156"],
+						"access_rules": ["^$CanReachScore|156"]
+					},
+					{
+						"name": "157",
+						"visibility_rules": ["$CanSeeScore|157"],
+						"access_rules": ["^$CanReachScore|157"]
+					},
+					{
+						"name": "158",
+						"visibility_rules": ["$CanSeeScore|158"],
+						"access_rules": ["^$CanReachScore|158"]
+					},
+					{
+						"name": "159",
+						"visibility_rules": ["$CanSeeScore|159"],
+						"access_rules": ["^$CanReachScore|159"]
+					},
+					{
+						"name": "160",
+						"visibility_rules": ["$CanSeeScore|160"],
+						"access_rules": ["^$CanReachScore|160"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 513,
+						"y": 932
+					}
+				]
+			},
+			{
+				"name": "Clear Score 161-170",
+				"sections": [
+					{
+						"name": "161",
+						"visibility_rules": ["$CanSeeScore|161"],
+						"access_rules": ["^$CanReachScore|161"]
+					},
+					{
+						"name": "162",
+						"visibility_rules": ["$CanSeeScore|162"],
+						"access_rules": ["^$CanReachScore|162"]
+					},
+					{
+						"name": "163",
+						"visibility_rules": ["$CanSeeScore|163"],
+						"access_rules": ["^$CanReachScore|163"]
+					},
+					{
+						"name": "164",
+						"visibility_rules": ["$CanSeeScore|164"],
+						"access_rules": ["^$CanReachScore|164"]
+					},
+					{
+						"name": "165",
+						"visibility_rules": ["$CanSeeScore|165"],
+						"access_rules": ["^$CanReachScore|165"]
+					},
+					{
+						"name": "166",
+						"visibility_rules": ["$CanSeeScore|166"],
+						"access_rules": ["^$CanReachScore|166"]
+					},
+					{
+						"name": "167",
+						"visibility_rules": ["$CanSeeScore|167"],
+						"access_rules": ["^$CanReachScore|167"]
+					},
+					{
+						"name": "168",
+						"visibility_rules": ["$CanSeeScore|168"],
+						"access_rules": ["^$CanReachScore|168"]
+					},
+					{
+						"name": "169",
+						"visibility_rules": ["$CanSeeScore|169"],
+						"access_rules": ["^$CanReachScore|169"]
+					},
+					{
+						"name": "170",
+						"visibility_rules": ["$CanSeeScore|170"],
+						"access_rules": ["^$CanReachScore|170"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 446,
+						"y": 932
+					}
+				]
+			},
+			{
+				"name": "Clear Score 171-180",
+				"sections": [
+					{
+						"name": "171",
+						"visibility_rules": ["$CanSeeScore|171"],
+						"access_rules": ["^$CanReachScore|171"]
+					},
+					{
+						"name": "172",
+						"visibility_rules": ["$CanSeeScore|172"],
+						"access_rules": ["^$CanReachScore|172"]
+					},
+					{
+						"name": "173",
+						"visibility_rules": ["$CanSeeScore|173"],
+						"access_rules": ["^$CanReachScore|173"]
+					},
+					{
+						"name": "174",
+						"visibility_rules": ["$CanSeeScore|174"],
+						"access_rules": ["^$CanReachScore|174"]
+					},
+					{
+						"name": "175",
+						"visibility_rules": ["$CanSeeScore|175"],
+						"access_rules": ["^$CanReachScore|175"]
+					},
+					{
+						"name": "176",
+						"visibility_rules": ["$CanSeeScore|176"],
+						"access_rules": ["^$CanReachScore|176"]
+					},
+					{
+						"name": "177",
+						"visibility_rules": ["$CanSeeScore|177"],
+						"access_rules": ["^$CanReachScore|177"]
+					},
+					{
+						"name": "178",
+						"visibility_rules": ["$CanSeeScore|178"],
+						"access_rules": ["^$CanReachScore|178"]
+					},
+					{
+						"name": "179",
+						"visibility_rules": ["$CanSeeScore|179"],
+						"access_rules": ["^$CanReachScore|179"]
+					},
+					{
+						"name": "180",
+						"visibility_rules": ["$CanSeeScore|180"],
+						"access_rules": ["^$CanReachScore|180"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 379,
+						"y": 932
+					}
+				]
+			},
+			{
+				"name": "Clear Score 181-190",
+				"sections": [
+					{
+						"name": "181",
+						"visibility_rules": ["$CanSeeScore|181"],
+						"access_rules": ["^$CanReachScore|181"]
+					},
+					{
+						"name": "182",
+						"visibility_rules": ["$CanSeeScore|182"],
+						"access_rules": ["^$CanReachScore|182"]
+					},
+					{
+						"name": "183",
+						"visibility_rules": ["$CanSeeScore|183"],
+						"access_rules": ["^$CanReachScore|183"]
+					},
+					{
+						"name": "184",
+						"visibility_rules": ["$CanSeeScore|184"],
+						"access_rules": ["^$CanReachScore|184"]
+					},
+					{
+						"name": "185",
+						"visibility_rules": ["$CanSeeScore|185"],
+						"access_rules": ["^$CanReachScore|185"]
+					},
+					{
+						"name": "186",
+						"visibility_rules": ["$CanSeeScore|186"],
+						"access_rules": ["^$CanReachScore|186"]
+					},
+					{
+						"name": "187",
+						"visibility_rules": ["$CanSeeScore|187"],
+						"access_rules": ["^$CanReachScore|187"]
+					},
+					{
+						"name": "188",
+						"visibility_rules": ["$CanSeeScore|188"],
+						"access_rules": ["^$CanReachScore|188"]
+					},
+					{
+						"name": "189",
+						"visibility_rules": ["$CanSeeScore|189"],
+						"access_rules": ["^$CanReachScore|189"]
+					},
+					{
+						"name": "190",
+						"visibility_rules": ["$CanSeeScore|190"],
+						"access_rules": ["^$CanReachScore|190"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 312,
+						"y": 932
+					}
+				]
+			},
+			{
+				"name": "Clear Score 191-200",
+				"sections": [
+					{
+						"name": "191",
+						"visibility_rules": ["$CanSeeScore|191"],
+						"access_rules": ["^$CanReachScore|191"]
+					},
+					{
+						"name": "192",
+						"visibility_rules": ["$CanSeeScore|192"],
+						"access_rules": ["^$CanReachScore|192"]
+					},
+					{
+						"name": "193",
+						"visibility_rules": ["$CanSeeScore|193"],
+						"access_rules": ["^$CanReachScore|193"]
+					},
+					{
+						"name": "194",
+						"visibility_rules": ["$CanSeeScore|194"],
+						"access_rules": ["^$CanReachScore|194"]
+					},
+					{
+						"name": "195",
+						"visibility_rules": ["$CanSeeScore|195"],
+						"access_rules": ["^$CanReachScore|195"]
+					},
+					{
+						"name": "196",
+						"visibility_rules": ["$CanSeeScore|196"],
+						"access_rules": ["^$CanReachScore|196"]
+					},
+					{
+						"name": "197",
+						"visibility_rules": ["$CanSeeScore|197"],
+						"access_rules": ["^$CanReachScore|197"]
+					},
+					{
+						"name": "198",
+						"visibility_rules": ["$CanSeeScore|198"],
+						"access_rules": ["^$CanReachScore|198"]
+					},
+					{
+						"name": "199",
+						"visibility_rules": ["$CanSeeScore|199"],
+						"access_rules": ["^$CanReachScore|199"]
+					},
+					{
+						"name": "200",
+						"visibility_rules": ["$CanSeeScore|200"],
+						"access_rules": ["^$CanReachScore|200"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 245,
+						"y": 932
+					}
+				]
+			},
+			{
+				"name": "Clear Score 201-210",
+				"sections": [
+					{
+						"name": "201",
+						"visibility_rules": ["$CanSeeScore|201"],
+						"access_rules": ["^$CanReachScore|201"]
+					},
+					{
+						"name": "202",
+						"visibility_rules": ["$CanSeeScore|202"],
+						"access_rules": ["^$CanReachScore|202"]
+					},
+					{
+						"name": "203",
+						"visibility_rules": ["$CanSeeScore|203"],
+						"access_rules": ["^$CanReachScore|203"]
+					},
+					{
+						"name": "204",
+						"visibility_rules": ["$CanSeeScore|204"],
+						"access_rules": ["^$CanReachScore|204"]
+					},
+					{
+						"name": "205",
+						"visibility_rules": ["$CanSeeScore|205"],
+						"access_rules": ["^$CanReachScore|205"]
+					},
+					{
+						"name": "206",
+						"visibility_rules": ["$CanSeeScore|206"],
+						"access_rules": ["^$CanReachScore|206"]
+					},
+					{
+						"name": "207",
+						"visibility_rules": ["$CanSeeScore|207"],
+						"access_rules": ["^$CanReachScore|207"]
+					},
+					{
+						"name": "208",
+						"visibility_rules": ["$CanSeeScore|208"],
+						"access_rules": ["^$CanReachScore|208"]
+					},
+					{
+						"name": "209",
+						"visibility_rules": ["$CanSeeScore|209"],
+						"access_rules": ["^$CanReachScore|209"]
+					},
+					{
+						"name": "210",
+						"visibility_rules": ["$CanSeeScore|210"],
+						"access_rules": ["^$CanReachScore|210"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 850,
+						"y": 863
+					}
+				]
+			},
+			{
+				"name": "Clear Score 211-220",
+				"sections": [
+					{
+						"name": "211",
+						"visibility_rules": ["$CanSeeScore|211"],
+						"access_rules": ["^$CanReachScore|211"]
+					},
+					{
+						"name": "212",
+						"visibility_rules": ["$CanSeeScore|212"],
+						"access_rules": ["^$CanReachScore|212"]
+					},
+					{
+						"name": "213",
+						"visibility_rules": ["$CanSeeScore|213"],
+						"access_rules": ["^$CanReachScore|213"]
+					},
+					{
+						"name": "214",
+						"visibility_rules": ["$CanSeeScore|214"],
+						"access_rules": ["^$CanReachScore|214"]
+					},
+					{
+						"name": "215",
+						"visibility_rules": ["$CanSeeScore|215"],
+						"access_rules": ["^$CanReachScore|215"]
+					},
+					{
+						"name": "216",
+						"visibility_rules": ["$CanSeeScore|216"],
+						"access_rules": ["^$CanReachScore|216"]
+					},
+					{
+						"name": "217",
+						"visibility_rules": ["$CanSeeScore|217"],
+						"access_rules": ["^$CanReachScore|217"]
+					},
+					{
+						"name": "218",
+						"visibility_rules": ["$CanSeeScore|218"],
+						"access_rules": ["^$CanReachScore|218"]
+					},
+					{
+						"name": "219",
+						"visibility_rules": ["$CanSeeScore|219"],
+						"access_rules": ["^$CanReachScore|219"]
+					},
+					{
+						"name": "220",
+						"visibility_rules": ["$CanSeeScore|220"],
+						"access_rules": ["^$CanReachScore|220"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 783,
+						"y": 863
+					}
+				]
+			},
+			{
+				"name": "Clear Score 221-230",
+				"sections": [
+					{
+						"name": "221",
+						"visibility_rules": ["$CanSeeScore|221"],
+						"access_rules": ["^$CanReachScore|221"]
+					},
+					{
+						"name": "222",
+						"visibility_rules": ["$CanSeeScore|222"],
+						"access_rules": ["^$CanReachScore|222"]
+					},
+					{
+						"name": "223",
+						"visibility_rules": ["$CanSeeScore|223"],
+						"access_rules": ["^$CanReachScore|223"]
+					},
+					{
+						"name": "224",
+						"visibility_rules": ["$CanSeeScore|224"],
+						"access_rules": ["^$CanReachScore|224"]
+					},
+					{
+						"name": "225",
+						"visibility_rules": ["$CanSeeScore|225"],
+						"access_rules": ["^$CanReachScore|225"]
+					},
+					{
+						"name": "226",
+						"visibility_rules": ["$CanSeeScore|226"],
+						"access_rules": ["^$CanReachScore|226"]
+					},
+					{
+						"name": "227",
+						"visibility_rules": ["$CanSeeScore|227"],
+						"access_rules": ["^$CanReachScore|227"]
+					},
+					{
+						"name": "228",
+						"visibility_rules": ["$CanSeeScore|228"],
+						"access_rules": ["^$CanReachScore|228"]
+					},
+					{
+						"name": "229",
+						"visibility_rules": ["$CanSeeScore|229"],
+						"access_rules": ["^$CanReachScore|229"]
+					},
+					{
+						"name": "230",
+						"visibility_rules": ["$CanSeeScore|230"],
+						"access_rules": ["^$CanReachScore|230"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 716,
+						"y": 863
+					}
+				]
+			},
+			{
+				"name": "Clear Score 231-240",
+				"sections": [
+					{
+						"name": "231",
+						"visibility_rules": ["$CanSeeScore|231"],
+						"access_rules": ["^$CanReachScore|231"]
+					},
+					{
+						"name": "232",
+						"visibility_rules": ["$CanSeeScore|232"],
+						"access_rules": ["^$CanReachScore|232"]
+					},
+					{
+						"name": "233",
+						"visibility_rules": ["$CanSeeScore|233"],
+						"access_rules": ["^$CanReachScore|233"]
+					},
+					{
+						"name": "234",
+						"visibility_rules": ["$CanSeeScore|234"],
+						"access_rules": ["^$CanReachScore|234"]
+					},
+					{
+						"name": "235",
+						"visibility_rules": ["$CanSeeScore|235"],
+						"access_rules": ["^$CanReachScore|235"]
+					},
+					{
+						"name": "236",
+						"visibility_rules": ["$CanSeeScore|236"],
+						"access_rules": ["^$CanReachScore|236"]
+					},
+					{
+						"name": "237",
+						"visibility_rules": ["$CanSeeScore|237"],
+						"access_rules": ["^$CanReachScore|237"]
+					},
+					{
+						"name": "238",
+						"visibility_rules": ["$CanSeeScore|238"],
+						"access_rules": ["^$CanReachScore|238"]
+					},
+					{
+						"name": "239",
+						"visibility_rules": ["$CanSeeScore|239"],
+						"access_rules": ["^$CanReachScore|239"]
+					},
+					{
+						"name": "240",
+						"visibility_rules": ["$CanSeeScore|240"],
+						"access_rules": ["^$CanReachScore|240"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 649,
+						"y": 863
+					}
+				]
+			},
+			{
+				"name": "Clear Score 241-250",
+				"sections": [
+					{
+						"name": "241",
+						"visibility_rules": ["$CanSeeScore|241"],
+						"access_rules": ["^$CanReachScore|241"]
+					},
+					{
+						"name": "242",
+						"visibility_rules": ["$CanSeeScore|242"],
+						"access_rules": ["^$CanReachScore|242"]
+					},
+					{
+						"name": "243",
+						"visibility_rules": ["$CanSeeScore|243"],
+						"access_rules": ["^$CanReachScore|243"]
+					},
+					{
+						"name": "244",
+						"visibility_rules": ["$CanSeeScore|244"],
+						"access_rules": ["^$CanReachScore|244"]
+					},
+					{
+						"name": "245",
+						"visibility_rules": ["$CanSeeScore|245"],
+						"access_rules": ["^$CanReachScore|245"]
+					},
+					{
+						"name": "246",
+						"visibility_rules": ["$CanSeeScore|246"],
+						"access_rules": ["^$CanReachScore|246"]
+					},
+					{
+						"name": "247",
+						"visibility_rules": ["$CanSeeScore|247"],
+						"access_rules": ["^$CanReachScore|247"]
+					},
+					{
+						"name": "248",
+						"visibility_rules": ["$CanSeeScore|248"],
+						"access_rules": ["^$CanReachScore|248"]
+					},
+					{
+						"name": "249",
+						"visibility_rules": ["$CanSeeScore|249"],
+						"access_rules": ["^$CanReachScore|249"]
+					},
+					{
+						"name": "250",
+						"visibility_rules": ["$CanSeeScore|250"],
+						"access_rules": ["^$CanReachScore|250"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 582,
+						"y": 863
+					}
+				]
+			},
+			{
+				"name": "Clear Score 251-260",
+				"sections": [
+					{
+						"name": "251",
+						"visibility_rules": ["$CanSeeScore|251"],
+						"access_rules": ["^$CanReachScore|251"]
+					},
+					{
+						"name": "252",
+						"visibility_rules": ["$CanSeeScore|252"],
+						"access_rules": ["^$CanReachScore|252"]
+					},
+					{
+						"name": "253",
+						"visibility_rules": ["$CanSeeScore|253"],
+						"access_rules": ["^$CanReachScore|253"]
+					},
+					{
+						"name": "254",
+						"visibility_rules": ["$CanSeeScore|254"],
+						"access_rules": ["^$CanReachScore|254"]
+					},
+					{
+						"name": "255",
+						"visibility_rules": ["$CanSeeScore|255"],
+						"access_rules": ["^$CanReachScore|255"]
+					},
+					{
+						"name": "256",
+						"visibility_rules": ["$CanSeeScore|256"],
+						"access_rules": ["^$CanReachScore|256"]
+					},
+					{
+						"name": "257",
+						"visibility_rules": ["$CanSeeScore|257"],
+						"access_rules": ["^$CanReachScore|257"]
+					},
+					{
+						"name": "258",
+						"visibility_rules": ["$CanSeeScore|258"],
+						"access_rules": ["^$CanReachScore|258"]
+					},
+					{
+						"name": "259",
+						"visibility_rules": ["$CanSeeScore|259"],
+						"access_rules": ["^$CanReachScore|259"]
+					},
+					{
+						"name": "260",
+						"visibility_rules": ["$CanSeeScore|260"],
+						"access_rules": ["^$CanReachScore|260"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 513,
+						"y": 863
+					}
+				]
+			},
+			{
+				"name": "Clear Score 261-270",
+				"sections": [
+					{
+						"name": "261",
+						"visibility_rules": ["$CanSeeScore|261"],
+						"access_rules": ["^$CanReachScore|261"]
+					},
+					{
+						"name": "262",
+						"visibility_rules": ["$CanSeeScore|262"],
+						"access_rules": ["^$CanReachScore|262"]
+					},
+					{
+						"name": "263",
+						"visibility_rules": ["$CanSeeScore|263"],
+						"access_rules": ["^$CanReachScore|263"]
+					},
+					{
+						"name": "264",
+						"visibility_rules": ["$CanSeeScore|264"],
+						"access_rules": ["^$CanReachScore|264"]
+					},
+					{
+						"name": "265",
+						"visibility_rules": ["$CanSeeScore|265"],
+						"access_rules": ["^$CanReachScore|265"]
+					},
+					{
+						"name": "266",
+						"visibility_rules": ["$CanSeeScore|266"],
+						"access_rules": ["^$CanReachScore|266"]
+					},
+					{
+						"name": "267",
+						"visibility_rules": ["$CanSeeScore|267"],
+						"access_rules": ["^$CanReachScore|267"]
+					},
+					{
+						"name": "268",
+						"visibility_rules": ["$CanSeeScore|268"],
+						"access_rules": ["^$CanReachScore|268"]
+					},
+					{
+						"name": "269",
+						"visibility_rules": ["$CanSeeScore|269"],
+						"access_rules": ["^$CanReachScore|269"]
+					},
+					{
+						"name": "270",
+						"visibility_rules": ["$CanSeeScore|270"],
+						"access_rules": ["^$CanReachScore|270"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 446,
+						"y": 863
+					}
+				]
+			},
+			{
+				"name": "Clear Score 271-280",
+				"sections": [
+					{
+						"name": "271",
+						"visibility_rules": ["$CanSeeScore|271"],
+						"access_rules": ["^$CanReachScore|271"]
+					},
+					{
+						"name": "272",
+						"visibility_rules": ["$CanSeeScore|272"],
+						"access_rules": ["^$CanReachScore|272"]
+					},
+					{
+						"name": "273",
+						"visibility_rules": ["$CanSeeScore|273"],
+						"access_rules": ["^$CanReachScore|273"]
+					},
+					{
+						"name": "274",
+						"visibility_rules": ["$CanSeeScore|274"],
+						"access_rules": ["^$CanReachScore|274"]
+					},
+					{
+						"name": "275",
+						"visibility_rules": ["$CanSeeScore|275"],
+						"access_rules": ["^$CanReachScore|275"]
+					},
+					{
+						"name": "276",
+						"visibility_rules": ["$CanSeeScore|276"],
+						"access_rules": ["^$CanReachScore|276"]
+					},
+					{
+						"name": "277",
+						"visibility_rules": ["$CanSeeScore|277"],
+						"access_rules": ["^$CanReachScore|277"]
+					},
+					{
+						"name": "278",
+						"visibility_rules": ["$CanSeeScore|278"],
+						"access_rules": ["^$CanReachScore|278"]
+					},
+					{
+						"name": "279",
+						"visibility_rules": ["$CanSeeScore|279"],
+						"access_rules": ["^$CanReachScore|279"]
+					},
+					{
+						"name": "280",
+						"visibility_rules": ["$CanSeeScore|280"],
+						"access_rules": ["^$CanReachScore|280"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 379,
+						"y": 863
+					}
+				]
+			},
+			{
+				"name": "Clear Score 281-290",
+				"sections": [
+					{
+						"name": "281",
+						"visibility_rules": ["$CanSeeScore|281"],
+						"access_rules": ["^$CanReachScore|281"]
+					},
+					{
+						"name": "282",
+						"visibility_rules": ["$CanSeeScore|282"],
+						"access_rules": ["^$CanReachScore|282"]
+					},
+					{
+						"name": "283",
+						"visibility_rules": ["$CanSeeScore|283"],
+						"access_rules": ["^$CanReachScore|283"]
+					},
+					{
+						"name": "284",
+						"visibility_rules": ["$CanSeeScore|284"],
+						"access_rules": ["^$CanReachScore|284"]
+					},
+					{
+						"name": "285",
+						"visibility_rules": ["$CanSeeScore|285"],
+						"access_rules": ["^$CanReachScore|285"]
+					},
+					{
+						"name": "286",
+						"visibility_rules": ["$CanSeeScore|286"],
+						"access_rules": ["^$CanReachScore|286"]
+					},
+					{
+						"name": "287",
+						"visibility_rules": ["$CanSeeScore|287"],
+						"access_rules": ["^$CanReachScore|287"]
+					},
+					{
+						"name": "288",
+						"visibility_rules": ["$CanSeeScore|288"],
+						"access_rules": ["^$CanReachScore|288"]
+					},
+					{
+						"name": "289",
+						"visibility_rules": ["$CanSeeScore|289"],
+						"access_rules": ["^$CanReachScore|289"]
+					},
+					{
+						"name": "290",
+						"visibility_rules": ["$CanSeeScore|290"],
+						"access_rules": ["^$CanReachScore|290"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 312,
+						"y": 863
+					}
+				]
+			},
+			{
+				"name": "Clear Score 291-300",
+				"sections": [
+					{
+						"name": "291",
+						"visibility_rules": ["$CanSeeScore|291"],
+						"access_rules": ["^$CanReachScore|291"]
+					},
+					{
+						"name": "292",
+						"visibility_rules": ["$CanSeeScore|292"],
+						"access_rules": ["^$CanReachScore|292"]
+					},
+					{
+						"name": "293",
+						"visibility_rules": ["$CanSeeScore|293"],
+						"access_rules": ["^$CanReachScore|293"]
+					},
+					{
+						"name": "294",
+						"visibility_rules": ["$CanSeeScore|294"],
+						"access_rules": ["^$CanReachScore|294"]
+					},
+					{
+						"name": "295",
+						"visibility_rules": ["$CanSeeScore|295"],
+						"access_rules": ["^$CanReachScore|295"]
+					},
+					{
+						"name": "296",
+						"visibility_rules": ["$CanSeeScore|296"],
+						"access_rules": ["^$CanReachScore|296"]
+					},
+					{
+						"name": "297",
+						"visibility_rules": ["$CanSeeScore|297"],
+						"access_rules": ["^$CanReachScore|297"]
+					},
+					{
+						"name": "298",
+						"visibility_rules": ["$CanSeeScore|298"],
+						"access_rules": ["^$CanReachScore|298"]
+					},
+					{
+						"name": "299",
+						"visibility_rules": ["$CanSeeScore|299"],
+						"access_rules": ["^$CanReachScore|299"]
+					},
+					{
+						"name": "300",
+						"visibility_rules": ["$CanSeeScore|300"],
+						"access_rules": ["^$CanReachScore|300"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 245,
+						"y": 863
+					}
+				]
+			},
+			{
+				"name": "Clear Score 301-310",
+				"sections": [
+					{
+						"name": "301",
+						"visibility_rules": ["$CanSeeScore|301"],
+						"access_rules": ["^$CanReachScore|301"]
+					},
+					{
+						"name": "302",
+						"visibility_rules": ["$CanSeeScore|302"],
+						"access_rules": ["^$CanReachScore|302"]
+					},
+					{
+						"name": "303",
+						"visibility_rules": ["$CanSeeScore|303"],
+						"access_rules": ["^$CanReachScore|303"]
+					},
+					{
+						"name": "304",
+						"visibility_rules": ["$CanSeeScore|304"],
+						"access_rules": ["^$CanReachScore|304"]
+					},
+					{
+						"name": "305",
+						"visibility_rules": ["$CanSeeScore|305"],
+						"access_rules": ["^$CanReachScore|305"]
+					},
+					{
+						"name": "306",
+						"visibility_rules": ["$CanSeeScore|306"],
+						"access_rules": ["^$CanReachScore|306"]
+					},
+					{
+						"name": "307",
+						"visibility_rules": ["$CanSeeScore|307"],
+						"access_rules": ["^$CanReachScore|307"]
+					},
+					{
+						"name": "308",
+						"visibility_rules": ["$CanSeeScore|308"],
+						"access_rules": ["^$CanReachScore|308"]
+					},
+					{
+						"name": "309",
+						"visibility_rules": ["$CanSeeScore|309"],
+						"access_rules": ["^$CanReachScore|309"]
+					},
+					{
+						"name": "310",
+						"visibility_rules": ["$CanSeeScore|310"],
+						"access_rules": ["^$CanReachScore|310"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 850,
+						"y": 794
+					}
+				]
+			},
+			{
+				"name": "Clear Score 311-320",
+				"sections": [
+					{
+						"name": "311",
+						"visibility_rules": ["$CanSeeScore|311"],
+						"access_rules": ["^$CanReachScore|311"]
+					},
+					{
+						"name": "312",
+						"visibility_rules": ["$CanSeeScore|312"],
+						"access_rules": ["^$CanReachScore|312"]
+					},
+					{
+						"name": "313",
+						"visibility_rules": ["$CanSeeScore|313"],
+						"access_rules": ["^$CanReachScore|313"]
+					},
+					{
+						"name": "314",
+						"visibility_rules": ["$CanSeeScore|314"],
+						"access_rules": ["^$CanReachScore|314"]
+					},
+					{
+						"name": "315",
+						"visibility_rules": ["$CanSeeScore|315"],
+						"access_rules": ["^$CanReachScore|315"]
+					},
+					{
+						"name": "316",
+						"visibility_rules": ["$CanSeeScore|316"],
+						"access_rules": ["^$CanReachScore|316"]
+					},
+					{
+						"name": "317",
+						"visibility_rules": ["$CanSeeScore|317"],
+						"access_rules": ["^$CanReachScore|317"]
+					},
+					{
+						"name": "318",
+						"visibility_rules": ["$CanSeeScore|318"],
+						"access_rules": ["^$CanReachScore|318"]
+					},
+					{
+						"name": "319",
+						"visibility_rules": ["$CanSeeScore|319"],
+						"access_rules": ["^$CanReachScore|319"]
+					},
+					{
+						"name": "320",
+						"visibility_rules": ["$CanSeeScore|320"],
+						"access_rules": ["^$CanReachScore|320"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 783,
+						"y": 794
+					}
+				]
+			},
+			{
+				"name": "Clear Score 321-330",
+				"sections": [
+					{
+						"name": "321",
+						"visibility_rules": ["$CanSeeScore|321"],
+						"access_rules": ["^$CanReachScore|321"]
+					},
+					{
+						"name": "322",
+						"visibility_rules": ["$CanSeeScore|322"],
+						"access_rules": ["^$CanReachScore|322"]
+					},
+					{
+						"name": "323",
+						"visibility_rules": ["$CanSeeScore|323"],
+						"access_rules": ["^$CanReachScore|323"]
+					},
+					{
+						"name": "324",
+						"visibility_rules": ["$CanSeeScore|324"],
+						"access_rules": ["^$CanReachScore|324"]
+					},
+					{
+						"name": "325",
+						"visibility_rules": ["$CanSeeScore|325"],
+						"access_rules": ["^$CanReachScore|325"]
+					},
+					{
+						"name": "326",
+						"visibility_rules": ["$CanSeeScore|326"],
+						"access_rules": ["^$CanReachScore|326"]
+					},
+					{
+						"name": "327",
+						"visibility_rules": ["$CanSeeScore|327"],
+						"access_rules": ["^$CanReachScore|327"]
+					},
+					{
+						"name": "328",
+						"visibility_rules": ["$CanSeeScore|328"],
+						"access_rules": ["^$CanReachScore|328"]
+					},
+					{
+						"name": "329",
+						"visibility_rules": ["$CanSeeScore|329"],
+						"access_rules": ["^$CanReachScore|329"]
+					},
+					{
+						"name": "330",
+						"visibility_rules": ["$CanSeeScore|330"],
+						"access_rules": ["^$CanReachScore|330"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 716,
+						"y": 794
+					}
+				]
+			},
+			{
+				"name": "Clear Score 331-340",
+				"sections": [
+					{
+						"name": "331",
+						"visibility_rules": ["$CanSeeScore|331"],
+						"access_rules": ["^$CanReachScore|331"]
+					},
+					{
+						"name": "332",
+						"visibility_rules": ["$CanSeeScore|332"],
+						"access_rules": ["^$CanReachScore|332"]
+					},
+					{
+						"name": "333",
+						"visibility_rules": ["$CanSeeScore|333"],
+						"access_rules": ["^$CanReachScore|333"]
+					},
+					{
+						"name": "334",
+						"visibility_rules": ["$CanSeeScore|334"],
+						"access_rules": ["^$CanReachScore|334"]
+					},
+					{
+						"name": "335",
+						"visibility_rules": ["$CanSeeScore|335"],
+						"access_rules": ["^$CanReachScore|335"]
+					},
+					{
+						"name": "336",
+						"visibility_rules": ["$CanSeeScore|336"],
+						"access_rules": ["^$CanReachScore|336"]
+					},
+					{
+						"name": "337",
+						"visibility_rules": ["$CanSeeScore|337"],
+						"access_rules": ["^$CanReachScore|337"]
+					},
+					{
+						"name": "338",
+						"visibility_rules": ["$CanSeeScore|338"],
+						"access_rules": ["^$CanReachScore|338"]
+					},
+					{
+						"name": "339",
+						"visibility_rules": ["$CanSeeScore|339"],
+						"access_rules": ["^$CanReachScore|339"]
+					},
+					{
+						"name": "340",
+						"visibility_rules": ["$CanSeeScore|340"],
+						"access_rules": ["^$CanReachScore|340"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 649,
+						"y": 794
+					}
+				]
+			},
+			{
+				"name": "Clear Score 341-350",
+				"sections": [
+					{
+						"name": "341",
+						"visibility_rules": ["$CanSeeScore|341"],
+						"access_rules": ["^$CanReachScore|341"]
+					},
+					{
+						"name": "342",
+						"visibility_rules": ["$CanSeeScore|342"],
+						"access_rules": ["^$CanReachScore|342"]
+					},
+					{
+						"name": "343",
+						"visibility_rules": ["$CanSeeScore|343"],
+						"access_rules": ["^$CanReachScore|343"]
+					},
+					{
+						"name": "344",
+						"visibility_rules": ["$CanSeeScore|344"],
+						"access_rules": ["^$CanReachScore|344"]
+					},
+					{
+						"name": "345",
+						"visibility_rules": ["$CanSeeScore|345"],
+						"access_rules": ["^$CanReachScore|345"]
+					},
+					{
+						"name": "346",
+						"visibility_rules": ["$CanSeeScore|346"],
+						"access_rules": ["^$CanReachScore|346"]
+					},
+					{
+						"name": "347",
+						"visibility_rules": ["$CanSeeScore|347"],
+						"access_rules": ["^$CanReachScore|347"]
+					},
+					{
+						"name": "348",
+						"visibility_rules": ["$CanSeeScore|348"],
+						"access_rules": ["^$CanReachScore|348"]
+					},
+					{
+						"name": "349",
+						"visibility_rules": ["$CanSeeScore|349"],
+						"access_rules": ["^$CanReachScore|349"]
+					},
+					{
+						"name": "350",
+						"visibility_rules": ["$CanSeeScore|350"],
+						"access_rules": ["^$CanReachScore|350"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 582,
+						"y": 794
+					}
+				]
+			},
+			{
+				"name": "Clear Score 351-360",
+				"sections": [
+					{
+						"name": "351",
+						"visibility_rules": ["$CanSeeScore|351"],
+						"access_rules": ["^$CanReachScore|351"]
+					},
+					{
+						"name": "352",
+						"visibility_rules": ["$CanSeeScore|352"],
+						"access_rules": ["^$CanReachScore|352"]
+					},
+					{
+						"name": "353",
+						"visibility_rules": ["$CanSeeScore|353"],
+						"access_rules": ["^$CanReachScore|353"]
+					},
+					{
+						"name": "354",
+						"visibility_rules": ["$CanSeeScore|354"],
+						"access_rules": ["^$CanReachScore|354"]
+					},
+					{
+						"name": "355",
+						"visibility_rules": ["$CanSeeScore|355"],
+						"access_rules": ["^$CanReachScore|355"]
+					},
+					{
+						"name": "356",
+						"visibility_rules": ["$CanSeeScore|356"],
+						"access_rules": ["^$CanReachScore|356"]
+					},
+					{
+						"name": "357",
+						"visibility_rules": ["$CanSeeScore|357"],
+						"access_rules": ["^$CanReachScore|357"]
+					},
+					{
+						"name": "358",
+						"visibility_rules": ["$CanSeeScore|358"],
+						"access_rules": ["^$CanReachScore|358"]
+					},
+					{
+						"name": "359",
+						"visibility_rules": ["$CanSeeScore|359"],
+						"access_rules": ["^$CanReachScore|359"]
+					},
+					{
+						"name": "360",
+						"visibility_rules": ["$CanSeeScore|360"],
+						"access_rules": ["^$CanReachScore|360"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 513,
+						"y": 794
+					}
+				]
+			},
+			{
+				"name": "Clear Score 361-370",
+				"sections": [
+					{
+						"name": "361",
+						"visibility_rules": ["$CanSeeScore|361"],
+						"access_rules": ["^$CanReachScore|361"]
+					},
+					{
+						"name": "362",
+						"visibility_rules": ["$CanSeeScore|362"],
+						"access_rules": ["^$CanReachScore|362"]
+					},
+					{
+						"name": "363",
+						"visibility_rules": ["$CanSeeScore|363"],
+						"access_rules": ["^$CanReachScore|363"]
+					},
+					{
+						"name": "364",
+						"visibility_rules": ["$CanSeeScore|364"],
+						"access_rules": ["^$CanReachScore|364"]
+					},
+					{
+						"name": "365",
+						"visibility_rules": ["$CanSeeScore|365"],
+						"access_rules": ["^$CanReachScore|365"]
+					},
+					{
+						"name": "366",
+						"visibility_rules": ["$CanSeeScore|366"],
+						"access_rules": ["^$CanReachScore|366"]
+					},
+					{
+						"name": "367",
+						"visibility_rules": ["$CanSeeScore|367"],
+						"access_rules": ["^$CanReachScore|367"]
+					},
+					{
+						"name": "368",
+						"visibility_rules": ["$CanSeeScore|368"],
+						"access_rules": ["^$CanReachScore|368"]
+					},
+					{
+						"name": "369",
+						"visibility_rules": ["$CanSeeScore|369"],
+						"access_rules": ["^$CanReachScore|369"]
+					},
+					{
+						"name": "370",
+						"visibility_rules": ["$CanSeeScore|370"],
+						"access_rules": ["^$CanReachScore|370"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 446,
+						"y": 794
+					}
+				]
+			},
+			{
+				"name": "Clear Score 371-380",
+				"sections": [
+					{
+						"name": "371",
+						"visibility_rules": ["$CanSeeScore|371"],
+						"access_rules": ["^$CanReachScore|371"]
+					},
+					{
+						"name": "372",
+						"visibility_rules": ["$CanSeeScore|372"],
+						"access_rules": ["^$CanReachScore|372"]
+					},
+					{
+						"name": "373",
+						"visibility_rules": ["$CanSeeScore|373"],
+						"access_rules": ["^$CanReachScore|373"]
+					},
+					{
+						"name": "374",
+						"visibility_rules": ["$CanSeeScore|374"],
+						"access_rules": ["^$CanReachScore|374"]
+					},
+					{
+						"name": "375",
+						"visibility_rules": ["$CanSeeScore|375"],
+						"access_rules": ["^$CanReachScore|375"]
+					},
+					{
+						"name": "376",
+						"visibility_rules": ["$CanSeeScore|376"],
+						"access_rules": ["^$CanReachScore|376"]
+					},
+					{
+						"name": "377",
+						"visibility_rules": ["$CanSeeScore|377"],
+						"access_rules": ["^$CanReachScore|377"]
+					},
+					{
+						"name": "378",
+						"visibility_rules": ["$CanSeeScore|378"],
+						"access_rules": ["^$CanReachScore|378"]
+					},
+					{
+						"name": "379",
+						"visibility_rules": ["$CanSeeScore|379"],
+						"access_rules": ["^$CanReachScore|379"]
+					},
+					{
+						"name": "380",
+						"visibility_rules": ["$CanSeeScore|380"],
+						"access_rules": ["^$CanReachScore|380"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 379,
+						"y": 794
+					}
+				]
+			},
+			{
+				"name": "Clear Score 381-390",
+				"sections": [
+					{
+						"name": "381",
+						"visibility_rules": ["$CanSeeScore|381"],
+						"access_rules": ["^$CanReachScore|381"]
+					},
+					{
+						"name": "382",
+						"visibility_rules": ["$CanSeeScore|382"],
+						"access_rules": ["^$CanReachScore|382"]
+					},
+					{
+						"name": "383",
+						"visibility_rules": ["$CanSeeScore|383"],
+						"access_rules": ["^$CanReachScore|383"]
+					},
+					{
+						"name": "384",
+						"visibility_rules": ["$CanSeeScore|384"],
+						"access_rules": ["^$CanReachScore|384"]
+					},
+					{
+						"name": "385",
+						"visibility_rules": ["$CanSeeScore|385"],
+						"access_rules": ["^$CanReachScore|385"]
+					},
+					{
+						"name": "386",
+						"visibility_rules": ["$CanSeeScore|386"],
+						"access_rules": ["^$CanReachScore|386"]
+					},
+					{
+						"name": "387",
+						"visibility_rules": ["$CanSeeScore|387"],
+						"access_rules": ["^$CanReachScore|387"]
+					},
+					{
+						"name": "388",
+						"visibility_rules": ["$CanSeeScore|388"],
+						"access_rules": ["^$CanReachScore|388"]
+					},
+					{
+						"name": "389",
+						"visibility_rules": ["$CanSeeScore|389"],
+						"access_rules": ["^$CanReachScore|389"]
+					},
+					{
+						"name": "390",
+						"visibility_rules": ["$CanSeeScore|390"],
+						"access_rules": ["^$CanReachScore|390"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 312,
+						"y": 794
+					}
+				]
+			},
+			{
+				"name": "Clear Score 391-400",
+				"sections": [
+					{
+						"name": "391",
+						"visibility_rules": ["$CanSeeScore|391"],
+						"access_rules": ["^$CanReachScore|391"]
+					},
+					{
+						"name": "392",
+						"visibility_rules": ["$CanSeeScore|392"],
+						"access_rules": ["^$CanReachScore|392"]
+					},
+					{
+						"name": "393",
+						"visibility_rules": ["$CanSeeScore|393"],
+						"access_rules": ["^$CanReachScore|393"]
+					},
+					{
+						"name": "394",
+						"visibility_rules": ["$CanSeeScore|394"],
+						"access_rules": ["^$CanReachScore|394"]
+					},
+					{
+						"name": "395",
+						"visibility_rules": ["$CanSeeScore|395"],
+						"access_rules": ["^$CanReachScore|395"]
+					},
+					{
+						"name": "396",
+						"visibility_rules": ["$CanSeeScore|396"],
+						"access_rules": ["^$CanReachScore|396"]
+					},
+					{
+						"name": "397",
+						"visibility_rules": ["$CanSeeScore|397"],
+						"access_rules": ["^$CanReachScore|397"]
+					},
+					{
+						"name": "398",
+						"visibility_rules": ["$CanSeeScore|398"],
+						"access_rules": ["^$CanReachScore|398"]
+					},
+					{
+						"name": "399",
+						"visibility_rules": ["$CanSeeScore|399"],
+						"access_rules": ["^$CanReachScore|399"]
+					},
+					{
+						"name": "400",
+						"visibility_rules": ["$CanSeeScore|400"],
+						"access_rules": ["^$CanReachScore|400"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 245,
+						"y": 794
+					}
+				]
+			},
+			{
+				"name": "Clear Score 401-410",
+				"sections": [
+					{
+						"name": "401",
+						"visibility_rules": ["$CanSeeScore|401"],
+						"access_rules": ["^$CanReachScore|401"]
+					},
+					{
+						"name": "402",
+						"visibility_rules": ["$CanSeeScore|402"],
+						"access_rules": ["^$CanReachScore|402"]
+					},
+					{
+						"name": "403",
+						"visibility_rules": ["$CanSeeScore|403"],
+						"access_rules": ["^$CanReachScore|403"]
+					},
+					{
+						"name": "404",
+						"visibility_rules": ["$CanSeeScore|404"],
+						"access_rules": ["^$CanReachScore|404"]
+					},
+					{
+						"name": "405",
+						"visibility_rules": ["$CanSeeScore|405"],
+						"access_rules": ["^$CanReachScore|405"]
+					},
+					{
+						"name": "406",
+						"visibility_rules": ["$CanSeeScore|406"],
+						"access_rules": ["^$CanReachScore|406"]
+					},
+					{
+						"name": "407",
+						"visibility_rules": ["$CanSeeScore|407"],
+						"access_rules": ["^$CanReachScore|407"]
+					},
+					{
+						"name": "408",
+						"visibility_rules": ["$CanSeeScore|408"],
+						"access_rules": ["^$CanReachScore|408"]
+					},
+					{
+						"name": "409",
+						"visibility_rules": ["$CanSeeScore|409"],
+						"access_rules": ["^$CanReachScore|409"]
+					},
+					{
+						"name": "410",
+						"visibility_rules": ["$CanSeeScore|410"],
+						"access_rules": ["^$CanReachScore|410"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 850,
+						"y": 725
+					}
+				]
+			},
+			{
+				"name": "Clear Score 411-420",
+				"sections": [
+					{
+						"name": "411",
+						"visibility_rules": ["$CanSeeScore|411"],
+						"access_rules": ["^$CanReachScore|411"]
+					},
+					{
+						"name": "412",
+						"visibility_rules": ["$CanSeeScore|412"],
+						"access_rules": ["^$CanReachScore|412"]
+					},
+					{
+						"name": "413",
+						"visibility_rules": ["$CanSeeScore|413"],
+						"access_rules": ["^$CanReachScore|413"]
+					},
+					{
+						"name": "414",
+						"visibility_rules": ["$CanSeeScore|414"],
+						"access_rules": ["^$CanReachScore|414"]
+					},
+					{
+						"name": "415",
+						"visibility_rules": ["$CanSeeScore|415"],
+						"access_rules": ["^$CanReachScore|415"]
+					},
+					{
+						"name": "416",
+						"visibility_rules": ["$CanSeeScore|416"],
+						"access_rules": ["^$CanReachScore|416"]
+					},
+					{
+						"name": "417",
+						"visibility_rules": ["$CanSeeScore|417"],
+						"access_rules": ["^$CanReachScore|417"]
+					},
+					{
+						"name": "418",
+						"visibility_rules": ["$CanSeeScore|418"],
+						"access_rules": ["^$CanReachScore|418"]
+					},
+					{
+						"name": "419",
+						"visibility_rules": ["$CanSeeScore|419"],
+						"access_rules": ["^$CanReachScore|419"]
+					},
+					{
+						"name": "420",
+						"visibility_rules": ["$CanSeeScore|420"],
+						"access_rules": ["^$CanReachScore|420"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 783,
+						"y": 725
+					}
+				]
+			},
+			{
+				"name": "Clear Score 421-430",
+				"sections": [
+					{
+						"name": "421",
+						"visibility_rules": ["$CanSeeScore|421"],
+						"access_rules": ["^$CanReachScore|421"]
+					},
+					{
+						"name": "422",
+						"visibility_rules": ["$CanSeeScore|422"],
+						"access_rules": ["^$CanReachScore|422"]
+					},
+					{
+						"name": "423",
+						"visibility_rules": ["$CanSeeScore|423"],
+						"access_rules": ["^$CanReachScore|423"]
+					},
+					{
+						"name": "424",
+						"visibility_rules": ["$CanSeeScore|424"],
+						"access_rules": ["^$CanReachScore|424"]
+					},
+					{
+						"name": "425",
+						"visibility_rules": ["$CanSeeScore|425"],
+						"access_rules": ["^$CanReachScore|425"]
+					},
+					{
+						"name": "426",
+						"visibility_rules": ["$CanSeeScore|426"],
+						"access_rules": ["^$CanReachScore|426"]
+					},
+					{
+						"name": "427",
+						"visibility_rules": ["$CanSeeScore|427"],
+						"access_rules": ["^$CanReachScore|427"]
+					},
+					{
+						"name": "428",
+						"visibility_rules": ["$CanSeeScore|428"],
+						"access_rules": ["^$CanReachScore|428"]
+					},
+					{
+						"name": "429",
+						"visibility_rules": ["$CanSeeScore|429"],
+						"access_rules": ["^$CanReachScore|429"]
+					},
+					{
+						"name": "430",
+						"visibility_rules": ["$CanSeeScore|430"],
+						"access_rules": ["^$CanReachScore|430"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 716,
+						"y": 725
+					}
+				]
+			},
+			{
+				"name": "Clear Score 431-440",
+				"sections": [
+					{
+						"name": "431",
+						"visibility_rules": ["$CanSeeScore|431"],
+						"access_rules": ["^$CanReachScore|431"]
+					},
+					{
+						"name": "432",
+						"visibility_rules": ["$CanSeeScore|432"],
+						"access_rules": ["^$CanReachScore|432"]
+					},
+					{
+						"name": "433",
+						"visibility_rules": ["$CanSeeScore|433"],
+						"access_rules": ["^$CanReachScore|433"]
+					},
+					{
+						"name": "434",
+						"visibility_rules": ["$CanSeeScore|434"],
+						"access_rules": ["^$CanReachScore|434"]
+					},
+					{
+						"name": "435",
+						"visibility_rules": ["$CanSeeScore|435"],
+						"access_rules": ["^$CanReachScore|435"]
+					},
+					{
+						"name": "436",
+						"visibility_rules": ["$CanSeeScore|436"],
+						"access_rules": ["^$CanReachScore|436"]
+					},
+					{
+						"name": "437",
+						"visibility_rules": ["$CanSeeScore|437"],
+						"access_rules": ["^$CanReachScore|437"]
+					},
+					{
+						"name": "438",
+						"visibility_rules": ["$CanSeeScore|438"],
+						"access_rules": ["^$CanReachScore|438"]
+					},
+					{
+						"name": "439",
+						"visibility_rules": ["$CanSeeScore|439"],
+						"access_rules": ["^$CanReachScore|439"]
+					},
+					{
+						"name": "440",
+						"visibility_rules": ["$CanSeeScore|440"],
+						"access_rules": ["^$CanReachScore|440"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 649,
+						"y": 725
+					}
+				]
+			},
+			{
+				"name": "Clear Score 441-450",
+				"sections": [
+					{
+						"name": "441",
+						"visibility_rules": ["$CanSeeScore|441"],
+						"access_rules": ["^$CanReachScore|441"]
+					},
+					{
+						"name": "442",
+						"visibility_rules": ["$CanSeeScore|442"],
+						"access_rules": ["^$CanReachScore|442"]
+					},
+					{
+						"name": "443",
+						"visibility_rules": ["$CanSeeScore|443"],
+						"access_rules": ["^$CanReachScore|443"]
+					},
+					{
+						"name": "444",
+						"visibility_rules": ["$CanSeeScore|444"],
+						"access_rules": ["^$CanReachScore|444"]
+					},
+					{
+						"name": "445",
+						"visibility_rules": ["$CanSeeScore|445"],
+						"access_rules": ["^$CanReachScore|445"]
+					},
+					{
+						"name": "446",
+						"visibility_rules": ["$CanSeeScore|446"],
+						"access_rules": ["^$CanReachScore|446"]
+					},
+					{
+						"name": "447",
+						"visibility_rules": ["$CanSeeScore|447"],
+						"access_rules": ["^$CanReachScore|447"]
+					},
+					{
+						"name": "448",
+						"visibility_rules": ["$CanSeeScore|448"],
+						"access_rules": ["^$CanReachScore|448"]
+					},
+					{
+						"name": "449",
+						"visibility_rules": ["$CanSeeScore|449"],
+						"access_rules": ["^$CanReachScore|449"]
+					},
+					{
+						"name": "450",
+						"visibility_rules": ["$CanSeeScore|450"],
+						"access_rules": ["^$CanReachScore|450"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 582,
+						"y": 725
+					}
+				]
+			},
+			{
+				"name": "Clear Score 451-460",
+				"sections": [
+					{
+						"name": "451",
+						"visibility_rules": ["$CanSeeScore|451"],
+						"access_rules": ["^$CanReachScore|451"]
+					},
+					{
+						"name": "452",
+						"visibility_rules": ["$CanSeeScore|452"],
+						"access_rules": ["^$CanReachScore|452"]
+					},
+					{
+						"name": "453",
+						"visibility_rules": ["$CanSeeScore|453"],
+						"access_rules": ["^$CanReachScore|453"]
+					},
+					{
+						"name": "454",
+						"visibility_rules": ["$CanSeeScore|454"],
+						"access_rules": ["^$CanReachScore|454"]
+					},
+					{
+						"name": "455",
+						"visibility_rules": ["$CanSeeScore|455"],
+						"access_rules": ["^$CanReachScore|455"]
+					},
+					{
+						"name": "456",
+						"visibility_rules": ["$CanSeeScore|456"],
+						"access_rules": ["^$CanReachScore|456"]
+					},
+					{
+						"name": "457",
+						"visibility_rules": ["$CanSeeScore|457"],
+						"access_rules": ["^$CanReachScore|457"]
+					},
+					{
+						"name": "458",
+						"visibility_rules": ["$CanSeeScore|458"],
+						"access_rules": ["^$CanReachScore|458"]
+					},
+					{
+						"name": "459",
+						"visibility_rules": ["$CanSeeScore|459"],
+						"access_rules": ["^$CanReachScore|459"]
+					},
+					{
+						"name": "460",
+						"visibility_rules": ["$CanSeeScore|460"],
+						"access_rules": ["^$CanReachScore|460"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 513,
+						"y": 725
+					}
+				]
+			},
+			{
+				"name": "Clear Score 461-470",
+				"sections": [
+					{
+						"name": "461",
+						"visibility_rules": ["$CanSeeScore|461"],
+						"access_rules": ["^$CanReachScore|461"]
+					},
+					{
+						"name": "462",
+						"visibility_rules": ["$CanSeeScore|462"],
+						"access_rules": ["^$CanReachScore|462"]
+					},
+					{
+						"name": "463",
+						"visibility_rules": ["$CanSeeScore|463"],
+						"access_rules": ["^$CanReachScore|463"]
+					},
+					{
+						"name": "464",
+						"visibility_rules": ["$CanSeeScore|464"],
+						"access_rules": ["^$CanReachScore|464"]
+					},
+					{
+						"name": "465",
+						"visibility_rules": ["$CanSeeScore|465"],
+						"access_rules": ["^$CanReachScore|465"]
+					},
+					{
+						"name": "466",
+						"visibility_rules": ["$CanSeeScore|466"],
+						"access_rules": ["^$CanReachScore|466"]
+					},
+					{
+						"name": "467",
+						"visibility_rules": ["$CanSeeScore|467"],
+						"access_rules": ["^$CanReachScore|467"]
+					},
+					{
+						"name": "468",
+						"visibility_rules": ["$CanSeeScore|468"],
+						"access_rules": ["^$CanReachScore|468"]
+					},
+					{
+						"name": "469",
+						"visibility_rules": ["$CanSeeScore|469"],
+						"access_rules": ["^$CanReachScore|469"]
+					},
+					{
+						"name": "470",
+						"visibility_rules": ["$CanSeeScore|470"],
+						"access_rules": ["^$CanReachScore|470"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 446,
+						"y": 725
+					}
+				]
+			},
+			{
+				"name": "Clear Score 471-480",
+				"sections": [
+					{
+						"name": "471",
+						"visibility_rules": ["$CanSeeScore|471"],
+						"access_rules": ["^$CanReachScore|471"]
+					},
+					{
+						"name": "472",
+						"visibility_rules": ["$CanSeeScore|472"],
+						"access_rules": ["^$CanReachScore|472"]
+					},
+					{
+						"name": "473",
+						"visibility_rules": ["$CanSeeScore|473"],
+						"access_rules": ["^$CanReachScore|473"]
+					},
+					{
+						"name": "474",
+						"visibility_rules": ["$CanSeeScore|474"],
+						"access_rules": ["^$CanReachScore|474"]
+					},
+					{
+						"name": "475",
+						"visibility_rules": ["$CanSeeScore|475"],
+						"access_rules": ["^$CanReachScore|475"]
+					},
+					{
+						"name": "476",
+						"visibility_rules": ["$CanSeeScore|476"],
+						"access_rules": ["^$CanReachScore|476"]
+					},
+					{
+						"name": "477",
+						"visibility_rules": ["$CanSeeScore|477"],
+						"access_rules": ["^$CanReachScore|477"]
+					},
+					{
+						"name": "478",
+						"visibility_rules": ["$CanSeeScore|478"],
+						"access_rules": ["^$CanReachScore|478"]
+					},
+					{
+						"name": "479",
+						"visibility_rules": ["$CanSeeScore|479"],
+						"access_rules": ["^$CanReachScore|479"]
+					},
+					{
+						"name": "480",
+						"visibility_rules": ["$CanSeeScore|480"],
+						"access_rules": ["^$CanReachScore|480"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 379,
+						"y": 725
+					}
+				]
+			},
+			{
+				"name": "Clear Score 481-490",
+				"sections": [
+					{
+						"name": "481",
+						"visibility_rules": ["$CanSeeScore|481"],
+						"access_rules": ["^$CanReachScore|481"]
+					},
+					{
+						"name": "482",
+						"visibility_rules": ["$CanSeeScore|482"],
+						"access_rules": ["^$CanReachScore|482"]
+					},
+					{
+						"name": "483",
+						"visibility_rules": ["$CanSeeScore|483"],
+						"access_rules": ["^$CanReachScore|483"]
+					},
+					{
+						"name": "484",
+						"visibility_rules": ["$CanSeeScore|484"],
+						"access_rules": ["^$CanReachScore|484"]
+					},
+					{
+						"name": "485",
+						"visibility_rules": ["$CanSeeScore|485"],
+						"access_rules": ["^$CanReachScore|485"]
+					},
+					{
+						"name": "486",
+						"visibility_rules": ["$CanSeeScore|486"],
+						"access_rules": ["^$CanReachScore|486"]
+					},
+					{
+						"name": "487",
+						"visibility_rules": ["$CanSeeScore|487"],
+						"access_rules": ["^$CanReachScore|487"]
+					},
+					{
+						"name": "488",
+						"visibility_rules": ["$CanSeeScore|488"],
+						"access_rules": ["^$CanReachScore|488"]
+					},
+					{
+						"name": "489",
+						"visibility_rules": ["$CanSeeScore|489"],
+						"access_rules": ["^$CanReachScore|489"]
+					},
+					{
+						"name": "490",
+						"visibility_rules": ["$CanSeeScore|490"],
+						"access_rules": ["^$CanReachScore|490"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 312,
+						"y": 725
+					}
+				]
+			},
+			{
+				"name": "Clear Score 491-500",
+				"sections": [
+					{
+						"name": "491",
+						"visibility_rules": ["$CanSeeScore|491"],
+						"access_rules": ["^$CanReachScore|491"]
+					},
+					{
+						"name": "492",
+						"visibility_rules": ["$CanSeeScore|492"],
+						"access_rules": ["^$CanReachScore|492"]
+					},
+					{
+						"name": "493",
+						"visibility_rules": ["$CanSeeScore|493"],
+						"access_rules": ["^$CanReachScore|493"]
+					},
+					{
+						"name": "494",
+						"visibility_rules": ["$CanSeeScore|494"],
+						"access_rules": ["^$CanReachScore|494"]
+					},
+					{
+						"name": "495",
+						"visibility_rules": ["$CanSeeScore|495"],
+						"access_rules": ["^$CanReachScore|495"]
+					},
+					{
+						"name": "496",
+						"visibility_rules": ["$CanSeeScore|496"],
+						"access_rules": ["^$CanReachScore|496"]
+					},
+					{
+						"name": "497",
+						"visibility_rules": ["$CanSeeScore|497"],
+						"access_rules": ["^$CanReachScore|497"]
+					},
+					{
+						"name": "498",
+						"visibility_rules": ["$CanSeeScore|498"],
+						"access_rules": ["^$CanReachScore|498"]
+					},
+					{
+						"name": "499",
+						"visibility_rules": ["$CanSeeScore|499"],
+						"access_rules": ["^$CanReachScore|499"]
+					},
+					{
+						"name": "500",
+						"visibility_rules": ["$CanSeeScore|500"],
+						"access_rules": ["^$CanReachScore|500"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 245,
+						"y": 725
+					}
+				]
+			},
+			{
+				"name": "Clear Score 501-510",
+				"sections": [
+					{
+						"name": "501",
+						"visibility_rules": ["$CanSeeScore|501"],
+						"access_rules": ["^$CanReachScore|501"]
+					},
+					{
+						"name": "502",
+						"visibility_rules": ["$CanSeeScore|502"],
+						"access_rules": ["^$CanReachScore|502"]
+					},
+					{
+						"name": "503",
+						"visibility_rules": ["$CanSeeScore|503"],
+						"access_rules": ["^$CanReachScore|503"]
+					},
+					{
+						"name": "504",
+						"visibility_rules": ["$CanSeeScore|504"],
+						"access_rules": ["^$CanReachScore|504"]
+					},
+					{
+						"name": "505",
+						"visibility_rules": ["$CanSeeScore|505"],
+						"access_rules": ["^$CanReachScore|505"]
+					},
+					{
+						"name": "506",
+						"visibility_rules": ["$CanSeeScore|506"],
+						"access_rules": ["^$CanReachScore|506"]
+					},
+					{
+						"name": "507",
+						"visibility_rules": ["$CanSeeScore|507"],
+						"access_rules": ["^$CanReachScore|507"]
+					},
+					{
+						"name": "508",
+						"visibility_rules": ["$CanSeeScore|508"],
+						"access_rules": ["^$CanReachScore|508"]
+					},
+					{
+						"name": "509",
+						"visibility_rules": ["$CanSeeScore|509"],
+						"access_rules": ["^$CanReachScore|509"]
+					},
+					{
+						"name": "510",
+						"visibility_rules": ["$CanSeeScore|510"],
+						"access_rules": ["^$CanReachScore|510"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 850,
+						"y": 656
+					}
+				]
+			},
+			{
+				"name": "Clear Score 511-520",
+				"sections": [
+					{
+						"name": "511",
+						"visibility_rules": ["$CanSeeScore|511"],
+						"access_rules": ["^$CanReachScore|511"]
+					},
+					{
+						"name": "512",
+						"visibility_rules": ["$CanSeeScore|512"],
+						"access_rules": ["^$CanReachScore|512"]
+					},
+					{
+						"name": "513",
+						"visibility_rules": ["$CanSeeScore|513"],
+						"access_rules": ["^$CanReachScore|513"]
+					},
+					{
+						"name": "514",
+						"visibility_rules": ["$CanSeeScore|514"],
+						"access_rules": ["^$CanReachScore|514"]
+					},
+					{
+						"name": "515",
+						"visibility_rules": ["$CanSeeScore|515"],
+						"access_rules": ["^$CanReachScore|515"]
+					},
+					{
+						"name": "516",
+						"visibility_rules": ["$CanSeeScore|516"],
+						"access_rules": ["^$CanReachScore|516"]
+					},
+					{
+						"name": "517",
+						"visibility_rules": ["$CanSeeScore|517"],
+						"access_rules": ["^$CanReachScore|517"]
+					},
+					{
+						"name": "518",
+						"visibility_rules": ["$CanSeeScore|518"],
+						"access_rules": ["^$CanReachScore|518"]
+					},
+					{
+						"name": "519",
+						"visibility_rules": ["$CanSeeScore|519"],
+						"access_rules": ["^$CanReachScore|519"]
+					},
+					{
+						"name": "520",
+						"visibility_rules": ["$CanSeeScore|520"],
+						"access_rules": ["^$CanReachScore|520"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 783,
+						"y": 656
+					}
+				]
+			},
+			{
+				"name": "Clear Score 521-530",
+				"sections": [
+					{
+						"name": "521",
+						"visibility_rules": ["$CanSeeScore|521"],
+						"access_rules": ["^$CanReachScore|521"]
+					},
+					{
+						"name": "522",
+						"visibility_rules": ["$CanSeeScore|522"],
+						"access_rules": ["^$CanReachScore|522"]
+					},
+					{
+						"name": "523",
+						"visibility_rules": ["$CanSeeScore|523"],
+						"access_rules": ["^$CanReachScore|523"]
+					},
+					{
+						"name": "524",
+						"visibility_rules": ["$CanSeeScore|524"],
+						"access_rules": ["^$CanReachScore|524"]
+					},
+					{
+						"name": "525",
+						"visibility_rules": ["$CanSeeScore|525"],
+						"access_rules": ["^$CanReachScore|525"]
+					},
+					{
+						"name": "526",
+						"visibility_rules": ["$CanSeeScore|526"],
+						"access_rules": ["^$CanReachScore|526"]
+					},
+					{
+						"name": "527",
+						"visibility_rules": ["$CanSeeScore|527"],
+						"access_rules": ["^$CanReachScore|527"]
+					},
+					{
+						"name": "528",
+						"visibility_rules": ["$CanSeeScore|528"],
+						"access_rules": ["^$CanReachScore|528"]
+					},
+					{
+						"name": "529",
+						"visibility_rules": ["$CanSeeScore|529"],
+						"access_rules": ["^$CanReachScore|529"]
+					},
+					{
+						"name": "530",
+						"visibility_rules": ["$CanSeeScore|530"],
+						"access_rules": ["^$CanReachScore|530"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 716,
+						"y": 656
+					}
+				]
+			},
+			{
+				"name": "Clear Score 531-540",
+				"sections": [
+					{
+						"name": "531",
+						"visibility_rules": ["$CanSeeScore|531"],
+						"access_rules": ["^$CanReachScore|531"]
+					},
+					{
+						"name": "532",
+						"visibility_rules": ["$CanSeeScore|532"],
+						"access_rules": ["^$CanReachScore|532"]
+					},
+					{
+						"name": "533",
+						"visibility_rules": ["$CanSeeScore|533"],
+						"access_rules": ["^$CanReachScore|533"]
+					},
+					{
+						"name": "534",
+						"visibility_rules": ["$CanSeeScore|534"],
+						"access_rules": ["^$CanReachScore|534"]
+					},
+					{
+						"name": "535",
+						"visibility_rules": ["$CanSeeScore|535"],
+						"access_rules": ["^$CanReachScore|535"]
+					},
+					{
+						"name": "536",
+						"visibility_rules": ["$CanSeeScore|536"],
+						"access_rules": ["^$CanReachScore|536"]
+					},
+					{
+						"name": "537",
+						"visibility_rules": ["$CanSeeScore|537"],
+						"access_rules": ["^$CanReachScore|537"]
+					},
+					{
+						"name": "538",
+						"visibility_rules": ["$CanSeeScore|538"],
+						"access_rules": ["^$CanReachScore|538"]
+					},
+					{
+						"name": "539",
+						"visibility_rules": ["$CanSeeScore|539"],
+						"access_rules": ["^$CanReachScore|539"]
+					},
+					{
+						"name": "540",
+						"visibility_rules": ["$CanSeeScore|540"],
+						"access_rules": ["^$CanReachScore|540"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 649,
+						"y": 656
+					}
+				]
+			},
+			{
+				"name": "Clear Score 541-550",
+				"sections": [
+					{
+						"name": "541",
+						"visibility_rules": ["$CanSeeScore|541"],
+						"access_rules": ["^$CanReachScore|541"]
+					},
+					{
+						"name": "542",
+						"visibility_rules": ["$CanSeeScore|542"],
+						"access_rules": ["^$CanReachScore|542"]
+					},
+					{
+						"name": "543",
+						"visibility_rules": ["$CanSeeScore|543"],
+						"access_rules": ["^$CanReachScore|543"]
+					},
+					{
+						"name": "544",
+						"visibility_rules": ["$CanSeeScore|544"],
+						"access_rules": ["^$CanReachScore|544"]
+					},
+					{
+						"name": "545",
+						"visibility_rules": ["$CanSeeScore|545"],
+						"access_rules": ["^$CanReachScore|545"]
+					},
+					{
+						"name": "546",
+						"visibility_rules": ["$CanSeeScore|546"],
+						"access_rules": ["^$CanReachScore|546"]
+					},
+					{
+						"name": "547",
+						"visibility_rules": ["$CanSeeScore|547"],
+						"access_rules": ["^$CanReachScore|547"]
+					},
+					{
+						"name": "548",
+						"visibility_rules": ["$CanSeeScore|548"],
+						"access_rules": ["^$CanReachScore|548"]
+					},
+					{
+						"name": "549",
+						"visibility_rules": ["$CanSeeScore|549"],
+						"access_rules": ["^$CanReachScore|549"]
+					},
+					{
+						"name": "550",
+						"visibility_rules": ["$CanSeeScore|550"],
+						"access_rules": ["^$CanReachScore|550"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 582,
+						"y": 656
+					}
+				]
+			},
+			{
+				"name": "Clear Score 551-560",
+				"sections": [
+					{
+						"name": "551",
+						"visibility_rules": ["$CanSeeScore|551"],
+						"access_rules": ["^$CanReachScore|551"]
+					},
+					{
+						"name": "552",
+						"visibility_rules": ["$CanSeeScore|552"],
+						"access_rules": ["^$CanReachScore|552"]
+					},
+					{
+						"name": "553",
+						"visibility_rules": ["$CanSeeScore|553"],
+						"access_rules": ["^$CanReachScore|553"]
+					},
+					{
+						"name": "554",
+						"visibility_rules": ["$CanSeeScore|554"],
+						"access_rules": ["^$CanReachScore|554"]
+					},
+					{
+						"name": "555",
+						"visibility_rules": ["$CanSeeScore|555"],
+						"access_rules": ["^$CanReachScore|555"]
+					},
+					{
+						"name": "556",
+						"visibility_rules": ["$CanSeeScore|556"],
+						"access_rules": ["^$CanReachScore|556"]
+					},
+					{
+						"name": "557",
+						"visibility_rules": ["$CanSeeScore|557"],
+						"access_rules": ["^$CanReachScore|557"]
+					},
+					{
+						"name": "558",
+						"visibility_rules": ["$CanSeeScore|558"],
+						"access_rules": ["^$CanReachScore|558"]
+					},
+					{
+						"name": "559",
+						"visibility_rules": ["$CanSeeScore|559"],
+						"access_rules": ["^$CanReachScore|559"]
+					},
+					{
+						"name": "560",
+						"visibility_rules": ["$CanSeeScore|560"],
+						"access_rules": ["^$CanReachScore|560"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 513,
+						"y": 656
+					}
+				]
+			},
+			{
+				"name": "Clear Score 561-570",
+				"sections": [
+					{
+						"name": "561",
+						"visibility_rules": ["$CanSeeScore|561"],
+						"access_rules": ["^$CanReachScore|561"]
+					},
+					{
+						"name": "562",
+						"visibility_rules": ["$CanSeeScore|562"],
+						"access_rules": ["^$CanReachScore|562"]
+					},
+					{
+						"name": "563",
+						"visibility_rules": ["$CanSeeScore|563"],
+						"access_rules": ["^$CanReachScore|563"]
+					},
+					{
+						"name": "564",
+						"visibility_rules": ["$CanSeeScore|564"],
+						"access_rules": ["^$CanReachScore|564"]
+					},
+					{
+						"name": "565",
+						"visibility_rules": ["$CanSeeScore|565"],
+						"access_rules": ["^$CanReachScore|565"]
+					},
+					{
+						"name": "566",
+						"visibility_rules": ["$CanSeeScore|566"],
+						"access_rules": ["^$CanReachScore|566"]
+					},
+					{
+						"name": "567",
+						"visibility_rules": ["$CanSeeScore|567"],
+						"access_rules": ["^$CanReachScore|567"]
+					},
+					{
+						"name": "568",
+						"visibility_rules": ["$CanSeeScore|568"],
+						"access_rules": ["^$CanReachScore|568"]
+					},
+					{
+						"name": "569",
+						"visibility_rules": ["$CanSeeScore|569"],
+						"access_rules": ["^$CanReachScore|569"]
+					},
+					{
+						"name": "570",
+						"visibility_rules": ["$CanSeeScore|570"],
+						"access_rules": ["^$CanReachScore|570"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 446,
+						"y": 656
+					}
+				]
+			},
+			{
+				"name": "Clear Score 571-580",
+				"sections": [
+					{
+						"name": "571",
+						"visibility_rules": ["$CanSeeScore|571"],
+						"access_rules": ["^$CanReachScore|571"]
+					},
+					{
+						"name": "572",
+						"visibility_rules": ["$CanSeeScore|572"],
+						"access_rules": ["^$CanReachScore|572"]
+					},
+					{
+						"name": "573",
+						"visibility_rules": ["$CanSeeScore|573"],
+						"access_rules": ["^$CanReachScore|573"]
+					},
+					{
+						"name": "574",
+						"visibility_rules": ["$CanSeeScore|574"],
+						"access_rules": ["^$CanReachScore|574"]
+					},
+					{
+						"name": "575",
+						"visibility_rules": ["$CanSeeScore|575"],
+						"access_rules": ["^$CanReachScore|575"]
+					},
+					{
+						"name": "576",
+						"visibility_rules": ["$CanSeeScore|576"],
+						"access_rules": ["^$CanReachScore|576"]
+					},
+					{
+						"name": "577",
+						"visibility_rules": ["$CanSeeScore|577"],
+						"access_rules": ["^$CanReachScore|577"]
+					},
+					{
+						"name": "578",
+						"visibility_rules": ["$CanSeeScore|578"],
+						"access_rules": ["^$CanReachScore|578"]
+					},
+					{
+						"name": "579",
+						"visibility_rules": ["$CanSeeScore|579"],
+						"access_rules": ["^$CanReachScore|579"]
+					},
+					{
+						"name": "580",
+						"visibility_rules": ["$CanSeeScore|580"],
+						"access_rules": ["^$CanReachScore|580"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 379,
+						"y": 656
+					}
+				]
+			},
+			{
+				"name": "Clear Score 581-590",
+				"sections": [
+					{
+						"name": "581",
+						"visibility_rules": ["$CanSeeScore|581"],
+						"access_rules": ["^$CanReachScore|581"]
+					},
+					{
+						"name": "582",
+						"visibility_rules": ["$CanSeeScore|582"],
+						"access_rules": ["^$CanReachScore|582"]
+					},
+					{
+						"name": "583",
+						"visibility_rules": ["$CanSeeScore|583"],
+						"access_rules": ["^$CanReachScore|583"]
+					},
+					{
+						"name": "584",
+						"visibility_rules": ["$CanSeeScore|584"],
+						"access_rules": ["^$CanReachScore|584"]
+					},
+					{
+						"name": "585",
+						"visibility_rules": ["$CanSeeScore|585"],
+						"access_rules": ["^$CanReachScore|585"]
+					},
+					{
+						"name": "586",
+						"visibility_rules": ["$CanSeeScore|586"],
+						"access_rules": ["^$CanReachScore|586"]
+					},
+					{
+						"name": "587",
+						"visibility_rules": ["$CanSeeScore|587"],
+						"access_rules": ["^$CanReachScore|587"]
+					},
+					{
+						"name": "588",
+						"visibility_rules": ["$CanSeeScore|588"],
+						"access_rules": ["^$CanReachScore|588"]
+					},
+					{
+						"name": "589",
+						"visibility_rules": ["$CanSeeScore|589"],
+						"access_rules": ["^$CanReachScore|589"]
+					},
+					{
+						"name": "590",
+						"visibility_rules": ["$CanSeeScore|590"],
+						"access_rules": ["^$CanReachScore|590"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 312,
+						"y": 656
+					}
+				]
+			},
+			{
+				"name": "Clear Score 591-600",
+				"sections": [
+					{
+						"name": "591",
+						"visibility_rules": ["$CanSeeScore|591"],
+						"access_rules": ["^$CanReachScore|591"]
+					},
+					{
+						"name": "592",
+						"visibility_rules": ["$CanSeeScore|592"],
+						"access_rules": ["^$CanReachScore|592"]
+					},
+					{
+						"name": "593",
+						"visibility_rules": ["$CanSeeScore|593"],
+						"access_rules": ["^$CanReachScore|593"]
+					},
+					{
+						"name": "594",
+						"visibility_rules": ["$CanSeeScore|594"],
+						"access_rules": ["^$CanReachScore|594"]
+					},
+					{
+						"name": "595",
+						"visibility_rules": ["$CanSeeScore|595"],
+						"access_rules": ["^$CanReachScore|595"]
+					},
+					{
+						"name": "596",
+						"visibility_rules": ["$CanSeeScore|596"],
+						"access_rules": ["^$CanReachScore|596"]
+					},
+					{
+						"name": "597",
+						"visibility_rules": ["$CanSeeScore|597"],
+						"access_rules": ["^$CanReachScore|597"]
+					},
+					{
+						"name": "598",
+						"visibility_rules": ["$CanSeeScore|598"],
+						"access_rules": ["^$CanReachScore|598"]
+					},
+					{
+						"name": "599",
+						"visibility_rules": ["$CanSeeScore|599"],
+						"access_rules": ["^$CanReachScore|599"]
+					},
+					{
+						"name": "600",
+						"visibility_rules": ["$CanSeeScore|600"],
+						"access_rules": ["^$CanReachScore|600"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 245,
+						"y": 656
+					}
+				]
+			},
+			{
+				"name": "Clear Score 601-610",
+				"sections": [
+					{
+						"name": "601",
+						"visibility_rules": ["$CanSeeScore|601"],
+						"access_rules": ["^$CanReachScore|601"]
+					},
+					{
+						"name": "602",
+						"visibility_rules": ["$CanSeeScore|602"],
+						"access_rules": ["^$CanReachScore|602"]
+					},
+					{
+						"name": "603",
+						"visibility_rules": ["$CanSeeScore|603"],
+						"access_rules": ["^$CanReachScore|603"]
+					},
+					{
+						"name": "604",
+						"visibility_rules": ["$CanSeeScore|604"],
+						"access_rules": ["^$CanReachScore|604"]
+					},
+					{
+						"name": "605",
+						"visibility_rules": ["$CanSeeScore|605"],
+						"access_rules": ["^$CanReachScore|605"]
+					},
+					{
+						"name": "606",
+						"visibility_rules": ["$CanSeeScore|606"],
+						"access_rules": ["^$CanReachScore|606"]
+					},
+					{
+						"name": "607",
+						"visibility_rules": ["$CanSeeScore|607"],
+						"access_rules": ["^$CanReachScore|607"]
+					},
+					{
+						"name": "608",
+						"visibility_rules": ["$CanSeeScore|608"],
+						"access_rules": ["^$CanReachScore|608"]
+					},
+					{
+						"name": "609",
+						"visibility_rules": ["$CanSeeScore|609"],
+						"access_rules": ["^$CanReachScore|609"]
+					},
+					{
+						"name": "610",
+						"visibility_rules": ["$CanSeeScore|610"],
+						"access_rules": ["^$CanReachScore|610"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 850,
+						"y": 587
+					}
+				]
+			},
+			{
+				"name": "Clear Score 611-620",
+				"sections": [
+					{
+						"name": "611",
+						"visibility_rules": ["$CanSeeScore|611"],
+						"access_rules": ["^$CanReachScore|611"]
+					},
+					{
+						"name": "612",
+						"visibility_rules": ["$CanSeeScore|612"],
+						"access_rules": ["^$CanReachScore|612"]
+					},
+					{
+						"name": "613",
+						"visibility_rules": ["$CanSeeScore|613"],
+						"access_rules": ["^$CanReachScore|613"]
+					},
+					{
+						"name": "614",
+						"visibility_rules": ["$CanSeeScore|614"],
+						"access_rules": ["^$CanReachScore|614"]
+					},
+					{
+						"name": "615",
+						"visibility_rules": ["$CanSeeScore|615"],
+						"access_rules": ["^$CanReachScore|615"]
+					},
+					{
+						"name": "616",
+						"visibility_rules": ["$CanSeeScore|616"],
+						"access_rules": ["^$CanReachScore|616"]
+					},
+					{
+						"name": "617",
+						"visibility_rules": ["$CanSeeScore|617"],
+						"access_rules": ["^$CanReachScore|617"]
+					},
+					{
+						"name": "618",
+						"visibility_rules": ["$CanSeeScore|618"],
+						"access_rules": ["^$CanReachScore|618"]
+					},
+					{
+						"name": "619",
+						"visibility_rules": ["$CanSeeScore|619"],
+						"access_rules": ["^$CanReachScore|619"]
+					},
+					{
+						"name": "620",
+						"visibility_rules": ["$CanSeeScore|620"],
+						"access_rules": ["^$CanReachScore|620"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 783,
+						"y": 587
+					}
+				]
+			},
+			{
+				"name": "Clear Score 621-630",
+				"sections": [
+					{
+						"name": "621",
+						"visibility_rules": ["$CanSeeScore|621"],
+						"access_rules": ["^$CanReachScore|621"]
+					},
+					{
+						"name": "622",
+						"visibility_rules": ["$CanSeeScore|622"],
+						"access_rules": ["^$CanReachScore|622"]
+					},
+					{
+						"name": "623",
+						"visibility_rules": ["$CanSeeScore|623"],
+						"access_rules": ["^$CanReachScore|623"]
+					},
+					{
+						"name": "624",
+						"visibility_rules": ["$CanSeeScore|624"],
+						"access_rules": ["^$CanReachScore|624"]
+					},
+					{
+						"name": "625",
+						"visibility_rules": ["$CanSeeScore|625"],
+						"access_rules": ["^$CanReachScore|625"]
+					},
+					{
+						"name": "626",
+						"visibility_rules": ["$CanSeeScore|626"],
+						"access_rules": ["^$CanReachScore|626"]
+					},
+					{
+						"name": "627",
+						"visibility_rules": ["$CanSeeScore|627"],
+						"access_rules": ["^$CanReachScore|627"]
+					},
+					{
+						"name": "628",
+						"visibility_rules": ["$CanSeeScore|628"],
+						"access_rules": ["^$CanReachScore|628"]
+					},
+					{
+						"name": "629",
+						"visibility_rules": ["$CanSeeScore|629"],
+						"access_rules": ["^$CanReachScore|629"]
+					},
+					{
+						"name": "630",
+						"visibility_rules": ["$CanSeeScore|630"],
+						"access_rules": ["^$CanReachScore|630"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 716,
+						"y": 587
+					}
+				]
+			},
+			{
+				"name": "Clear Score 631-640",
+				"sections": [
+					{
+						"name": "631",
+						"visibility_rules": ["$CanSeeScore|631"],
+						"access_rules": ["^$CanReachScore|631"]
+					},
+					{
+						"name": "632",
+						"visibility_rules": ["$CanSeeScore|632"],
+						"access_rules": ["^$CanReachScore|632"]
+					},
+					{
+						"name": "633",
+						"visibility_rules": ["$CanSeeScore|633"],
+						"access_rules": ["^$CanReachScore|633"]
+					},
+					{
+						"name": "634",
+						"visibility_rules": ["$CanSeeScore|634"],
+						"access_rules": ["^$CanReachScore|634"]
+					},
+					{
+						"name": "635",
+						"visibility_rules": ["$CanSeeScore|635"],
+						"access_rules": ["^$CanReachScore|635"]
+					},
+					{
+						"name": "636",
+						"visibility_rules": ["$CanSeeScore|636"],
+						"access_rules": ["^$CanReachScore|636"]
+					},
+					{
+						"name": "637",
+						"visibility_rules": ["$CanSeeScore|637"],
+						"access_rules": ["^$CanReachScore|637"]
+					},
+					{
+						"name": "638",
+						"visibility_rules": ["$CanSeeScore|638"],
+						"access_rules": ["^$CanReachScore|638"]
+					},
+					{
+						"name": "639",
+						"visibility_rules": ["$CanSeeScore|639"],
+						"access_rules": ["^$CanReachScore|639"]
+					},
+					{
+						"name": "640",
+						"visibility_rules": ["$CanSeeScore|640"],
+						"access_rules": ["^$CanReachScore|640"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 649,
+						"y": 587
+					}
+				]
+			},
+			{
+				"name": "Clear Score 641-650",
+				"sections": [
+					{
+						"name": "641",
+						"visibility_rules": ["$CanSeeScore|641"],
+						"access_rules": ["^$CanReachScore|641"]
+					},
+					{
+						"name": "642",
+						"visibility_rules": ["$CanSeeScore|642"],
+						"access_rules": ["^$CanReachScore|642"]
+					},
+					{
+						"name": "643",
+						"visibility_rules": ["$CanSeeScore|643"],
+						"access_rules": ["^$CanReachScore|643"]
+					},
+					{
+						"name": "644",
+						"visibility_rules": ["$CanSeeScore|644"],
+						"access_rules": ["^$CanReachScore|644"]
+					},
+					{
+						"name": "645",
+						"visibility_rules": ["$CanSeeScore|645"],
+						"access_rules": ["^$CanReachScore|645"]
+					},
+					{
+						"name": "646",
+						"visibility_rules": ["$CanSeeScore|646"],
+						"access_rules": ["^$CanReachScore|646"]
+					},
+					{
+						"name": "647",
+						"visibility_rules": ["$CanSeeScore|647"],
+						"access_rules": ["^$CanReachScore|647"]
+					},
+					{
+						"name": "648",
+						"visibility_rules": ["$CanSeeScore|648"],
+						"access_rules": ["^$CanReachScore|648"]
+					},
+					{
+						"name": "649",
+						"visibility_rules": ["$CanSeeScore|649"],
+						"access_rules": ["^$CanReachScore|649"]
+					},
+					{
+						"name": "650",
+						"visibility_rules": ["$CanSeeScore|650"],
+						"access_rules": ["^$CanReachScore|650"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 582,
+						"y": 587
+					}
+				]
+			},
+			{
+				"name": "Clear Score 651-660",
+				"sections": [
+					{
+						"name": "651",
+						"visibility_rules": ["$CanSeeScore|651"],
+						"access_rules": ["^$CanReachScore|651"]
+					},
+					{
+						"name": "652",
+						"visibility_rules": ["$CanSeeScore|652"],
+						"access_rules": ["^$CanReachScore|652"]
+					},
+					{
+						"name": "653",
+						"visibility_rules": ["$CanSeeScore|653"],
+						"access_rules": ["^$CanReachScore|653"]
+					},
+					{
+						"name": "654",
+						"visibility_rules": ["$CanSeeScore|654"],
+						"access_rules": ["^$CanReachScore|654"]
+					},
+					{
+						"name": "655",
+						"visibility_rules": ["$CanSeeScore|655"],
+						"access_rules": ["^$CanReachScore|655"]
+					},
+					{
+						"name": "656",
+						"visibility_rules": ["$CanSeeScore|656"],
+						"access_rules": ["^$CanReachScore|656"]
+					},
+					{
+						"name": "657",
+						"visibility_rules": ["$CanSeeScore|657"],
+						"access_rules": ["^$CanReachScore|657"]
+					},
+					{
+						"name": "658",
+						"visibility_rules": ["$CanSeeScore|658"],
+						"access_rules": ["^$CanReachScore|658"]
+					},
+					{
+						"name": "659",
+						"visibility_rules": ["$CanSeeScore|659"],
+						"access_rules": ["^$CanReachScore|659"]
+					},
+					{
+						"name": "660",
+						"visibility_rules": ["$CanSeeScore|660"],
+						"access_rules": ["^$CanReachScore|660"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 513,
+						"y": 587
+					}
+				]
+			},
+			{
+				"name": "Clear Score 661-670",
+				"sections": [
+					{
+						"name": "661",
+						"visibility_rules": ["$CanSeeScore|661"],
+						"access_rules": ["^$CanReachScore|661"]
+					},
+					{
+						"name": "662",
+						"visibility_rules": ["$CanSeeScore|662"],
+						"access_rules": ["^$CanReachScore|662"]
+					},
+					{
+						"name": "663",
+						"visibility_rules": ["$CanSeeScore|663"],
+						"access_rules": ["^$CanReachScore|663"]
+					},
+					{
+						"name": "664",
+						"visibility_rules": ["$CanSeeScore|664"],
+						"access_rules": ["^$CanReachScore|664"]
+					},
+					{
+						"name": "665",
+						"visibility_rules": ["$CanSeeScore|665"],
+						"access_rules": ["^$CanReachScore|665"]
+					},
+					{
+						"name": "666",
+						"visibility_rules": ["$CanSeeScore|666"],
+						"access_rules": ["^$CanReachScore|666"]
+					},
+					{
+						"name": "667",
+						"visibility_rules": ["$CanSeeScore|667"],
+						"access_rules": ["^$CanReachScore|667"]
+					},
+					{
+						"name": "668",
+						"visibility_rules": ["$CanSeeScore|668"],
+						"access_rules": ["^$CanReachScore|668"]
+					},
+					{
+						"name": "669",
+						"visibility_rules": ["$CanSeeScore|669"],
+						"access_rules": ["^$CanReachScore|669"]
+					},
+					{
+						"name": "670",
+						"visibility_rules": ["$CanSeeScore|670"],
+						"access_rules": ["^$CanReachScore|670"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 446,
+						"y": 587
+					}
+				]
+			},
+			{
+				"name": "Clear Score 671-680",
+				"sections": [
+					{
+						"name": "671",
+						"visibility_rules": ["$CanSeeScore|671"],
+						"access_rules": ["^$CanReachScore|671"]
+					},
+					{
+						"name": "672",
+						"visibility_rules": ["$CanSeeScore|672"],
+						"access_rules": ["^$CanReachScore|672"]
+					},
+					{
+						"name": "673",
+						"visibility_rules": ["$CanSeeScore|673"],
+						"access_rules": ["^$CanReachScore|673"]
+					},
+					{
+						"name": "674",
+						"visibility_rules": ["$CanSeeScore|674"],
+						"access_rules": ["^$CanReachScore|674"]
+					},
+					{
+						"name": "675",
+						"visibility_rules": ["$CanSeeScore|675"],
+						"access_rules": ["^$CanReachScore|675"]
+					},
+					{
+						"name": "676",
+						"visibility_rules": ["$CanSeeScore|676"],
+						"access_rules": ["^$CanReachScore|676"]
+					},
+					{
+						"name": "677",
+						"visibility_rules": ["$CanSeeScore|677"],
+						"access_rules": ["^$CanReachScore|677"]
+					},
+					{
+						"name": "678",
+						"visibility_rules": ["$CanSeeScore|678"],
+						"access_rules": ["^$CanReachScore|678"]
+					},
+					{
+						"name": "679",
+						"visibility_rules": ["$CanSeeScore|679"],
+						"access_rules": ["^$CanReachScore|679"]
+					},
+					{
+						"name": "680",
+						"visibility_rules": ["$CanSeeScore|680"],
+						"access_rules": ["^$CanReachScore|680"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 379,
+						"y": 587
+					}
+				]
+			},
+			{
+				"name": "Clear Score 681-690",
+				"sections": [
+					{
+						"name": "681",
+						"visibility_rules": ["$CanSeeScore|681"],
+						"access_rules": ["^$CanReachScore|681"]
+					},
+					{
+						"name": "682",
+						"visibility_rules": ["$CanSeeScore|682"],
+						"access_rules": ["^$CanReachScore|682"]
+					},
+					{
+						"name": "683",
+						"visibility_rules": ["$CanSeeScore|683"],
+						"access_rules": ["^$CanReachScore|683"]
+					},
+					{
+						"name": "684",
+						"visibility_rules": ["$CanSeeScore|684"],
+						"access_rules": ["^$CanReachScore|684"]
+					},
+					{
+						"name": "685",
+						"visibility_rules": ["$CanSeeScore|685"],
+						"access_rules": ["^$CanReachScore|685"]
+					},
+					{
+						"name": "686",
+						"visibility_rules": ["$CanSeeScore|686"],
+						"access_rules": ["^$CanReachScore|686"]
+					},
+					{
+						"name": "687",
+						"visibility_rules": ["$CanSeeScore|687"],
+						"access_rules": ["^$CanReachScore|687"]
+					},
+					{
+						"name": "688",
+						"visibility_rules": ["$CanSeeScore|688"],
+						"access_rules": ["^$CanReachScore|688"]
+					},
+					{
+						"name": "689",
+						"visibility_rules": ["$CanSeeScore|689"],
+						"access_rules": ["^$CanReachScore|689"]
+					},
+					{
+						"name": "690",
+						"visibility_rules": ["$CanSeeScore|690"],
+						"access_rules": ["^$CanReachScore|690"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 312,
+						"y": 587
+					}
+				]
+			},
+			{
+				"name": "Clear Score 691-700",
+				"sections": [
+					{
+						"name": "691",
+						"visibility_rules": ["$CanSeeScore|691"],
+						"access_rules": ["^$CanReachScore|691"]
+					},
+					{
+						"name": "692",
+						"visibility_rules": ["$CanSeeScore|692"],
+						"access_rules": ["^$CanReachScore|692"]
+					},
+					{
+						"name": "693",
+						"visibility_rules": ["$CanSeeScore|693"],
+						"access_rules": ["^$CanReachScore|693"]
+					},
+					{
+						"name": "694",
+						"visibility_rules": ["$CanSeeScore|694"],
+						"access_rules": ["^$CanReachScore|694"]
+					},
+					{
+						"name": "695",
+						"visibility_rules": ["$CanSeeScore|695"],
+						"access_rules": ["^$CanReachScore|695"]
+					},
+					{
+						"name": "696",
+						"visibility_rules": ["$CanSeeScore|696"],
+						"access_rules": ["^$CanReachScore|696"]
+					},
+					{
+						"name": "697",
+						"visibility_rules": ["$CanSeeScore|697"],
+						"access_rules": ["^$CanReachScore|697"]
+					},
+					{
+						"name": "698",
+						"visibility_rules": ["$CanSeeScore|698"],
+						"access_rules": ["^$CanReachScore|698"]
+					},
+					{
+						"name": "699",
+						"visibility_rules": ["$CanSeeScore|699"],
+						"access_rules": ["^$CanReachScore|699"]
+					},
+					{
+						"name": "700",
+						"visibility_rules": ["$CanSeeScore|700"],
+						"access_rules": ["^$CanReachScore|700"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 245,
+						"y": 587
+					}
+				]
+			},
+			{
+				"name": "Clear Score 701-710",
+				"sections": [
+					{
+						"name": "701",
+						"visibility_rules": ["$CanSeeScore|701"],
+						"access_rules": ["^$CanReachScore|701"]
+					},
+					{
+						"name": "702",
+						"visibility_rules": ["$CanSeeScore|702"],
+						"access_rules": ["^$CanReachScore|702"]
+					},
+					{
+						"name": "703",
+						"visibility_rules": ["$CanSeeScore|703"],
+						"access_rules": ["^$CanReachScore|703"]
+					},
+					{
+						"name": "704",
+						"visibility_rules": ["$CanSeeScore|704"],
+						"access_rules": ["^$CanReachScore|704"]
+					},
+					{
+						"name": "705",
+						"visibility_rules": ["$CanSeeScore|705"],
+						"access_rules": ["^$CanReachScore|705"]
+					},
+					{
+						"name": "706",
+						"visibility_rules": ["$CanSeeScore|706"],
+						"access_rules": ["^$CanReachScore|706"]
+					},
+					{
+						"name": "707",
+						"visibility_rules": ["$CanSeeScore|707"],
+						"access_rules": ["^$CanReachScore|707"]
+					},
+					{
+						"name": "708",
+						"visibility_rules": ["$CanSeeScore|708"],
+						"access_rules": ["^$CanReachScore|708"]
+					},
+					{
+						"name": "709",
+						"visibility_rules": ["$CanSeeScore|709"],
+						"access_rules": ["^$CanReachScore|709"]
+					},
+					{
+						"name": "710",
+						"visibility_rules": ["$CanSeeScore|710"],
+						"access_rules": ["^$CanReachScore|710"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 850,
+						"y": 518
+					}
+				]
+			},
+			{
+				"name": "Clear Score 711-720",
+				"sections": [
+					{
+						"name": "711",
+						"visibility_rules": ["$CanSeeScore|711"],
+						"access_rules": ["^$CanReachScore|711"]
+					},
+					{
+						"name": "712",
+						"visibility_rules": ["$CanSeeScore|712"],
+						"access_rules": ["^$CanReachScore|712"]
+					},
+					{
+						"name": "713",
+						"visibility_rules": ["$CanSeeScore|713"],
+						"access_rules": ["^$CanReachScore|713"]
+					},
+					{
+						"name": "714",
+						"visibility_rules": ["$CanSeeScore|714"],
+						"access_rules": ["^$CanReachScore|714"]
+					},
+					{
+						"name": "715",
+						"visibility_rules": ["$CanSeeScore|715"],
+						"access_rules": ["^$CanReachScore|715"]
+					},
+					{
+						"name": "716",
+						"visibility_rules": ["$CanSeeScore|716"],
+						"access_rules": ["^$CanReachScore|716"]
+					},
+					{
+						"name": "717",
+						"visibility_rules": ["$CanSeeScore|717"],
+						"access_rules": ["^$CanReachScore|717"]
+					},
+					{
+						"name": "718",
+						"visibility_rules": ["$CanSeeScore|718"],
+						"access_rules": ["^$CanReachScore|718"]
+					},
+					{
+						"name": "719",
+						"visibility_rules": ["$CanSeeScore|719"],
+						"access_rules": ["^$CanReachScore|719"]
+					},
+					{
+						"name": "720",
+						"visibility_rules": ["$CanSeeScore|720"],
+						"access_rules": ["^$CanReachScore|720"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 783,
+						"y": 518
+					}
+				]
+			},
+			{
+				"name": "Clear Score 721-730",
+				"sections": [
+					{
+						"name": "721",
+						"visibility_rules": ["$CanSeeScore|721"],
+						"access_rules": ["^$CanReachScore|721"]
+					},
+					{
+						"name": "722",
+						"visibility_rules": ["$CanSeeScore|722"],
+						"access_rules": ["^$CanReachScore|722"]
+					},
+					{
+						"name": "723",
+						"visibility_rules": ["$CanSeeScore|723"],
+						"access_rules": ["^$CanReachScore|723"]
+					},
+					{
+						"name": "724",
+						"visibility_rules": ["$CanSeeScore|724"],
+						"access_rules": ["^$CanReachScore|724"]
+					},
+					{
+						"name": "725",
+						"visibility_rules": ["$CanSeeScore|725"],
+						"access_rules": ["^$CanReachScore|725"]
+					},
+					{
+						"name": "726",
+						"visibility_rules": ["$CanSeeScore|726"],
+						"access_rules": ["^$CanReachScore|726"]
+					},
+					{
+						"name": "727",
+						"visibility_rules": ["$CanSeeScore|727"],
+						"access_rules": ["^$CanReachScore|727"]
+					},
+					{
+						"name": "728",
+						"visibility_rules": ["$CanSeeScore|728"],
+						"access_rules": ["^$CanReachScore|728"]
+					},
+					{
+						"name": "729",
+						"visibility_rules": ["$CanSeeScore|729"],
+						"access_rules": ["^$CanReachScore|729"]
+					},
+					{
+						"name": "730",
+						"visibility_rules": ["$CanSeeScore|730"],
+						"access_rules": ["^$CanReachScore|730"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 716,
+						"y": 518
+					}
+				]
+			},
+			{
+				"name": "Clear Score 731-740",
+				"sections": [
+					{
+						"name": "731",
+						"visibility_rules": ["$CanSeeScore|731"],
+						"access_rules": ["^$CanReachScore|731"]
+					},
+					{
+						"name": "732",
+						"visibility_rules": ["$CanSeeScore|732"],
+						"access_rules": ["^$CanReachScore|732"]
+					},
+					{
+						"name": "733",
+						"visibility_rules": ["$CanSeeScore|733"],
+						"access_rules": ["^$CanReachScore|733"]
+					},
+					{
+						"name": "734",
+						"visibility_rules": ["$CanSeeScore|734"],
+						"access_rules": ["^$CanReachScore|734"]
+					},
+					{
+						"name": "735",
+						"visibility_rules": ["$CanSeeScore|735"],
+						"access_rules": ["^$CanReachScore|735"]
+					},
+					{
+						"name": "736",
+						"visibility_rules": ["$CanSeeScore|736"],
+						"access_rules": ["^$CanReachScore|736"]
+					},
+					{
+						"name": "737",
+						"visibility_rules": ["$CanSeeScore|737"],
+						"access_rules": ["^$CanReachScore|737"]
+					},
+					{
+						"name": "738",
+						"visibility_rules": ["$CanSeeScore|738"],
+						"access_rules": ["^$CanReachScore|738"]
+					},
+					{
+						"name": "739",
+						"visibility_rules": ["$CanSeeScore|739"],
+						"access_rules": ["^$CanReachScore|739"]
+					},
+					{
+						"name": "740",
+						"visibility_rules": ["$CanSeeScore|740"],
+						"access_rules": ["^$CanReachScore|740"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 649,
+						"y": 518
+					}
+				]
+			},
+			{
+				"name": "Clear Score 741-750",
+				"sections": [
+					{
+						"name": "741",
+						"visibility_rules": ["$CanSeeScore|741"],
+						"access_rules": ["^$CanReachScore|741"]
+					},
+					{
+						"name": "742",
+						"visibility_rules": ["$CanSeeScore|742"],
+						"access_rules": ["^$CanReachScore|742"]
+					},
+					{
+						"name": "743",
+						"visibility_rules": ["$CanSeeScore|743"],
+						"access_rules": ["^$CanReachScore|743"]
+					},
+					{
+						"name": "744",
+						"visibility_rules": ["$CanSeeScore|744"],
+						"access_rules": ["^$CanReachScore|744"]
+					},
+					{
+						"name": "745",
+						"visibility_rules": ["$CanSeeScore|745"],
+						"access_rules": ["^$CanReachScore|745"]
+					},
+					{
+						"name": "746",
+						"visibility_rules": ["$CanSeeScore|746"],
+						"access_rules": ["^$CanReachScore|746"]
+					},
+					{
+						"name": "747",
+						"visibility_rules": ["$CanSeeScore|747"],
+						"access_rules": ["^$CanReachScore|747"]
+					},
+					{
+						"name": "748",
+						"visibility_rules": ["$CanSeeScore|748"],
+						"access_rules": ["^$CanReachScore|748"]
+					},
+					{
+						"name": "749",
+						"visibility_rules": ["$CanSeeScore|749"],
+						"access_rules": ["^$CanReachScore|749"]
+					},
+					{
+						"name": "750",
+						"visibility_rules": ["$CanSeeScore|750"],
+						"access_rules": ["^$CanReachScore|750"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 582,
+						"y": 518
+					}
+				]
+			},
+			{
+				"name": "Clear Score 751-760",
+				"sections": [
+					{
+						"name": "751",
+						"visibility_rules": ["$CanSeeScore|751"],
+						"access_rules": ["^$CanReachScore|751"]
+					},
+					{
+						"name": "752",
+						"visibility_rules": ["$CanSeeScore|752"],
+						"access_rules": ["^$CanReachScore|752"]
+					},
+					{
+						"name": "753",
+						"visibility_rules": ["$CanSeeScore|753"],
+						"access_rules": ["^$CanReachScore|753"]
+					},
+					{
+						"name": "754",
+						"visibility_rules": ["$CanSeeScore|754"],
+						"access_rules": ["^$CanReachScore|754"]
+					},
+					{
+						"name": "755",
+						"visibility_rules": ["$CanSeeScore|755"],
+						"access_rules": ["^$CanReachScore|755"]
+					},
+					{
+						"name": "756",
+						"visibility_rules": ["$CanSeeScore|756"],
+						"access_rules": ["^$CanReachScore|756"]
+					},
+					{
+						"name": "757",
+						"visibility_rules": ["$CanSeeScore|757"],
+						"access_rules": ["^$CanReachScore|757"]
+					},
+					{
+						"name": "758",
+						"visibility_rules": ["$CanSeeScore|758"],
+						"access_rules": ["^$CanReachScore|758"]
+					},
+					{
+						"name": "759",
+						"visibility_rules": ["$CanSeeScore|759"],
+						"access_rules": ["^$CanReachScore|759"]
+					},
+					{
+						"name": "760",
+						"visibility_rules": ["$CanSeeScore|760"],
+						"access_rules": ["^$CanReachScore|760"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 513,
+						"y": 518
+					}
+				]
+			},
+			{
+				"name": "Clear Score 761-770",
+				"sections": [
+					{
+						"name": "761",
+						"visibility_rules": ["$CanSeeScore|761"],
+						"access_rules": ["^$CanReachScore|761"]
+					},
+					{
+						"name": "762",
+						"visibility_rules": ["$CanSeeScore|762"],
+						"access_rules": ["^$CanReachScore|762"]
+					},
+					{
+						"name": "763",
+						"visibility_rules": ["$CanSeeScore|763"],
+						"access_rules": ["^$CanReachScore|763"]
+					},
+					{
+						"name": "764",
+						"visibility_rules": ["$CanSeeScore|764"],
+						"access_rules": ["^$CanReachScore|764"]
+					},
+					{
+						"name": "765",
+						"visibility_rules": ["$CanSeeScore|765"],
+						"access_rules": ["^$CanReachScore|765"]
+					},
+					{
+						"name": "766",
+						"visibility_rules": ["$CanSeeScore|766"],
+						"access_rules": ["^$CanReachScore|766"]
+					},
+					{
+						"name": "767",
+						"visibility_rules": ["$CanSeeScore|767"],
+						"access_rules": ["^$CanReachScore|767"]
+					},
+					{
+						"name": "768",
+						"visibility_rules": ["$CanSeeScore|768"],
+						"access_rules": ["^$CanReachScore|768"]
+					},
+					{
+						"name": "769",
+						"visibility_rules": ["$CanSeeScore|769"],
+						"access_rules": ["^$CanReachScore|769"]
+					},
+					{
+						"name": "770",
+						"visibility_rules": ["$CanSeeScore|770"],
+						"access_rules": ["^$CanReachScore|770"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 446,
+						"y": 518
+					}
+				]
+			},
+			{
+				"name": "Clear Score 771-780",
+				"sections": [
+					{
+						"name": "771",
+						"visibility_rules": ["$CanSeeScore|771"],
+						"access_rules": ["^$CanReachScore|771"]
+					},
+					{
+						"name": "772",
+						"visibility_rules": ["$CanSeeScore|772"],
+						"access_rules": ["^$CanReachScore|772"]
+					},
+					{
+						"name": "773",
+						"visibility_rules": ["$CanSeeScore|773"],
+						"access_rules": ["^$CanReachScore|773"]
+					},
+					{
+						"name": "774",
+						"visibility_rules": ["$CanSeeScore|774"],
+						"access_rules": ["^$CanReachScore|774"]
+					},
+					{
+						"name": "775",
+						"visibility_rules": ["$CanSeeScore|775"],
+						"access_rules": ["^$CanReachScore|775"]
+					},
+					{
+						"name": "776",
+						"visibility_rules": ["$CanSeeScore|776"],
+						"access_rules": ["^$CanReachScore|776"]
+					},
+					{
+						"name": "777",
+						"visibility_rules": ["$CanSeeScore|777"],
+						"access_rules": ["^$CanReachScore|777"]
+					},
+					{
+						"name": "778",
+						"visibility_rules": ["$CanSeeScore|778"],
+						"access_rules": ["^$CanReachScore|778"]
+					},
+					{
+						"name": "779",
+						"visibility_rules": ["$CanSeeScore|779"],
+						"access_rules": ["^$CanReachScore|779"]
+					},
+					{
+						"name": "780",
+						"visibility_rules": ["$CanSeeScore|780"],
+						"access_rules": ["^$CanReachScore|780"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 379,
+						"y": 518
+					}
+				]
+			},
+			{
+				"name": "Clear Score 781-790",
+				"sections": [
+					{
+						"name": "781",
+						"visibility_rules": ["$CanSeeScore|781"],
+						"access_rules": ["^$CanReachScore|781"]
+					},
+					{
+						"name": "782",
+						"visibility_rules": ["$CanSeeScore|782"],
+						"access_rules": ["^$CanReachScore|782"]
+					},
+					{
+						"name": "783",
+						"visibility_rules": ["$CanSeeScore|783"],
+						"access_rules": ["^$CanReachScore|783"]
+					},
+					{
+						"name": "784",
+						"visibility_rules": ["$CanSeeScore|784"],
+						"access_rules": ["^$CanReachScore|784"]
+					},
+					{
+						"name": "785",
+						"visibility_rules": ["$CanSeeScore|785"],
+						"access_rules": ["^$CanReachScore|785"]
+					},
+					{
+						"name": "786",
+						"visibility_rules": ["$CanSeeScore|786"],
+						"access_rules": ["^$CanReachScore|786"]
+					},
+					{
+						"name": "787",
+						"visibility_rules": ["$CanSeeScore|787"],
+						"access_rules": ["^$CanReachScore|787"]
+					},
+					{
+						"name": "788",
+						"visibility_rules": ["$CanSeeScore|788"],
+						"access_rules": ["^$CanReachScore|788"]
+					},
+					{
+						"name": "789",
+						"visibility_rules": ["$CanSeeScore|789"],
+						"access_rules": ["^$CanReachScore|789"]
+					},
+					{
+						"name": "790",
+						"visibility_rules": ["$CanSeeScore|790"],
+						"access_rules": ["^$CanReachScore|790"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 312,
+						"y": 518
+					}
+				]
+			},
+			{
+				"name": "Clear Score 791-800",
+				"sections": [
+					{
+						"name": "791",
+						"visibility_rules": ["$CanSeeScore|791"],
+						"access_rules": ["^$CanReachScore|791"]
+					},
+					{
+						"name": "792",
+						"visibility_rules": ["$CanSeeScore|792"],
+						"access_rules": ["^$CanReachScore|792"]
+					},
+					{
+						"name": "793",
+						"visibility_rules": ["$CanSeeScore|793"],
+						"access_rules": ["^$CanReachScore|793"]
+					},
+					{
+						"name": "794",
+						"visibility_rules": ["$CanSeeScore|794"],
+						"access_rules": ["^$CanReachScore|794"]
+					},
+					{
+						"name": "795",
+						"visibility_rules": ["$CanSeeScore|795"],
+						"access_rules": ["^$CanReachScore|795"]
+					},
+					{
+						"name": "796",
+						"visibility_rules": ["$CanSeeScore|796"],
+						"access_rules": ["^$CanReachScore|796"]
+					},
+					{
+						"name": "797",
+						"visibility_rules": ["$CanSeeScore|797"],
+						"access_rules": ["^$CanReachScore|797"]
+					},
+					{
+						"name": "798",
+						"visibility_rules": ["$CanSeeScore|798"],
+						"access_rules": ["^$CanReachScore|798"]
+					},
+					{
+						"name": "799",
+						"visibility_rules": ["$CanSeeScore|799"],
+						"access_rules": ["^$CanReachScore|799"]
+					},
+					{
+						"name": "800",
+						"visibility_rules": ["$CanSeeScore|800"],
+						"access_rules": ["^$CanReachScore|800"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 245,
+						"y": 518
+					}
+				]
+			},
+			{
+				"name": "Clear Score 801-810",
+				"sections": [
+					{
+						"name": "801",
+						"visibility_rules": ["$CanSeeScore|801"],
+						"access_rules": ["^$CanReachScore|801"]
+					},
+					{
+						"name": "802",
+						"visibility_rules": ["$CanSeeScore|802"],
+						"access_rules": ["^$CanReachScore|802"]
+					},
+					{
+						"name": "803",
+						"visibility_rules": ["$CanSeeScore|803"],
+						"access_rules": ["^$CanReachScore|803"]
+					},
+					{
+						"name": "804",
+						"visibility_rules": ["$CanSeeScore|804"],
+						"access_rules": ["^$CanReachScore|804"]
+					},
+					{
+						"name": "805",
+						"visibility_rules": ["$CanSeeScore|805"],
+						"access_rules": ["^$CanReachScore|805"]
+					},
+					{
+						"name": "806",
+						"visibility_rules": ["$CanSeeScore|806"],
+						"access_rules": ["^$CanReachScore|806"]
+					},
+					{
+						"name": "807",
+						"visibility_rules": ["$CanSeeScore|807"],
+						"access_rules": ["^$CanReachScore|807"]
+					},
+					{
+						"name": "808",
+						"visibility_rules": ["$CanSeeScore|808"],
+						"access_rules": ["^$CanReachScore|808"]
+					},
+					{
+						"name": "809",
+						"visibility_rules": ["$CanSeeScore|809"],
+						"access_rules": ["^$CanReachScore|809"]
+					},
+					{
+						"name": "810",
+						"visibility_rules": ["$CanSeeScore|810"],
+						"access_rules": ["^$CanReachScore|810"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 850,
+						"y": 449
+					}
+				]
+			},
+			{
+				"name": "Clear Score 811-820",
+				"sections": [
+					{
+						"name": "811",
+						"visibility_rules": ["$CanSeeScore|811"],
+						"access_rules": ["^$CanReachScore|811"]
+					},
+					{
+						"name": "812",
+						"visibility_rules": ["$CanSeeScore|812"],
+						"access_rules": ["^$CanReachScore|812"]
+					},
+					{
+						"name": "813",
+						"visibility_rules": ["$CanSeeScore|813"],
+						"access_rules": ["^$CanReachScore|813"]
+					},
+					{
+						"name": "814",
+						"visibility_rules": ["$CanSeeScore|814"],
+						"access_rules": ["^$CanReachScore|814"]
+					},
+					{
+						"name": "815",
+						"visibility_rules": ["$CanSeeScore|815"],
+						"access_rules": ["^$CanReachScore|815"]
+					},
+					{
+						"name": "816",
+						"visibility_rules": ["$CanSeeScore|816"],
+						"access_rules": ["^$CanReachScore|816"]
+					},
+					{
+						"name": "817",
+						"visibility_rules": ["$CanSeeScore|817"],
+						"access_rules": ["^$CanReachScore|817"]
+					},
+					{
+						"name": "818",
+						"visibility_rules": ["$CanSeeScore|818"],
+						"access_rules": ["^$CanReachScore|818"]
+					},
+					{
+						"name": "819",
+						"visibility_rules": ["$CanSeeScore|819"],
+						"access_rules": ["^$CanReachScore|819"]
+					},
+					{
+						"name": "820",
+						"visibility_rules": ["$CanSeeScore|820"],
+						"access_rules": ["^$CanReachScore|820"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 783,
+						"y": 449
+					}
+				]
+			},
+			{
+				"name": "Clear Score 821-830",
+				"sections": [
+					{
+						"name": "821",
+						"visibility_rules": ["$CanSeeScore|821"],
+						"access_rules": ["^$CanReachScore|821"]
+					},
+					{
+						"name": "822",
+						"visibility_rules": ["$CanSeeScore|822"],
+						"access_rules": ["^$CanReachScore|822"]
+					},
+					{
+						"name": "823",
+						"visibility_rules": ["$CanSeeScore|823"],
+						"access_rules": ["^$CanReachScore|823"]
+					},
+					{
+						"name": "824",
+						"visibility_rules": ["$CanSeeScore|824"],
+						"access_rules": ["^$CanReachScore|824"]
+					},
+					{
+						"name": "825",
+						"visibility_rules": ["$CanSeeScore|825"],
+						"access_rules": ["^$CanReachScore|825"]
+					},
+					{
+						"name": "826",
+						"visibility_rules": ["$CanSeeScore|826"],
+						"access_rules": ["^$CanReachScore|826"]
+					},
+					{
+						"name": "827",
+						"visibility_rules": ["$CanSeeScore|827"],
+						"access_rules": ["^$CanReachScore|827"]
+					},
+					{
+						"name": "828",
+						"visibility_rules": ["$CanSeeScore|828"],
+						"access_rules": ["^$CanReachScore|828"]
+					},
+					{
+						"name": "829",
+						"visibility_rules": ["$CanSeeScore|829"],
+						"access_rules": ["^$CanReachScore|829"]
+					},
+					{
+						"name": "830",
+						"visibility_rules": ["$CanSeeScore|830"],
+						"access_rules": ["^$CanReachScore|830"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 716,
+						"y": 449
+					}
+				]
+			},
+			{
+				"name": "Clear Score 831-840",
+				"sections": [
+					{
+						"name": "831",
+						"visibility_rules": ["$CanSeeScore|831"],
+						"access_rules": ["^$CanReachScore|831"]
+					},
+					{
+						"name": "832",
+						"visibility_rules": ["$CanSeeScore|832"],
+						"access_rules": ["^$CanReachScore|832"]
+					},
+					{
+						"name": "833",
+						"visibility_rules": ["$CanSeeScore|833"],
+						"access_rules": ["^$CanReachScore|833"]
+					},
+					{
+						"name": "834",
+						"visibility_rules": ["$CanSeeScore|834"],
+						"access_rules": ["^$CanReachScore|834"]
+					},
+					{
+						"name": "835",
+						"visibility_rules": ["$CanSeeScore|835"],
+						"access_rules": ["^$CanReachScore|835"]
+					},
+					{
+						"name": "836",
+						"visibility_rules": ["$CanSeeScore|836"],
+						"access_rules": ["^$CanReachScore|836"]
+					},
+					{
+						"name": "837",
+						"visibility_rules": ["$CanSeeScore|837"],
+						"access_rules": ["^$CanReachScore|837"]
+					},
+					{
+						"name": "838",
+						"visibility_rules": ["$CanSeeScore|838"],
+						"access_rules": ["^$CanReachScore|838"]
+					},
+					{
+						"name": "839",
+						"visibility_rules": ["$CanSeeScore|839"],
+						"access_rules": ["^$CanReachScore|839"]
+					},
+					{
+						"name": "840",
+						"visibility_rules": ["$CanSeeScore|840"],
+						"access_rules": ["^$CanReachScore|840"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 649,
+						"y": 449
+					}
+				]
+			},
+			{
+				"name": "Clear Score 841-850",
+				"sections": [
+					{
+						"name": "841",
+						"visibility_rules": ["$CanSeeScore|841"],
+						"access_rules": ["^$CanReachScore|841"]
+					},
+					{
+						"name": "842",
+						"visibility_rules": ["$CanSeeScore|842"],
+						"access_rules": ["^$CanReachScore|842"]
+					},
+					{
+						"name": "843",
+						"visibility_rules": ["$CanSeeScore|843"],
+						"access_rules": ["^$CanReachScore|843"]
+					},
+					{
+						"name": "844",
+						"visibility_rules": ["$CanSeeScore|844"],
+						"access_rules": ["^$CanReachScore|844"]
+					},
+					{
+						"name": "845",
+						"visibility_rules": ["$CanSeeScore|845"],
+						"access_rules": ["^$CanReachScore|845"]
+					},
+					{
+						"name": "846",
+						"visibility_rules": ["$CanSeeScore|846"],
+						"access_rules": ["^$CanReachScore|846"]
+					},
+					{
+						"name": "847",
+						"visibility_rules": ["$CanSeeScore|847"],
+						"access_rules": ["^$CanReachScore|847"]
+					},
+					{
+						"name": "848",
+						"visibility_rules": ["$CanSeeScore|848"],
+						"access_rules": ["^$CanReachScore|848"]
+					},
+					{
+						"name": "849",
+						"visibility_rules": ["$CanSeeScore|849"],
+						"access_rules": ["^$CanReachScore|849"]
+					},
+					{
+						"name": "850",
+						"visibility_rules": ["$CanSeeScore|850"],
+						"access_rules": ["^$CanReachScore|850"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 582,
+						"y": 449
+					}
+				]
+			},
+			{
+				"name": "Clear Score 851-860",
+				"sections": [
+					{
+						"name": "851",
+						"visibility_rules": ["$CanSeeScore|851"],
+						"access_rules": ["^$CanReachScore|851"]
+					},
+					{
+						"name": "852",
+						"visibility_rules": ["$CanSeeScore|852"],
+						"access_rules": ["^$CanReachScore|852"]
+					},
+					{
+						"name": "853",
+						"visibility_rules": ["$CanSeeScore|853"],
+						"access_rules": ["^$CanReachScore|853"]
+					},
+					{
+						"name": "854",
+						"visibility_rules": ["$CanSeeScore|854"],
+						"access_rules": ["^$CanReachScore|854"]
+					},
+					{
+						"name": "855",
+						"visibility_rules": ["$CanSeeScore|855"],
+						"access_rules": ["^$CanReachScore|855"]
+					},
+					{
+						"name": "856",
+						"visibility_rules": ["$CanSeeScore|856"],
+						"access_rules": ["^$CanReachScore|856"]
+					},
+					{
+						"name": "857",
+						"visibility_rules": ["$CanSeeScore|857"],
+						"access_rules": ["^$CanReachScore|857"]
+					},
+					{
+						"name": "858",
+						"visibility_rules": ["$CanSeeScore|858"],
+						"access_rules": ["^$CanReachScore|858"]
+					},
+					{
+						"name": "859",
+						"visibility_rules": ["$CanSeeScore|859"],
+						"access_rules": ["^$CanReachScore|859"]
+					},
+					{
+						"name": "860",
+						"visibility_rules": ["$CanSeeScore|860"],
+						"access_rules": ["^$CanReachScore|860"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 513,
+						"y": 449
+					}
+				]
+			},
+			{
+				"name": "Clear Score 861-870",
+				"sections": [
+					{
+						"name": "861",
+						"visibility_rules": ["$CanSeeScore|861"],
+						"access_rules": ["^$CanReachScore|861"]
+					},
+					{
+						"name": "862",
+						"visibility_rules": ["$CanSeeScore|862"],
+						"access_rules": ["^$CanReachScore|862"]
+					},
+					{
+						"name": "863",
+						"visibility_rules": ["$CanSeeScore|863"],
+						"access_rules": ["^$CanReachScore|863"]
+					},
+					{
+						"name": "864",
+						"visibility_rules": ["$CanSeeScore|864"],
+						"access_rules": ["^$CanReachScore|864"]
+					},
+					{
+						"name": "865",
+						"visibility_rules": ["$CanSeeScore|865"],
+						"access_rules": ["^$CanReachScore|865"]
+					},
+					{
+						"name": "866",
+						"visibility_rules": ["$CanSeeScore|866"],
+						"access_rules": ["^$CanReachScore|866"]
+					},
+					{
+						"name": "867",
+						"visibility_rules": ["$CanSeeScore|867"],
+						"access_rules": ["^$CanReachScore|867"]
+					},
+					{
+						"name": "868",
+						"visibility_rules": ["$CanSeeScore|868"],
+						"access_rules": ["^$CanReachScore|868"]
+					},
+					{
+						"name": "869",
+						"visibility_rules": ["$CanSeeScore|869"],
+						"access_rules": ["^$CanReachScore|869"]
+					},
+					{
+						"name": "870",
+						"visibility_rules": ["$CanSeeScore|870"],
+						"access_rules": ["^$CanReachScore|870"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 446,
+						"y": 449
+					}
+				]
+			},
+			{
+				"name": "Clear Score 871-880",
+				"sections": [
+					{
+						"name": "871",
+						"visibility_rules": ["$CanSeeScore|871"],
+						"access_rules": ["^$CanReachScore|871"]
+					},
+					{
+						"name": "872",
+						"visibility_rules": ["$CanSeeScore|872"],
+						"access_rules": ["^$CanReachScore|872"]
+					},
+					{
+						"name": "873",
+						"visibility_rules": ["$CanSeeScore|873"],
+						"access_rules": ["^$CanReachScore|873"]
+					},
+					{
+						"name": "874",
+						"visibility_rules": ["$CanSeeScore|874"],
+						"access_rules": ["^$CanReachScore|874"]
+					},
+					{
+						"name": "875",
+						"visibility_rules": ["$CanSeeScore|875"],
+						"access_rules": ["^$CanReachScore|875"]
+					},
+					{
+						"name": "876",
+						"visibility_rules": ["$CanSeeScore|876"],
+						"access_rules": ["^$CanReachScore|876"]
+					},
+					{
+						"name": "877",
+						"visibility_rules": ["$CanSeeScore|877"],
+						"access_rules": ["^$CanReachScore|877"]
+					},
+					{
+						"name": "878",
+						"visibility_rules": ["$CanSeeScore|878"],
+						"access_rules": ["^$CanReachScore|878"]
+					},
+					{
+						"name": "879",
+						"visibility_rules": ["$CanSeeScore|879"],
+						"access_rules": ["^$CanReachScore|879"]
+					},
+					{
+						"name": "880",
+						"visibility_rules": ["$CanSeeScore|880"],
+						"access_rules": ["^$CanReachScore|880"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 379,
+						"y": 449
+					}
+				]
+			},
+			{
+				"name": "Clear Score 881-890",
+				"sections": [
+					{
+						"name": "881",
+						"visibility_rules": ["$CanSeeScore|881"],
+						"access_rules": ["^$CanReachScore|881"]
+					},
+					{
+						"name": "882",
+						"visibility_rules": ["$CanSeeScore|882"],
+						"access_rules": ["^$CanReachScore|882"]
+					},
+					{
+						"name": "883",
+						"visibility_rules": ["$CanSeeScore|883"],
+						"access_rules": ["^$CanReachScore|883"]
+					},
+					{
+						"name": "884",
+						"visibility_rules": ["$CanSeeScore|884"],
+						"access_rules": ["^$CanReachScore|884"]
+					},
+					{
+						"name": "885",
+						"visibility_rules": ["$CanSeeScore|885"],
+						"access_rules": ["^$CanReachScore|885"]
+					},
+					{
+						"name": "886",
+						"visibility_rules": ["$CanSeeScore|886"],
+						"access_rules": ["^$CanReachScore|886"]
+					},
+					{
+						"name": "887",
+						"visibility_rules": ["$CanSeeScore|887"],
+						"access_rules": ["^$CanReachScore|887"]
+					},
+					{
+						"name": "888",
+						"visibility_rules": ["$CanSeeScore|888"],
+						"access_rules": ["^$CanReachScore|888"]
+					},
+					{
+						"name": "889",
+						"visibility_rules": ["$CanSeeScore|889"],
+						"access_rules": ["^$CanReachScore|889"]
+					},
+					{
+						"name": "890",
+						"visibility_rules": ["$CanSeeScore|890"],
+						"access_rules": ["^$CanReachScore|890"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 312,
+						"y": 449
+					}
+				]
+			},
+			{
+				"name": "Clear Score 891-900",
+				"sections": [
+					{
+						"name": "891",
+						"visibility_rules": ["$CanSeeScore|891"],
+						"access_rules": ["^$CanReachScore|891"]
+					},
+					{
+						"name": "892",
+						"visibility_rules": ["$CanSeeScore|892"],
+						"access_rules": ["^$CanReachScore|892"]
+					},
+					{
+						"name": "893",
+						"visibility_rules": ["$CanSeeScore|893"],
+						"access_rules": ["^$CanReachScore|893"]
+					},
+					{
+						"name": "894",
+						"visibility_rules": ["$CanSeeScore|894"],
+						"access_rules": ["^$CanReachScore|894"]
+					},
+					{
+						"name": "895",
+						"visibility_rules": ["$CanSeeScore|895"],
+						"access_rules": ["^$CanReachScore|895"]
+					},
+					{
+						"name": "896",
+						"visibility_rules": ["$CanSeeScore|896"],
+						"access_rules": ["^$CanReachScore|896"]
+					},
+					{
+						"name": "897",
+						"visibility_rules": ["$CanSeeScore|897"],
+						"access_rules": ["^$CanReachScore|897"]
+					},
+					{
+						"name": "898",
+						"visibility_rules": ["$CanSeeScore|898"],
+						"access_rules": ["^$CanReachScore|898"]
+					},
+					{
+						"name": "899",
+						"visibility_rules": ["$CanSeeScore|899"],
+						"access_rules": ["^$CanReachScore|899"]
+					},
+					{
+						"name": "900",
+						"visibility_rules": ["$CanSeeScore|900"],
+						"access_rules": ["^$CanReachScore|900"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 245,
+						"y": 449
+					}
+				]
+			},
+			{
+				"name": "Clear Score 901-910",
+				"sections": [
+					{
+						"name": "901",
+						"visibility_rules": ["$CanSeeScore|901"],
+						"access_rules": ["^$CanReachScore|901"]
+					},
+					{
+						"name": "902",
+						"visibility_rules": ["$CanSeeScore|902"],
+						"access_rules": ["^$CanReachScore|902"]
+					},
+					{
+						"name": "903",
+						"visibility_rules": ["$CanSeeScore|903"],
+						"access_rules": ["^$CanReachScore|903"]
+					},
+					{
+						"name": "904",
+						"visibility_rules": ["$CanSeeScore|904"],
+						"access_rules": ["^$CanReachScore|904"]
+					},
+					{
+						"name": "905",
+						"visibility_rules": ["$CanSeeScore|905"],
+						"access_rules": ["^$CanReachScore|905"]
+					},
+					{
+						"name": "906",
+						"visibility_rules": ["$CanSeeScore|906"],
+						"access_rules": ["^$CanReachScore|906"]
+					},
+					{
+						"name": "907",
+						"visibility_rules": ["$CanSeeScore|907"],
+						"access_rules": ["^$CanReachScore|907"]
+					},
+					{
+						"name": "908",
+						"visibility_rules": ["$CanSeeScore|908"],
+						"access_rules": ["^$CanReachScore|908"]
+					},
+					{
+						"name": "909",
+						"visibility_rules": ["$CanSeeScore|909"],
+						"access_rules": ["^$CanReachScore|909"]
+					},
+					{
+						"name": "910",
+						"visibility_rules": ["$CanSeeScore|910"],
+						"access_rules": ["^$CanReachScore|910"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 850,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Clear Score 911-920",
+				"sections": [
+					{
+						"name": "911",
+						"visibility_rules": ["$CanSeeScore|911"],
+						"access_rules": ["^$CanReachScore|911"]
+					},
+					{
+						"name": "912",
+						"visibility_rules": ["$CanSeeScore|912"],
+						"access_rules": ["^$CanReachScore|912"]
+					},
+					{
+						"name": "913",
+						"visibility_rules": ["$CanSeeScore|913"],
+						"access_rules": ["^$CanReachScore|913"]
+					},
+					{
+						"name": "914",
+						"visibility_rules": ["$CanSeeScore|914"],
+						"access_rules": ["^$CanReachScore|914"]
+					},
+					{
+						"name": "915",
+						"visibility_rules": ["$CanSeeScore|915"],
+						"access_rules": ["^$CanReachScore|915"]
+					},
+					{
+						"name": "916",
+						"visibility_rules": ["$CanSeeScore|916"],
+						"access_rules": ["^$CanReachScore|916"]
+					},
+					{
+						"name": "917",
+						"visibility_rules": ["$CanSeeScore|917"],
+						"access_rules": ["^$CanReachScore|917"]
+					},
+					{
+						"name": "918",
+						"visibility_rules": ["$CanSeeScore|918"],
+						"access_rules": ["^$CanReachScore|918"]
+					},
+					{
+						"name": "919",
+						"visibility_rules": ["$CanSeeScore|919"],
+						"access_rules": ["^$CanReachScore|919"]
+					},
+					{
+						"name": "920",
+						"visibility_rules": ["$CanSeeScore|920"],
+						"access_rules": ["^$CanReachScore|920"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 783,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Clear Score 921-930",
+				"sections": [
+					{
+						"name": "921",
+						"visibility_rules": ["$CanSeeScore|921"],
+						"access_rules": ["^$CanReachScore|921"]
+					},
+					{
+						"name": "922",
+						"visibility_rules": ["$CanSeeScore|922"],
+						"access_rules": ["^$CanReachScore|922"]
+					},
+					{
+						"name": "923",
+						"visibility_rules": ["$CanSeeScore|923"],
+						"access_rules": ["^$CanReachScore|923"]
+					},
+					{
+						"name": "924",
+						"visibility_rules": ["$CanSeeScore|924"],
+						"access_rules": ["^$CanReachScore|924"]
+					},
+					{
+						"name": "925",
+						"visibility_rules": ["$CanSeeScore|925"],
+						"access_rules": ["^$CanReachScore|925"]
+					},
+					{
+						"name": "926",
+						"visibility_rules": ["$CanSeeScore|926"],
+						"access_rules": ["^$CanReachScore|926"]
+					},
+					{
+						"name": "927",
+						"visibility_rules": ["$CanSeeScore|927"],
+						"access_rules": ["^$CanReachScore|927"]
+					},
+					{
+						"name": "928",
+						"visibility_rules": ["$CanSeeScore|928"],
+						"access_rules": ["^$CanReachScore|928"]
+					},
+					{
+						"name": "929",
+						"visibility_rules": ["$CanSeeScore|929"],
+						"access_rules": ["^$CanReachScore|929"]
+					},
+					{
+						"name": "930",
+						"visibility_rules": ["$CanSeeScore|930"],
+						"access_rules": ["^$CanReachScore|930"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 716,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Clear Score 931-940",
+				"sections": [
+					{
+						"name": "931",
+						"visibility_rules": ["$CanSeeScore|931"],
+						"access_rules": ["^$CanReachScore|931"]
+					},
+					{
+						"name": "932",
+						"visibility_rules": ["$CanSeeScore|932"],
+						"access_rules": ["^$CanReachScore|932"]
+					},
+					{
+						"name": "933",
+						"visibility_rules": ["$CanSeeScore|933"],
+						"access_rules": ["^$CanReachScore|933"]
+					},
+					{
+						"name": "934",
+						"visibility_rules": ["$CanSeeScore|934"],
+						"access_rules": ["^$CanReachScore|934"]
+					},
+					{
+						"name": "935",
+						"visibility_rules": ["$CanSeeScore|935"],
+						"access_rules": ["^$CanReachScore|935"]
+					},
+					{
+						"name": "936",
+						"visibility_rules": ["$CanSeeScore|936"],
+						"access_rules": ["^$CanReachScore|936"]
+					},
+					{
+						"name": "937",
+						"visibility_rules": ["$CanSeeScore|937"],
+						"access_rules": ["^$CanReachScore|937"]
+					},
+					{
+						"name": "938",
+						"visibility_rules": ["$CanSeeScore|938"],
+						"access_rules": ["^$CanReachScore|938"]
+					},
+					{
+						"name": "939",
+						"visibility_rules": ["$CanSeeScore|939"],
+						"access_rules": ["^$CanReachScore|939"]
+					},
+					{
+						"name": "940",
+						"visibility_rules": ["$CanSeeScore|940"],
+						"access_rules": ["^$CanReachScore|940"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 649,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Clear Score 941-950",
+				"sections": [
+					{
+						"name": "941",
+						"visibility_rules": ["$CanSeeScore|941"],
+						"access_rules": ["^$CanReachScore|941"]
+					},
+					{
+						"name": "942",
+						"visibility_rules": ["$CanSeeScore|942"],
+						"access_rules": ["^$CanReachScore|942"]
+					},
+					{
+						"name": "943",
+						"visibility_rules": ["$CanSeeScore|943"],
+						"access_rules": ["^$CanReachScore|943"]
+					},
+					{
+						"name": "944",
+						"visibility_rules": ["$CanSeeScore|944"],
+						"access_rules": ["^$CanReachScore|944"]
+					},
+					{
+						"name": "945",
+						"visibility_rules": ["$CanSeeScore|945"],
+						"access_rules": ["^$CanReachScore|945"]
+					},
+					{
+						"name": "946",
+						"visibility_rules": ["$CanSeeScore|946"],
+						"access_rules": ["^$CanReachScore|946"]
+					},
+					{
+						"name": "947",
+						"visibility_rules": ["$CanSeeScore|947"],
+						"access_rules": ["^$CanReachScore|947"]
+					},
+					{
+						"name": "948",
+						"visibility_rules": ["$CanSeeScore|948"],
+						"access_rules": ["^$CanReachScore|948"]
+					},
+					{
+						"name": "949",
+						"visibility_rules": ["$CanSeeScore|949"],
+						"access_rules": ["^$CanReachScore|949"]
+					},
+					{
+						"name": "950",
+						"visibility_rules": ["$CanSeeScore|950"],
+						"access_rules": ["^$CanReachScore|950"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 582,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Clear Score 951-960",
+				"sections": [
+					{
+						"name": "951",
+						"visibility_rules": ["$CanSeeScore|951"],
+						"access_rules": ["^$CanReachScore|951"]
+					},
+					{
+						"name": "952",
+						"visibility_rules": ["$CanSeeScore|952"],
+						"access_rules": ["^$CanReachScore|952"]
+					},
+					{
+						"name": "953",
+						"visibility_rules": ["$CanSeeScore|953"],
+						"access_rules": ["^$CanReachScore|953"]
+					},
+					{
+						"name": "954",
+						"visibility_rules": ["$CanSeeScore|954"],
+						"access_rules": ["^$CanReachScore|954"]
+					},
+					{
+						"name": "955",
+						"visibility_rules": ["$CanSeeScore|955"],
+						"access_rules": ["^$CanReachScore|955"]
+					},
+					{
+						"name": "956",
+						"visibility_rules": ["$CanSeeScore|956"],
+						"access_rules": ["^$CanReachScore|956"]
+					},
+					{
+						"name": "957",
+						"visibility_rules": ["$CanSeeScore|957"],
+						"access_rules": ["^$CanReachScore|957"]
+					},
+					{
+						"name": "958",
+						"visibility_rules": ["$CanSeeScore|958"],
+						"access_rules": ["^$CanReachScore|958"]
+					},
+					{
+						"name": "959",
+						"visibility_rules": ["$CanSeeScore|959"],
+						"access_rules": ["^$CanReachScore|959"]
+					},
+					{
+						"name": "960",
+						"visibility_rules": ["$CanSeeScore|960"],
+						"access_rules": ["^$CanReachScore|960"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 513,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Clear Score 961-970",
+				"sections": [
+					{
+						"name": "961",
+						"visibility_rules": ["$CanSeeScore|961"],
+						"access_rules": ["^$CanReachScore|961"]
+					},
+					{
+						"name": "962",
+						"visibility_rules": ["$CanSeeScore|962"],
+						"access_rules": ["^$CanReachScore|962"]
+					},
+					{
+						"name": "963",
+						"visibility_rules": ["$CanSeeScore|963"],
+						"access_rules": ["^$CanReachScore|963"]
+					},
+					{
+						"name": "964",
+						"visibility_rules": ["$CanSeeScore|964"],
+						"access_rules": ["^$CanReachScore|964"]
+					},
+					{
+						"name": "965",
+						"visibility_rules": ["$CanSeeScore|965"],
+						"access_rules": ["^$CanReachScore|965"]
+					},
+					{
+						"name": "966",
+						"visibility_rules": ["$CanSeeScore|966"],
+						"access_rules": ["^$CanReachScore|966"]
+					},
+					{
+						"name": "967",
+						"visibility_rules": ["$CanSeeScore|967"],
+						"access_rules": ["^$CanReachScore|967"]
+					},
+					{
+						"name": "968",
+						"visibility_rules": ["$CanSeeScore|968"],
+						"access_rules": ["^$CanReachScore|968"]
+					},
+					{
+						"name": "969",
+						"visibility_rules": ["$CanSeeScore|969"],
+						"access_rules": ["^$CanReachScore|969"]
+					},
+					{
+						"name": "970",
+						"visibility_rules": ["$CanSeeScore|970"],
+						"access_rules": ["^$CanReachScore|970"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 446,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Clear Score 971-980",
+				"sections": [
+					{
+						"name": "971",
+						"visibility_rules": ["$CanSeeScore|971"],
+						"access_rules": ["^$CanReachScore|971"]
+					},
+					{
+						"name": "972",
+						"visibility_rules": ["$CanSeeScore|972"],
+						"access_rules": ["^$CanReachScore|972"]
+					},
+					{
+						"name": "973",
+						"visibility_rules": ["$CanSeeScore|973"],
+						"access_rules": ["^$CanReachScore|973"]
+					},
+					{
+						"name": "974",
+						"visibility_rules": ["$CanSeeScore|974"],
+						"access_rules": ["^$CanReachScore|974"]
+					},
+					{
+						"name": "975",
+						"visibility_rules": ["$CanSeeScore|975"],
+						"access_rules": ["^$CanReachScore|975"]
+					},
+					{
+						"name": "976",
+						"visibility_rules": ["$CanSeeScore|976"],
+						"access_rules": ["^$CanReachScore|976"]
+					},
+					{
+						"name": "977",
+						"visibility_rules": ["$CanSeeScore|977"],
+						"access_rules": ["^$CanReachScore|977"]
+					},
+					{
+						"name": "978",
+						"visibility_rules": ["$CanSeeScore|978"],
+						"access_rules": ["^$CanReachScore|978"]
+					},
+					{
+						"name": "979",
+						"visibility_rules": ["$CanSeeScore|979"],
+						"access_rules": ["^$CanReachScore|979"]
+					},
+					{
+						"name": "980",
+						"visibility_rules": ["$CanSeeScore|980"],
+						"access_rules": ["^$CanReachScore|980"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 379,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Clear Score 981-990",
+				"sections": [
+					{
+						"name": "981",
+						"visibility_rules": ["$CanSeeScore|981"],
+						"access_rules": ["^$CanReachScore|981"]
+					},
+					{
+						"name": "982",
+						"visibility_rules": ["$CanSeeScore|982"],
+						"access_rules": ["^$CanReachScore|982"]
+					},
+					{
+						"name": "983",
+						"visibility_rules": ["$CanSeeScore|983"],
+						"access_rules": ["^$CanReachScore|983"]
+					},
+					{
+						"name": "984",
+						"visibility_rules": ["$CanSeeScore|984"],
+						"access_rules": ["^$CanReachScore|984"]
+					},
+					{
+						"name": "985",
+						"visibility_rules": ["$CanSeeScore|985"],
+						"access_rules": ["^$CanReachScore|985"]
+					},
+					{
+						"name": "986",
+						"visibility_rules": ["$CanSeeScore|986"],
+						"access_rules": ["^$CanReachScore|986"]
+					},
+					{
+						"name": "987",
+						"visibility_rules": ["$CanSeeScore|987"],
+						"access_rules": ["^$CanReachScore|987"]
+					},
+					{
+						"name": "988",
+						"visibility_rules": ["$CanSeeScore|988"],
+						"access_rules": ["^$CanReachScore|988"]
+					},
+					{
+						"name": "989",
+						"visibility_rules": ["$CanSeeScore|989"],
+						"access_rules": ["^$CanReachScore|989"]
+					},
+					{
+						"name": "990",
+						"visibility_rules": ["$CanSeeScore|990"],
+						"access_rules": ["^$CanReachScore|990"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 312,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Clear Score 991-1000",
+				"sections": [
+					{
+						"name": "991",
+						"visibility_rules": ["$CanSeeScore|991"],
+						"access_rules": ["^$CanReachScore|991"]
+					},
+					{
+						"name": "992",
+						"visibility_rules": ["$CanSeeScore|992"],
+						"access_rules": ["^$CanReachScore|992"]
+					},
+					{
+						"name": "993",
+						"visibility_rules": ["$CanSeeScore|993"],
+						"access_rules": ["^$CanReachScore|993"]
+					},
+					{
+						"name": "994",
+						"visibility_rules": ["$CanSeeScore|994"],
+						"access_rules": ["^$CanReachScore|994"]
+					},
+					{
+						"name": "995",
+						"visibility_rules": ["$CanSeeScore|995"],
+						"access_rules": ["^$CanReachScore|995"]
+					},
+					{
+						"name": "996",
+						"visibility_rules": ["$CanSeeScore|996"],
+						"access_rules": ["^$CanReachScore|996"]
+					},
+					{
+						"name": "997",
+						"visibility_rules": ["$CanSeeScore|997"],
+						"access_rules": ["^$CanReachScore|997"]
+					},
+					{
+						"name": "998",
+						"visibility_rules": ["$CanSeeScore|998"],
+						"access_rules": ["^$CanReachScore|998"]
+					},
+					{
+						"name": "999",
+						"visibility_rules": ["$CanSeeScore|999"],
+						"access_rules": ["^$CanReachScore|999"]
+					},
+					{
+						"name": "1000",
+						"visibility_rules": ["$CanSeeScore|1000"],
+						"access_rules": ["^$CanReachScore|1000"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 245,
+						"y": 380
+					}
+				]
+			}
+		]
+	}
+]

@@ -46,3 +46,32 @@ function HasRoutineInspection(amount)
 	end
 	return Has("pact_routine_inspection", amount)
 end
+
+function OnChangeScoreMult()
+	local scoreMult = Tracker:FindObjectForCode("scoremult")
+	local inc = 1
+	if (scoreMult ~= nil) then
+		if (scoreMult.CurrentStage == 1) then
+			inc = 10
+		elseif (scoreMult.CurrentStage == 2) then
+			inc = 100
+		end
+	end
+	local scoreRequirement = Tracker:FindObjectForCode("score_rewards_amount")
+	---@cast scoreRequirement JsonItem
+	scoreRequirement.Increment = inc
+	scoreRequirement.Decrement = inc
+end
+
+function OnChangeDefeatsRequired()
+	local defeatsNeeded = Tracker:FindObjectForCode("hades_defeats_needed")
+	---@cast defeatsNeeded JsonItem
+	if (defeatsNeeded.AcquiredCount >= 10) then
+		defeatsNeeded.Icon = ImageReference:FromPackRelativePath("images/labels/DefeatHades_Alt.png")
+	else
+		defeatsNeeded.Icon = ImageReference:FromPackRelativePath("images/labels/DefeatHades.png")
+	end
+end
+
+ScriptHost:AddWatchForCode("score mult handler", "scoremult", OnChangeScoreMult)
+ScriptHost:AddWatchForCode("defeats requried handler", "hades_defeats_needed", OnChangeDefeatsRequired)

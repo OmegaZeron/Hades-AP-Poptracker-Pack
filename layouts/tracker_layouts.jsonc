@@ -73,6 +73,14 @@
 									}
 								},
 								{
+									"title": "Score",
+									"icon": "",
+									"content": {
+										"type": "map",
+										"maps": ["score"]
+									}
+								},
+								{
 									"title": "Keepsakes",
 									"icon": "",
 									"content": {

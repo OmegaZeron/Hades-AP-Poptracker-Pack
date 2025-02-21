@@ -2,7 +2,7 @@
 	{
 		"name": "Contractor",
 		"chest_unopened_img": "images/labels/Trove.png",
-		"chest_opened_img": "images/labels/TroveGray.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
 		"visibility_rules": ["storesanity_on"],
 		"children": [
 			{
@@ -19,8 +19,13 @@
 					{
 						"map": "areas",
 						"x": 850,
-						"y": 2025,
-						"size": 50
+						"y": 2025
+					},
+					{
+						"map": "score",
+						"x": 700,
+						"y": 270,
+						"size": 40
 					}
 				]
 			},
@@ -80,6 +85,12 @@
 						"x": 910,
 						"y": 2025,
 						"size": 50
+					},
+					{
+						"map": "score",
+						"x": 750,
+						"y": 270,
+						"size": 40
 					}
 				]
 			},
@@ -131,8 +142,13 @@
 					{
 						"map": "areas",
 						"x": 970,
-						"y": 2025,
-						"size": 50
+						"y": 2025
+					},
+					{
+						"map": "score",
+						"x": 800,
+						"y": 270,
+						"size": 40
 					}
 				]
 			}
@@ -307,8 +323,13 @@
 					{
 						"map": "areas",
 						"x": 160,
-						"y": 2025,
-						"size": 50
+						"y": 2025
+					},
+					{
+						"map": "score",
+						"x": 320,
+						"y": 270,
+						"size": 40
 					}
 				]
 			}

@@ -2,7 +2,7 @@
 	{
 		"name": "Tartarus",
 		"chest_unopened_img": "images/labels/Trove.png",
-		"chest_opened_img": "images/labels/TroveGray.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
 		"children": [
 			{
 				"name": "Tartarus",
@@ -26,8 +26,7 @@
 					{
 						"map": "areas",
 						"x": 540,
-						"y": 1850,
-						"size": 50
+						"y": 1850
 					}
 				]
 			},
@@ -252,7 +251,7 @@
 	{
 		"name": "Asphodel",
 		"chest_unopened_img": "images/labels/Trove.png",
-		"chest_opened_img": "images/labels/TroveGray.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
 		"children": [
 			{
 				"name": "Asphodel",
@@ -482,7 +481,7 @@
 	{
 		"name": "Elysium",
 		"chest_unopened_img": "images/labels/Trove.png",
-		"chest_opened_img": "images/labels/TroveGray.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
 		"children": [
 			{
 				"name": "Elysium",
@@ -726,7 +725,7 @@
 	{
 		"name": "Styx",
 		"chest_unopened_img": "images/labels/Trove.png",
-		"chest_opened_img": "images/labels/TroveGray.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
 		"children": [
 			{
 				"name": "Styx (Early)",
@@ -1237,7 +1236,8 @@
 					},
 					{
 						"name": "Goal",
-						"chest_unopened_img": "images/labels/DefeatHades.png",
+						"chest_unopened_img": "images/labels/Goal.png",
+						"chest_opened_img": "images/labels/GoalCleared.png",
 						"access_rules": ["^$CanReach|Goal"]
 					}
 				],
