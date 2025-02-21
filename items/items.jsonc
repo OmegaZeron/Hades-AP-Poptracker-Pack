@@ -211,6 +211,133 @@
 		"img": "images/items/ThunderSignet.png",
 		"codes": "keepsake, keepsake_zeus"
 	},
+	// shop items
+	{
+		"name": "Fountain Chamber, Tartarus",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "fountain_tartarus"
+	},
+	{
+		"name": "Underworld Fountains, Purified",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "fountain_upgrade1"
+	},
+	{
+		"name": "Underworld Fountains, Holy",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "fountain_upgrade2"
+	},
+	{
+		"name": "Fountain Chamber, Asphodel",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "fountain_asphodel"
+	},
+	{
+		"name": "Fountain Chamber, Elysium",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "fountain_elysium"
+	},
+	{
+		"name": "Plunder, Lesser",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "trove1"
+	},
+	{
+		"name": "Plunder, Greater",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "trove2"
+	},
+	{
+		"name": "Plunder, Superior",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "trove3"
+	},
+	{
+		"name": "Urns of Wealth, Lesser",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "urn1"
+	},
+	{
+		"name": "Urns of Wealth, Greater",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "urn2"
+	},
+	{
+		"name": "Urns of Wealth, Superior",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "urn3"
+	},
+	{
+		"name": "Contractor's Desk, Deluxe",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "desk_deluxe"
+	},
+	{
+		"name": "Pitch-Black Darkness",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "pitch_black_darkness"
+	},
+	{
+		"name": "Fated Keys",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "fated_keys"
+	},
+	{
+		"name": "Brilliant Gemstones",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "brilliant_gemstones"
+	},
+	{
+		"name": "Vintage Nectar",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "vintage_nectar"
+	},
+	{
+		"name": "Darker Thirst",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "darker_thirst"
+	},
+	{
+		"name": "Vanquisher's Keep",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "vanquishers_keep"
+	},
+	{
+		"name": "Rod of Fishing",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "fishing_rod"
+	},
+	{
+		"name": "Court Musician's Sentence",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "orpheus_sentence"
+	},
+	{
+		"name": "Court Music Stand",
+		"type": "toggle",
+		"img": "images/items/ThunderSignet.png",
+		"codes": "orpheus_stand"
+	},
 	// pact
 	{
 		"name": "Hard Labor Pact Level",

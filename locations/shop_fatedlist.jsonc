@@ -6,6 +6,25 @@
 		"visibility_rules": ["storesanity_on"],
 		"children": [
 			{
+				"name": "Weapon Unlocks",
+				"sections": [
+					{"name": "Stygius"},
+					{"name": "Varatha"},
+					{"name": "Aegis"},
+					{"name": "Coronacht"},
+					{"name": "Malphone"},
+					{"name": "Exagryph"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 850,
+						"y": 2025,
+						"size": 50
+					}
+				]
+			},
+			{
 				"name": "House Contractor (Gems)",
 				"sections": [
 					{
@@ -58,7 +77,7 @@
 				"map_locations": [
 					{
 						"map": "areas",
-						"x": 880,
+						"x": 910,
 						"y": 2025,
 						"size": 50
 					}
@@ -111,7 +130,7 @@
 				"map_locations": [
 					{
 						"map": "areas",
-						"x": 940,
+						"x": 970,
 						"y": 2025,
 						"size": 50
 					}

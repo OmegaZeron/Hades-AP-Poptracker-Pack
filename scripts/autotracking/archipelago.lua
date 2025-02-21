@@ -41,7 +41,7 @@ function OnClear(slot_data)
 				elseif v[2] == "progressive" then
 					obj.CurrentStage = 0
 					obj.Active = false
-				elseif v[2] == "consumable" or v[2] == "dynamic" or v[2] ==  "pact" then
+				elseif v[2] == "consumable" or v[2] == "pact" then
 					obj.AcquiredCount = 0
 				elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 					print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))

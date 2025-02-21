@@ -1,8 +1,8 @@
 -- locations
-Tracker:AddLocations("locations/areas.json")
-Tracker:AddLocations("locations/keepsakes.json")
-Tracker:AddLocations("locations/shop_fatedlist.json")
--- Tracker:AddLocations("locations/scores.json")
+Tracker:AddLocations("locations/areas.jsonc")
+Tracker:AddLocations("locations/keepsakes.jsonc")
+Tracker:AddLocations("locations/shop_fatedlist.jsonc")
+-- Tracker:AddLocations("locations/scores.jsonc")
 
 -- scripts
 require("scripts/logic/items/keepsakes")
