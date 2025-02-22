@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Contractor",
-		"chest_unopened_img": "images/labels/Trove.png",
-		"chest_opened_img": "images/labels/TroveOpen.png",
+		"chest_unopened_img": "images/labels/ContractorCheck.png",
+		"chest_opened_img": "images/labels/ContractorCheck_Cleared.png",
 		"visibility_rules": ["storesanity_on"],
 		"children": [
 			{
@@ -12,20 +12,22 @@
 					{"name": "Varatha"},
 					{"name": "Aegis"},
 					{"name": "Coronacht"},
-					{"name": "Malphone"},
+					{"name": "Malphon"},
 					{"name": "Exagryph"}
 				],
 				"map_locations": [
 					{
 						"map": "areas",
 						"x": 850,
-						"y": 2025
+						"y": 2025,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
 					},
 					{
 						"map": "score",
 						"x": 700,
 						"y": 270,
-						"size": 40
+						"size": 40,
+						"restrict_visibility_rules": ["location_score"]
 					}
 				]
 			},
@@ -84,13 +86,14 @@
 						"map": "areas",
 						"x": 910,
 						"y": 2025,
-						"size": 50
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
 					},
 					{
 						"map": "score",
 						"x": 750,
 						"y": 270,
-						"size": 40
+						"size": 40,
+						"restrict_visibility_rules": ["location_score"]
 					}
 				]
 			},
@@ -142,13 +145,15 @@
 					{
 						"map": "areas",
 						"x": 970,
-						"y": 2025
+						"y": 2025,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
 					},
 					{
 						"map": "score",
 						"x": 800,
 						"y": 270,
-						"size": 40
+						"size": 40,
+						"restrict_visibility_rules": ["location_score"]
 					}
 				]
 			}
@@ -156,8 +161,8 @@
 	},
 	{
 		"name": "Fated List",
-		"chest_unopened_img": "images/labels/Nectar.png",
-		"chest_opened_img": "images/labels/NectarGray.png",
+		"chest_unopened_img": "images/labels/FatesCheck.png",
+		"chest_opened_img": "images/labels/FatesCheck_Cleared.png",
 		"visibility_rules": ["fatesanity_on"],
 		"children": [
 			{
@@ -323,13 +328,15 @@
 					{
 						"map": "areas",
 						"x": 160,
-						"y": 2025
+						"y": 2025,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
 					},
 					{
 						"map": "score",
 						"x": 320,
 						"y": 270,
-						"size": 40
+						"size": 40,
+						"restrict_visibility_rules": ["location_score"]
 					}
 				]
 			}

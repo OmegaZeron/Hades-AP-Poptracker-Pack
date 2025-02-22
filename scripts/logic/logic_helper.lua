@@ -1,15 +1,23 @@
 function HasWeaponForGoal()
-	return Tracker:ProviderCountForCode("weapon") >= Tracker:FindObjectForCode("weapons_clears_needed").CurrentStage + 1
+	return Tracker:ProviderCountForCode("weapon") >= Tracker:ProviderCountForCode("weapons_clears_needed")
 end
 function HasKeepsakeForGoal()
-	return Tracker:ProviderCountForCode("keepsake") >= Tracker:FindObjectForCode("keepsakes_needed").CurrentStage + 1
+	return Tracker:ProviderCountForCode("keepsake") >= Tracker:ProviderCountForCode("keepsakes_needed")
 end
 function HasFateForGoal()
-	return true
+	local count = 0
+	for _, loc in ipairs(FateLocs) do
+		local section = Tracker:FindObjectForCode("@"..loc)
+		---@cast section LocationSection
+		if (section.AvailableChestCount ~= 1) then
+			count = count + 1
+		end
+	end
+	return count >= Tracker:ProviderCountForCode("fates_needed")
 end
 
 function CanSeeScore(score)
-	return tonumber(score) <= Tracker:ProviderCountForCode("score_rewards_amount")
+	return Has("location_score") and tonumber(score) <= Tracker:ProviderCountForCode("score_rewards_amount")
 end
 function CanReachScore(score)
 	score = tonumber(score)
@@ -73,5 +81,12 @@ function OnChangeDefeatsRequired()
 	end
 end
 
+function OnFateCollected(section)
+	if (TableContains(FateLocs, section.FullID)) then
+		Tracker:FindObjectForCode("hidden_setting").Active = not Tracker:FindObjectForCode("hidden_setting").Active
+	end
+end
+
 ScriptHost:AddWatchForCode("score mult handler", "scoremult", OnChangeScoreMult)
 ScriptHost:AddWatchForCode("defeats requried handler", "hades_defeats_needed", OnChangeDefeatsRequired)
+ScriptHost:AddOnLocationSectionChangedHandler("fate collect handler", OnFateCollected)

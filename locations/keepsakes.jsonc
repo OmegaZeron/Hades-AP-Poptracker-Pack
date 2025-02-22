@@ -309,20 +309,6 @@
 						"y": 2250
 					}
 				]
-			},
-			{
-				"name": "Hades",
-				"sections": [
-					{"name": "Daddy Issues", "ref": "Styx/Hades/Daddy Issues"},
-					{"name": "Goal", "ref": "Styx/Hades/Goal"}
-				],
-				"map_locations": [
-					{
-						"map": "keepsakes",
-						"x": 945,
-						"y": 2250
-					}
-				]
 			}
 		]
 	}

@@ -219,18 +219,6 @@
 		"codes": "fountain_tartarus"
 	},
 	{
-		"name": "Underworld Fountains, Purified",
-		"type": "toggle",
-		"img": "images/items/FountainUpgrade1.png",
-		"codes": "fountain_upgrade1"
-	},
-	{
-		"name": "Underworld Fountains, Holy",
-		"type": "toggle",
-		"img": "images/items/FountainUpgrade2.png",
-		"codes": "fountain_upgrade2"
-	},
-	{
 		"name": "Fountain Chamber, Asphodel",
 		"type": "toggle",
 		"img": "images/items/FountainAsphodel.png",
@@ -243,40 +231,85 @@
 		"codes": "fountain_elysium"
 	},
 	{
-		"name": "Plunder, Lesser",
-		"type": "toggle",
-		"img": "images/items/Trove1.png",
-		"codes": "trove1"
+		"name": "Underworld Fountain Upgrade",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"loop": true,
+		"codes": "fountain_upgrade",
+		"stages": [
+			{
+				"name": "Underworld Fountains, Purified",
+				"img": "images/items/FountainUpgrade1.png",
+				"codes": "fountain_upgrade1",
+				"inherit_codes": false
+			},
+			{
+				"name": "Underworld Fountains, Holy",
+				"img": "images/items/FountainUpgrade2.png",
+				"codes": "fountain_upgrade2",
+				"inherit_codes": false
+			}
+		]
 	},
 	{
-		"name": "Plunder, Greater",
-		"type": "toggle",
-		"img": "images/items/Trove2.png",
-		"codes": "trove2"
+		"name": "Trove Upgrade",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"loop": true,
+		"codes": "trove",
+		"stages": [
+			{
+				"name": "Plunder, Lesser",
+				"img": "images/items/Trove1.png",
+				"codes": "trove1",
+				"inherit_codes": false
+			},
+			{
+				"name": "Plunder, Greater",
+				"img": "images/items/Trove2.png",
+				"codes": "trove2",
+				"inherit_codes": false
+			},
+			{
+				"name": "Plunder, Superior",
+				"img": "images/items/Trove3.png",
+				"codes": "trove3",
+				"inherit_codes": false
+			}
+		]
 	},
 	{
-		"name": "Plunder, Superior",
+		"name": "Keepsake Collection, Regional",
 		"type": "toggle",
-		"img": "images/items/Trove2.png",
-		"codes": "trove3"
+		"img": "images/items/FountainElysium.png",
+		"codes": "keepsake_rack"
 	},
 	{
-		"name": "Urns of Wealth, Lesser",
-		"type": "toggle",
-		"img": "images/items/Urn1.png",
-		"codes": "urn1"
-	},
-	{
-		"name": "Urns of Wealth, Greater",
-		"type": "toggle",
-		"img": "images/items/Urn2.png",
-		"codes": "urn2"
-	},
-	{
-		"name": "Urns of Wealth, Superior",
-		"type": "toggle",
-		"img": "images/items/Urn3.png",
-		"codes": "urn3"
+		"name": "Urn Upgrade",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"loop": true,
+		"codes": "urn",
+		"stages": [
+			{
+				"name": "Urns of Wealth, Lesser",
+				"img": "images/items/Urn1.png",
+				"codes": "urn1",
+				"inherit_codes": false
+			},
+			{
+				"name": "Urns of Wealth, Greater",
+				"img": "images/items/Urn2.png",
+				"codes": "urn2",
+				"inherit_codes": false
+			},
+			{
+				"name": "Urns of Wealth, Superior",
+				"img": "images/items/Urn3.png",
+				"codes": "urn3",
+				"inherit_codes": false
+			}
+		]
 	},
 	{
 		"name": "Contractor's Desk, Deluxe",
@@ -450,5 +483,11 @@
 		"img": "images/items/PersonalLiability.png",
 		"codes": "pact, pact_personal_liability",
 		"max_quantity": 1
+	},
+
+	{
+		"name": "Hidden Setting",
+		"type": "toggle",
+		"codes": "hidden_setting"
 	}
 ]

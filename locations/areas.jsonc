@@ -6,7 +6,7 @@
 		"children": [
 			{
 				"name": "Tartarus",
-				"visibility_rules": ["location_room", "location_score"],
+				"visibility_rules": ["location_room"],
 				"sections": [
 					{"name": "Room 1"},
 					{"name": "Room 2"},
@@ -203,7 +203,7 @@
 				"sections": [
 					{
 						"name": "Whip Me Harder",
-						"visibility_rules": ["location_room", "location_score"],
+						"visibility_rules": ["location_room"],
 						"access_rules": ["^$CanReach|Megaera"]
 					},
 					{
@@ -255,7 +255,7 @@
 		"children": [
 			{
 				"name": "Asphodel",
-				"visibility_rules": ["location_room", "location_score"],
+				"visibility_rules": ["location_room"],
 				"access_rules": ["^$CanReach|Asphodel"],
 				"sections": [
 					{"name": "Room 14"},
@@ -433,7 +433,7 @@
 				"sections": [
 					{
 						"name": "Lernie",
-						"visibility_rules": ["location_room", "location_score"],
+						"visibility_rules": ["location_room"],
 						"access_rules": ["^$CanReach|Lernie"]
 					},
 					{
@@ -485,7 +485,7 @@
 		"children": [
 			{
 				"name": "Elysium",
-				"visibility_rules": ["location_room", "location_score"],
+				"visibility_rules": ["location_room"],
 				"access_rules": ["^$CanReach|Elysium"],
 				"sections": [
 					{"name": "Room 24"},
@@ -677,7 +677,7 @@
 				"sections": [
 					{
 						"name": "Besties",
-						"visibility_rules": ["location_room", "location_score"],
+						"visibility_rules": ["location_room"],
 						"access_rules": ["^$CanReach|Besties"]
 					},
 					{
@@ -729,7 +729,7 @@
 		"children": [
 			{
 				"name": "Styx (Early)",
-				"visibility_rules": ["location_room", "location_score"],
+				"visibility_rules": ["location_room"],
 				"access_rules": ["^$CanReach|Styx"],
 				"sections": [
 					{"name": "Room 36"},
@@ -1009,7 +1009,7 @@
 			},
 			{
 				"name": "Styx (Late)",
-				"visibility_rules": ["location_room", "location_score"],
+				"visibility_rules": ["location_room"],
 				"access_rules": ["^$CanReach|StyxLate"],
 				"sections": [
 					{"name": "Room 61"},
@@ -1246,7 +1246,18 @@
 						"map": "areas",
 						"x": 545,
 						"y": 315,
-						"size": 50
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					},
+					{
+						"map": "score",
+						"x": 549,
+						"y": 280,
+						"restrict_visibility_rules": ["location_score"]
+					},
+					{
+						"map": "keepsakes",
+						"x": 945,
+						"y": 2250
 					}
 				]
 			}

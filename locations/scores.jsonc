@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Score Locations",
-		"chest_unopened_img": "images/labels/Nectar.png",
-		"chest_opened_img": "images/labels/NectarGray.png",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
 		"children": [
 			{
 				"name": "Clear Score 1-10",

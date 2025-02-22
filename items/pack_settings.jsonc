@@ -273,7 +273,7 @@
 	{
 		"name": "Hard Labor",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_hard_labor",
+		"codes": "pactsetting, hard_labor_pact_amount",
 		"max_quantity": 5,
 		"img": "images/items/HardLabor.png",
 		"disabled_img": "images/items/HardLabor.png"
@@ -281,7 +281,7 @@
 	{
 		"name": "Lasting Consequences",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_lasting_consequences",
+		"codes": "pactsetting, lasting_consequences_pact_amount",
 		"max_quantity": 4,
 		"img": "images/items/LastingConsequences.png",
 		"disabled_img": "images/items/LastingConsequences.png"
@@ -289,7 +289,7 @@
 	{
 		"name": "Convenience Fee",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_convenience_fee",
+		"codes": "pactsetting, convenience_fee_pact_amount",
 		"max_quantity": 2,
 		"img": "images/items/ConvenienceFee.png",
 		"disabled_img": "images/items/ConvenienceFee.png"
@@ -297,7 +297,7 @@
 	{
 		"name": "Jury Summons",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_jury_summons",
+		"codes": "pactsetting, jury_summons_pact_amount",
 		"max_quantity": 3,
 		"img": "images/items/JurySummons.png",
 		"disabled_img": "images/items/JurySummons.png"
@@ -305,7 +305,7 @@
 	{
 		"name": "Extreme Measures",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_extreme_measures",
+		"codes": "pactsetting, extreme_measures_pact_amount",
 		"max_quantity": 4,
 		"img": "images/items/ExtremeMeasures.png",
 		"disabled_img": "images/items/ExtremeMeasures.png"
@@ -313,7 +313,7 @@
 	{
 		"name": "Calisthenics Program",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_calisthenics_program",
+		"codes": "pactsetting, calisthenics_program_pact_amount",
 		"max_quantity": 2,
 		"img": "images/items/CalisthenicsProgram.png",
 		"disabled_img": "images/items/CalisthenicsProgram.png"
@@ -321,7 +321,7 @@
 	{
 		"name": "Benefits Package",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_benefits_package",
+		"codes": "pactsetting, benefits_package_pact_amount",
 		"max_quantity": 2,
 		"img": "images/items/BenefitsPackage.png",
 		"disabled_img": "images/items/BenefitsPackage.png"
@@ -329,7 +329,7 @@
 	{
 		"name": "Middle Management",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_middle_management",
+		"codes": "pactsetting, middle_management_pact_amount",
 		"max_quantity": 1,
 		"img": "images/items/MiddleManagement.png",
 		"disabled_img": "images/items/MiddleManagement.png"
@@ -337,7 +337,7 @@
 	{
 		"name": "Underworld Customs",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_underworld_customs",
+		"codes": "pactsetting, underworld_customs_pact_amount",
 		"max_quantity": 1,
 		"img": "images/items/UnderworldCustoms.png",
 		"disabled_img": "images/items/UnderworldCustoms.png"
@@ -345,7 +345,7 @@
 	{
 		"name": "Forced Overtime",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_forced_overtime",
+		"codes": "pactsetting, forced_overtime_pact_amount",
 		"max_quantity": 2,
 		"img": "images/items/ForcedOvertime.png",
 		"disabled_img": "images/items/ForcedOvertime.png"
@@ -353,7 +353,7 @@
 	{
 		"name": "Heightened Security",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_heightened_security",
+		"codes": "pactsetting, heightened_security_pact_amount",
 		"max_quantity": 1,
 		"img": "images/items/HeightenedSecurity.png",
 		"disabled_img": "images/items/HeightenedSecurity.png"
@@ -361,7 +361,7 @@
 	{
 		"name": "Routine Inspection",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_routine_inspection",
+		"codes": "pactsetting, routine_inspection_pact_amount",
 		"max_quantity": 4,
 		"img": "images/items/RoutineInspection.png",
 		"disabled_img": "images/items/RoutineInspection.png"
@@ -369,7 +369,7 @@
 	{
 		"name": "Damage Control",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_damage_control",
+		"codes": "pactsetting, damage_control_pact_amount",
 		"max_quantity": 2,
 		"img": "images/items/DamageControl.png",
 		"disabled_img": "images/items/DamageControl.png"
@@ -377,7 +377,7 @@
 	{
 		"name": "Approval Process",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_approval_process",
+		"codes": "pactsetting, approval_process_pact_amount",
 		"max_quantity": 2,
 		"img": "images/items/ApprovalProcess.png",
 		"disabled_img": "images/items/ApprovalProcess.png"
@@ -385,7 +385,7 @@
 	{
 		"name": "Tight Deadline",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_tight_deadline",
+		"codes": "pactsetting, tight_deadline_pact_amount",
 		"max_quantity": 3,
 		"img": "images/items/TightDeadline.png",
 		"disabled_img": "images/items/TightDeadline.png"
@@ -393,7 +393,7 @@
 	{
 		"name": "Personal Liability",
 		"type": "consumable",
-		"codes": "pactsetting, pactsetting_personal_liability",
+		"codes": "pactsetting, personal_liability_pact_amount",
 		"max_quantity": 1,
 		"img": "images/items/PersonalLiability.png",
 		"disabled_img": "images/items/PersonalLiability.png"

@@ -62,8 +62,16 @@ function OnClear(slot_data)
 	end
 
 	for _, v in ipairs(SlotDataTable) do
-		Tracker:FindObjectForCode(SlotDataTable[v]).CurrentStage = slot_data[v]
+		if (v[2] == "toggle") then
+			Tracker:FindObjectForCode(v[1]).Active = slot_data[v[1]]
+		elseif (v[2] == "progressive") then
+			Tracker:FindObjectForCode(v[1]).CurrentStage = slot_data[v[1]]
+		elseif (v[2] == "consumable") then
+			Tracker:FindObjectForCode(v[1]).AcquiredCount = slot_data[v[1]]
+		end
 	end
+	-- location system is for some reason offset by 1
+	Tracker:FindObjectForCode("location_system").CurrentStage = slot_data["location_system"] - 1
 	Tracker:FindObjectForCode(InitialWeaponDict[slot_data["initial_weapon"]]).Active = true
 end
 
@@ -104,7 +112,7 @@ function OnItem(index, item_id, item_name, player_number)
 			else
 				obj.Active = true
 			end
-		elseif v[2] == "consumable" then
+		elseif v[2] == "consumable" or v[2] == "pact" then
 			local mult = 1
 			if (v[3]) then
 				mult = v[3]
@@ -139,7 +147,7 @@ function OnLocation(location_id, location_name)
 			else
 				obj.Active = true
 			end
-			ClearHints(location_id)
+			-- ClearHints(location_id)
 		else
 			print(string.format("onLocation: could not find object for code %s", location))
 		end
