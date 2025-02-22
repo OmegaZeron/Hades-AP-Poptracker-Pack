@@ -69,7 +69,7 @@ FateLocs = {
 SlotDataTable = {
 	-- checks
 	-- "initial_weapon",
-	{"location_system", "progressive"},
+	-- {"location_system", "progressive"},
 	{"score_rewards_amount", "consumable"},
 	-- sanities
 	{"keepsakesanity", "toggle"},
