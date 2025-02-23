@@ -30,10 +30,10 @@
 	},
 	"item_grid": {
 		"type": "itemgrid",
-		"item_size": 55,
+		"item_size": 56,
 		"rows": [
 			["fountain_tartarus", "fountain_asphodel", "fountain_elysium", "fountain_upgrade", "deluxe_desk"],
-			["trove", "urn", "orpheus_sentence", "fishing_rod"]
+			["trove", "urn", "orpheus_sentence", "fishing_rod", "keepsake_rack"]
 		]
 	},
 	"settings": {

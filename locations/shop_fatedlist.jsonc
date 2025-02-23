@@ -47,26 +47,26 @@
 					},
 					{
 						"name": "Fountain Chamber, Asphodel",
-						"access_rules": ["fountain_tartarus, keepsake_rack, ^$CanReach|Asphodel"]
+						"access_rules": ["fountain_tartarus, keepsake_rack, ^$CanReach|Megaera"]
 					},
 					{
 						"name": "Fountain Chamber, Elysium",
-						"access_rules": ["fountain_asphodel, keepsake_rack, ^$CanReach|Elysium"]
+						"access_rules": ["fountain_tartarus, keepsake_rack, ^$CanReach|Lernie"]
 					},
 					{
 						"name": "Plunder, Lesser"
 					},
 					{
 						"name": "Plunder, Greater",
-						"access_rules": ["trove1"]
+						"access_rules": ["trove1, fountain_tartarus, fountain_asphodel, fountain_elysium, keepsake_collection"]
 					},
 					{
 						"name": "Plunder, Superior",
-						"access_rules": ["trove2"]
+						"access_rules": ["trove2, deluxe_desk"]
 					},
 					{
 						"name": "Urns of Wealth, Lesser",
-						"access_rules": ["fountain_asphodel"]
+						"access_rules": ["fountain_tartarus"]
 					},
 					{
 						"name": "Urns of Wealth, Greater",
@@ -102,7 +102,7 @@
 				"sections": [
 					{
 						"name": "Contractor's Desk, Deluxe",
-						"access_rules": ["fountain_elysium, orpheus_sentence"]
+						"access_rules": ["fountain_elysium, orpheus_sentence, urn1, keepsake_collection, trove1"]
 					},
 					{
 						"name": "Pitch-Black Darkness",
@@ -130,11 +130,11 @@
 					},
 					{
 						"name": "Rod of Fishing",
-						"access_rules": ["^$CanReach|Styx, fountain_tartarus"]
+						"access_rules": ["^$CanReach|Besties, fountain_tartarus"]
 					},
 					{
 						"name": "Court Musician's Sentence",
-						"access_rules": ["^$CanReach|Asphodel, fountain_tartarus"]
+						"access_rules": ["^$CanReach|Megaera, fountain_tartarus"]
 					},
 					{
 						"name": "Court Music Stand",

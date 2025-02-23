@@ -65,6 +65,25 @@ FateLocs = {
 	"Fated List/Fated List of Minor Prophecies/The Useless Trinket"
 }
 
+PactMapping = {
+	["hard_labor_pact_amount"] = "pact_hard_labor",
+	["lasting_consequences_pact_amount"] = "pact_lasting_consequences",
+	["convenience_fee_pact_amount"] = "pact_convenience_fee",
+	["jury_summons_pact_amount"] = "pact_jury_summons",
+	["extreme_measures_pact_amount"] = "pact_extreme_measures",
+	["calisthenics_program_pact_amount"] = "pact_calisthenics_program",
+	["benefits_package_pact_amount"] = "pact_benefits_package",
+	["middle_management_pact_amount"] = "pact_middle_management",
+	["underworld_customs_pact_amount"] = "pact_underworld_customs",
+	["forced_overtime_pact_amount"] = "pact_forced_overtime",
+	["heightened_security_pact_amount"] = "pact_heightened_security",
+	["routine_inspection_pact_amount"] = "pact_routine_inspection",
+	["damage_control_pact_amount"] = "pact_damage_control",
+	["approval_process_pact_amount"] = "pact_approval_process",
+	["tight_deadline_pact_amount"] = "pact_tight_deadline",
+	["personal_liability_pact_amount"] = "pact_personal_liability"
+}
+
 -- SlotData
 SlotDataTable = {
 	-- checks

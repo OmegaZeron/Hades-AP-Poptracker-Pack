@@ -4,7 +4,7 @@ Megaera:connect_one_way_entrance(Asphodel, function()
 	return Any(
 		All(
 			HasPactHeat(math.min(TotalPactAmount() / 4, 10)),
-			HasRoutineInspection(Tracker:FindObjectForCode("pact_routine_inspection").CurrentStage - 2),
+			HasRoutineInspection(Tracker:ProviderCountForCode("routine_inspection_pact_amount") - 2),
 			Has("weapon", 2)
 		),
 		AccessibilityLevel.SequenceBreak
@@ -31,7 +31,7 @@ Lernie:connect_one_way_entrance(Elysium, function()
 	return Any(
 		All(
 			HasPactHeat(math.min(TotalPactAmount() / 2, 20)),
-			HasRoutineInspection(Tracker:FindObjectForCode("pact_routine_inspection").CurrentStage - 1),
+			HasRoutineInspection(Tracker:ProviderCountForCode("routine_inspection_pact_amount") - 1),
 			Has("weapon", 3)
 		),
 		AccessibilityLevel.SequenceBreak
@@ -42,7 +42,7 @@ Besties:connect_one_way_entrance(Styx, function()
 	return Any(
 		All(
 			HasPactHeat(math.min(TotalPactAmount() * 3 / 4, 30)),
-			HasRoutineInspection(Tracker:FindObjectForCode("pact_routine_inspection").CurrentStage),
+			HasRoutineInspection(Tracker:ProviderCountForCode("routine_inspection_pact_amount")),
 			Has("weapon", 5)
 		),
 		AccessibilityLevel.SequenceBreak

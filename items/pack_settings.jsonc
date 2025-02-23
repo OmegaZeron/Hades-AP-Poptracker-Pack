@@ -14,15 +14,15 @@
 				"inherit_codes": false
 			},
 			{
-				"name": "Weapon Per Room",
-				"img": "images/labels/LocationWeapon.png",
-				"codes": "location_weapon",
-				"inherit_codes": false
-			},
-			{
 				"name": "Score",
 				"img": "images/labels/LocationScore.png",
 				"codes": "location_score",
+				"inherit_codes": false
+			},
+			{
+				"name": "Weapon Per Room",
+				"img": "images/labels/LocationWeapon.png",
+				"codes": "location_weapon",
 				"inherit_codes": false
 			}
 		]
@@ -267,8 +267,8 @@
 		"codes": "hades_defeats_needed",
 		"min_quantity": 1,
 		"max_quantity": 20,
-		"initial_quantity": 10,
-		"img": "images/labels/DefeatHades_Alt.png"
+		"initial_quantity": 1,
+		"img": "images/labels/DefeatHades.png"
 	},
 	{
 		"name": "Hard Labor",

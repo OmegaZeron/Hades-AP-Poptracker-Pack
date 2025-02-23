@@ -45,14 +45,14 @@ function HasPactHeat(amount)
 	if (not Has("reverse_heat")) then
 		return true
 	end
-	return Tracker:ProviderCountForCode("pact") >= amount
+	return Tracker:ProviderCountForCode("pact") <= amount
 end
 
 function HasRoutineInspection(amount)
 	if (not Has("reverse_heat")) then
 		return true
 	end
-	return Has("pact_routine_inspection", amount)
+	return Tracker:ProviderCountForCode("routine_inspection_pact_amount") - Tracker:ProviderCountForCode("pact_routine_inspection") >= amount
 end
 
 function OnChangeScoreMult()

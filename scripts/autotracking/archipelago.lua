@@ -72,6 +72,12 @@ function OnClear(slot_data)
 	end
 	-- location system is for some reason offset by 1
 	Tracker:FindObjectForCode("location_system").CurrentStage = slot_data["location_system"] - 1
+	-- on reading Pact settings, set Pact items to the same
+	for k, v in pairs(PactMapping) do
+		Tracker:FindObjectForCode(v).AcquiredCount = slot_data[k]
+		print("Pact", v, slot_data[k])
+	end
+
 	Tracker:FindObjectForCode(InitialWeaponDict[slot_data["initial_weapon"]]).Active = true
 end
 
@@ -112,7 +118,7 @@ function OnItem(index, item_id, item_name, player_number)
 			else
 				obj.Active = true
 			end
-		elseif v[2] == "consumable" or v[2] == "pact" then
+		elseif v[2] == "consumable" then
 			local mult = 1
 			if (v[3]) then
 				mult = v[3]
@@ -120,6 +126,9 @@ function OnItem(index, item_id, item_name, player_number)
 			obj.AcquiredCount = obj.AcquiredCount + (obj.Increment * mult)
 			if (obj.AcquiredCount > obj.MaxCount) then
 				obj.AcquiredCount = obj.MaxCount
+			end
+			if (obj.AcquiredCount < obj.MinCount) then
+				obj.AcquiredCount = obj.MinCount
 			end
 		elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 			print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
@@ -131,6 +140,9 @@ end
 
 -- called when a location gets cleared
 function OnLocation(location_id, location_name)
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print("called onLocation:", location_name)
+	end
 	SetAsStale()
 	local location_array = LOCATION_MAPPING[location_id]
 	if not location_array or not location_array[1] then

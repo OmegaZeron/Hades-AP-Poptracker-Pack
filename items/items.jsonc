@@ -281,7 +281,7 @@
 	{
 		"name": "Keepsake Collection, Regional",
 		"type": "toggle",
-		"img": "images/items/FountainElysium.png",
+		"img": "images/items/KeepsakeCollection.png",
 		"codes": "keepsake_rack"
 	},
 	{

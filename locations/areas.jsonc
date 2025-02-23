@@ -258,7 +258,6 @@
 				"visibility_rules": ["location_room"],
 				"access_rules": ["^$CanReach|Asphodel"],
 				"sections": [
-					{"name": "Room 14"},
 					{"name": "Room 15"},
 					{"name": "Room 16"},
 					{"name": "Room 17"},
@@ -283,7 +282,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Asphodel, weapon_stygius"],
 				"sections": [
-					{"name": "Room 14"},
 					{"name": "Room 15"},
 					{"name": "Room 16"},
 					{"name": "Room 17"},
@@ -308,7 +306,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Asphodel, weapon_varatha"],
 				"sections": [
-					{"name": "Room 14"},
 					{"name": "Room 15"},
 					{"name": "Room 16"},
 					{"name": "Room 17"},
@@ -333,7 +330,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Asphodel, weapon_aegis"],
 				"sections": [
-					{"name": "Room 14"},
 					{"name": "Room 15"},
 					{"name": "Room 16"},
 					{"name": "Room 17"},
@@ -358,7 +354,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Asphodel, weapon_coronacht"],
 				"sections": [
-					{"name": "Room 14"},
 					{"name": "Room 15"},
 					{"name": "Room 16"},
 					{"name": "Room 17"},
@@ -383,7 +378,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Asphodel, weapon_malphon"],
 				"sections": [
-					{"name": "Room 14"},
 					{"name": "Room 15"},
 					{"name": "Room 16"},
 					{"name": "Room 17"},
@@ -408,7 +402,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Asphodel, weapon_exagryph"],
 				"sections": [
-					{"name": "Room 14"},
 					{"name": "Room 15"},
 					{"name": "Room 16"},
 					{"name": "Room 17"},
@@ -488,7 +481,6 @@
 				"visibility_rules": ["location_room"],
 				"access_rules": ["^$CanReach|Elysium"],
 				"sections": [
-					{"name": "Room 24"},
 					{"name": "Room 25"},
 					{"name": "Room 26"},
 					{"name": "Room 27"},
@@ -515,7 +507,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Elysium, weapon_stygius"],
 				"sections": [
-					{"name": "Room 24"},
 					{"name": "Room 25"},
 					{"name": "Room 26"},
 					{"name": "Room 27"},
@@ -542,7 +533,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Elysium, weapon_varatha"],
 				"sections": [
-					{"name": "Room 24"},
 					{"name": "Room 25"},
 					{"name": "Room 26"},
 					{"name": "Room 27"},
@@ -569,7 +559,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Elysium, weapon_aegis"],
 				"sections": [
-					{"name": "Room 24"},
 					{"name": "Room 25"},
 					{"name": "Room 26"},
 					{"name": "Room 27"},
@@ -596,7 +585,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Elysium, weapon_coronacht"],
 				"sections": [
-					{"name": "Room 24"},
 					{"name": "Room 25"},
 					{"name": "Room 26"},
 					{"name": "Room 27"},
@@ -623,7 +611,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Elysium, weapon_malphon"],
 				"sections": [
-					{"name": "Room 24"},
 					{"name": "Room 25"},
 					{"name": "Room 26"},
 					{"name": "Room 27"},
@@ -650,7 +637,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Elysium, weapon_exagryph"],
 				"sections": [
-					{"name": "Room 24"},
 					{"name": "Room 25"},
 					{"name": "Room 26"},
 					{"name": "Room 27"},
@@ -732,7 +718,6 @@
 				"visibility_rules": ["location_room"],
 				"access_rules": ["^$CanReach|Styx"],
 				"sections": [
-					{"name": "Room 36"},
 					{"name": "Room 37"},
 					{"name": "Room 38"},
 					{"name": "Room 39"},
@@ -772,7 +757,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Styx, weapon_stygius"],
 				"sections": [
-					{"name": "Room 36"},
 					{"name": "Room 37"},
 					{"name": "Room 38"},
 					{"name": "Room 39"},
@@ -812,7 +796,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Styx, weapon_varatha"],
 				"sections": [
-					{"name": "Room 36"},
 					{"name": "Room 37"},
 					{"name": "Room 38"},
 					{"name": "Room 39"},
@@ -852,7 +835,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Styx, weapon_aegis"],
 				"sections": [
-					{"name": "Room 36"},
 					{"name": "Room 37"},
 					{"name": "Room 38"},
 					{"name": "Room 39"},
@@ -892,7 +874,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Styx, weapon_coronacht"],
 				"sections": [
-					{"name": "Room 36"},
 					{"name": "Room 37"},
 					{"name": "Room 38"},
 					{"name": "Room 39"},
@@ -932,7 +913,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Styx, weapon_malphon"],
 				"sections": [
-					{"name": "Room 36"},
 					{"name": "Room 37"},
 					{"name": "Room 38"},
 					{"name": "Room 39"},
@@ -972,7 +952,6 @@
 				"visibility_rules": ["location_weapon"],
 				"access_rules": ["^$CanReach|Styx, weapon_exagryph"],
 				"sections": [
-					{"name": "Room 36"},
 					{"name": "Room 37"},
 					{"name": "Room 38"},
 					{"name": "Room 39"},
@@ -1022,8 +1001,7 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"},
-					{"name": "Room 72"}
+					{"name": "Room 71"}
 				],
 				"map_locations": [
 					{
@@ -1049,8 +1027,7 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"},
-					{"name": "Room 72"}
+					{"name": "Room 71"}
 				],
 				"map_locations": [
 					{
@@ -1076,8 +1053,7 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"},
-					{"name": "Room 72"}
+					{"name": "Room 71"}
 				],
 				"map_locations": [
 					{
@@ -1103,8 +1079,7 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"},
-					{"name": "Room 72"}
+					{"name": "Room 71"}
 				],
 				"map_locations": [
 					{
@@ -1130,8 +1105,7 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"},
-					{"name": "Room 72"}
+					{"name": "Room 71"}
 				],
 				"map_locations": [
 					{
@@ -1157,8 +1131,7 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"},
-					{"name": "Room 72"}
+					{"name": "Room 71"}
 				],
 				"map_locations": [
 					{
@@ -1184,8 +1157,7 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"},
-					{"name": "Room 72"}
+					{"name": "Room 71"}
 				],
 				"map_locations": [
 					{
