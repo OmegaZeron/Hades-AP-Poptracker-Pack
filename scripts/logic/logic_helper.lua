@@ -45,7 +45,18 @@ function HasPactHeat(amount)
 	if (not Has("reverse_heat")) then
 		return true
 	end
-	return Tracker:ProviderCountForCode("pact") <= amount
+	local count = TotalPactAmount()
+	for k, v in pairs(PactMapping) do
+		local setting = Tracker:ProviderCountForCode(k)
+		if (setting > 0) then
+			local pact = Tracker:ProviderCountForCode(v)
+			if (pact > setting) then
+				pact = setting
+			end
+			count = count - (setting - pact)
+		end
+	end
+	return count <= amount
 end
 
 function HasRoutineInspection(amount)
@@ -81,7 +92,8 @@ function OnChangeDefeatsRequired()
 	end
 end
 
-function OnFateCollected(section)
+function OnSectionChanged(section)
+	---@cast section LocationSection
 	if (TableContains(FateLocs, section.FullID)) then
 		Tracker:FindObjectForCode("hidden_setting").Active = not Tracker:FindObjectForCode("hidden_setting").Active
 	end
@@ -89,4 +101,4 @@ end
 
 ScriptHost:AddWatchForCode("score mult handler", "scoremult", OnChangeScoreMult)
 ScriptHost:AddWatchForCode("defeats requried handler", "hades_defeats_needed", OnChangeDefeatsRequired)
-ScriptHost:AddOnLocationSectionChangedHandler("fate collect handler", OnFateCollected)
+ScriptHost:AddOnLocationSectionChangedHandler("secton changed handler", OnSectionChanged)
