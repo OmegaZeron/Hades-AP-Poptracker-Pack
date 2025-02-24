@@ -75,7 +75,6 @@ function OnClear(slot_data)
 	-- on reading Pact settings, set Pact items to the same
 	for k, v in pairs(PactMapping) do
 		Tracker:FindObjectForCode(v).AcquiredCount = slot_data[k]
-		print("Pact", v, slot_data[k])
 	end
 
 	Tracker:FindObjectForCode(InitialWeaponDict[slot_data["initial_weapon"]]).Active = true

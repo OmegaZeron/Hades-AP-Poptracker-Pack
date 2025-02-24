@@ -1,6 +1,5 @@
 Menu:connect_one_way_entrance(Tartarus)
-Tartarus:connect_one_way_entrance(Megaera)
-Megaera:connect_one_way_entrance(Asphodel, function()
+Tartarus:connect_one_way_entrance(Megaera, function()
 	return Any(
 		All(
 			HasPactHeat(math.min(TotalPactAmount() / 4, 10)),
@@ -10,7 +9,17 @@ Megaera:connect_one_way_entrance(Asphodel, function()
 		AccessibilityLevel.SequenceBreak
 	)
 end)
-Asphodel:connect_one_way_entrance(Lernie)
+Megaera:connect_one_way_entrance(Asphodel)
+Asphodel:connect_one_way_entrance(Lernie, function()
+	return Any(
+		All(
+			HasPactHeat(math.min(TotalPactAmount() / 2, 20)),
+			HasRoutineInspection(Tracker:ProviderCountForCode("routine_inspection_pact_amount") - 1),
+			Has("weapon", 3)
+		),
+		AccessibilityLevel.SequenceBreak
+	)
+end)
 Lernie:connect_one_way(DivinePairings, function()
 	return Any(
 		Has("keepsakesanity_off"),
@@ -27,18 +36,8 @@ Lernie:connect_one_way(DivinePairings, function()
 		)
 	)
 end)
-Lernie:connect_one_way_entrance(Elysium, function()
-	return Any(
-		All(
-			HasPactHeat(math.min(TotalPactAmount() / 2, 20)),
-			HasRoutineInspection(Tracker:ProviderCountForCode("routine_inspection_pact_amount") - 1),
-			Has("weapon", 3)
-		),
-		AccessibilityLevel.SequenceBreak
-	)
-end)
-Elysium:connect_one_way_entrance(Besties)
-Besties:connect_one_way_entrance(Styx, function()
+Lernie:connect_one_way_entrance(Elysium)
+Elysium:connect_one_way_entrance(Besties, function()
 	return Any(
 		All(
 			HasPactHeat(math.min(TotalPactAmount() * 3 / 4, 30)),
@@ -48,7 +47,8 @@ Besties:connect_one_way_entrance(Styx, function()
 		AccessibilityLevel.SequenceBreak
 	)
 end)
-Styx:connect_one_way_entrance(StyxLate) -- rules?
+Besties:connect_one_way_entrance(Styx)
+Styx:connect_one_way_entrance(StyxLate)
 Styx:connect_one_way_entrance(HadesBoss, function()
 	return Any(
 		All(
@@ -65,10 +65,3 @@ HadesBoss:connect_one_way(Goal, function()
 		HasFateForGoal()
 	)
 end)
--- for i = 1, 1000, 1 do
--- 	local padded = ""..i
--- 	while padded:len() < 4 do
--- 		padded = "0"..padded
--- 	end
--- 	Menu:connect_one_way("ClearScore"..padded)
--- end

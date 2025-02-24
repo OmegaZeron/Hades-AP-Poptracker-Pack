@@ -1001,7 +1001,8 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"}
+					{"name": "Room 71"},
+					{"name": "Room 72"}
 				],
 				"map_locations": [
 					{
@@ -1027,7 +1028,8 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"}
+					{"name": "Room 71"},
+					{"name": "Room 72"}
 				],
 				"map_locations": [
 					{
@@ -1053,7 +1055,8 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"}
+					{"name": "Room 71"},
+					{"name": "Room 72"}
 				],
 				"map_locations": [
 					{
@@ -1079,7 +1082,8 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"}
+					{"name": "Room 71"},
+					{"name": "Room 72"}
 				],
 				"map_locations": [
 					{
@@ -1105,7 +1109,8 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"}
+					{"name": "Room 71"},
+					{"name": "Room 72"}
 				],
 				"map_locations": [
 					{
@@ -1131,7 +1136,8 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"}
+					{"name": "Room 71"},
+					{"name": "Room 72"}
 				],
 				"map_locations": [
 					{
@@ -1157,7 +1163,8 @@
 					{"name": "Room 68"},
 					{"name": "Room 69"},
 					{"name": "Room 70"},
-					{"name": "Room 71"}
+					{"name": "Room 71"},
+					{"name": "Room 72"}
 				],
 				"map_locations": [
 					{
@@ -1172,45 +1179,28 @@
 				"name": "Hades",
 				"sections": [
 					{
-						"name": "Daddy Issues",
-						"visibility_rules": ["location_room", "location_score"],
-						"access_rules": ["^$CanReach|HadesBoss"]
-					},
-					{
 						"name": "Stygius",
-						"visibility_rules": ["location_weapon"],
 						"access_rules": ["^$CanReach|HadesBoss, weapon_stygius"]
 					},
 					{
 						"name": "Varatha",
-						"visibility_rules": ["location_weapon"],
 						"access_rules": ["^$CanReach|HadesBoss, weapon_varatha"]
 					},
 					{
 						"name": "Aegis",
-						"visibility_rules": ["location_weapon"],
 						"access_rules": ["^$CanReach|HadesBoss, weapon_aegis"]
 					},
 					{
 						"name": "Coronacht",
-						"visibility_rules": ["location_weapon"],
 						"access_rules": ["^$CanReach|HadesBoss, weapon_coronacht"]
 					},
 					{
 						"name": "Malphon",
-						"visibility_rules": ["location_weapon"],
 						"access_rules": ["^$CanReach|HadesBoss, weapon_malphon"]
 					},
 					{
 						"name": "Exagryph",
-						"visibility_rules": ["location_weapon"],
 						"access_rules": ["^$CanReach|HadesBoss, weapon_exagryph"]
-					},
-					{
-						"name": "Goal",
-						"chest_unopened_img": "images/labels/Goal.png",
-						"chest_opened_img": "images/labels/GoalCleared.png",
-						"access_rules": ["^$CanReach|Goal"]
 					}
 				],
 				"map_locations": [
@@ -1223,13 +1213,47 @@
 					{
 						"map": "score",
 						"x": 549,
-						"y": 280,
+						"y": 308,
 						"restrict_visibility_rules": ["location_score"]
 					},
 					{
 						"map": "keepsakes",
 						"x": 945,
 						"y": 2250
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Goal",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
+		"children": [
+			{
+				"name": "Goal",
+				"access_rules": ["^$CanReach|HadesBoss"],
+				"sections": [
+					{
+						"chest_unopened_img": "images/labels/Goal.png",
+						"chest_opened_img": "images/labels/GoalCleared.png",
+						"access_rules": ["^$CanReach|Goal"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 535,
+						"y": 80,
+						"size": 50,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					},
+					{
+						"map": "score",
+						"x": 549,
+						"y": 248,
+						"size": 50,
+						"restrict_visibility_rules": ["location_score"]
 					}
 				]
 			}
