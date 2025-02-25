@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.1.1",
+			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v0.1.1/Hades-AP-Poptracker-Pack-v0.1.1.zip",
+			"sha256": "55ead9f2c87362f3cde670e0be8256e420ca2c055b261193010bc14f08f0fe34",
+			"changelog": ["Reverse EM affecting logic, Dusa and Eurydice keepsakes swapped"]
+		},
+		{
 			"package_version": "0.1.0",
 			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v0.1.0/Hades-AP-Poptracker-Pack-v0.1.0.zip",
 			"sha256": "644702adb762f9594645ab455a25e9ae4883c9c1f37ec8d7839f0ebf4d77d533",
