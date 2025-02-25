@@ -144,12 +144,8 @@
 				]
 			},
 			{
-				"name": "Eurydice",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|Lernie"]
-					}
-				],
+				"name": "Dusa",
+				"sections": [{}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -159,8 +155,12 @@
 				]
 			},
 			{
-				"name": "Dusa",
-				"sections": [{}],
+				"name": "Eurydice",
+				"sections": [
+					{
+						"access_rules": ["^$CanReach|Lernie"]
+					}
+				],
 				"map_locations": [
 					{
 						"map": "keepsakes",

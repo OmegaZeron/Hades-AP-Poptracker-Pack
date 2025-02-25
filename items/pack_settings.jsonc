@@ -250,13 +250,13 @@
 			{
 				"name": "Reverse EM",
 				"img": "images/labels/ReverseEM.png",
-				"codes": "reverse_heat",
+				"codes": "reverse_em",
 				"inherit_codes": false
 			},
 			{
 				"name": "Vanilla EM",
 				"img": "images/labels/VanillaEM.png",
-				"codes": "minimal_heat",
+				"codes": "vanilla_em",
 				"inherit_codes": false
 			}
 		]
