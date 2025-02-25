@@ -70,8 +70,9 @@ function OnClear(slot_data)
 			Tracker:FindObjectForCode(v[1]).AcquiredCount = slot_data[v[1]]
 		end
 	end
-	-- location system is for some reason offset by 1
+	-- location system and heat system are for some reason offset by 1
 	Tracker:FindObjectForCode("location_system").CurrentStage = slot_data["location_system"] - 1
+	Tracker:FindObjectForCode("heat_system").CurrentStage = slot_data["heat_system"] - 1
 	-- on reading Pact settings, set Pact items to the same
 	for k, v in pairs(PactMapping) do
 		Tracker:FindObjectForCode(v).AcquiredCount = slot_data[k]

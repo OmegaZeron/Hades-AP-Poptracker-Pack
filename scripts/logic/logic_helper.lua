@@ -45,7 +45,7 @@ function HasPactHeat(amount)
 	if (not Has("reverse_heat")) then
 		return true
 	end
-	local count = TotalPactAmount()
+	local count = 0
 	for k, v in pairs(PactMapping) do
 		local setting = Tracker:ProviderCountForCode(k)
 		if (setting > 0) then
@@ -53,10 +53,10 @@ function HasPactHeat(amount)
 			if (pact > setting) then
 				pact = setting
 			end
-			count = count - (setting - pact)
+			count = count + (setting - pact)
 		end
 	end
-	return count <= amount
+	return count >= amount
 end
 
 function HasRoutineInspection(amount)

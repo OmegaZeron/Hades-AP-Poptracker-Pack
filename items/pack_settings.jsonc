@@ -242,21 +242,21 @@
 	{
 		"name": "Reverse Order EM",
 		"type": "progressive",
-		"initial_stage_idx": 0,
+		"initial_stage_idx": 1,
 		"loop": true,
 		"codes": "reverse_order_em",
 		"allow_disabled": false,
 		"stages": [
 			{
-				"name": "Reverse EM",
-				"img": "images/labels/ReverseEM.png",
-				"codes": "reverse_em",
-				"inherit_codes": false
-			},
-			{
 				"name": "Vanilla EM",
 				"img": "images/labels/VanillaEM.png",
 				"codes": "vanilla_em",
+				"inherit_codes": false
+			},
+			{
+				"name": "Reverse EM",
+				"img": "images/labels/ReverseEM.png",
+				"codes": "reverse_em",
 				"inherit_codes": false
 			}
 		]

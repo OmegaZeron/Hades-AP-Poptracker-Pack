@@ -100,7 +100,7 @@ SlotDataTable = {
 	{"weapons_clears_needed", "consumable"},
 	{"keepsakes_needed", "consumable"},
 	{"fates_needed", "consumable"},
-	{"heat_system", "progressive"},
+	-- {"heat_system", "progressive"},
 	-- pact items
 	{"hard_labor_pact_amount", "consumable"},
 	{"lasting_consequences_pact_amount", "consumable"},
