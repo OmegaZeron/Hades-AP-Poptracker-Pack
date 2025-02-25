@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.1.2",
+			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v0.1.2/Hades-AP-Poptracker-Pack-v0.1.2.zip",
+			"sha256": "d98184bf97b4590fe7f8f77ad8de60b4bf32a8ce13fb2463b444267975ab1f36",
+			"changelog": ["Heat System and Reverse EM settings auto-tracking, Reverse Heat logic inverted"]
+		},
+		{
 			"package_version": "0.1.1",
 			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v0.1.1/Hades-AP-Poptracker-Pack-v0.1.1.zip",
 			"sha256": "55ead9f2c87362f3cde670e0be8256e420ca2c055b261193010bc14f08f0fe34",
