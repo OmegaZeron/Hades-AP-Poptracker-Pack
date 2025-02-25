@@ -16,7 +16,7 @@ Click the AP button in the top left of the window. Enter your server:port (most 
 
 ## Notes
 * When set to Reverse Heat, your intial Pact items should be the same as your Pact settings. As you collect Pact items, the amount in the tracker should go down
-* The Hades boss is not auto-tracked due to how the randomizer places locations. There is still a square for him so you can manually track which weapons you've beat him with, for the "Weapon CLears Needed" setting
+* The Hades boss is not auto-tracked due to how the randomizer places locations. There is still a square for him so you can manually track which weapons you've beat him with, for the "Weapon Clears Needed" setting
 
 ## Credits
 Designed by J_StarBlaster
