@@ -18,12 +18,12 @@ KeepsakeGoal = "goal_keepsake"
 FateGoal = "goal_fate"
 
 InitialWeaponDict = {
-	[0] = "weapon_stygius",
-	[1] = "weapon_coronacht",
-	[2] = "weapon_varatha",
-	[3] = "weapon_aegis",
-	[4] = "weapon_malphon",
-	[5] = "weapon_exagryph"
+	[0] = {"weapon_stygius", "@Contractor/Weapon Unlocks/Stygius"},
+	[1] = {"weapon_coronacht", "@Contractor/Weapon Unlocks/Coronacht"},
+	[2] = {"weapon_varatha", "@Contractor/Weapon Unlocks/Varatha"},
+	[3] = {"weapon_aegis", "@Contractor/Weapon Unlocks/Aegis"},
+	[4] = {"weapon_malphon", "@Contractor/Weapon Unlocks/Malphon"},
+	[5] = {"weapon_exagryph", "@Contractor/Weapon Unlocks/Exagryph"}
 }
 
 FateLocs = {

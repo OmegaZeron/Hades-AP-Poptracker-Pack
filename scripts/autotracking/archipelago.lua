@@ -78,7 +78,9 @@ function OnClear(slot_data)
 		Tracker:FindObjectForCode(v).AcquiredCount = slot_data[k]
 	end
 
-	Tracker:FindObjectForCode(InitialWeaponDict[slot_data["initial_weapon"]]).Active = true
+	-- get initial weapon, and mark off the contractor location
+	Tracker:FindObjectForCode(InitialWeaponDict[slot_data["initial_weapon"]][1]).Active = true
+	Tracker:FindObjectForCode(InitialWeaponDict[slot_data["initial_weapon"]][2]).AvailableChestCount = 0
 end
 
 -- called when an item gets collected
