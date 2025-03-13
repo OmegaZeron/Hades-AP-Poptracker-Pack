@@ -1,3 +1,6 @@
+if (PopVersion >= "0.30.4") then
+    Tracker.AllowDeferredLogicUpdate = true
+end
 require("scripts/logic/definition_helper")
 require("scripts/logic/logic")
 require("scripts/logic/location_definitions")
