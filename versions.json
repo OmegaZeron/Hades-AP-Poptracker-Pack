@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.2.0",
+			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v0.2.0/Hades-AP-Poptracker-Pack-v0.2.0.zip",
+			"sha256": "ebd8a3db028c65187ed7e3e80f24bdd40caf0dae28df6727e5dab684f253e834",
+			"changelog": ["Auto-collect starting weapon location"]
+		},
+		{
 			"package_version": "0.1.2",
 			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v0.1.2/Hades-AP-Poptracker-Pack-v0.1.2.zip",
 			"sha256": "d98184bf97b4590fe7f8f77ad8de60b4bf32a8ce13fb2463b444267975ab1f36",
