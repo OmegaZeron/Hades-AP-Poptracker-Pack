@@ -5,7 +5,6 @@ CUR_INDEX = -1
 SLOT_DATA = nil
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
-COLLECTED_HINTS = {}
 
 function OnClear(slot_data)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -57,8 +56,10 @@ function OnClear(slot_data)
 
 	if Archipelago.PlayerNumber > -1 then
 		HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
-		Archipelago:SetNotify({HINTS_ID})
-		Archipelago:Get({HINTS_ID})
+		if Highlight then
+			Archipelago:SetNotify({HINTS_ID})
+			Archipelago:Get({HINTS_ID})
+		end
 	end
 
 	for _, v in ipairs(SlotDataTable) do
@@ -161,7 +162,7 @@ function OnLocation(location_id, location_name)
 			else
 				obj.Active = true
 			end
-			-- ClearHints(location_id)
+			ClearHints(location_id)
 		else
 			print(string.format("onLocation: could not find object for code %s", location))
 		end
@@ -179,70 +180,55 @@ end
 function OnNotify(key, value, old_value)
 	-- print(string.format("called onNotify: %s, %s, %s", key, dump(value), old_value))
 	if value ~= old_value and key == HINTS_ID then
-		COLLECTED_HINTS = {}
 		for _, hint in ipairs(value) do
-			-- if not hint.found and hint.finding_player == Archipelago.PlayerNumber then
-			-- 	UpdateHints(hint.location, hint.item_flags)
-			-- end
+			if not hint.found and hint.finding_player == Archipelago.PlayerNumber then
+				UpdateHints(hint.location, hint.item_flags)
+			else
+				ClearHints(hint.location)
+			end
 		end
 	end
 end
 
 function OnNotifyLaunch(key, value)
 	-- print(string.format("Hint: %s", dump(value)))
-	if key == HINTS_ID then
-		COLLECTED_HINTS = {}
-		for _, hint in ipairs(value) do
-			-- if not hint.found and hint.finding_player == Archipelago.PlayerNumber then
-			-- 	UpdateHints(hint.location, hint.item_flags)
-			-- elseif hint.found then
-			-- 	ClearHints(hint.location)
-			-- end
-		end
-	end
+	OnNotify(key, value)
 end
 
--- called when a location is hinted
-function UpdateHints(locationID, quality)
-	local item_codes = HINT_MAPPING[locationID]
-	-- print("Hint", dump(item_codes), quality)
-	for _, item_code in ipairs(item_codes) do
-		-- if (QualityToAccess[quality]) then
-		-- 	COLLECTED_HINTS[item_code] = QualityToAccess[quality]
-		-- end
-		local obj = Tracker:FindObjectForCode(item_code)
-		if obj then
-			obj.Active = true
+-- called when a location is hinted or the status of a hint is changed
+function UpdateHints(locationID, status)
+	if not Highlight then
+		return
+	end
+	local locations = LOCATION_MAPPING[locationID]
+	-- print("Hint", dump(locations), status)
+	for _, location in ipairs(locations) do
+		local section = Tracker:FindObjectForCode(location)
+		---@cast section LocationSection
+		if section then
+			section.Highlight = PriorityToHighlight[status]
 		else
-			print(string.format("No object found for code: %s", item_code))
+			print(string.format("No object found for code: %s", location))
 		end
 	end
 end
 
 function ClearHints(locationID)
-	local item_codes = HINT_MAPPING[locationID]
+	if not Highlight then
+		return
+	end
+	local item_codes = LOCATION_MAPPING[locationID]
 	if (not item_codes) then
 		return
 	end
 	for _, item_code in ipairs(item_codes) do
 		local obj = Tracker:FindObjectForCode(item_code)
 		if obj then
-			obj.Active = false
+			obj.Highlight = Highlight.None
 		else
 			print(string.format("No object found for code: %s", item_code))
 		end
 	end
-end
-
-function HasHint(code)
-	if (COLLECTED_HINTS[code]) then
-		return COLLECTED_HINTS[code]
-	end
-	local hintLoc = Tracker:FindObjectForCode(code)
-	if (hintLoc and hintLoc.Active) then
-		hintLoc.Active = false
-	end
-	return AccessibilityLevel.None
 end
 
 -- called when a bounce message is received 

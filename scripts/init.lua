@@ -10,7 +10,6 @@ require("scripts/autotracking")
 require("scripts/locations")
 
 Tracker:AddItems("items/items.jsonc")
-Tracker:AddItems("items/hints.jsonc")
 
 Tracker:AddItems("items/pack_settings.jsonc")
 Tracker:AddItems("items/labels.jsonc")
