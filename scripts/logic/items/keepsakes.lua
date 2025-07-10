@@ -41,12 +41,7 @@ Menu:connect_one_way(DionysusKeepsake, function()
 	)
 end)
 Lernie:connect_one_way(EurydiceKeepsake)
-Menu:connect_one_way(HermesKeepsake, function()
-	return Any(
-		Has(LambentPlume),
-		AccessibilityLevel.SequenceBreak
-	)
-end)
+Megaera:connect_one_way(HermesKeepsake)
 Besties:connect_one_way(PatroclusKeepsake)
 Menu:connect_one_way(PoseidonKeepsake, function()
 	return Any(

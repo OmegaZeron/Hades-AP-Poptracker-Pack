@@ -18,11 +18,7 @@
 			},
 			{
 				"name": "Aphrodite",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|AphroditeKeepsake"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|AphroditeKeepsake"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -33,11 +29,7 @@
 			},
 			{
 				"name": "Ares",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|AresKeepsake"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|AresKeepsake"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -48,11 +40,7 @@
 			},
 			{
 				"name": "Artemis",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|ArtemisKeepsake"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|ArtemisKeepsake"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -63,11 +51,7 @@
 			},
 			{
 				"name": "Athena",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|AthenaKeepsake"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|AthenaKeepsake"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -89,11 +73,7 @@
 			},
 			{
 				"name": "Chaos",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|ChaosKeepsake"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|ChaosKeepsake"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -115,11 +95,7 @@
 			},
 			{
 				"name": "Demeter",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|DemeterKeepsake"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|DemeterKeepsake"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -130,11 +106,7 @@
 			},
 			{
 				"name": "Dionysus",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|DionysusKeepsake"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|DionysusKeepsake"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -156,11 +128,7 @@
 			},
 			{
 				"name": "Eurydice",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|Lernie"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|Lernie"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -171,11 +139,7 @@
 			},
 			{
 				"name": "Hermes",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|HermesKeepsake"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|HermesKeepsake"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -219,7 +183,7 @@
 			},
 			{
 				"name": "Orpheus",
-				"sections": [{}],
+				"sections": [{"access_rules": ["orpheus_sentence"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -230,11 +194,7 @@
 			},
 			{
 				"name": "Patroclus",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|Besties"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|Besties"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -245,11 +205,7 @@
 			},
 			{
 				"name": "Poseidon",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|PoseidonKeepsake"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|PoseidonKeepsake"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -282,11 +238,7 @@
 			},
 			{
 				"name": "Thanatos",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|HadesBoss"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|HadesBoss"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -297,11 +249,7 @@
 			},
 			{
 				"name": "Zeus",
-				"sections": [
-					{
-						"access_rules": ["^$CanReach|ZeusKeepsake"]
-					}
-				],
+				"sections": [{"access_rules": ["^$CanReach|ZeusKeepsake"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
