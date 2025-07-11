@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.0.1",
+			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v1.0.1/hades_ap_1.0.1.zip",
+			"sha256": "828196f7f0816a4177d76cac307e60ae703cfd8f0102f72ab89786eb7d17954f",
+			"changelog": ["Orpheus and Hermes Keepsake logic fixes"]
+		},
+		{
 			"package_version": "1.0.0",
 			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v1.0.0/hades_ap_1.0.0.zip",
 			"sha256": "b70300528bdcbe06538eb4c42d6a3381589a4c46037993af22cb4a2f5da56ac0",
