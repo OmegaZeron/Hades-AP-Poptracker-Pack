@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.0.2",
+			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v1.0.2/hades_ap.zip",
+			"sha256": "dacbd81ad7c9a3aa95e643fb4a7a2b87c9c341487e4f9c3743800b7719ee883c",
+			"changelog": ["Fixed hint tracking not displaying"]
+		},
+		{
 			"package_version": "1.0.1",
 			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v1.0.1/hades_ap_1.0.1.zip",
 			"sha256": "828196f7f0816a4177d76cac307e60ae703cfd8f0102f72ab89786eb7d17954f",
