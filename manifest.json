@@ -1,12 +1,12 @@
 ﻿{
 	"name": "Hades Tracker",
 	"game_name": "Hades",
-	"package_version": "1.0.1",
+	"package_version": "1.0.2",
 	"package_uid": "hades_ap",
 	"author": "OmegaZeron",
 	"variants": {
 		"standard": {
-			"display_name": "AP Autotracker v1.0.1",
+			"display_name": "AP Autotracker v1.0.2",
 			"flags": ["ap"]
 		}
 	},
