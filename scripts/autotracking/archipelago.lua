@@ -245,5 +245,5 @@ end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 	Archipelago:AddLocationHandler("location handler", OnLocation)
 end
--- Archipelago:AddSetReplyHandler("notify handler", OnNotify)
--- Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)
+Archipelago:AddSetReplyHandler("notify handler", OnNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)
