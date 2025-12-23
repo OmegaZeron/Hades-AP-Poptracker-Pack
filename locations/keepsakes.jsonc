@@ -139,7 +139,7 @@
 			},
 			{
 				"name": "Hermes",
-				"sections": [{"access_rules": ["^$CanReach|HermesKeepsake"]}],
+				"sections": [{"access_rules": ["^$CanReach|Megaera"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -161,7 +161,7 @@
 			},
 			{
 				"name": "Megaera",
-				"sections": [{}],
+				"sections": [{"access_rules": ["^$CanReach|Megaera"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",
@@ -238,7 +238,7 @@
 			},
 			{
 				"name": "Thanatos",
-				"sections": [{"access_rules": ["^$CanReach|HadesBoss"]}],
+				"sections": [{"access_rules": ["^$CanReach|Besties"]}],
 				"map_locations": [
 					{
 						"map": "keepsakes",

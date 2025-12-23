@@ -4,25 +4,24 @@
 		"type": "progressive",
 		"initial_stage_idx": 0,
 		"loop": true,
-		"codes": "location_system",
 		"allow_disabled": false,
 		"stages": [
 			{
 				"name": "Room",
 				"img": "images/labels/LocationRoom.png",
-				"codes": "location_room",
+				"codes": "location_system, location_room",
 				"inherit_codes": false
 			},
 			{
 				"name": "Score",
 				"img": "images/labels/LocationScore.png",
-				"codes": "location_score",
+				"codes": "location_system, location_score",
 				"inherit_codes": false
 			},
 			{
 				"name": "Weapon Per Room",
 				"img": "images/labels/LocationWeapon.png",
-				"codes": "location_weapon",
+				"codes": "location_system, location_weapon",
 				"inherit_codes": false
 			}
 		]
@@ -31,9 +30,7 @@
 		"name": "Score Amount",
 		"type": "consumable",
 		"initial_quantity": 150,
-		"loop": true,
 		"codes": "score_rewards_amount",
-		"allow_disabled": false,
 		"min_quantity": 72,
 		"max_quantity": 1000,
 		"img": "images/labels/ScoreRequirement.png",
@@ -44,25 +41,24 @@
 		"type": "progressive",
 		"initial_stage_idx": 0,
 		"loop": true,
-		"codes": "scoremult",
 		"allow_disabled": false,
 		"stages": [
 			{
 				"name": "Score 1x",
 				"img": "images/labels/ScoreMult1.png",
-				"codes": "scoremult1",
+				"codes": "scoremult, scoremult1",
 				"inherit_codes": false
 			},
 			{
 				"name": "Score 10x",
 				"img": "images/labels/ScoreMult10.png",
-				"codes": "scoremult10",
+				"codes": "scoremult, scoremult10",
 				"inherit_codes": false
 			},
 			{
 				"name": "Score 100x",
 				"img": "images/labels/ScoreMult100.png",
-				"codes": "scoremult100",
+				"codes": "scoremult, scoremult100",
 				"inherit_codes": false
 			}
 		]
@@ -72,20 +68,19 @@
 		"type": "progressive",
 		"initial_stage_idx": 1,
 		"loop": true,
-		"codes": "keepsakesanity",
 		"allow_disabled": false,
 		"stages": [
 			{
 				"name": "Keepsakesanity Off",
 				"img": "images/labels/Keepsakesanity.png",
 				"img_mods": "@disabled",
-				"codes": "keepsakesanity_off",
+				"codes": "keepsakesanity, keepsakesanity_off",
 				"inherit_codes": false
 			},
 			{
 				"name": "Keepsakesanity On",
 				"img": "images/labels/Keepsakesanity.png",
-				"codes": "keepsakesanity_on",
+				"codes": "keepsakesanity, keepsakesanity_on",
 				"inherit_codes": false
 			}
 		]
@@ -95,20 +90,19 @@
 		"type": "progressive",
 		"initial_stage_idx": 1,
 		"loop": true,
-		"codes": "weaponsanity",
 		"allow_disabled": false,
 		"stages": [
 			{
 				"name": "Weaponsanity Off",
 				"img": "images/labels/Weaponsanity.png",
 				"img_mods": "@disabled",
-				"codes": "weaponsanity_off",
+				"codes": "weaponsanity, weaponsanity_off",
 				"inherit_codes": false
 			},
 			{
 				"name": "Weaponsanity On",
 				"img": "images/labels/Weaponsanity.png",
-				"codes": "weaponsanity_on",
+				"codes": "weaponsanity, weaponsanity_on",
 				"inherit_codes": false
 			}
 		]
@@ -118,20 +112,19 @@
 		"type": "progressive",
 		"initial_stage_idx": 1,
 		"loop": true,
-		"codes": "hidden_aspectsanity",
 		"allow_disabled": false,
 		"stages": [
 			{
 				"name": "Hidden Aspectsanity Off",
 				"img": "images/labels/HiddenAspectsanity.png",
 				"img_mods": "@disabled",
-				"codes": "hidden_aspectsanity_off",
+				"codes": "hidden_aspectsanity, hidden_aspectsanity_off",
 				"inherit_codes": false
 			},
 			{
 				"name": "Hidden Aspectsanity On",
 				"img": "images/labels/HiddenAspectsanity.png",
-				"codes": "hidden_aspectsanity_on",
+				"codes": "hidden_aspectsanity, hidden_aspectsanity_on",
 				"inherit_codes": false
 			}
 		]
@@ -141,20 +134,19 @@
 		"type": "progressive",
 		"initial_stage_idx": 1,
 		"loop": true,
-		"codes": "storesanity",
 		"allow_disabled": false,
 		"stages": [
 			{
 				"name": "Storesanity Off",
 				"img": "images/labels/Storesanity.png",
 				"img_mods": "@disabled",
-				"codes": "storesanity_off",
+				"codes": "storesanity, storesanity_off",
 				"inherit_codes": false
 			},
 			{
 				"name": "Storesanity On",
 				"img": "images/labels/Storesanity.png",
-				"codes": "storesanity_on",
+				"codes": "storesanity, storesanity_on",
 				"inherit_codes": false
 			}
 		]
@@ -164,20 +156,19 @@
 		"type": "progressive",
 		"initial_stage_idx": 1,
 		"loop": true,
-		"codes": "fatesanity",
 		"allow_disabled": false,
 		"stages": [
 			{
 				"name": "Fatesanity Off",
 				"img": "images/labels/Fatesanity.png",
 				"img_mods": "@disabled",
-				"codes": "fatesanity_off",
+				"codes": "fatesanity, fatesanity_off",
 				"inherit_codes": false
 			},
 			{
 				"name": "Fatesanity On",
 				"img": "images/labels/Fatesanity.png",
-				"codes": "fatesanity_on",
+				"codes": "fatesanity, fatesanity_on",
 				"inherit_codes": false
 			}
 		]
@@ -186,9 +177,7 @@
 		"name": "Weapon Clears Needed",
 		"type": "consumable",
 		"initial_quantity": 1,
-		"loop": true,
 		"codes": "weapons_clears_needed",
-		"allow_disabled": false,
 		"min_quantity": 1,
 		"max_quantity": 6,
 		"img": "images/labels/WeaponClearsNeeded.png"
@@ -196,18 +185,14 @@
 	{
 		"name": "Keepsakes Needed",
 		"type": "consumable",
-		"loop": true,
 		"codes": "keepsakes_needed",
-		"allow_disabled": false,
 		"max_quantity": 23,
 		"img": "images/labels/KeepsakesNeeded.png"
 	},
 	{
 		"name": "Fates Needed",
 		"type": "consumable",
-		"loop": true,
 		"codes": "fates_needed",
-		"allow_disabled": false,
 		"max_quantity": 35,
 		"img": "images/labels/FatesNeeded.png"
 	},
@@ -216,25 +201,24 @@
 		"type": "progressive",
 		"initial_stage_idx": 0,
 		"loop": true,
-		"codes": "heat_system",
 		"allow_disabled": false,
 		"stages": [
 			{
 				"name": "Reverse Heat",
 				"img": "images/labels/ReverseHeat_Alt.png",
-				"codes": "reverse_heat",
+				"codes": "heat_system, reverse_heat",
 				"inherit_codes": false
 			},
 			{
 				"name": "Minimal Heat",
 				"img": "images/labels/MinimalHeat_Alt.png",
-				"codes": "minimal_heat",
+				"codes": "heat_system, minimal_heat",
 				"inherit_codes": false
 			},
 			{
 				"name": "Vanilla Heat",
 				"img": "images/labels/VanillaHeat_Alt.png",
-				"codes": "vanilla_heat",
+				"codes": "heat_system, vanilla_heat",
 				"inherit_codes": false
 			}
 		]
@@ -244,19 +228,18 @@
 		"type": "progressive",
 		"initial_stage_idx": 1,
 		"loop": true,
-		"codes": "reverse_order_em",
 		"allow_disabled": false,
 		"stages": [
 			{
 				"name": "Vanilla EM",
 				"img": "images/labels/VanillaEM.png",
-				"codes": "vanilla_em",
+				"codes": "reverse_order_em, vanilla_em",
 				"inherit_codes": false
 			},
 			{
 				"name": "Reverse EM",
 				"img": "images/labels/ReverseEM.png",
-				"codes": "reverse_em",
+				"codes": "reverse_order_em, reverse_em",
 				"inherit_codes": false
 			}
 		]

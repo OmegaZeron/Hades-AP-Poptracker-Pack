@@ -235,19 +235,16 @@
 		"type": "progressive",
 		"initial_stage_idx": 0,
 		"loop": true,
-		"codes": "fountain_upgrade",
 		"stages": [
 			{
 				"name": "Underworld Fountains, Purified",
 				"img": "images/items/FountainUpgrade1.png",
-				"codes": "fountain_upgrade1",
-				"inherit_codes": false
+				"codes": "fountain_upgrade, fountain_upgrade1"
 			},
 			{
 				"name": "Underworld Fountains, Holy",
 				"img": "images/items/FountainUpgrade2.png",
-				"codes": "fountain_upgrade2",
-				"inherit_codes": false
+				"codes": "fountain_upgrade2"
 			}
 		]
 	},
@@ -256,25 +253,21 @@
 		"type": "progressive",
 		"initial_stage_idx": 0,
 		"loop": true,
-		"codes": "trove",
 		"stages": [
 			{
 				"name": "Plunder, Lesser",
 				"img": "images/items/Trove1.png",
-				"codes": "trove1",
-				"inherit_codes": false
+				"codes": "trove, trove1"
 			},
 			{
 				"name": "Plunder, Greater",
 				"img": "images/items/Trove2.png",
-				"codes": "trove2",
-				"inherit_codes": false
+				"codes": "trove2"
 			},
 			{
 				"name": "Plunder, Superior",
 				"img": "images/items/Trove3.png",
-				"codes": "trove3",
-				"inherit_codes": false
+				"codes": "trove3"
 			}
 		]
 	},
@@ -289,25 +282,21 @@
 		"type": "progressive",
 		"initial_stage_idx": 0,
 		"loop": true,
-		"codes": "urn",
 		"stages": [
 			{
 				"name": "Urns of Wealth, Lesser",
 				"img": "images/items/Urn1.png",
-				"codes": "urn1",
-				"inherit_codes": false
+				"codes": "urn, urn1"
 			},
 			{
 				"name": "Urns of Wealth, Greater",
 				"img": "images/items/Urn2.png",
-				"codes": "urn2",
-				"inherit_codes": false
+				"codes": "urn2"
 			},
 			{
 				"name": "Urns of Wealth, Superior",
 				"img": "images/items/Urn3.png",
-				"codes": "urn3",
-				"inherit_codes": false
+				"codes": "urn3"
 			}
 		]
 	},

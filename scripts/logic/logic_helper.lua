@@ -63,7 +63,14 @@ function HasRoutineInspection(amount)
 	if (not Has("reverse_heat")) then
 		return true
 	end
-	return Tracker:ProviderCountForCode("routine_inspection_pact_amount") - Tracker:ProviderCountForCode("pact_routine_inspection") >= amount
+	return Tracker:ProviderCountForCode(RoutineInspectionSetting) - Tracker:ProviderCountForCode(RoutineInspectionItem) >= amount
+end
+
+function HasAllApprovalProcess()
+	return Any(
+		Tracker:ProviderCountForCode(ApprovalProcessItem) == 0,
+		AccessibilityLevel.SequenceBreak
+	)
 end
 
 function OnChangeScoreMult()

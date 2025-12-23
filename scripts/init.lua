@@ -1,18 +1,17 @@
 if (PopVersion >= "0.30.4") then
     Tracker.AllowDeferredLogicUpdate = true
 end
-require("scripts/logic/definition_helper")
-require("scripts/logic/logic")
-require("scripts/logic/location_definitions")
-require("scripts/logic/logic_helper")
-require("scripts/utils")
-require("scripts/autotracking")
-require("scripts/locations")
+require("scripts.logic.definition_helper")
+require("scripts.logic.logic")
+require("scripts.logic.location_definitions")
+require("scripts.logic.logic_helper")
+require("scripts.utils")
+require("scripts.autotracking")
+require("scripts.locations")
 
 Tracker:AddItems("items/items.jsonc")
 
 Tracker:AddItems("items/pack_settings.jsonc")
-Tracker:AddItems("items/labels.jsonc")
 Tracker:AddMaps("maps/maps.jsonc")
 
 Tracker:AddLayouts("layouts/item_grids.jsonc")

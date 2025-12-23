@@ -8,6 +8,13 @@ NamedLocations = {}
 
 -- creates a lua object for the given name. it acts as a representation of a overworld reagion or indoor location and
 -- tracks its connected objects via the exit-table
+---@class HadesLocation
+---@field exits table
+---@field exits_to_recheck table
+---@field Staleness number
+---@field accessibility_level accessibilityLevel
+---@field cleared boolean
+---@field discover function
 function HadesLocation.New(name)
 	local self = setmetatable({}, HadesLocation)
 	if name then
@@ -24,6 +31,7 @@ function HadesLocation.New(name)
 	return self
 end
 
+---@return accessibilityLevel
 local function Always()
 	return AccessibilityLevel.Normal
 end
@@ -86,6 +94,7 @@ function HadesLocation:connect_two_ways_entrance_door_stuck(exit, rule1, rule2)
 end
 
 -- checks for the accessibility of a region/location given its own exit requirements
+---@return accessibilityLevel
 function HadesLocation:accessibility()
 	if self.Staleness < Staleness then
 		return AccessibilityLevel.None
@@ -116,6 +125,7 @@ function HadesLocation:discover(accessibility)
 	end
 end
 
+---@return HadesLocation, accessibilityLevel
 function CheckAccess(loc, exit)
 	local location = exit[1]
 	local rule = exit[2]
@@ -147,7 +157,7 @@ function StateChange()
 	-- if (not IsStale) then
 	-- 	return
 	-- end
-	
+
 	-- fixes certain CanReach calls permanently marking locs as green, even after removing items
 	for _, location in pairs(NamedLocations) do
 		location.accessibility_level = 0
@@ -157,6 +167,7 @@ function StateChange()
 	Menu:discover(AccessibilityLevel.Normal)
 end
 
+---@return accessibilityLevel
 function CanReach(name)
 	-- for k,v in pairs(NamedLocations) do
 	--	 print("NamedLocations", dump(k))
@@ -192,6 +203,7 @@ function Has(item, amount)
 	return count >= amount
 end
 
+---@return accessibilityLevel
 function BoolToAccess(result)
 	if result then
 		return AccessibilityLevel.Normal
@@ -200,6 +212,8 @@ function BoolToAccess(result)
 	end
 end
 
+---@param ... boolean|accessibilityLevel
+---@return accessibilityLevel
 function All(...)
 	local args = { ... }
 	local min = AccessibilityLevel.Normal
@@ -219,6 +233,8 @@ function All(...)
 	return min
 end
 
+---@param ... boolean|accessibilityLevel
+---@return accessibilityLevel
 function Any(...)
 	local args = { ... }
 	local max = AccessibilityLevel.None

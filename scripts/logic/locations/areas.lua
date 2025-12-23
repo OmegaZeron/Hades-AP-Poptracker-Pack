@@ -3,7 +3,7 @@ Tartarus:connect_one_way_entrance(Megaera, function()
 	return Any(
 		All(
 			HasPactHeat(math.min(TotalPactAmount() / 4, 10)),
-			HasRoutineInspection(Tracker:ProviderCountForCode("routine_inspection_pact_amount") - 2),
+			HasRoutineInspection(Tracker:ProviderCountForCode(RoutineInspectionSetting) - 2),
 			Has("weapon", 2)
 		),
 		AccessibilityLevel.SequenceBreak
@@ -14,25 +14,27 @@ Asphodel:connect_one_way_entrance(Lernie, function()
 	return Any(
 		All(
 			HasPactHeat(math.min(TotalPactAmount() / 2, 20)),
-			HasRoutineInspection(Tracker:ProviderCountForCode("routine_inspection_pact_amount") - 1),
+			HasRoutineInspection(Tracker:ProviderCountForCode(RoutineInspectionSetting) - 1),
 			Has("weapon", 3)
 		),
 		AccessibilityLevel.SequenceBreak
 	)
 end)
-Lernie:connect_one_way(DivinePairings, function()
-	return Any(
-		Has("keepsakesanity_off"),
-		All(
-			Has("Keepsake_aphrodite"),
-			Has("Keepsake_ares"),
-			Has("Keepsake_artemis"),
-			Has("Keepsake_athena"),
-			Has("Keepsake_demeter"),
-			Has("Keepsake_dionysus"),
-			Has("Keepsake_hermes"),
-			Has("Keepsake_poseidon"),
-			Has("Keepsake_zeus")
+HadesBoss:connect_one_way(DivinePairings, function()
+	return All(
+		HasAllApprovalProcess(),
+		Any(
+			Has("keepsakesanity_off"),
+			All(
+				Has(EternalRose),
+				Has(BloodFilledVial),
+				Has(AdamantArrowhead),
+				Has(OwlPendant),
+				Has(FrostbittenHorn),
+				Has(OverflowingCup),
+				Has(ConchShell),
+				Has(ThunderSignet)
+			)
 		)
 	)
 end)
@@ -41,7 +43,7 @@ Elysium:connect_one_way_entrance(Besties, function()
 	return Any(
 		All(
 			HasPactHeat(math.min(TotalPactAmount() * 3 / 4, 30)),
-			HasRoutineInspection(Tracker:ProviderCountForCode("routine_inspection_pact_amount")),
+			HasRoutineInspection(Tracker:ProviderCountForCode(RoutineInspectionSetting)),
 			Has("weapon", 5)
 		),
 		AccessibilityLevel.SequenceBreak

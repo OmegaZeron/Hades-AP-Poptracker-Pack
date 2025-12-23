@@ -1,4 +1,18 @@
--- Items
+-- Weapons
+Stygius = "weapon_stygius"
+StygiusHidden = "aspect_arthur"
+Varatha = "weapon_varatha"
+VarathaHidden = "aspect_guan_yu"
+Aegis = "weapon_aegis"
+AegisHidden = "aspect_beowulf"
+Coronacht = "weapon_coronacht"
+CoronachtHidden = "aspect_rama"
+Malphon = "weapon_malphon"
+MalphonHidden = "aspect_gilgamesh"
+Exagryph = "weapon_exagryph"
+ExagryphHidden = "aspect_lucifer"
+
+-- Keepsakes
 EternalRose = "keepsake_aphrodite"
 BloodFilledVial = "keepsake_ares"
 AdamantArrowhead = "keepsake_artemis"
@@ -10,20 +24,55 @@ LambentPlume = "keepsake_hermes"
 ConchShell = "keepsake_poseidon"
 ThunderSignet = "keepsake_zeus"
 
+-- Pact Items
+HardLaborItem = "pact_hard_labor"
+LastingConsequencesItem = "pact_lasting_consequences"
+ConvenienceFeeItem = "pact_convenience_fee"
+JurySummonsItem = "pact_jury_summons"
+ExtremeMeasuresItem = "pact_extreme_measures"
+CalisthenicsProgramItem = "pact_calisthenics_program"
+BenefitsPackageItem = "pact_benefits_package"
+MiddleManagementItem = "pact_middle_management"
+UnderworldCustomsItem = "pact_underworld_customs"
+ForcedOvertimeItem = "pact_forced_overtime"
+HeightenedSecurityItem = "pact_heightened_security"
+RoutineInspectionItem = "pact_routine_inspection"
+DamageControlItem = "pact_damage_control"
+ApprovalProcessItem = "pact_approval_process"
+TightDeadlineItem = "pact_tight_deadline"
+PersonalLiabilityItem = "pact_personal_liability"
+
 -- Settings
 HadesGoal = "goal_hades"
 ScoreGoal = "goal_score"
 WeaponGoal = "goal_weapon"
 KeepsakeGoal = "goal_keepsake"
 FateGoal = "goal_fate"
+-- Pact Settings
+HardLaborSetting = "hard_labor_pact_amount"
+LastingConsequencesSetting = "lasting_consequences_pact_amount"
+ConvenienceFeeSetting = "convenience_fee_pact_amount"
+JurySummonsSetting = "jury_summons_pact_amount"
+ExtremeMeasuresSetting = "extreme_measures_pact_amount"
+CalisthenicsProgramSetting = "calisthenics_program_pact_amount"
+BenefitsPackageSetting = "benefits_package_pact_amount"
+MiddleManagementSetting = "middle_management_pact_amount"
+UnderworldCustomsSetting = "underworld_customs_pact_amount"
+ForcedOvertimeSetting = "forced_overtime_pact_amount"
+HeightenedSecuritySetting = "heightened_security_pact_amount"
+RoutineInspectionSetting = "routine_inspection_pact_amount"
+DamageControlSetting = "damage_control_pact_amount"
+ApprovalProcessSetting = "approval_process_pact_amount"
+TightDeadlineSetting = "tight_deadline_pact_amount"
+PersonalLiabilitySetting = "personal_liability_pact_amount"
 
 InitialWeaponDict = {
-	[0] = {"weapon_stygius", "@Contractor/Weapon Unlocks/Stygius"},
-	[1] = {"weapon_coronacht", "@Contractor/Weapon Unlocks/Coronacht"},
-	[2] = {"weapon_varatha", "@Contractor/Weapon Unlocks/Varatha"},
-	[3] = {"weapon_aegis", "@Contractor/Weapon Unlocks/Aegis"},
-	[4] = {"weapon_malphon", "@Contractor/Weapon Unlocks/Malphon"},
-	[5] = {"weapon_exagryph", "@Contractor/Weapon Unlocks/Exagryph"}
+	[0] = {Stygius, "@Contractor/Weapon Unlocks/Stygius"},
+	[1] = {Coronacht, "@Contractor/Weapon Unlocks/Coronacht"},
+	[2] = {Varatha, "@Contractor/Weapon Unlocks/Varatha"},
+	[3] = {Aegis, "@Contractor/Weapon Unlocks/Aegis"},
+	[4] = {Malphon, "@Contractor/Weapon Unlocks/Malphon"},
+	[5] = {Exagryph, "@Contractor/Weapon Unlocks/Exagryph"}
 }
 
 FateLocs = {
@@ -62,26 +111,42 @@ FateLocs = {
 	"Fated List/Fated List of Minor Prophecies/Dark Reflections",
 	"Fated List/Fated List of Minor Prophecies/Close At Heart",
 	"Fated List/Fated List of Minor Prophecies/Denizens Of The Deep",
-	"Fated List/Fated List of Minor Prophecies/The Useless Trinket"
+	"Fated List/Fated List of Minor Prophecies/The Useless Trinket",
+	"Fated List/Fated List of Minor Prophecies/Musician and Muse",
+	"Fated List/Fated List of Minor Prophecies/End to Torment",
+	"Fated List/Fated List of Minor Prophecies/Divided by Death",
+	"Fated List/Fated List of Minor Prophecies/Eternal Rest",
+	"Fated List/Fated List of Minor Prophecies/A Place of Revelry",
+	"Fated List/Fated List of Minor Prophecies/Amusing Chaos",
+	"Fated List/Fated List of Minor Prophecies/Sea-God's Spite",
+	"Fated List/Fated List of Minor Prophecies/War-God's Bloodlust",
+	"Fated List/Fated List of Minor Prophecies/A Friendly Wager",
+	"Fated List/Fated List of Minor Prophecies/The Holy Liege",
+	"Fated List/Fated List of Minor Prophecies/The Fated Saint of War",
+	"Fated List/Fated List of Minor Prophecies/The Preserver's Avatar",
+	"Fated List/Fated List of Minor Prophecies/The Dragon's Rival",
+	"Fated List/Fated List of Minor Prophecies/The God-like King",
+	"Fated List/Fated List of Minor Prophecies/The Dawn Bringer",
+	"Fated List/Fated List of Minor Prophecies/The Gift of Song"
 }
 
 PactMapping = {
-	["hard_labor_pact_amount"] = "pact_hard_labor",
-	["lasting_consequences_pact_amount"] = "pact_lasting_consequences",
-	["convenience_fee_pact_amount"] = "pact_convenience_fee",
-	["jury_summons_pact_amount"] = "pact_jury_summons",
-	["extreme_measures_pact_amount"] = "pact_extreme_measures",
-	["calisthenics_program_pact_amount"] = "pact_calisthenics_program",
-	["benefits_package_pact_amount"] = "pact_benefits_package",
-	["middle_management_pact_amount"] = "pact_middle_management",
-	["underworld_customs_pact_amount"] = "pact_underworld_customs",
-	["forced_overtime_pact_amount"] = "pact_forced_overtime",
-	["heightened_security_pact_amount"] = "pact_heightened_security",
-	["routine_inspection_pact_amount"] = "pact_routine_inspection",
-	["damage_control_pact_amount"] = "pact_damage_control",
-	["approval_process_pact_amount"] = "pact_approval_process",
-	["tight_deadline_pact_amount"] = "pact_tight_deadline",
-	["personal_liability_pact_amount"] = "pact_personal_liability"
+	[HardLaborSetting] = HardLaborItem,
+	[LastingConsequencesSetting] = LastingConsequencesItem,
+	[ConvenienceFeeSetting] = ConvenienceFeeItem,
+	[JurySummonsSetting] = JurySummonsItem,
+	[ExtremeMeasuresSetting] = ExtremeMeasuresItem,
+	[CalisthenicsProgramSetting] = CalisthenicsProgramItem,
+	[BenefitsPackageSetting] = BenefitsPackageItem,
+	[MiddleManagementSetting] = MiddleManagementItem,
+	[UnderworldCustomsSetting] = UnderworldCustomsItem,
+	[ForcedOvertimeSetting] = ForcedOvertimeItem,
+	[HeightenedSecuritySetting] = HeightenedSecurityItem,
+	[RoutineInspectionSetting] = RoutineInspectionItem,
+	[DamageControlSetting] = DamageControlItem,
+	[ApprovalProcessSetting] = ApprovalProcessItem,
+	[TightDeadlineSetting] = TightDeadlineItem,
+	[PersonalLiabilitySetting] = PersonalLiabilityItem
 }
 
 -- SlotData
@@ -102,22 +167,22 @@ SlotDataTable = {
 	{"fates_needed", "consumable"},
 	-- {"heat_system", "progressive"},
 	-- pact items
-	{"hard_labor_pact_amount", "consumable"},
-	{"lasting_consequences_pact_amount", "consumable"},
-	{"convenience_fee_pact_amount", "consumable"},
-	{"jury_summons_pact_amount", "consumable"},
-	{"extreme_measures_pact_amount", "consumable"},
-	{"calisthenics_program_pact_amount", "consumable"},
-	{"benefits_package_pact_amount", "consumable"},
-	{"middle_management_pact_amount", "consumable"},
-	{"underworld_customs_pact_amount", "consumable"},
-	{"forced_overtime_pact_amount", "consumable"},
-	{"heightened_security_pact_amount", "consumable"},
-	{"routine_inspection_pact_amount", "consumable"},
-	{"damage_control_pact_amount", "consumable"},
-	{"approval_process_pact_amount", "consumable"},
-	{"tight_deadline_pact_amount", "consumable"},
-	{"personal_liability_pact_amount", "consumable"},
+	{HardLaborSetting, "consumable"},
+	{LastingConsequencesSetting, "consumable"},
+	{ConvenienceFeeSetting, "consumable"},
+	{JurySummonsSetting, "consumable"},
+	{ExtremeMeasuresSetting, "consumable"},
+	{CalisthenicsProgramSetting, "consumable"},
+	{BenefitsPackageSetting, "consumable"},
+	{MiddleManagementSetting, "consumable"},
+	{UnderworldCustomsSetting, "consumable"},
+	{ForcedOvertimeSetting, "consumable"},
+	{HeightenedSecuritySetting, "consumable"},
+	{RoutineInspectionSetting, "consumable"},
+	{DamageControlSetting, "consumable"},
+	{ApprovalProcessSetting, "consumable"},
+	{TightDeadlineSetting, "consumable"},
+	{PersonalLiabilitySetting, "consumable"},
 	-- filler item amounts
 	-- "darkness_pack_value",
 	-- "gemstones_pack_value",
