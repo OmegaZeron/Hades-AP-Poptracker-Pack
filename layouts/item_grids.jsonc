@@ -47,7 +47,7 @@
 				"item_margin": "1,2",
 				"rows": [
 					["location_system", "score_rewards_amount", "keepsakesanity", "weaponsanity", "fatesanity", "hidden_aspectsanity", "storesanity"],
-					["hades_defeats_needed", "scoremult", "keepsakes_needed", "weapons_clears_needed", "fates_needed", "heat_system", "reverse_order_em"],
+					["hades_defeats_needed", "scoremult", "keepsakes_needed", "weapons_clears_needed", "fates_needed", "heat_system", "reverse_order_em", "disable_late_styx"],
 					["hard_labor_pact_amount", "lasting_consequences_pact_amount", "convenience_fee_pact_amount", "jury_summons_pact_amount", "extreme_measures_pact_amount", "calisthenics_program_pact_amount", "benefits_package_pact_amount", "middle_management_pact_amount"],
 					["underworld_customs_pact_amount", "forced_overtime_pact_amount", "heightened_security_pact_amount", "routine_inspection_pact_amount", "damage_control_pact_amount", "approval_process_pact_amount", "tight_deadline_pact_amount", "personal_liability_pact_amount"]
 				]

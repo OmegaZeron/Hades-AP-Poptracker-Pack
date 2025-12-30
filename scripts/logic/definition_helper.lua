@@ -42,12 +42,21 @@ ApprovalProcessItem = "pact_approval_process"
 TightDeadlineItem = "pact_tight_deadline"
 PersonalLiabilityItem = "pact_personal_liability"
 
+-- Helpers
+ManualStorageCode = "manual_location_storage"
+
 -- Settings
 HadesGoal = "goal_hades"
 ScoreGoal = "goal_score"
 WeaponGoal = "goal_weapon"
 KeepsakeGoal = "goal_keepsake"
 FateGoal = "goal_fate"
+HadesDefeatsNeeded = "hades_defeats_needed"
+WeaponClearsNeeded = "weapons_clears_needed"
+KeepsakesNeeded = "keepsakes_needed"
+FatesNeeded = "fates_needed"
+ScoreRewardsAmount = "score_rewards_amount"
+
 -- Pact Settings
 HardLaborSetting = "hard_labor_pact_amount"
 LastingConsequencesSetting = "lasting_consequences_pact_amount"
@@ -152,20 +161,17 @@ PactMapping = {
 -- SlotData
 SlotDataTable = {
 	-- checks
-	-- "initial_weapon",
-	-- {"location_system", "progressive"},
-	{"score_rewards_amount", "consumable"},
-	-- sanities
-	{"keepsakesanity", "toggle"},
-	{"weaponsanity", "toggle"},
-	{"hidden_aspectsanity", "toggle"},
-	{"storesanity", "toggle"},
-	{"fatesanity", "toggle"},
-	{"hades_defeats_needed", "consumable"},
-	{"weapons_clears_needed", "consumable"},
-	{"keepsakes_needed", "consumable"},
-	{"fates_needed", "consumable"},
-	-- {"heat_system", "progressive"},
+	{ScoreRewardsAmount, "consumable"},
+	{"keepsakesanity", "progressive"},
+	{"weaponsanity", "progressive"},
+	{"hidden_aspectsanity", "progressive"},
+	{"storesanity", "progressive"},
+	{"fatesanity", "progressive"},
+	-- goal settings
+	{HadesDefeatsNeeded, "consumable"},
+	{WeaponClearsNeeded, "consumable"},
+	{KeepsakesNeeded, "consumable"},
+	{FatesNeeded, "consumable"},
 	-- pact items
 	{HardLaborSetting, "consumable"},
 	{LastingConsequencesSetting, "consumable"},
@@ -183,28 +189,9 @@ SlotDataTable = {
 	{ApprovalProcessSetting, "consumable"},
 	{TightDeadlineSetting, "consumable"},
 	{PersonalLiabilitySetting, "consumable"},
-	-- filler item amounts
-	-- "darkness_pack_value",
-	-- "gemstones_pack_value",
-	-- "keys_pack_value",
-	-- "diamonds_pack_value",
-	-- "titan_blood_pack_value",
-	-- "nectar_pack_value",
-	-- "ambrosia_pack_value",
-	-- helpers
-	-- "filler_helper_percentage",
-	-- "max_health_helper_percentage",
-	-- "initial_money_helper_percentage",
-	-- "filler_trap_percentage",
+	-- QOL settings
 	{"reverse_order_em", "progressive"},
-
-	-- "ignore_greece_deaths",
-	-- "store_give_hints",
-	-- "automatic_rooms_finish_on_hades_defeat",
-	-- "death_link",
-
-	-- "version_check",
-	-- "seed"
+	{"disable_late_styx", "progressive"}
 }
 
 if Highlight then

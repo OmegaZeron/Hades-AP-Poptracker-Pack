@@ -3,13 +3,60 @@ require("scripts.autotracking.location_mapping")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
-LOCAL_ITEMS = {}
-GLOBAL_ITEMS = {}
+ALL_LOCATIONS = {}
+IS_MANUAL_CLICK = true
+DEFAULT_SEED = "default"
+ROOM_SEED = DEFAULT_SEED
+
+function PreOnClear()
+	PLAYER_ID = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
+
+	if Archipelago.PlayerNumber > -1 then
+		if #ALL_LOCATIONS > 0 then
+			ALL_LOCATIONS = {}
+		end
+		for _, value in pairs(Archipelago.MissingLocations) do
+			table.insert(ALL_LOCATIONS, #ALL_LOCATIONS + 1, value)
+		end
+
+		for _, value in pairs(Archipelago.CheckedLocations) do
+			table.insert(ALL_LOCATIONS, #ALL_LOCATIONS + 1, value)
+		end
+	end
+
+	local manualStorageItem = Tracker:FindObjectForCode(ManualStorageCode)
+	if manualStorageItem then
+		manualStorageItem = manualStorageItem.ItemState
+	end
+	local seedBase = (Archipelago.Seed or #ALL_LOCATIONS).."_"..Archipelago.TeamNumber.."_"..Archipelago.PlayerNumber
+	if manualStorageItem and (ROOM_SEED == DEFAULT_SEED or ROOM_SEED ~= seedBase) then
+		ROOM_SEED = seedBase
+		if #manualStorageItem.ManualLocations > 10 then
+			manualStorageItem.ManualLocations[manualStorageItem.ManualLocationsOrder[1]] = nil
+			table.remove(manualStorageItem.ManualLocationsOrder, 1)
+		end
+		if manualStorageItem.ManualLocations[ROOM_SEED] == nil then
+			manualStorageItem.ManualLocations[ROOM_SEED] = {}
+			table.insert(manualStorageItem.ManualLocationsOrder, ROOM_SEED)
+		end
+	end
+end
 
 function OnClear(slot_data)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("called onClear, slot_data:\n%s", dump(slot_data)))
 	end
+
+	IS_MANUAL_CLICK = false
+	local manualStorageItem = Tracker:FindObjectForCode(ManualStorageCode)
+	if manualStorageItem == nil then
+		CreateLuaManualLocationStorage(ManualStorageCode)
+	end
+	manualStorageItem = Tracker:FindObjectForCode(ManualStorageCode).ItemState
+
+	PreOnClear()
+
 	SLOT_DATA = slot_data
 	CUR_INDEX = -1
 	-- reset locations
@@ -18,35 +65,41 @@ function OnClear(slot_data)
 			if location then
 				local obj = Tracker:FindObjectForCode(location)
 				if obj then
-					if location:sub(1, 1) == "@" then
-						obj.AvailableChestCount = obj.ChestCount
+				if location:sub(1, 1) == "@" then
+					---@cast obj LocationSection
+					if manualStorageItem and manualStorageItem.ManualLocations[ROOM_SEED] and manualStorageItem.ManualLocations[ROOM_SEED][obj.FullID] then
+						obj.AvailableChestCount = manualStorageItem.ManualLocations[ROOM_SEED][obj.FullID]
 					else
-						obj.Active = false
+						obj.AvailableChestCount = obj.ChestCount
 					end
+				else
+					---@cast obj JsonItem
+					obj.Active = false
 				end
+			end
 			end
 		end
 	end
 	-- reset items
-	for _, v in pairs(ITEM_MAPPING) do
-		if v[1] and v[2] then
+	for _, itemData in pairs(ITEM_MAPPING) do
+		if itemData[1] and itemData[2] then
 			if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-				print(string.format("onClear: clearing item %s of type %s", v[1], v[2]))
+				print(string.format("onClear: clearing item %s of type %s", itemData[1], itemData[2]))
 			end
-			local obj = Tracker:FindObjectForCode(v[1])
+			local obj = Tracker:FindObjectForCode(itemData[1])
 			if obj then
-				if v[2] == "toggle" then
+				if itemData[2] == "toggle" then
 					obj.Active = false
-				elseif v[2] == "progressive" then
+				elseif itemData[2] == "progressive" then
 					obj.CurrentStage = 0
 					obj.Active = false
-				elseif v[2] == "consumable" or v[2] == "pact" then
+				elseif itemData[2] == "consumable" or itemData[2] == "pact" then
 					obj.AcquiredCount = 0
 				elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-					print(string.format("onClear: unknown item type %s for code %s", v[2], v[1]))
+					print(string.format("onClear: unknown item type %s for code %s", itemData[2], itemData[1]))
 				end
 			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-				print(string.format("onClear: could not find object for code %s", v[1]))
+				print(string.format("onClear: could not find object for code %s", itemData[1]))
 			end
 		end
 	end
@@ -82,6 +135,8 @@ function OnClear(slot_data)
 	-- get initial weapon, and mark off the contractor location
 	Tracker:FindObjectForCode(InitialWeaponDict[slot_data["initial_weapon"]][1]).Active = true
 	Tracker:FindObjectForCode(InitialWeaponDict[slot_data["initial_weapon"]][2]).AvailableChestCount = 0
+
+	IS_MANUAL_CLICK = true
 end
 
 -- called when an item gets collected
@@ -96,48 +151,47 @@ function OnItem(index, item_id, item_name, player_number)
 		return
 	end
 	SetAsStale()
-	local is_local = player_number == Archipelago.PlayerNumber
 	CUR_INDEX = index;
-	local v = ITEM_MAPPING[item_id]
-	if not v then
+	local itemData = ITEM_MAPPING[item_id]
+	if not itemData then
 		if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 			print(string.format("onItem: could not find item mapping for id %s", item_id))
 		end
 		return
 	end
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("onItem: code: %s, type %s", v[1], v[2]))
+		print(string.format("onItem: code: %s, type %s", itemData[1], itemData[2]))
 	end
-	if not v[1] then
+	if not itemData[1] then
 		return
 	end
-	local obj = Tracker:FindObjectForCode(v[1])
-	if obj then
-		if v[2] == "toggle" then
-			obj.Active = true
-		elseif v[2] == "progressive" then
-			if obj.Active then
-				obj.CurrentStage = obj.CurrentStage + 1
+	local item = Tracker:FindObjectForCode(itemData[1])
+	if item then
+		if itemData[2] == "toggle" then
+			item.Active = true
+		elseif itemData[2] == "progressive" then
+			if item.Active then
+				item.CurrentStage = item.CurrentStage + 1
 			else
-				obj.Active = true
+				item.Active = true
 			end
-		elseif v[2] == "consumable" then
+		elseif itemData[2] == "consumable" then
 			local mult = 1
-			if (v[3]) then
-				mult = v[3]
+			if (itemData[3]) then
+				mult = itemData[3]
 			end
-			obj.AcquiredCount = obj.AcquiredCount + (obj.Increment * mult)
-			if (obj.AcquiredCount > obj.MaxCount) then
-				obj.AcquiredCount = obj.MaxCount
+			item.AcquiredCount = item.AcquiredCount + (item.Increment * mult)
+			if (item.AcquiredCount > item.MaxCount) then
+				item.AcquiredCount = item.MaxCount
 			end
-			if (obj.AcquiredCount < obj.MinCount) then
-				obj.AcquiredCount = obj.MinCount
+			if (item.AcquiredCount < item.MinCount) then
+				item.AcquiredCount = item.MinCount
 			end
 		elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-			print(string.format("onItem: unknown item type %s for code %s", v[2], v[1]))
+			print(string.format("onItem: unknown item type %s for code %s", itemData[2], itemData[1]))
 		end
 	elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("onItem: could not find object for code %s", v[1]))
+		print(string.format("onItem: could not find object for code %s", itemData[1]))
 	end
 end
 
@@ -146,34 +200,71 @@ function OnLocation(location_id, location_name)
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print("called onLocation:", location_name)
 	end
+
+	IS_MANUAL_CLICK = false
+
 	SetAsStale()
-	local location_array = LOCATION_MAPPING[location_id]
-	if not location_array or not location_array[1] then
+	local locationTable = LOCATION_MAPPING[location_id]
+	if not locationTable or not locationTable[1] then
 		print(string.format("onLocation: could not find location mapping for id %s", location_id))
 		return
 	end
 
-	for _, location in pairs(location_array) do
-		local obj = Tracker:FindObjectForCode(location)
+	for _, code in pairs(locationTable) do
+		local obj = Tracker:FindObjectForCode(code)
 		-- print(location, obj)
 		if obj then
-			if location:sub(1, 1) == "@" then
+			if code:sub(1, 1) == "@" then
+				---@cast obj LocationSection
 				obj.AvailableChestCount = obj.AvailableChestCount - 1
 			else
+				-- hosted item
+				---@cast obj JsonItem|LuaItem
 				obj.Active = true
 			end
-			ClearHints(location_id)
+			UpdateHints(location_id, Highlight.None)
 		else
-			print(string.format("onLocation: could not find object for code %s", location))
+			print(string.format("onLocation: could not find object for code %s", code))
 		end
 	end
+
+	IS_MANUAL_CLICK = true
 end
 
--- called when a locations is scouted
-function OnScout(location_id, location_name, item_id, item_name, item_player)
-	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name,
-			item_player))
+---@param location LocationSection
+function ManualLocationHandler(location)
+	if IS_MANUAL_CLICK then
+		local manualStorageItem = Tracker:FindObjectForCode(ManualStorageCode)
+		if not manualStorageItem then
+			return
+		end
+		manualStorageItem = manualStorageItem.ItemState
+		if not manualStorageItem then
+			return
+		end
+		if Archipelago.PlayerNumber == -1 and ROOM_SEED ~= DEFAULT_SEED then
+			-- seed is from previous connection
+			ROOM_SEED = DEFAULT_SEED
+			manualStorageItem.ManualLocations[ROOM_SEED] = {}
+		end
+		local fullID = location.FullID
+		if not manualStorageItem.ManualLocations[ROOM_SEED] then
+			manualStorageItem.ManualLocations[ROOM_SEED] = {}
+		end
+		if location.AvailableChestCount < location.ChestCount then
+			-- add to list
+			manualStorageItem.ManualLocations[ROOM_SEED][fullID] = location.AvailableChestCount
+			if Highlight then
+				location.Highlight = Highlight.None
+			end
+		else
+			-- remove from list of set back to max chestcount
+			manualStorageItem.ManualLocations[ROOM_SEED][fullID] = nil
+			if Highlight then
+				-- run hints again just in case
+				Archipelago:Get({HINTS_ID})
+			end
+		end
 	end
 end
 
@@ -182,9 +273,9 @@ function OnNotify(key, value, old_value)
 	if value ~= old_value and key == HINTS_ID then
 		for _, hint in ipairs(value) do
 			if not hint.found and hint.finding_player == Archipelago.PlayerNumber then
-				UpdateHints(hint.location, hint.item_flags)
+				UpdateHints(hint.location, PriorityToHighlight[hint.status])
 			else
-				ClearHints(hint.location)
+				UpdateHints(hint.location, Highlight.None)
 			end
 		end
 	end
@@ -196,37 +287,24 @@ function OnNotifyLaunch(key, value)
 end
 
 -- called when a location is hinted or the status of a hint is changed
+---@param locationID number
+---@param status highlight
 function UpdateHints(locationID, status)
 	if not Highlight then
 		return
 	end
-	local locations = LOCATION_MAPPING[locationID]
+	local locationTable = LOCATION_MAPPING[locationID]
+	if not locationTable then
+		return
+	end
 	-- print("Hint", dump(locations), status)
-	for _, location in ipairs(locations) do
+	for _, location in ipairs(locationTable) do
 		local section = Tracker:FindObjectForCode(location)
 		---@cast section LocationSection
 		if section then
-			section.Highlight = PriorityToHighlight[status]
+			section.Highlight = status
 		else
 			print(string.format("No object found for code: %s", location))
-		end
-	end
-end
-
-function ClearHints(locationID)
-	if not Highlight then
-		return
-	end
-	local item_codes = LOCATION_MAPPING[locationID]
-	if (not item_codes) then
-		return
-	end
-	for _, item_code in ipairs(item_codes) do
-		local obj = Tracker:FindObjectForCode(item_code)
-		if obj then
-			obj.Highlight = Highlight.None
-		else
-			print(string.format("No object found for code: %s", item_code))
 		end
 	end
 end

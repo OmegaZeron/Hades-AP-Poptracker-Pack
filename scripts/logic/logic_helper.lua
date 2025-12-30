@@ -1,8 +1,8 @@
 function HasWeaponForGoal()
-	return Tracker:ProviderCountForCode("weapon") >= Tracker:ProviderCountForCode("weapons_clears_needed")
+	return Tracker:ProviderCountForCode("weapon") >= Tracker:ProviderCountForCode(WeaponClearsNeeded)
 end
 function HasKeepsakeForGoal()
-	return Tracker:ProviderCountForCode("keepsake") >= Tracker:ProviderCountForCode("keepsakes_needed")
+	return Tracker:ProviderCountForCode("keepsake") >= Tracker:ProviderCountForCode(KeepsakesNeeded)
 end
 function HasFateForGoal()
 	local count = 0
@@ -13,15 +13,15 @@ function HasFateForGoal()
 			count = count + 1
 		end
 	end
-	return count >= Tracker:ProviderCountForCode("fates_needed")
+	return count >= Tracker:ProviderCountForCode(FatesNeeded)
 end
 
 function CanSeeScore(score)
-	return Has("location_score") and tonumber(score) <= Tracker:ProviderCountForCode("score_rewards_amount")
+	return Has("location_score") and tonumber(score) <= Tracker:ProviderCountForCode(ScoreRewardsAmount)
 end
 function CanReachScore(score)
 	score = tonumber(score)
-	local maxLocations = Tracker:ProviderCountForCode("score_rewards_amount")
+	local maxLocations = Tracker:ProviderCountForCode(ScoreRewardsAmount)
 	local fractionLocations = math.floor(maxLocations / 8)
 	local tartarus = maxLocations - 7 * fractionLocations
 	local asphodel = tartarus + 2 * fractionLocations
@@ -83,14 +83,14 @@ function OnChangeScoreMult()
 			inc = 100
 		end
 	end
-	local scoreRequirement = Tracker:FindObjectForCode("score_rewards_amount")
+	local scoreRequirement = Tracker:FindObjectForCode(ScoreRewardsAmount)
 	---@cast scoreRequirement JsonItem
 	scoreRequirement.Increment = inc
 	scoreRequirement.Decrement = inc
 end
 
 function OnChangeDefeatsRequired()
-	local defeatsNeeded = Tracker:FindObjectForCode("hades_defeats_needed")
+	local defeatsNeeded = Tracker:FindObjectForCode(HadesDefeatsNeeded)
 	---@cast defeatsNeeded JsonItem
 	if (defeatsNeeded.AcquiredCount >= 10) then
 		defeatsNeeded.Icon = ImageReference:FromPackRelativePath("images/labels/DefeatHades_Alt.png")
@@ -107,5 +107,5 @@ function OnSectionChanged(section)
 end
 
 ScriptHost:AddWatchForCode("score mult handler", "scoremult", OnChangeScoreMult)
-ScriptHost:AddWatchForCode("defeats requried handler", "hades_defeats_needed", OnChangeDefeatsRequired)
-ScriptHost:AddOnLocationSectionChangedHandler("secton changed handler", OnSectionChanged)
+ScriptHost:AddWatchForCode("defeats requried handler", HadesDefeatsNeeded, OnChangeDefeatsRequired)
+ScriptHost:AddOnLocationSectionChangedHandler("section changed handler", OnSectionChanged)

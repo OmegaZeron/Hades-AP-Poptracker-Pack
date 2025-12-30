@@ -254,6 +254,28 @@
 		"img": "images/labels/DefeatHades.png"
 	},
 	{
+		"name": "Disable Late Styx",
+		"type": "progressive",
+		"initial_stage_idx": 0,
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Late Styx Enabled",
+				"img": "images/items/FishingRod.png",
+				"img_mods": "@disabled",
+				"codes": "disable_late_styx, late_styx_enabled",
+				"inherit_codes": false
+			},
+			{
+				"name": "Late Styx Disabled",
+				"img": "images/items/FishingRod.png",
+				"codes": "disable_late_styx, late_styx_disabled",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
 		"name": "Hard Labor",
 		"type": "consumable",
 		"codes": "pactsetting, hard_labor_pact_amount",
