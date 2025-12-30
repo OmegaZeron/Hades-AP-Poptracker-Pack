@@ -1,6 +1,7 @@
 ![Hades](https://cdn2.steamgriddb.com/grid/9ea6a76568f749f117172eaf365d7b21.png)
 # Hades Archipelago PopTracker Pack
-Tracker pack for [PopTracker](https://github.com/black-sliver/PopTracker/)
+Tracker pack for [PopTracker](https://github.com/black-sliver/PopTracker/)</br>
+<b>PopTracker v0.33.0 or higher is recommended.</b>
 
 [Archipelago Setup Guide](https://archipelago.gg/tutorial/Archipelago/setup/en)
 
