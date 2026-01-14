@@ -199,7 +199,10 @@
 					},
 					{
 						"name": "Divided by Death",
-						"access_rules": ["^$CanReach|HadesBoss"]
+						"access_rules": [
+							"storesanity_on, orpheus_sentence, ^$CanReach|HadesBoss",
+							"storesanity_off, ^$CanReach|HadesBoss"
+						]
 					},
 					{
 						"name": "Eternal Rest",
