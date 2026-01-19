@@ -3,10 +3,10 @@
 		"name": "Contractor",
 		"chest_unopened_img": "images/labels/ContractorCheck.png",
 		"chest_opened_img": "images/labels/ContractorCheck_Cleared.png",
-		"visibility_rules": ["storesanity_on"],
 		"children": [
 			{
 				"name": "Weapon Unlocks",
+				"visibility_rules": ["weaponsanity_on"],
 				"sections": [
 					{"name": "Stygius"},
 					{"name": "Varatha"},
@@ -33,6 +33,7 @@
 			},
 			{
 				"name": "House Contractor (Gems)",
+				"visibility_rules": ["storesanity_on"],
 				"sections": [
 					{
 						"name": "Fountain Chamber, Tartarus"
@@ -99,6 +100,7 @@
 			},
 			{
 				"name": "House Contractor (Diamonds)",
+				"visibility_rules": ["storesanity_on"],
 				"sections": [
 					{
 						"name": "Contractor's Desk, Deluxe",
