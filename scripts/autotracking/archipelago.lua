@@ -1,12 +1,13 @@
 require("scripts.autotracking.item_mapping")
 require("scripts.autotracking.location_mapping")
 
-CUR_INDEX = -1
-SLOT_DATA = nil
-ALL_LOCATIONS = {}
-IS_MANUAL_CLICK = true
-DEFAULT_SEED = "default"
-ROOM_SEED = DEFAULT_SEED
+local CUR_INDEX = -1
+local SLOT_DATA = nil
+local ALL_LOCATIONS = {}
+local IS_MANUAL_CLICK = true
+local DEFAULT_SEED <const> = "default"
+local ROOM_SEED = DEFAULT_SEED
+local IS_HIGHLIGHT_UPDATE = false
 
 function PreOnClear()
 	PLAYER_ID = Archipelago.PlayerNumber or -1
@@ -233,6 +234,10 @@ end
 
 ---@param location LocationSection
 function ManualLocationHandler(location)
+	if IS_HIGHLIGHT_UPDATE then
+		IS_HIGHLIGHT_UPDATE = false
+		return
+	end
 	if IS_MANUAL_CLICK then
 		local manualStorageItem = Tracker:FindObjectForCode(ManualStorageCode)
 		if not manualStorageItem then
@@ -272,10 +277,12 @@ function OnNotify(key, value, old_value)
 	-- print(string.format("called onNotify: %s, %s, %s", key, dump(value), old_value))
 	if value ~= old_value and key == HINTS_ID then
 		for _, hint in ipairs(value) do
-			if not hint.found and hint.finding_player == Archipelago.PlayerNumber then
-				UpdateHints(hint.location, PriorityToHighlight[hint.status])
-			else
-				UpdateHints(hint.location, Highlight.None)
+			if hint.finding_player == Archipelago.PlayerNumber then
+				if not hint.found then
+					UpdateHints(hint.location, PriorityToHighlight[hint.status])
+				else
+					UpdateHints(hint.location, Highlight.None)
+				end
 			end
 		end
 	end
@@ -302,6 +309,7 @@ function UpdateHints(locationID, status)
 		local section = Tracker:FindObjectForCode(location)
 		---@cast section LocationSection
 		if section then
+			IS_HIGHLIGHT_UPDATE = true
 			section.Highlight = status
 		else
 			print(string.format("No object found for code: %s", location))
