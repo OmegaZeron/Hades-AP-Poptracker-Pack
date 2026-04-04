@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "2.0.2",
+			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v2.0.2/hades_ap.zip",
+			"sha256": "b3eced2cbceeeefbe7ed8fd95cb9f17889eb6e3d8d0f352015c43e0661ded64b",
+			"changelog": ["Replace placeholder image for Disable Late Styx"]
+		},
+		{
 			"package_version": "2.0.1",
 			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v2.0.1/hades_ap.zip",
 			"sha256": "ba3bf2b69768574b8d3acddf50752e5dd075c428c6294522b2d5da1f4d7f2be4",
