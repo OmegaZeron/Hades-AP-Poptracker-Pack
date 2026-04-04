@@ -262,14 +262,14 @@
 		"stages": [
 			{
 				"name": "Late Styx Enabled",
-				"img": "images/items/FishingRod.png",
+				"img": "images/labels/LateStyxDisabled.png",
 				"img_mods": "@disabled",
 				"codes": "disable_late_styx, late_styx_enabled",
 				"inherit_codes": false
 			},
 			{
 				"name": "Late Styx Disabled",
-				"img": "images/items/FishingRod.png",
+				"img": "images/labels/LateStyxDisabled.png",
 				"codes": "disable_late_styx, late_styx_disabled",
 				"inherit_codes": false
 			}
