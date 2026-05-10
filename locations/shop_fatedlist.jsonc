@@ -63,7 +63,7 @@
 					},
 					{
 						"name": "Plunder, Superior",
-						"access_rules": ["trove2, deluxe_desk"]
+						"access_rules": ["trove2, fountain_tartarus, fountain_asphodel, fountain_elysium, keepsake_collection, deluxe_desk"]
 					},
 					{
 						"name": "Urns of Wealth, Lesser",
