@@ -59,11 +59,11 @@
 					},
 					{
 						"name": "Plunder, Greater",
-						"access_rules": ["trove1, fountain_tartarus, fountain_asphodel, fountain_elysium, keepsake_collection"]
+						"access_rules": ["trove1, fountain_tartarus, fountain_asphodel, fountain_elysium, keepsake_rack"]
 					},
 					{
 						"name": "Plunder, Superior",
-						"access_rules": ["trove2, fountain_tartarus, fountain_asphodel, fountain_elysium, keepsake_collection, deluxe_desk"]
+						"access_rules": ["trove2, fountain_tartarus, fountain_asphodel, fountain_elysium, keepsake_rack, deluxe_desk"]
 					},
 					{
 						"name": "Urns of Wealth, Lesser",
@@ -104,7 +104,7 @@
 				"sections": [
 					{
 						"name": "Contractor's Desk, Deluxe",
-						"access_rules": ["fountain_elysium, orpheus_sentence, urn1, keepsake_collection, trove1"]
+						"access_rules": ["fountain_elysium, orpheus_sentence, urn1, keepsake_rack, trove1"]
 					},
 					{
 						"name": "Pitch-Black Darkness",
