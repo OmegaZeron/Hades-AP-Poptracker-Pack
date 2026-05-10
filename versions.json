@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "2.0.4",
+			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v2.0.4/hades_ap.zip",
+			"sha256": "4a3e16dabe85cf78ac1fd003e2d9bc05a2d0de1c8aad439d5a7245633f6aebf5",
+			"changelog": ["Trove3 logic fix, Spear 72 autotrack fix"]
+		},
+		{
 			"package_version": "2.0.3",
 			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v2.0.3/hades_ap.zip",
 			"sha256": "64741d9832e8c336ca85f8d6909cbcd61a66f231d7b1d379888696a9c3542741",
