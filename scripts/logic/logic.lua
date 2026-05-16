@@ -1,6 +1,12 @@
 IsStale = true
 Staleness = 0
 
+---@class HadesLocation
+---@field name string
+---@field exits table
+---@field Staleness number
+---@field accessibility_level accessibilityLevel
+---@field cleared boolean
 HadesLocation = {}
 HadesLocation.__index = HadesLocation
 
@@ -8,23 +14,11 @@ NamedLocations = {}
 
 -- creates a lua object for the given name. it acts as a representation of a overworld reagion or indoor location and
 -- tracks its connected objects via the exit-table
----@class HadesLocation
----@field exits table
----@field exits_to_recheck table
----@field Staleness number
----@field accessibility_level accessibilityLevel
----@field cleared boolean
----@field discover function
 function HadesLocation.New(name)
 	local self = setmetatable({}, HadesLocation)
-	if name then
-		self.name = name
-	else
-		self.name = self
-	end
+	self.name = name
 	NamedLocations[self.name] = self
 	self.exits = {}
-	self.exits_to_recheck = {}
 	self.Staleness = -1
 	self.accessibility_level = AccessibilityLevel.None
 	self.cleared = false
@@ -37,24 +31,21 @@ local function Always()
 end
 
 -- markes a 1-way connections between 2 "locations/regions" in the source "locations" exit-table with rules if provided
-function HadesLocation:connect_one_way(exit, rule, requiredExit)
+---@param exit HadesLocation
+---@param rule function?
+function HadesLocation:connect_one_way(exit, rule)
 	if type(exit) == "string" then
 		exit = HadesLocation.New(exit)
 	end
-	if rule == nil then
+	if not rule or type(rule) ~= "function" then
 		rule = Always
 	end
 	self.exits[#self.exits + 1] = { exit, rule }
-	if (requiredExit ~= nil) then
-		for _, recheck in pairs(requiredExit) do
-			if (not TableContains(recheck.exits_to_recheck, self)) then
-				recheck.exits_to_recheck[#recheck.exits_to_recheck + 1] = self
-			end
-		end
-	end
 end
 
 -- markes a 2-way connection between 2 locations. acts as a shortcut for 2 connect_one_way-calls 
+---@param exit HadesLocation
+---@param rule function?
 function HadesLocation:connect_two_ways(exit, rule)
 	self:connect_one_way(exit, rule)
 	exit:connect_one_way(self, rule)
@@ -62,32 +53,32 @@ end
 
 -- creates a 1-way connection from a region/location to another one via a 1-way connector like a ledge, hole,
 -- self-closing door, 1-way teleport, ...
-function HadesLocation:connect_one_way_entrance(exit, rule, requiredExit)
+---@param exit HadesLocation
+---@param rule function?
+function HadesLocation:connect_one_way_entrance(exit, rule)
 	if rule == nil then
 		rule = Always
 	end
 	self.exits[#self.exits + 1] = { exit, rule }
-	if (requiredExit ~= nil) then
-		for _, recheck in pairs(requiredExit) do
-			if (not TableContains(recheck.exits_to_recheck, self)) then
-				recheck.exits_to_recheck[#recheck.exits_to_recheck + 1] = self
-			end
-		end
-	end
 end
 
 -- creates a connection between 2 locations that is traversable in both ways using the same rules both ways
 -- acts as a shortcut for 2 connect_one_way_entrance-calls
-function HadesLocation:connect_two_ways_entrance(exit, rule, requiredExit)
+---@param exit HadesLocation
+---@param rule function?
+function HadesLocation:connect_two_ways_entrance(exit, rule)
 	if exit == nil then -- for ER
 		return
 	end
-	self:connect_one_way_entrance(exit, rule, requiredExit)
-	exit:connect_one_way_entrance(self, rule, requiredExit)
+	self:connect_one_way_entrance(exit, rule)
+	exit:connect_one_way_entrance(self, rule)
 end
 
 -- creates a connection between 2 locations that is traversable in both ways but each connection follow different rules.
 -- acts as a shortcut for 2 connect_one_way_entrance-calls
+---@param exit HadesLocation
+---@param rule1 function?
+---@param rule2 function?
 function HadesLocation:connect_two_ways_entrance_door_stuck(exit, rule1, rule2)
 	self:connect_one_way_entrance(exit, rule1)
 	exit:connect_one_way_entrance(self, rule2)
@@ -103,6 +94,7 @@ function HadesLocation:accessibility()
 	end
 end
 
+---@param accessibility accessibilityLevel
 function HadesLocation:discover(accessibility)
 	local change = false
 	if accessibility > self:accessibility() then
@@ -112,12 +104,6 @@ function HadesLocation:discover(accessibility)
 	end
 
 	if change then
-		for _, recheck in ipairs(self.exits_to_recheck) do
-			for _, exit in pairs(recheck.exits) do
-				local location, access = CheckAccess(recheck, exit)
-				location:discover(access)
-			end
-		end
 		for _, exit in pairs(self.exits) do
 			local location, access = CheckAccess(self, exit)
 			location:discover(access)
@@ -125,6 +111,8 @@ function HadesLocation:discover(accessibility)
 	end
 end
 
+---@param loc HadesLocation
+---@param exit { [1]: HadesLocation, [2]: function }
 ---@return HadesLocation, accessibilityLevel
 function CheckAccess(loc, exit)
 	local location = exit[1]
@@ -167,6 +155,7 @@ function StateChange()
 	Menu:discover(AccessibilityLevel.Normal)
 end
 
+---@param name table|string
 ---@return accessibilityLevel
 function CanReach(name)
 	-- for k,v in pairs(NamedLocations) do
@@ -194,6 +183,9 @@ function CanReach(name)
 	return location:accessibility()
 end
 
+---@param item string
+---@param amount number|string?
+---@return boolean
 function Has(item, amount)
 	if (amount == nil) then
 		amount = 1

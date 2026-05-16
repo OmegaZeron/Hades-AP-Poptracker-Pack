@@ -1232,7 +1232,6 @@
 		"children": [
 			{
 				"name": "Goal",
-				"access_rules": ["^$CanReach|HadesBoss"],
 				"sections": [
 					{
 						"chest_unopened_img": "images/labels/Goal.png",

@@ -5,6 +5,9 @@ function HasKeepsakeForGoal()
 	return Tracker:ProviderCountForCode("keepsake") >= Tracker:ProviderCountForCode(KeepsakesNeeded)
 end
 function HasFateForGoal()
+	if Tracker:ProviderCountForCode("fatesanity_off") == 1 then
+		return true
+	end
 	local count = 0
 	for _, loc in ipairs(FateLocs) do
 		local section = Tracker:FindObjectForCode("@"..loc)
@@ -19,6 +22,9 @@ end
 function CanSeeScore(score)
 	return Has("location_score") and tonumber(score) <= Tracker:ProviderCountForCode(ScoreRewardsAmount)
 end
+
+---@param score number|string?
+---@return accessibilityLevel
 function CanReachScore(score)
 	score = tonumber(score)
 	local maxLocations = Tracker:ProviderCountForCode(ScoreRewardsAmount)
@@ -41,6 +47,9 @@ end
 function TotalPactAmount()
 	return Tracker:ProviderCountForCode("pactsetting")
 end
+
+---@param amount number
+---@return boolean
 function HasPactHeat(amount)
 	if (not Has("reverse_heat")) then
 		return true
@@ -59,8 +68,10 @@ function HasPactHeat(amount)
 	return count >= amount
 end
 
+---@param amount number
+---@return boolean
 function HasRoutineInspection(amount)
-	if (not Has("reverse_heat")) then
+	if not Has("reverse_heat") then
 		return true
 	end
 	return Tracker:ProviderCountForCode(RoutineInspectionSetting) - Tracker:ProviderCountForCode(RoutineInspectionItem) >= amount
@@ -99,13 +110,13 @@ function OnChangeDefeatsRequired()
 	end
 end
 
+---@param section LocationSection
 function OnSectionChanged(section)
-	---@cast section LocationSection
 	if (TableContains(FateLocs, section.FullID)) then
 		Tracker:FindObjectForCode("hidden_setting").Active = not Tracker:FindObjectForCode("hidden_setting").Active
 	end
 end
 
 ScriptHost:AddWatchForCode("score mult handler", "scoremult", OnChangeScoreMult)
-ScriptHost:AddWatchForCode("defeats requried handler", HadesDefeatsNeeded, OnChangeDefeatsRequired)
+ScriptHost:AddWatchForCode("defeats required handler", HadesDefeatsNeeded, OnChangeDefeatsRequired)
 ScriptHost:AddOnLocationSectionChangedHandler("section changed handler", OnSectionChanged)
