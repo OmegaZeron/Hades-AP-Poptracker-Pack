@@ -171,6 +171,7 @@ function CanReach(name)
 	else
 		location = NamedLocations[name]
 	end
+	---@cast location HadesLocation
 
 	if location == nil then
 		if type(name) == "table" then

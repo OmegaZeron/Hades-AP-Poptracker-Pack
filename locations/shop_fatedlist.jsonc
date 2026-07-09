@@ -44,7 +44,7 @@
 					},
 					{
 						"name": "Underworld Fountains, Holy",
-						"access_rules": ["fountain_upgrade1"]
+						"access_rules": ["fountain_tartarus, fountain_upgrade1"]
 					},
 					{
 						"name": "Fountain Chamber, Asphodel",
