@@ -245,83 +245,83 @@
 					{
 						"name": "Goddess Of Wisdom",
 						"access_rules": [
-							"keepsakesanity_on, keepsake_athena, ^$HasAllApprovalProcess",
-							"keepsakesanity_off, ^$HasAllApprovalProcess"
+							"keepsakesanity_on, keepsake_athena, ^$HasAllApprovalProcess, $CanAccessAllBoons",
+							"keepsakesanity_off, ^$HasAllApprovalProcess, $CanAccessAllBoons"
 						]
 					},
 					{
 						"name": "God Of The Heavens",
 						"access_rules": [
-							"keepsakesanity_on, keepsake_zeus, ^$HasAllApprovalProcess",
-							"keepsakesanity_off, ^$HasAllApprovalProcess"
+							"keepsakesanity_on, keepsake_zeus, ^$HasAllApprovalProcess, $CanAccessAllBoons",
+							"keepsakesanity_off, ^$HasAllApprovalProcess, $CanAccessAllBoons"
 						]
 					},
 					{
 						"name": "God Of The Sea",
 						"access_rules": [
-							"keepsakesanity_on, keepsake_poseidon, ^$HasAllApprovalProcess",
-							"keepsakesanity_off, ^$HasAllApprovalProcess"
+							"keepsakesanity_on, keepsake_poseidon, ^$HasAllApprovalProcess, $CanAccessAllBoons",
+							"keepsakesanity_off, ^$HasAllApprovalProcess, $CanAccessAllBoons"
 						]
 					},
 					{
 						"name": "Goddess Of Love",
 						"access_rules": [
-							"keepsakesanity_on, keepsake_aAphrodite, ^$HasAllApprovalProcess",
-							"keepsakesanity_off, ^$HasAllApprovalProcess"
+							"keepsakesanity_on, keepsake_aAphrodite, ^$HasAllApprovalProcess, $CanAccessAllBoons",
+							"keepsakesanity_off, ^$HasAllApprovalProcess, $CanAccessAllBoons"
 						]
 					},
 					{
 						"name": "God Of War",
 						"access_rules": [
-							"keepsakesanity_on, keepsake_ares, ^$HasAllApprovalProcess",
-							"keepsakesanity_off, ^$HasAllApprovalProcess"
+							"keepsakesanity_on, keepsake_ares, ^$HasAllApprovalProcess, $CanAccessAllBoons",
+							"keepsakesanity_off, ^$HasAllApprovalProcess, $CanAccessAllBoons"
 						]
 					},
 					{
 						"name": "Goddess Of The Hunt",
 						"access_rules": [
-							"keepsakesanity_on, keepsake_artemis, ^$HasAllApprovalProcess",
-							"keepsakesanity_off, ^$HasAllApprovalProcess"
+							"keepsakesanity_on, keepsake_artemis, ^$HasAllApprovalProcess, $CanAccessAllBoons",
+							"keepsakesanity_off, ^$HasAllApprovalProcess, $CanAccessAllBoons"
 						]
 					},
 					{
 						"name": "God Of Wine",
 						"access_rules": [
-							"keepsakesanity_on, keepsake_dionysus, ^$HasAllApprovalProcess",
-							"keepsakesanity_off, ^$HasAllApprovalProcess"
+							"keepsakesanity_on, keepsake_dionysus, ^$HasAllApprovalProcess, $CanAccessAllBoons",
+							"keepsakesanity_off, ^$HasAllApprovalProcess, $CanAccessAllBoons"
 						]
 					},
 					{
 						"name": "God Of Swiftness",
-						"access_rules": ["^$HasAllApprovalProcess"]
+						"access_rules": ["^$HasAllApprovalProcess, $CanAccessAllBoons"]
 					},
 					{
 						"name": "Goddess Of Seasons",
 						"access_rules": [
-							"keepsakesanity_on, keepsake_demeter, ^$HasAllApprovalProcess",
-							"keepsakesanity_off, ^$HasAllApprovalProcess"
+							"keepsakesanity_on, keepsake_demeter, ^$HasAllApprovalProcess, $CanAccessAllBoons",
+							"keepsakesanity_off, ^$HasAllApprovalProcess, $CanAccessAllBoons"
 						]
 					},
 					{
 						"name": "Power Without Equal",
-						"access_rules": ["^$CanReach|HadesBoss"]
+						"access_rules": ["^$CanReach|HadesBoss, $CanAccessAllBoons"]
 					},
 					{
 						"name": "Divine Pairings",
-						"access_rules": ["^$CanReach|DivinePairings"]
+						"access_rules": ["^$CanReach|DivinePairings, $CanAccessAllBoons"]
 					},
 					{
 						"name": "Primordial Boons",
 						"access_rules": [
-							"keepsakesanity_on, ^$CanReach|HadesBoss, ^$HasAllApprovalProcess, keepsake_chaos",
-							"keepsakesanity_off, ^$CanReach|HadesBoss, ^$HasAllApprovalProcess"
+							"keepsakesanity_on, ^$CanReach|HadesBoss, ^$HasAllApprovalProcess, keepsake_chaos, $CanAccessAllBoons",
+							"keepsakesanity_off, ^$CanReach|HadesBoss, ^$HasAllApprovalProcess, $CanAccessAllBoons"
 						]
 					},
 					{
 						"name": "Primordial Banes",
 						"access_rules": [
-							"keepsakesanity_on, ^$CanReach|Lernie, ^$HasAllApprovalProcess, keepsake_chaos",
-							"keepsakesanity_off, ^$CanReach|Lernie, ^$HasAllApprovalProcess"
+							"keepsakesanity_on, ^$CanReach|Lernie, ^$HasAllApprovalProcess, keepsake_chaos, $CanAccessAllBoons",
+							"keepsakesanity_off, ^$CanReach|Lernie, ^$HasAllApprovalProcess, $CanAccessAllBoons"
 						]
 					},
 					{
@@ -330,7 +330,7 @@
 					},
 					{
 						"name": "The Stygian Blade",
-						"access_rules": ["weapon_stygius, ^$HasAllApprovalProcess"]
+						"access_rules": ["weapon_stygius, ^$HasAllApprovalProcess, $HasAbility|stygius_attack, $HasAbility|stygius_special"]
 					},
 					{
 						"name": "The Holy Liege",
@@ -338,7 +338,7 @@
 					},
 					{
 						"name": "The Heart Seeking Bow",
-						"access_rules": ["weapon_coronacht, ^$HasAllApprovalProcess"]
+						"access_rules": ["weapon_coronacht, ^$HasAllApprovalProcess, $HasAbility|coronacht_attack, $HasAbility|coronacht_special"]
 					},
 					{
 						"name": "The Preserver's Avatar",
@@ -346,7 +346,7 @@
 					},
 					{
 						"name": "The Shield Of Chaos",
-						"access_rules": ["weapon_aegis, ^$HasAllApprovalProcess"]
+						"access_rules": ["weapon_aegis, ^$HasAllApprovalProcess, $HasAbility|aegis_attack, $HasAbility|aegis_special"]
 					},
 					{
 						"name": "The Fated Saint of War",
@@ -354,7 +354,7 @@
 					},
 					{
 						"name": "The Eternal Spear",
-						"access_rules": ["weapon_varatha, ^$HasAllApprovalProcess"]
+						"access_rules": ["weapon_varatha, ^$HasAllApprovalProcess, $HasAbility|varatha_attack, $HasAbility|varatha_special"]
 					},
 					{
 						"name": "The Dragon's Rival",
@@ -362,7 +362,7 @@
 					},
 					{
 						"name": "The Twin Fists",
-						"access_rules": ["weapon_malphon, ^$HasAllApprovalProcess"]
+						"access_rules": ["weapon_malphon, ^$HasAllApprovalProcess, $HasAbility|malphon_attack, $HasAbility|malphon_special"]
 					},
 					{
 						"name": "The God-like King",
@@ -370,7 +370,7 @@
 					},
 					{
 						"name": "The Adamant Rail",
-						"access_rules": ["weapon_exagryph, ^$HasAllApprovalProcess"]
+						"access_rules": ["weapon_exagryph, ^$HasAllApprovalProcess, $HasAbility|exagryph_attack, $HasAbility|exagryph_special"]
 					},
 					{
 						"name": "The Dawn Bringer",
@@ -408,7 +408,10 @@
 					},
 					{
 						"name": "Dark Reflections",
-						"access_rules": ["^$CanReach|HadesBoss"]
+						"access_rules": [
+							"^$CanReach|HadesBoss, mirrorsanity_off",
+							"^$CanReach|HadesBoss, mirrorsanity_on, ^$HasAllMirrorTalents"
+						]
 					},
 					{
 						"name": "Close At Heart",

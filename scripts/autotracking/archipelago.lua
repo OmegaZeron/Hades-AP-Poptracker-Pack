@@ -220,7 +220,7 @@ function OnLocation(location_id, location_name)
 				obj.AvailableChestCount = obj.AvailableChestCount - 1
 			else
 				-- hosted item
-				---@cast obj JsonItem|LuaItem
+				---@cast obj JsonItem
 				obj.Active = true
 			end
 			UpdateHints(location_id, Highlight.None)
@@ -306,8 +306,7 @@ function UpdateHints(locationID, status)
 	end
 	-- print("Hint", dump(locations), status)
 	for _, location in ipairs(locationTable) do
-		local section = Tracker:FindObjectForCode(location)
-		---@cast section LocationSection
+		local section = Tracker:FindObjectForCode(location) --[[@as LocationSection]]
 		if section then
 			IS_HIGHLIGHT_UPDATE = true
 			section.Highlight = status
@@ -319,8 +318,8 @@ end
 
 -- called when a bounce message is received 
 function OnBounce(json)
+	print(string.format("called onBounce: %s", dump(json)))
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("called onBounce: %s", dump(json)))
 	end
 end
 
@@ -333,3 +332,4 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 end
 Archipelago:AddSetReplyHandler("notify handler", OnNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", OnNotifyLaunch)
+Archipelago:AddBouncedHandler("bounce handler", OnBounce)

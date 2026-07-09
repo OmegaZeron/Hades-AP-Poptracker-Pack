@@ -1,0 +1,17 @@
+{
+	"ability_grid": {
+		"type": "group",
+		"header": "Abilities",
+		"content": {
+			"type": "itemgrid",
+			"item_margin": "3,2",
+			"h_alignment": "left",
+			"item_size": 52,
+			"rows": [
+				["stygius_attack", "varatha_attack", "aegis_attack", "coronacht_attack", "malphon_attack", "exagryph_attack"],
+				["stygius_special", "varatha_special", "aegis_special", "coronacht_special", "malphon_special", "exagryph_special"],
+				["ability_dash", "ability_cast", "ability_call"]
+			]
+		}
+	}
+}

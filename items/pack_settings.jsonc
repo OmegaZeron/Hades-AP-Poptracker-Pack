@@ -174,6 +174,118 @@
 		]
 	},
 	{
+		"name": "Mirrorsanity",
+		"type": "progressive",
+		"initial_stage_idx": 1,
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Mirrorsanity Off",
+				"img": "images/labels/Mirrorsanity.png",
+				"img_mods": "@disabled",
+				"codes": "mirrorsanity, mirrorsanity_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Mirrorsanity On",
+				"img": "images/labels/Mirrorsanity.png",
+				"codes": "mirrorsanity, mirrorsanity_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Fishsanity",
+		"type": "progressive",
+		"initial_stage_idx": 1,
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Fishsanity Off",
+				"img": "images/labels/Fishsanity.png",
+				"img_mods": "@disabled",
+				"codes": "fishsanity, fishsanity_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Fishsanity On",
+				"img": "images/labels/Fishsanity.png",
+				"codes": "fishsanity, fishsanity_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Trovesanity",
+		"type": "progressive",
+		"initial_stage_idx": 1,
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Trovesanity Off",
+				"img": "images/labels/Trovesanity.png",
+				"img_mods": "@disabled",
+				"codes": "trovesanity, trovesanity_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Trovesanity On",
+				"img": "images/labels/Trovesanity.png",
+				"codes": "trovesanity, trovesanity_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Abilitysanity",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Abilitysanity Weapon-Based",
+				"img": "images/labels/Fatesanity.png",
+				"codes": "abilitysanity, abilitysanity_weapon",
+				"inherit_codes": false
+			},
+			{
+				"name": "Abilitysanity On",
+				"img": "images/labels/Fatesanity.png",
+				"codes": "abilitysanity, abilitysanity_on",
+				"inherit_codes": false
+			},
+			{
+				"name": "Abilitysanity Off",
+				"img": "images/labels/Fatesanity.png",
+				"codes": "abilitysanity, abilitysanity_off",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Initial Ability",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Start with Attack",
+				"img": "images/labels/Fatesanity.png",
+				"codes": "initial_ability, initial_ability_attack",
+				"inherit_codes": false
+			},
+			{
+				"name": "Start with Special",
+				"img": "images/labels/Fatesanity.png",
+				"codes": "initial_ability, initial_ability_special",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
 		"name": "Weapon Clears Needed",
 		"type": "consumable",
 		"initial_quantity": 1,
@@ -262,8 +374,7 @@
 		"stages": [
 			{
 				"name": "Late Styx Enabled",
-				"img": "images/labels/LateStyxDisabled.png",
-				"img_mods": "@disabled",
+				"img": "images/labels/LateStyxEnabled.png",
 				"codes": "disable_late_styx, late_styx_enabled",
 				"inherit_codes": false
 			},

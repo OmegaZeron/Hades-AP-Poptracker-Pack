@@ -1,0 +1,14 @@
+{
+	"ability_grid": {
+		"type": "group",
+		"header": "Abilities",
+		"content": {
+			"type": "itemgrid",
+			"item_margin": "3,2",
+			"item_size": 56,
+			"rows": [
+				["ability_attack", "ability_special", "ability_dash", "ability_cast", "ability_call"]
+			]
+		}
+	}
+}

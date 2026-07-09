@@ -1,0 +1,75 @@
+[
+	{
+		"name": "Mirror of Night",
+		"chest_unopened_img": "images/labels/ContractorCheck.png",
+		"chest_opened_img": "images/labels/ContractorCheck_Cleared.png",
+		"visibility_rules": ["mirrorsanity_on"],
+		"overlay_background": "#66222222",
+		"children": [
+			{
+				"name": "Mirror Front Side",
+				"sections": [
+					{"name": "Shadow Presence", "item_count": 5, "clear_as_group": false},
+					{"name": "Chthonic Vitality", "item_count": 3, "clear_as_group": false},
+					{"name": "Death Defiance", "item_count": 3, "clear_as_group": false},
+					{"name": "Greater Reflex", "item_count": 1, "clear_as_group": false},
+					{"name": "Boiling Blood", "item_count": 5, "clear_as_group": false},
+					{"name": "Infernal Soul", "item_count": 2, "clear_as_group": false},
+					{"name": "Deep Pockets", "item_count": 10, "clear_as_group": false},
+					{"name": "Thick Skin", "item_count": 10, "clear_as_group": false},
+					{"name": "Privileged Status", "item_count": 2, "clear_as_group": false},
+					{"name": "Olympian Favor", "item_count": 40, "clear_as_group": false},
+					{"name": "Gods' Pride", "item_count": 20, "clear_as_group": false},
+					{"name": "Fated Authority", "item_count": 8, "clear_as_group": false}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 225,
+						"y": 2025,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					},
+					{
+						"map": "score",
+						"x": 320,
+						"y": 320,
+						"size": 40,
+						"restrict_visibility_rules": ["location_score"]
+					}
+				]
+			},
+			{
+				"name": "Mirror Back Side",
+				"sections": [
+					{"name": "Fiery Presence", "item_count": 5, "clear_as_group": false},
+					{"name": "Dark Regeneration", "item_count": 2, "clear_as_group": false},
+					{"name": "Stubborn Defiance", "item_count": 1, "clear_as_group": false},
+					{"name": "Ruthless Reflex", "item_count": 1, "clear_as_group": false},
+					{"name": "Abyssal Blood", "item_count": 5, "clear_as_group": false},
+					{"name": "Stygian Soul", "item_count": 2, "clear_as_group": false},
+					{"name": "Golden Touch", "item_count": 3, "clear_as_group": false},
+					{"name": "High Confidence", "item_count": 5, "clear_as_group": false},
+					{"name": "Family Favorite", "item_count": 2, "clear_as_group": false},
+					{"name": "Dark Foresight", "item_count": 10, "clear_as_group": false},
+					{"name": "Gods' Legacy", "item_count": 10, "clear_as_group": false},
+					{"name": "Fated Persuasion", "item_count": 4, "clear_as_group": false}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 280,
+						"y": 2025,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					},
+					{
+						"map": "score",
+						"x": 370,
+						"y": 320,
+						"size": 40,
+						"restrict_visibility_rules": ["location_score"]
+					}
+				]
+			}
+		]
+	}
+]

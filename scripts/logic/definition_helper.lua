@@ -24,6 +24,26 @@ LambentPlume = "keepsake_hermes"
 ConchShell = "keepsake_poseidon"
 ThunderSignet = "keepsake_zeus"
 
+-- Misc Items
+RodOfFishing = "fishing_rod"
+AbilityAttack = "ability_attack"
+AbilitySpecial = "ability_special"
+AbilityDash = "ability_dash"
+AbilityCast = "ability_cast"
+AbilityCall = "ability_call"
+StygiusAttack = "stygius_attack"
+StygiusSpecial = "stygius_special"
+CoronachtAttack = "coronacht_attack"
+CoronachtSpecial = "coronacht_special"
+AegisAttack = "aegis_attack"
+AegisSpecial = "aegis_special"
+VarathaAttack = "varatha_attack"
+VarathaSpecial = "varatha_special"
+MalphonAttack = "malphon_attack"
+MalphonSpecial = "malphon_special"
+ExagryphAttack = "exagryph_attack"
+ExagryphSpecial = "exagryph_special"
+
 -- Pact Items
 HardLaborItem = "pact_hard_labor"
 LastingConsequencesItem = "pact_lasting_consequences"
@@ -42,6 +62,32 @@ ApprovalProcessItem = "pact_approval_process"
 TightDeadlineItem = "pact_tight_deadline"
 PersonalLiabilityItem = "pact_personal_liability"
 
+-- Mirror Items
+ShadowPresenceLevel = "mirror_shadow_presence"
+ChthonicVitalityLevel = "mirror_chthonic_vitality"
+DeathDefianceLevel = "mirror_death_defiance"
+GreaterReflexLevel = "mirror_greater_reflex"
+BoilingBloodLevel = "mirror_boiling_blood"
+InfernalSoulLevel = "mirror_infernal_soul"
+DeepPocketsLevel = "mirror_deep_pockets"
+ThickSkinLevel = "mirror_thick_skin"
+PrivilegedStatusLevel = "mirror_privileged_status"
+OlympianFavorLevel = "mirror_olympian_favor"
+GodsPrideLevel = "mirror_gods_pride"
+FatedAuthorityLevel = "mirror_fated_authority"
+FieryPresenceLevel = "mirror_fiery_presence"
+DarkRegenerationLevel = "mirror_dark_regeneration"
+StubbornDefianceLevel = "mirror_stubborn_defiance"
+RuthlessReflexLevel = "mirror_ruthless_reflex"
+AbyssalBloodLevel = "mirror_abyssal_blood"
+StygianSoulLevel = "mirror_stygian_soul"
+GoldenTouchLevel = "mirror_golden_touch"
+HighConfidenceLevel = "mirror_high_confidence"
+FamilyFavoriteLevel = "mirror_family_favorite"
+DarkForesightLevel = "mirror_dark_foresight"
+GodsLegacyLevel = "mirror_gods_legacy"
+FatedPersuasionLevel = "mirror_fated_persuasion"
+
 -- Helpers
 ManualStorageCode = "manual_location_storage"
 
@@ -56,6 +102,24 @@ WeaponClearsNeeded = "weapons_clears_needed"
 KeepsakesNeeded = "keepsakes_needed"
 FatesNeeded = "fates_needed"
 ScoreRewardsAmount = "score_rewards_amount"
+StoreSanity = "storesanity"
+StoreSanityOff = "storesanity_off"
+StoreSanityOn = "storesanity_on"
+AbilitySanity = "abilitysanity"
+AbilitySanityWeapon = "abilitysanity_weapon"
+AbilitySanityOn = "abilitysanity_on"
+AbilitySanityOff = "abilitysanity_off"
+InitialAbility = "initial_ability"
+InitialAbilityAttack = "initial_ability_attack"
+InitialAbilitySpecial = "initial_ability_special"
+MirrorSanity = "mirrorsanity"
+MirrorSanityOn = "mirrorsanity_on"
+MirrorSanityOff = "mirrorsanity_off"
+FishSanity = "fishsanity"
+FishSanityOn = "fishsanity_on"
+FishSanityFull = "fishsanity_full"
+TroveSanity = "trovesanity"
+TroveSanityOn = "trovesanity_on"
 
 -- Pact Settings
 HardLaborSetting = "hard_labor_pact_amount"
@@ -83,6 +147,38 @@ InitialWeaponDict = {
 	[4] = {Malphon, "@Contractor/Weapon Unlocks/Malphon"},
 	[5] = {Exagryph, "@Contractor/Weapon Unlocks/Exagryph"}
 }
+Weapons = {"stygius", "varatha", "aegis", "coronacht", "malphon", "exagryph"}
+
+MirrorData = {
+	{name = "Shadow Presence", item_count = 5, side = "Front", routineReq = 1},
+	{name = "Chthonic Vitality", item_count = 3, side = "Front", routineReq = 1},
+	{name = "Death Defiance", item_count = 3, side = "Front", routineReq = 1},
+	{name = "Greater Reflex", item_count = 1, side = "Front", routineReq = 2},
+	{name = "Boiling Blood", item_count = 5, side = "Front", routineReq = 2},
+	{name = "Infernal Soul", item_count = 2, side = "Front", routineReq = 2},
+	{name = "Deep Pockets", item_count = 10, side = "Front", routineReq = 3},
+	{name = "Thick Skin", item_count = 10, side = "Front", routineReq = 3},
+	{name = "Privileged Status", item_count = 2, side = "Front", routineReq = 3},
+	{name = "Olympian Favor", item_count = 40, side = "Front", routineReq = 4},
+	{name = "Gods' Pride", item_count = 20, side = "Front", routineReq = 4},
+	{name = "Fated Authority", item_count = 8, side = "Front", routineReq = 4},
+	{name = "Fiery Presence", item_count = 5, side = "Back", routineReq = 1},
+	{name = "Dark Regeneration", item_count = 2, side = "Back", routineReq = 1},
+	{name = "Stubborn Defiance", item_count = 1, side = "Back", routineReq = 1},
+	{name = "Ruthless Reflex", item_count = 1, side = "Back", routineReq = 2},
+	{name = "Abyssal Blood", item_count = 5, side = "Back", routineReq = 2},
+	{name = "Stygian Soul", item_count = 2, side = "Back", routineReq = 2},
+	{name = "Golden Touch", item_count = 3, side = "Back", routineReq = 3},
+	{name = "High Confidence", item_count = 5, side = "Back", routineReq = 3},
+	{name = "Family Favorite", item_count = 2, side = "Back", routineReq = 3},
+	{name = "Dark Foresight", item_count = 10, side = "Back", routineReq = 4},
+	{name = "Gods' Legacy", item_count = 10, side = "Back", routineReq = 4},
+	{name = "Fated Persuasion", item_count = 4, side = "Back", routineReq = 4}
+}
+TotalMirrorItems = 0
+for _, data in ipairs(MirrorData) do
+	TotalMirrorItems = TotalMirrorItems + data.item_count
+end
 
 FateLocs = {
 	"Fated List/Fated List of Minor Prophecies/Is There No Escape?",

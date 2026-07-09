@@ -1,0 +1,243 @@
+[
+	{
+		"name": "Fishing Hole",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
+		"visibility_rules": ["fishsanity_on"],
+		"children": [
+			{
+				"name": "Tartarus Fish",
+				"access_rules": ["^$CanReach|TartarusFish"],
+				"sections": [
+					{"name": "Hellfish"},
+					{"name": "Knucklehead"},
+					{"name": "Scyllascion"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 510,
+						"y": 1775,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			},
+			{
+				"name": "Asphodel Fish",
+				"access_rules": ["^$CanReach|AsphodelFish"],
+				"sections": [
+					{"name": "Slavug"},
+					{"name": "Chrustacean"},
+					{"name": "Flameater"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 590,
+						"y": 1430,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			},
+			{
+				"name": "Elysium Fish",
+				"access_rules": ["^$CanReach|ElysiumFish"],
+				"sections": [
+					{"name": "Chlam"},
+					{"name": "Charp"},
+					{"name": "Seamare"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 530,
+						"y": 810,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			},
+			{
+				"name": "Styx Fish",
+				"access_rules": ["^$CanReach|StyxFish"],
+				"sections": [
+					{"name": "Gupp"},
+					{"name": "Scuffer"},
+					{"name": "Stonewahl"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 515,
+						"y": 377,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			},
+			{
+				"name": "Void Fish",
+				"access_rules": ["^$CanReach|VoidFish"],
+				"sections": [
+					{"name": "Mati"},
+					{"name": "Projelly"},
+					{"name": "Voidskate"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 540,
+						"y": 2048,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			},
+			{
+				"name": "Surface Fish",
+				"visibility_rules": ["fishsanity_full"],
+				"access_rules": ["^$CanReach|SurfaceFish"],
+				"sections": [
+					{"name": "Trout"},
+					{"name": "Bass"},
+					{"name": "Sturgeon"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 545,
+						"y": 236,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			}
+		],
+		"sections": [
+			{"name": "Tartarus - Hellfish", "ref": "Fishing Hole/Tartarus Fish/Hellfish"},
+			{"name": "Tartarus - Knucklehead", "ref": "Fishing Hole/Tartarus Fish/Knucklehead"},
+			{"name": "Tartarus - Scyllascion", "ref": "Fishing Hole/Tartarus Fish/Scyllascion"},
+			{"name": "Asphodel - Slavug", "ref": "Fishing Hole/Asphodel Fish/Slavug"},
+			{"name": "Asphodel - Chrustacean", "ref": "Fishing Hole/Asphodel Fish/Chrustacean"},
+			{"name": "Asphodel - Flameater", "ref": "Fishing Hole/Asphodel Fish/Flameater"},
+			{"name": "Elysium - Chlam", "ref": "Fishing Hole/Elysium Fish/Chlam"},
+			{"name": "Elysium - Charp", "ref": "Fishing Hole/Elysium Fish/Charp"},
+			{"name": "Elysium - Seamare", "ref": "Fishing Hole/Elysium Fish/Seamare"},
+			{"name": "Styx - Gupp", "ref": "Fishing Hole/Styx Fish/Gupp"},
+			{"name": "Styx - Scuffer", "ref": "Fishing Hole/Styx Fish/Scuffer"},
+			{"name": "Styx - Stonewahl", "ref": "Fishing Hole/Styx Fish/Stonewahl"},
+			{"name": "Void - Mati", "ref": "Fishing Hole/Void Fish/Mati"},
+			{"name": "Void - Projelly", "ref": "Fishing Hole/Void Fish/Projelly"},
+			{"name": "Void - Voidskate", "ref": "Fishing Hole/Void Fish/Voidskate"},
+			{"name": "Surface - Trout", "ref": "Fishing Hole/Surface Fish/Trout"},
+			{"name": "Surface - Bass", "ref": "Fishing Hole/Surface Fish/Bass"},
+			{"name": "Surface - Sturgeon", "ref": "Fishing Hole/Surface Fish/Sturgeon"}
+		],
+		"map_locations": [
+			{
+				"map": "score",
+				"x": 370,
+				"y": 270,
+				"size": 40,
+				"restrict_visibility_rules": ["location_score"]
+			}
+		]
+	},
+	{
+		"name": "Troves",
+		"chest_unopened_img": "images/labels/Trove.png",
+		"chest_opened_img": "images/labels/TroveOpen.png",
+		"visibility_rules": ["trovesanity_on"],
+		"children": [
+			{
+				"name": "Tartarus Trove",
+				"access_rules": ["^$CanReach|TartarusTroves"],
+				"sections": [{"name": "First Infernal Trove"}],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 570,
+						"y": 1775,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			},
+			{
+				"name": "Asphodel Trove",
+				"access_rules": ["^$CanReach|AsphodelTroves"],
+				"sections": [{"name": "First Infernal Trove"}],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 650,
+						"y": 1430,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			},
+			{
+				"name": "Elysium Trove",
+				"access_rules": ["^$CanReach|ElysiumTroves"],
+				"sections": [{"name": "First Infernal Trove"}],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 590,
+						"y": 810,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			},
+			{
+				"name": "Styx Trove",
+				"access_rules": ["^$CanReach|StyxTroves"],
+				"sections": [{"name": "First Infernal Trove"}],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 575,
+						"y": 377,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			},
+			{
+				"name": "Troves",
+				"access_rules": ["$HasUnlockedTroves"],
+				"sections": [
+					{"name": "60 Seconds"},
+					{"name": "45 Seconds"},
+					{"name": "30 Seconds"},
+					{"name": "15 Seconds"},
+					{"name": "5 Infernal Troves"},
+					{"name": "10 Infernal Troves"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 160,
+						"y": 1945,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			}
+		],
+		"sections": [
+			{"name": "Tartarus Trove", "ref": "Troves/Tartarus Trove/First Infernal Trove"},
+			{"name": "Asphodel Trove", "ref": "Troves/Asphodel Trove/First Infernal Trove"},
+			{"name": "Elysium Trove", "ref": "Troves/Elysium Trove/First Infernal Trove"},
+			{"name": "Styx Trove", "ref": "Troves/Styx Trove/First Infernal Trove"},
+			{"name": "Trove - 60 Seconds", "ref": "Troves/Troves/60 Seconds"},
+			{"name": "Trove - 45 Seconds", "ref": "Troves/Troves/45 Seconds"},
+			{"name": "Trove - 30 Seconds", "ref": "Troves/Troves/30 Seconds"},
+			{"name": "Trove - 15 Seconds", "ref": "Troves/Troves/15 Seconds"},
+			{"name": "5 Infernal Troves", "ref": "Troves/Troves/5 Infernal Troves"},
+			{"name": "10 Infernal Troves", "ref": "Troves/Troves/10 Infernal Troves"}
+		],
+		"map_locations": [
+			{
+				"map": "score",
+				"x": 420,
+				"y": 270,
+				"size": 40,
+				"restrict_visibility_rules": ["location_score"]
+			}
+		]
+	}
+]

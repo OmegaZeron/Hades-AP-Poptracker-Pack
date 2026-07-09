@@ -1,0 +1,37 @@
+{
+	"mirror_grid": {
+		"type": "group",
+		"header": "Mirror",
+		"content": {
+			"type": "tabbed",
+			"tabs": [
+				{
+					"title": "Front",
+					"content": {
+						"type": "itemgrid",
+						"item_margin": "3, 2",
+						"h_alignment": "left",
+						"item_size": 52,
+						"rows": [
+							["mirror_shadowpresence", "mirror_chthonicvitality", "mirror_deathdefiance", "mirror_greaterreflex", "mirror_boilingblood", "mirror_infernalsoul"],
+							["mirror_deeppockets", "mirror_thickskin", "mirror_privilegedstatus", "mirror_olympianfavor", "mirror_godspride", "mirror_fatedauthority"]
+						]
+					}
+				},
+				{
+					"title": "Back",
+					"content": {
+						"type": "itemgrid",
+						"item_margin": "3, 2",
+						"h_alignment": "left",
+						"item_size": 52,
+						"rows": [
+							["mirror_fierypresence", "mirror_darkregeneration", "mirror_stubborndefiance", "mirror_ruthlessreflex", "mirror_abyssalblood", "mirror_stygiansoul"],
+							["mirror_goldentouch", "mirror_highconfidence", "mirror_familyfavorite", "mirror_darkforesight", "mirror_godslegacy", "mirror_fatedpersuasion"]
+						]
+					}
+				}
+			]
+		}
+	}
+}

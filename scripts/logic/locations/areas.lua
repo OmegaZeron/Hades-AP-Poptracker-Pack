@@ -1,25 +1,31 @@
 Menu:connect_one_way_entrance(Tartarus)
-Tartarus:connect_one_way_entrance(Megaera, function()
-	return Any(
-		All(
-			HasPactHeat(math.min(TotalPactAmount() / 4, 10)),
-			HasRoutineInspection(Tracker:ProviderCountForCode(RoutineInspectionSetting) - 2),
-			Has("weapon", 2)
-		),
-		AccessibilityLevel.SequenceBreak
-	)
-end)
+Tartarus:connect_one_way(TartarusFish, CanFishStore)
+Tartarus:connect_one_way(VoidFish, CanFishStore)
+Tartarus:connect_one_way(TartarusTroves, HasUnlockedTroves)
+Tartarus:connect_one_way_entrance(Megaera, CanBeatMeg)
+
 Megaera:connect_one_way_entrance(Asphodel)
-Asphodel:connect_one_way_entrance(Lernie, function()
-	return Any(
-		All(
-			HasPactHeat(math.min(TotalPactAmount() / 2, 20)),
-			HasRoutineInspection(Tracker:ProviderCountForCode(RoutineInspectionSetting) - 1),
-			Has("weapon", 3)
-		),
-		AccessibilityLevel.SequenceBreak
-	)
-end)
+Asphodel:connect_one_way(AsphodelFish, CanFishStore)
+Asphodel:connect_one_way(AsphodelTroves, HasUnlockedTroves)
+Asphodel:connect_one_way_entrance(Lernie, CanBeatLernie)
+
+Lernie:connect_one_way_entrance(Elysium)
+Elysium:connect_one_way(ElysiumFish, CanFishStore)
+Elysium:connect_one_way(ElysiumTroves, HasUnlockedTroves)
+Elysium:connect_one_way_entrance(Besties, CanBeatBros)
+
+Besties:connect_one_way_entrance(Styx)
+Styx:connect_one_way(StyxFish, CanFishStore)
+-- if not storesanity, fishing rod is unlocked after reaching Styx
+Styx:connect_one_way(TartarusFish, CanFishVanilla)
+Styx:connect_one_way(VoidFish, CanFishVanilla)
+Styx:connect_one_way(AsphodelFish, CanFishVanilla)
+Styx:connect_one_way(ElysiumFish, CanFishVanilla)
+Styx:connect_one_way(StyxTroves, HasUnlockedTroves)
+
+Styx:connect_one_way_entrance(StyxLate)
+Styx:connect_one_way_entrance(HadesBoss, CanBeatDad)
+
 HadesBoss:connect_one_way(DivinePairings, function()
 	return All(
 		HasAllApprovalProcess(),
@@ -38,26 +44,10 @@ HadesBoss:connect_one_way(DivinePairings, function()
 		)
 	)
 end)
-Lernie:connect_one_way_entrance(Elysium)
-Elysium:connect_one_way_entrance(Besties, function()
+HadesBoss:connect_one_way(SurfaceFish, function()
 	return Any(
-		All(
-			HasPactHeat(math.min(TotalPactAmount() * 3 / 4, 30)),
-			HasRoutineInspection(Tracker:ProviderCountForCode(RoutineInspectionSetting)),
-			Has("weapon", 5)
-		),
-		AccessibilityLevel.SequenceBreak
-	)
-end)
-Besties:connect_one_way_entrance(Styx)
-Styx:connect_one_way_entrance(StyxLate)
-Styx:connect_one_way_entrance(HadesBoss, function()
-	return Any(
-		All(
-			HasPactHeat(math.min(TotalPactAmount(), 35)),
-			Has("weapon", 6)
-		),
-		AccessibilityLevel.SequenceBreak
+		CanFishStore(),
+		CanFishVanilla()
 	)
 end)
 HadesBoss:connect_one_way(Goal, function()
