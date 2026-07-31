@@ -1,14 +1,20 @@
 -- Weapons
+StygiusName = "stygius"
 Stygius = "weapon_stygius"
 StygiusHidden = "aspect_arthur"
+VarathaName = "varatha"
 Varatha = "weapon_varatha"
 VarathaHidden = "aspect_guan_yu"
+AegisName = "aegis"
 Aegis = "weapon_aegis"
 AegisHidden = "aspect_beowulf"
+CoronachtName = "coronacht"
 Coronacht = "weapon_coronacht"
 CoronachtHidden = "aspect_rama"
+MalphonName = "malphon"
 Malphon = "weapon_malphon"
 MalphonHidden = "aspect_gilgamesh"
+ExagryphName = "exagryph"
 Exagryph = "weapon_exagryph"
 ExagryphHidden = "aspect_lucifer"
 
@@ -140,12 +146,12 @@ TightDeadlineSetting = "tight_deadline_pact_amount"
 PersonalLiabilitySetting = "personal_liability_pact_amount"
 
 InitialWeaponDict = {
-	[0] = {Stygius, "@Contractor/Weapon Unlocks/Stygius"},
-	[1] = {Coronacht, "@Contractor/Weapon Unlocks/Coronacht"},
-	[2] = {Varatha, "@Contractor/Weapon Unlocks/Varatha"},
-	[3] = {Aegis, "@Contractor/Weapon Unlocks/Aegis"},
-	[4] = {Malphon, "@Contractor/Weapon Unlocks/Malphon"},
-	[5] = {Exagryph, "@Contractor/Weapon Unlocks/Exagryph"}
+	[0] = {StygiusName, "@Contractor/Weapon Unlocks/Stygius"},
+	[1] = {CoronachtName, "@Contractor/Weapon Unlocks/Coronacht"},
+	[2] = {VarathaName, "@Contractor/Weapon Unlocks/Varatha"},
+	[3] = {AegisName, "@Contractor/Weapon Unlocks/Aegis"},
+	[4] = {MalphonName, "@Contractor/Weapon Unlocks/Malphon"},
+	[5] = {ExagryphName, "@Contractor/Weapon Unlocks/Exagryph"}
 }
 Weapons = {"stygius", "varatha", "aegis", "coronacht", "malphon", "exagryph"}
 

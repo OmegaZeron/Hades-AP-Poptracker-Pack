@@ -214,6 +214,12 @@
 				"img": "images/labels/Fishsanity.png",
 				"codes": "fishsanity, fishsanity_on",
 				"inherit_codes": false
+			},
+			{
+				"name": "Fishsanity On + Surface",
+				"img": "images/labels/FishsanityFull.png",
+				"codes": "fishsanity, fishsanity_on, fishsanity_full",
+				"inherit_codes": false
 			}
 		]
 	},
@@ -247,19 +253,20 @@
 		"stages": [
 			{
 				"name": "Abilitysanity Weapon-Based",
-				"img": "images/labels/Fatesanity.png",
+				"img": "images/labels/AbilitysanityWeapon.png",
 				"codes": "abilitysanity, abilitysanity_weapon",
 				"inherit_codes": false
 			},
 			{
 				"name": "Abilitysanity On",
-				"img": "images/labels/Fatesanity.png",
+				"img": "images/labels/Abilitysanity.png",
 				"codes": "abilitysanity, abilitysanity_on",
 				"inherit_codes": false
 			},
 			{
 				"name": "Abilitysanity Off",
-				"img": "images/labels/Fatesanity.png",
+				"img": "images/labels/Abilitysanity.png",
+				"img_mods": "@disabled",
 				"codes": "abilitysanity, abilitysanity_off",
 				"inherit_codes": false
 			}
@@ -273,13 +280,13 @@
 		"stages": [
 			{
 				"name": "Start with Attack",
-				"img": "images/labels/Fatesanity.png",
+				"img": "images/labels/StartAttack.png",
 				"codes": "initial_ability, initial_ability_attack",
 				"inherit_codes": false
 			},
 			{
 				"name": "Start with Special",
-				"img": "images/labels/Fatesanity.png",
+				"img": "images/labels/StartSpecial.png",
 				"codes": "initial_ability, initial_ability_special",
 				"inherit_codes": false
 			}

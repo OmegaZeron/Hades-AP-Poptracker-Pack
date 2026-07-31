@@ -83,6 +83,14 @@
 									}
 								},
 								{
+									"title": "House",
+									"icon": "",
+									"content": {
+										"type": "map",
+										"maps": ["house"]
+									}
+								},
+								{
 									"title": "Score",
 									"icon": "",
 									"content": {

@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Fishing Hole",
-		"chest_unopened_img": "images/labels/Trove.png",
-		"chest_opened_img": "images/labels/TroveOpen.png",
+		"chest_unopened_img": "images/labels/FishCheck.png",
+		"chest_opened_img": "images/labels/FishCheck_Cleared.png",
 		"visibility_rules": ["fishsanity_on"],
 		"children": [
 			{

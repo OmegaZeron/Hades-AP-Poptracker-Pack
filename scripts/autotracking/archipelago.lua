@@ -134,8 +134,16 @@ function OnClear(slot_data)
 	end
 
 	-- get initial weapon, and mark off the contractor location
-	Tracker:FindObjectForCode(InitialWeaponDict[slot_data["initial_weapon"]][1]).Active = true
-	Tracker:FindObjectForCode(InitialWeaponDict[slot_data["initial_weapon"]][2]).AvailableChestCount = 0
+	local weapon = InitialWeaponDict[slot_data["initial_weapon"]]
+	Tracker:FindObjectForCode("weapon_"..weapon[1]).Active = true
+	Tracker:FindObjectForCode(weapon[2]).AvailableChestCount = 0
+	-- set starting ability
+	if Tracker:ProviderCountForCode(AbilitySanityOn) > 0 then
+		local str = Tracker:ProviderCountForCode(AbilitySanityWeapon) > 0 and weapon[1] or "ability"
+		str = str .. (Tracker:ProviderCountForCode(InitialAbilityAttack) > 0 and "_attack" or "_special")
+
+		Tracker:FindObjectForCode(str).Active = true
+	end
 
 	IS_MANUAL_CLICK = true
 end
@@ -318,9 +326,18 @@ end
 
 -- called when a bounce message is received 
 function OnBounce(json)
-	print(string.format("called onBounce: %s", dump(json)))
 	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print(string.format("called onBounce: %s", dump(json)))
 	end
+	-- if not json["data"] then return end
+
+	-- if json["data"]["Current Room"] then
+	-- 	if json["data"]["Current Room"] == "OnRunStarted" then
+	-- 		Tracker:UiHint("ActivateTab", Tracker:FindObjectForCode("location_system").CurrentStage == 1 and "Score" or "Area")
+	-- 	else
+	-- 		Tracker:UiHint("ActivateTab", "House")
+	-- 	end
+	-- end
 end
 
 Archipelago:AddClearHandler("clear handler", OnClear)

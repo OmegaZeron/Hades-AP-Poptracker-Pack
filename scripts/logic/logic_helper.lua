@@ -111,7 +111,7 @@ function CanBeatMeg()
 			HasPactHeat(math.min(TotalPactAmount() // 4, 10)),
 			HasRoutineInspection(Tracker:ProviderCountForCode(RoutineInspectionSetting) - 2),
 			Has("weapon", 2),
-			HasAbilityProgression(1),
+			Has(AbilityDash),
 			HasAbilityPairs(1),
 			HasEnoughMirrorLevels(TotalMirrorItems // 4)
 		),
@@ -124,6 +124,7 @@ function CanBeatLernie()
 			HasPactHeat(math.min(TotalPactAmount() // 2, 20)),
 			HasRoutineInspection(Tracker:ProviderCountForCode(RoutineInspectionSetting) - 1),
 			Has("weapon", 3),
+			Has(AbilityDash),
 			HasAbilityProgression(2),
 			HasAbilityPairs(2),
 			HasEnoughMirrorLevels(TotalMirrorItems // 2)
@@ -137,6 +138,7 @@ function CanBeatBros()
 			HasPactHeat(math.min(TotalPactAmount() * 3 // 4, 30)),
 			HasRoutineInspection(Tracker:ProviderCountForCode(RoutineInspectionSetting)),
 			Has("weapon", 5),
+			Has(AbilityDash),
 			HasAbilityProgression(3),
 			HasAbilityPairs(3),
 			HasEnoughMirrorLevels(3 * TotalMirrorItems // 4)
@@ -149,6 +151,7 @@ function CanBeatDad()
 		All(
 			HasPactHeat(math.min(TotalPactAmount(), 35)),
 			Has("weapon", 6),
+			Has(AbilityDash),
 			HasAbilityProgression(4),
 			HasAbilityPairs(4),
 			HasEnoughMirrorLevels(TotalMirrorItems)
@@ -200,7 +203,7 @@ function CanMirror(reqRoutine, currentRank, maxRank)
 	if not requiredRI or not cRank or not mRank then return false end
 
 	local totalRI = Tracker:ProviderCountForCode(RoutineInspectionItem)
-	requiredRI = math.min(totalRI, requiredRI)
+	requiredRI = math.min(totalRI, 5 - requiredRI)
 	return All(
 		CanReachMirrorRank(cRank, mRank),
 		Any(
@@ -322,9 +325,9 @@ end
 function OnChangeMirrorsanity()
 	local mode = Tracker:FindObjectForCode(MirrorSanity) --[[@as JsonItem]]
 	if mode.CurrentStage == 0 then
-		Tracker:AddLayouts("layouts/ability_grids/mirror_grid_on.jsonc")
+		Tracker:AddLayouts("layouts/mirror_grids/mirror_grid_off.jsonc")
 	else
-		Tracker:AddLayouts("layouts/ability_grids/mirror_grid_off.jsonc")
+		Tracker:AddLayouts("layouts/mirror_grids/mirror_grid_on.jsonc")
 	end
 end
 

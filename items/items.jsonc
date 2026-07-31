@@ -478,102 +478,136 @@
 		"name": "Attack",
 		"type": "toggle",
 		"img": "images/items/AbilityAttack.png",
+		"disabled_img": "images/items/AbilityAttackLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, ability_attack"
 	},
 	{
 		"name": "Special",
 		"type": "toggle",
 		"img": "images/items/AbilitySpecial.png",
+		"disabled_img": "images/items/AbilitySpecialLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, ability_special"
 	},
 	{
 		"name": "Dash",
 		"type": "toggle",
 		"img": "images/items/AbilityDash.png",
+		"disabled_img": "images/items/AbilityDashLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, ability_dash"
 	},
 	{
 		"name": "Cast",
 		"type": "toggle",
 		"img": "images/items/AbilityCast.png",
+		"disabled_img": "images/items/AbilityCastLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, ability_cast"
 	},
 	{
 		"name": "Call",
 		"type": "toggle",
 		"img": "images/items/AbilityCall.png",
+		"disabled_img": "images/items/AbilityCallLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, ability_call"
 	},
 	{
 		"name": "Stygius Attack",
 		"type": "toggle",
 		"img": "images/items/AbilityAttackStygius.png",
+		"disabled_img": "images/items/AbilityAttackStygiusLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, stygius_attack"
 	},
 	{
 		"name": "Stygius Special",
 		"type": "toggle",
 		"img": "images/items/AbilitySpecialStygius.png",
+		"disabled_img": "images/items/AbilitySpecialStygiusLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, stygius_special"
 	},
 	{
 		"name": "Varatha Attack",
 		"type": "toggle",
 		"img": "images/items/AbilityAttackVaratha.png",
+		"disabled_img": "images/items/AbilityAttackVarathaLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, varatha_attack"
 	},
 	{
 		"name": "Varatha Special",
 		"type": "toggle",
 		"img": "images/items/AbilitySpecialVaratha.png",
+		"disabled_img": "images/items/AbilitySpecialVarathaLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, varatha_special"
 	},
 	{
 		"name": "Aegis Attack",
 		"type": "toggle",
 		"img": "images/items/AbilityAttackAegis.png",
+		"disabled_img": "images/items/AbilityAttackAegisLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, aegis_attack"
 	},
 	{
 		"name": "Aegis Special",
 		"type": "toggle",
 		"img": "images/items/AbilitySpecialAegis.png",
+		"disabled_img": "images/items/AbilitySpecialAegisLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, aegis_special"
 	},
 	{
 		"name": "Coronacht Attack",
 		"type": "toggle",
 		"img": "images/items/AbilityAttackCoronacht.png",
+		"disabled_img": "images/items/AbilityAttackCoronachtLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, coronacht_attack"
 	},
 	{
 		"name": "Coronacht Special",
 		"type": "toggle",
 		"img": "images/items/AbilitySpecialCoronacht.png",
+		"disabled_img": "images/items/AbilitySpecialCoronachtLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, coronacht_special"
 	},
 	{
 		"name": "Malphon Attack",
 		"type": "toggle",
 		"img": "images/items/AbilityAttackMalphon.png",
+		"disabled_img": "images/items/AbilityAttackMalphonLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, malphon_attack"
 	},
 	{
 		"name": "Malphon Special",
 		"type": "toggle",
 		"img": "images/items/AbilitySpecialMalphon.png",
+		"disabled_img": "images/items/AbilitySpecialMalphonLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, malphon_special"
 	},
 	{
 		"name": "Exagryph Attack",
 		"type": "toggle",
 		"img": "images/items/AbilityAttackExagryph.png",
+		"disabled_img": "images/items/AbilityAttackExagryphLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, exagryph_attack"
 	},
 	{
 		"name": "Exagryph Special",
 		"type": "toggle",
 		"img": "images/items/AbilitySpecialExagryph.png",
+		"disabled_img": "images/items/AbilitySpecialExagryphLock.png",
+		"disabled_img_mods": "",
 		"codes": "ability, exagryph_special"
 	},
 	// mirror

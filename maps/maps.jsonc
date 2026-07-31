@@ -16,5 +16,11 @@
 		"location_size": 50,
 		"location_border_thickness": 1,
 		"img": "images/maps/Keepsakes.png"
+	},
+	{
+		"name": "house",
+		"location_size": 50,
+		"location_border_thickness": 1,
+		"img": "images/maps/House.png"
 	}
 ]

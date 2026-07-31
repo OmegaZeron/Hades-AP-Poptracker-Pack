@@ -49,7 +49,7 @@
 					["hades_defeats_needed", "weapons_clears_needed", "keepsakes_needed", "fates_needed", "heat_system"],
 					["location_system", "weaponsanity", "keepsakesanity", "fatesanity", "reverse_order_em"],
 					["score_rewards_amount", "hidden_aspectsanity", "abilitysanity", "storesanity", "fishsanity"],
-					["scoremult", "trivesanity", "initial_ability", "mirrorsanity", "disable_late_styx"]
+					["scoremult", "trovesanity", "initial_ability", "mirrorsanity", "disable_late_styx"]
 				]
 			},
 			{

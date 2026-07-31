@@ -1,0 +1,17 @@
+name: Pack Checker
+
+on:
+  push:
+    paths:
+      - '**'
+  pull_request:
+    paths:
+      - '**'
+
+jobs:
+  validate-pack:
+    name: Validate pack with pack-checker
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: PopTracker/pack-checker-action@v1
