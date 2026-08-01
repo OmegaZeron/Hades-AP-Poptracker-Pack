@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Tartarus",
-		"chest_unopened_img": "images/labels/Trove.png",
-		"chest_opened_img": "images/labels/TroveOpen.png",
+		"chest_unopened_img": "images/labels/RoomOrb.png",
+		"chest_opened_img": "images/labels/RoomOrb_Cleared.png",
 		"children": [
 			{
 				"name": "Tartarus",
@@ -200,6 +200,8 @@
 			},
 			{
 				"name": "Megaera",
+				"chest_unopened_img": "images/labels/Floor.png",
+				"chest_opened_img": "images/labels/Floor_Cleared.png",
 				"sections": [
 					{
 						"name": "Whip Me Harder",
@@ -250,8 +252,8 @@
 	},
 	{
 		"name": "Asphodel",
-		"chest_unopened_img": "images/labels/Trove.png",
-		"chest_opened_img": "images/labels/TroveOpen.png",
+		"chest_unopened_img": "images/labels/RoomOrb.png",
+		"chest_opened_img": "images/labels/RoomOrb_Cleared.png",
 		"children": [
 			{
 				"name": "Asphodel",
@@ -423,6 +425,8 @@
 			},
 			{
 				"name": "Lernaean Bone Hydra",
+				"chest_unopened_img": "images/labels/Floor.png",
+				"chest_opened_img": "images/labels/Floor_Cleared.png",
 				"sections": [
 					{
 						"name": "Lernie",
@@ -473,8 +477,8 @@
 	},
 	{
 		"name": "Elysium",
-		"chest_unopened_img": "images/labels/Trove.png",
-		"chest_opened_img": "images/labels/TroveOpen.png",
+		"chest_unopened_img": "images/labels/RoomOrb.png",
+		"chest_opened_img": "images/labels/RoomOrb_Cleared.png",
 		"children": [
 			{
 				"name": "Elysium",
@@ -660,6 +664,8 @@
 			},
 			{
 				"name": "Theseus and Asterius",
+				"chest_unopened_img": "images/labels/Floor.png",
+				"chest_opened_img": "images/labels/Floor_Cleared.png",
 				"sections": [
 					{
 						"name": "Besties",
@@ -710,8 +716,8 @@
 	},
 	{
 		"name": "Styx",
-		"chest_unopened_img": "images/labels/Trove.png",
-		"chest_opened_img": "images/labels/TroveOpen.png",
+		"chest_unopened_img": "images/labels/RoomOrb.png",
+		"chest_opened_img": "images/labels/RoomOrb_Cleared.png",
 		"children": [
 			{
 				"name": "Styx (Early)",
@@ -1177,6 +1183,8 @@
 			},
 			{
 				"name": "Hades",
+				"chest_unopened_img": "images/labels/Floor.png",
+				"chest_opened_img": "images/labels/Floor_Cleared.png",
 				"sections": [
 					{
 						"name": "Stygius",
@@ -1212,8 +1220,9 @@
 					},
 					{
 						"map": "score",
-						"x": 549,
-						"y": 308,
+						"x": 944,
+						"y": 589,
+						"border_thickness": 6,
 						"restrict_visibility_rules": ["location_score"]
 					},
 					{
@@ -1227,8 +1236,6 @@
 	},
 	{
 		"name": "Goal",
-		"chest_unopened_img": "images/labels/Trove.png",
-		"chest_opened_img": "images/labels/TroveOpen.png",
 		"children": [
 			{
 				"name": "Goal",
@@ -1249,9 +1256,9 @@
 					},
 					{
 						"map": "score",
-						"x": 549,
-						"y": 248,
-						"size": 50,
+						"x": 944,
+						"y": 310,
+						"border_thickness": 6,
 						"restrict_visibility_rules": ["location_score"]
 					}
 				]

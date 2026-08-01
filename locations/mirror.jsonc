@@ -24,17 +24,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 225,
-						"y": 2025,
-						"restrict_visibility_rules": ["location_room", "location_weapon"]
-					},
-					{
-						"map": "score",
-						"x": 320,
-						"y": 320,
-						"size": 40,
-						"restrict_visibility_rules": ["location_score"]
+						"map": "house",
+						"x": 1149,
+						"y": 517
 					}
 				]
 			},
@@ -56,17 +48,9 @@
 				],
 				"map_locations": [
 					{
-						"map": "areas",
-						"x": 280,
-						"y": 2025,
-						"restrict_visibility_rules": ["location_room", "location_weapon"]
-					},
-					{
-						"map": "score",
-						"x": 370,
-						"y": 320,
-						"size": 40,
-						"restrict_visibility_rules": ["location_score"]
+						"map": "house",
+						"x": 1177,
+						"y": 677
 					}
 				]
 			}

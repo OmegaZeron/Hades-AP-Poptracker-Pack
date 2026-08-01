@@ -258,6 +258,38 @@
 					}
 				]
 			}
+		],
+		"sections": [
+			{"name": "Achilles", "ref": "Keepsakes/Achilles/"},
+			{"name": "Aphrodite", "ref": "Keepsakes/Aphrodite/"},
+			{"name": "Ares", "ref": "Keepsakes/Ares/"},
+			{"name": "Artemis", "ref": "Keepsakes/Artemis/"},
+			{"name": "Athena", "ref": "Keepsakes/Athena/"},
+			{"name": "Cerberus", "ref": "Keepsakes/Cerberus/"},
+			{"name": "Chaos", "ref": "Keepsakes/Chaos/"},
+			{"name": "Charon", "ref": "Keepsakes/Charon/"},
+			{"name": "Demeter", "ref": "Keepsakes/Demeter/"},
+			{"name": "Dionysus", "ref": "Keepsakes/Dionysus/"},
+			{"name": "Dusa", "ref": "Keepsakes/Dusa/"},
+			{"name": "Eurydice", "ref": "Keepsakes/Eurydice/"},
+			{"name": "Hermes", "ref": "Keepsakes/Hermes/"},
+			{"name": "Hypnos", "ref": "Keepsakes/Hypnos/"},
+			{"name": "Megaera", "ref": "Keepsakes/Megaera/"},
+			{"name": "Nyx", "ref": "Keepsakes/Nyx/"},
+			{"name": "Orpheus", "ref": "Keepsakes/Orpheus/"},
+			{"name": "Patroclus", "ref": "Keepsakes/Patroclus/"},
+			{"name": "Poseidon", "ref": "Keepsakes/Poseidon/"},
+			{"name": "Sisyphus", "ref": "Keepsakes/Sisyphus/"},
+			{"name": "Skelly", "ref": "Keepsakes/Skelly/"},
+			{"name": "Thanatos", "ref": "Keepsakes/Thanatos/"},
+			{"name": "Zeus", "ref": "Keepsakes/Zeus/"}
+		],
+		"map_locations": [
+			{
+				"map": "house",
+				"x": 420,
+				"y": 1491
+			}
 		]
 	}
 ]
