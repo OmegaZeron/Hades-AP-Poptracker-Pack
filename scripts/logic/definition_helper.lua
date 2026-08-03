@@ -269,6 +269,11 @@ SlotDataTable = {
 	{"hidden_aspectsanity", "progressive"},
 	{"storesanity", "progressive"},
 	{"fatesanity", "progressive"},
+	{AbilitySanity, "progressive"},
+	{InitialAbility, "progressive"},
+	{FishSanity, "progressive"},
+	{TroveSanity, "progressive"},
+	{MirrorSanity, "progressive"},
 	-- goal settings
 	{HadesDefeatsNeeded, "consumable"},
 	{WeaponClearsNeeded, "consumable"},

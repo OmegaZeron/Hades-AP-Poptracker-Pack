@@ -1,8 +1,8 @@
 [
 	{
 		"name": "Mirror of Night",
-		"chest_unopened_img": "images/labels/ContractorCheck.png",
-		"chest_opened_img": "images/labels/ContractorCheck_Cleared.png",
+		"chest_unopened_img": "images/labels/Darkness.png",
+		"chest_opened_img": "images/labels/Darkness_Cleared.png",
 		"visibility_rules": ["mirrorsanity_on"],
 		"overlay_background": "#66222222",
 		"children": [

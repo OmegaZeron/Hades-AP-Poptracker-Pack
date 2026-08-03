@@ -28,7 +28,7 @@ end
 function CanReachScore(score)
 	score = tonumber(score)
 	local maxLocations = Tracker:ProviderCountForCode(ScoreRewardsAmount)
-	local fractionLocations = math.floor(maxLocations / 8)
+	local fractionLocations = maxLocations // 8
 	local tartarus = maxLocations - 7 * fractionLocations
 	local asphodel = tartarus + 2 * fractionLocations
 	local elysium = tartarus + 4 * fractionLocations

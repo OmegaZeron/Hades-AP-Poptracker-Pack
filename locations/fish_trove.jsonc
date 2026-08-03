@@ -1,5 +1,78 @@
 [
 	{
+		"name": "Combined",
+		"children": [
+			{
+				"name": "Tartarus Misc.",
+				"sections": [
+					{"ref": "Fishing Hole/Tartarus Fish/Hellfish"},
+					{"ref": "Fishing Hole/Tartarus Fish/Knucklehead"},
+					{"ref": "Fishing Hole/Tartarus Fish/Scyllascion"},
+					{"name": "First Infernal Trove (Tartarus)", "ref": "Troves/Tartarus Trove/First Infernal Trove"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 540,
+						"y": 1775,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			},
+			{
+				"name": "Asphodel Misc.",
+				"sections": [
+					{"ref": "Fishing Hole/Asphodel Fish/Slavug"},
+					{"ref": "Fishing Hole/Asphodel Fish/Chrustacean"},
+					{"ref": "Fishing Hole/Asphodel Fish/Flameater"},
+					{"name": "First Infernal Trove (Asphodel)", "ref": "Troves/Asphodel Trove/First Infernal Trove"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 620,
+						"y": 1430,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			},
+			{
+				"name": "Elysium Misc.",
+				"sections": [
+					{"ref": "Fishing Hole/Elysium Fish/Chlam"},
+					{"ref": "Fishing Hole/Elysium Fish/Charp"},
+					{"ref": "Fishing Hole/Elysium Fish/Seamare"},
+					{"name": "First Infernal Trove (Elysium)", "ref": "Troves/Elysium Trove/First Infernal Trove"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 560,
+						"y": 810,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			},
+			{
+				"name": "Styx Misc.",
+				"sections": [
+					{"ref": "Fishing Hole/Styx Fish/Gupp"},
+					{"ref": "Fishing Hole/Styx Fish/Scuffer"},
+					{"ref": "Fishing Hole/Styx Fish/Stonewahl"},
+					{"name": "First Infernal Trove (Styx)", "ref": "Troves/Styx Trove/First Infernal Trove"}
+				],
+				"map_locations": [
+					{
+						"map": "areas",
+						"x": 545,
+						"y": 377,
+						"restrict_visibility_rules": ["location_room", "location_weapon"]
+					}
+				]
+			}
+		]
+	},
+	{
 		"name": "Fishing Hole",
 		"chest_unopened_img": "images/labels/FishCheck.png",
 		"chest_opened_img": "images/labels/FishCheck_Cleared.png",
@@ -12,14 +85,6 @@
 					{"name": "Hellfish"},
 					{"name": "Knucklehead"},
 					{"name": "Scyllascion"}
-				],
-				"map_locations": [
-					{
-						"map": "areas",
-						"x": 510,
-						"y": 1775,
-						"restrict_visibility_rules": ["location_room", "location_weapon"]
-					}
 				]
 			},
 			{
@@ -29,14 +94,6 @@
 					{"name": "Slavug"},
 					{"name": "Chrustacean"},
 					{"name": "Flameater"}
-				],
-				"map_locations": [
-					{
-						"map": "areas",
-						"x": 590,
-						"y": 1430,
-						"restrict_visibility_rules": ["location_room", "location_weapon"]
-					}
 				]
 			},
 			{
@@ -46,14 +103,6 @@
 					{"name": "Chlam"},
 					{"name": "Charp"},
 					{"name": "Seamare"}
-				],
-				"map_locations": [
-					{
-						"map": "areas",
-						"x": 530,
-						"y": 810,
-						"restrict_visibility_rules": ["location_room", "location_weapon"]
-					}
 				]
 			},
 			{
@@ -63,14 +112,6 @@
 					{"name": "Gupp"},
 					{"name": "Scuffer"},
 					{"name": "Stonewahl"}
-				],
-				"map_locations": [
-					{
-						"map": "areas",
-						"x": 515,
-						"y": 377,
-						"restrict_visibility_rules": ["location_room", "location_weapon"]
-					}
 				]
 			},
 			{
@@ -132,9 +173,8 @@
 		"map_locations": [
 			{
 				"map": "score",
-				"x": 370,
-				"y": 270,
-				"size": 40,
+				"x": 532,
+				"y": 620,
 				"restrict_visibility_rules": ["location_score"]
 			}
 		]
@@ -148,54 +188,22 @@
 			{
 				"name": "Tartarus Trove",
 				"access_rules": ["^$CanReach|TartarusTroves"],
-				"sections": [{"name": "First Infernal Trove"}],
-				"map_locations": [
-					{
-						"map": "areas",
-						"x": 570,
-						"y": 1775,
-						"restrict_visibility_rules": ["location_room", "location_weapon"]
-					}
-				]
+				"sections": [{"name": "First Infernal Trove"}]
 			},
 			{
 				"name": "Asphodel Trove",
 				"access_rules": ["^$CanReach|AsphodelTroves"],
-				"sections": [{"name": "First Infernal Trove"}],
-				"map_locations": [
-					{
-						"map": "areas",
-						"x": 650,
-						"y": 1430,
-						"restrict_visibility_rules": ["location_room", "location_weapon"]
-					}
-				]
+				"sections": [{"name": "First Infernal Trove"}]
 			},
 			{
 				"name": "Elysium Trove",
 				"access_rules": ["^$CanReach|ElysiumTroves"],
-				"sections": [{"name": "First Infernal Trove"}],
-				"map_locations": [
-					{
-						"map": "areas",
-						"x": 590,
-						"y": 810,
-						"restrict_visibility_rules": ["location_room", "location_weapon"]
-					}
-				]
+				"sections": [{"name": "First Infernal Trove"}]
 			},
 			{
 				"name": "Styx Trove",
 				"access_rules": ["^$CanReach|StyxTroves"],
-				"sections": [{"name": "First Infernal Trove"}],
-				"map_locations": [
-					{
-						"map": "areas",
-						"x": 575,
-						"y": 377,
-						"restrict_visibility_rules": ["location_room", "location_weapon"]
-					}
-				]
+				"sections": [{"name": "First Infernal Trove"}]
 			},
 			{
 				"name": "Troves",
@@ -233,9 +241,8 @@
 		"map_locations": [
 			{
 				"map": "score",
-				"x": 420,
-				"y": 270,
-				"size": 40,
+				"x": 532,
+				"y": 500,
 				"restrict_visibility_rules": ["location_score"]
 			}
 		]

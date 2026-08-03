@@ -25,6 +25,11 @@
 									}
 								},
 								{
+									"type": "layout",
+									"dock": "top",
+									"key": "ability_grid"
+								},
+								{
 									"type": "group",
 									"header": "Keepsakes",
 									"dock": "top",
@@ -54,11 +59,6 @@
 								{
 									"type": "layout",
 									"dock": "top",
-									"key": "ability_grid"
-								},
-								{
-									"type": "layout",
-									"dock": "top",
 									"key": "mirror_grid"
 								}
 							]
@@ -83,19 +83,19 @@
 									}
 								},
 								{
-									"title": "House",
-									"icon": "",
-									"content": {
-										"type": "map",
-										"maps": ["house"]
-									}
-								},
-								{
 									"title": "Score",
 									"icon": "",
 									"content": {
 										"type": "map",
 										"maps": ["score"]
+									}
+								},
+								{
+									"title": "House",
+									"icon": "",
+									"content": {
+										"type": "map",
+										"maps": ["house"]
 									}
 								},
 								{

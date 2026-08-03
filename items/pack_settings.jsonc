@@ -32,7 +32,7 @@
 		"initial_quantity": 150,
 		"codes": "score_rewards_amount",
 		"min_quantity": 72,
-		"max_quantity": 1000,
+		"max_quantity": 400,
 		"img": "images/labels/ScoreRequirement.png",
 		"overlay_background": "#66222222"
 	},
@@ -154,7 +154,6 @@
 	{
 		"name": "Fatesanity",
 		"type": "progressive",
-		"initial_stage_idx": 1,
 		"loop": true,
 		"allow_disabled": false,
 		"stages": [
@@ -176,7 +175,6 @@
 	{
 		"name": "Mirrorsanity",
 		"type": "progressive",
-		"initial_stage_idx": 1,
 		"loop": true,
 		"allow_disabled": false,
 		"stages": [
@@ -198,7 +196,6 @@
 	{
 		"name": "Fishsanity",
 		"type": "progressive",
-		"initial_stage_idx": 1,
 		"loop": true,
 		"allow_disabled": false,
 		"stages": [
@@ -226,7 +223,6 @@
 	{
 		"name": "Trovesanity",
 		"type": "progressive",
-		"initial_stage_idx": 1,
 		"loop": true,
 		"allow_disabled": false,
 		"stages": [
@@ -250,6 +246,7 @@
 		"type": "progressive",
 		"loop": true,
 		"allow_disabled": false,
+		"initial_stage_idx": 2,
 		"stages": [
 			{
 				"name": "Abilitysanity Weapon-Based",
