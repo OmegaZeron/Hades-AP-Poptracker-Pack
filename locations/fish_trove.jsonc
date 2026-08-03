@@ -5,9 +5,9 @@
 			{
 				"name": "Tartarus Misc.",
 				"sections": [
-					{"ref": "Fishing Hole/Tartarus Fish/Hellfish"},
-					{"ref": "Fishing Hole/Tartarus Fish/Knucklehead"},
-					{"ref": "Fishing Hole/Tartarus Fish/Scyllascion"},
+					{"name": "Hellfish", "ref": "Fishing Hole/Tartarus Fish/Hellfish"},
+					{"name": "Knucklehead", "ref": "Fishing Hole/Tartarus Fish/Knucklehead"},
+					{"name": "Scyllascion", "ref": "Fishing Hole/Tartarus Fish/Scyllascion"},
 					{"name": "First Infernal Trove (Tartarus)", "ref": "Troves/Tartarus Trove/First Infernal Trove"}
 				],
 				"map_locations": [
@@ -22,9 +22,9 @@
 			{
 				"name": "Asphodel Misc.",
 				"sections": [
-					{"ref": "Fishing Hole/Asphodel Fish/Slavug"},
-					{"ref": "Fishing Hole/Asphodel Fish/Chrustacean"},
-					{"ref": "Fishing Hole/Asphodel Fish/Flameater"},
+					{"name": "Slavug", "ref": "Fishing Hole/Asphodel Fish/Slavug"},
+					{"name": "Chrustacean", "ref": "Fishing Hole/Asphodel Fish/Chrustacean"},
+					{"name": "Flameater", "ref": "Fishing Hole/Asphodel Fish/Flameater"},
 					{"name": "First Infernal Trove (Asphodel)", "ref": "Troves/Asphodel Trove/First Infernal Trove"}
 				],
 				"map_locations": [
@@ -39,9 +39,9 @@
 			{
 				"name": "Elysium Misc.",
 				"sections": [
-					{"ref": "Fishing Hole/Elysium Fish/Chlam"},
-					{"ref": "Fishing Hole/Elysium Fish/Charp"},
-					{"ref": "Fishing Hole/Elysium Fish/Seamare"},
+					{"name": "Chlam", "ref": "Fishing Hole/Elysium Fish/Chlam"},
+					{"name": "Charp", "ref": "Fishing Hole/Elysium Fish/Charp"},
+					{"name": "Seamare", "ref": "Fishing Hole/Elysium Fish/Seamare"},
 					{"name": "First Infernal Trove (Elysium)", "ref": "Troves/Elysium Trove/First Infernal Trove"}
 				],
 				"map_locations": [
@@ -56,9 +56,9 @@
 			{
 				"name": "Styx Misc.",
 				"sections": [
-					{"ref": "Fishing Hole/Styx Fish/Gupp"},
-					{"ref": "Fishing Hole/Styx Fish/Scuffer"},
-					{"ref": "Fishing Hole/Styx Fish/Stonewahl"},
+					{"name": "Gupp", "ref": "Fishing Hole/Styx Fish/Gupp"},
+					{"name": "Scuffer", "ref": "Fishing Hole/Styx Fish/Scuffer"},
+					{"name": "Stonewahl", "ref": "Fishing Hole/Styx Fish/Stonewahl"},
 					{"name": "First Infernal Trove (Styx)", "ref": "Troves/Styx Trove/First Infernal Trove"}
 				],
 				"map_locations": [
