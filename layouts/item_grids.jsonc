@@ -2,7 +2,8 @@
 	"weapon_grid": {
 		"type": "itemgrid",
 		"h_alignment": "left",
-		"item_margin": "3,2",
+		"margin": "-2, -5, 2, 0",
+		"item_margin": "2, 1",
 		"item_size": 52,
 		"rows": [
 			["weapon_stygius", "weapon_varatha", "weapon_aegis", "weapon_coronacht", "weapon_malphon", "weapon_exagryph"],
@@ -12,7 +13,8 @@
 	"keepsake_grid": {
 		"type": "itemgrid",
 		"h_alignment": "left",
-		"item_margin": "3,2",
+		"margin": "-2, -2, 2, 0",
+		"item_margin": "2, 1",
 		"item_size": 38,
 		"rows": [
 			["keepsake_achilles", "keepsake_aphrodite", "keepsake_ares", "keepsake_artemis", "keepsake_athena", "keepsake_cerberus", "keepsake_chaos", "keepsake_charon"],
@@ -22,6 +24,8 @@
 	},
 	"pact_grid": {
 		"type": "itemgrid",
+		"margin": "-2, -5, 2, 0",
+		"item_margin": "4, 2",
 		"item_size": 34,
 		"rows": [
 			["pact_hard_labor", "pact_lasting_consequences", "pact_convenience_fee", "pact_jury_summons", "pact_extreme_measures", "pact_calisthenics_program", "pact_benefits_package", "pact_middle_management"],
@@ -30,6 +34,8 @@
 	},
 	"item_grid": {
 		"type": "itemgrid",
+		"margin": "-2, -5, 2, 0",
+		"item_margin": "5, 1",
 		"item_size": 56,
 		"rows": [
 			["fountain_tartarus", "fountain_asphodel", "fountain_elysium", "fountain_upgrade", "deluxe_desk"],
@@ -66,61 +72,4 @@
 			}
 		]
 	}
-	// "settings": {
-	// 	"type": "array",
-	// 	"orientation": "vertical",
-	// 	"content": [
-	// 		{
-	// 			"type": "itemgrid",
-	// 			"h_alignment": "left",
-	// 			"item_size": 100,
-	// 			"item_margin": "1,2",
-	// 			"rows": [
-	// 				["location_system", "hades_defeats_needed", "heat_system", "reverse_order_em"],
-	// 				["score_rewards_amount", "keepsakesanity", "weaponsanity", "fatesanity"],
-	// 				["scoremult", "keepsakes_needed", "weapons_clears_needed", "fates_needed"],
-	// 				["abilitysanity", "fishsanity", "hidden_aspectsanity", "storesanity"],
-	// 				["initial_ability", "mirrorsanity", "trovesanity", "disable_late_styx"]
-	// 			]
-	// 		},
-	// 		{
-	// 			"type": "itemgrid",
-	// 			"h_alignment": "left",
-	// 			"item_size": 100,
-	// 			"item_margin": "1,2",
-	// 			"rows": [
-	// 				["hard_labor_pact_amount", "lasting_consequences_pact_amount", "convenience_fee_pact_amount", "jury_summons_pact_amount"],
-	// 				["extreme_measures_pact_amount", "calisthenics_program_pact_amount", "benefits_package_pact_amount", "middle_management_pact_amount"],
-	// 				["underworld_customs_pact_amount", "forced_overtime_pact_amount", "heightened_security_pact_amount", "routine_inspection_pact_amount"],
-	// 				["damage_control_pact_amount", "approval_process_pact_amount", "tight_deadline_pact_amount", "personal_liability_pact_amount"]
-	// 			]
-	// 		}
-	// 	]
-	// }
-	// "settings": {
-	// 	"type": "array",
-	// 	"orientation": "vertical",
-	// 	"content": [
-	// 		{
-	// 			"type": "itemgrid",
-	// 			"h_alignment": "left",
-	// 			"item_size": 80,
-	// 			"item_margin": "1,2",
-	// 			"rows": [
-	// 				["location_system", "score_rewards_amount", "keepsakesanity", "weaponsanity", "fatesanity", "hidden_aspectsanity", "storesanity", "fishsanity", "trovesanity", "abilitysanity"],
-	// 				["hades_defeats_needed", "scoremult", "keepsakes_needed", "weapons_clears_needed", "fates_needed", "heat_system", "reverse_order_em", "disable_late_styx", "mirrorsanity", "initial_ability"]
-	// 			]
-	// 		},
-	// 		{
-	// 			"type": "itemgrid",
-	// 			"h_alignment": "left",
-	// 			"item_size": 100,
-	// 			"item_margin": "1,2",
-	// 			"rows": [
-	// 				["hard_labor_pact_amount", "lasting_consequences_pact_amount", "convenience_fee_pact_amount", "jury_summons_pact_amount", "extreme_measures_pact_amount", "calisthenics_program_pact_amount", "benefits_package_pact_amount", "middle_management_pact_amount"],
-	// 				["underworld_customs_pact_amount", "forced_overtime_pact_amount", "heightened_security_pact_amount", "routine_inspection_pact_amount", "damage_control_pact_amount", "approval_process_pact_amount", "tight_deadline_pact_amount", "personal_liability_pact_amount"]
-	// 			]
-	// 		}
-	// 	]
-	// }
 }

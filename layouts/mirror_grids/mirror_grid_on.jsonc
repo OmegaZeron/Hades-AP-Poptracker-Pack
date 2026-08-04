@@ -9,7 +9,8 @@
 					"title": "Front",
 					"content": {
 						"type": "itemgrid",
-						"item_margin": "3, 2",
+						"margin": "-2, -5, 2, 0",
+						"item_margin": "2, 1",
 						"h_alignment": "left",
 						"item_size": 52,
 						"rows": [
@@ -22,7 +23,8 @@
 					"title": "Back",
 					"content": {
 						"type": "itemgrid",
-						"item_margin": "3, 2",
+						"margin": "-2, -5, 2, 0",
+						"item_margin": "2, 1",
 						"h_alignment": "left",
 						"item_size": 52,
 						"rows": [

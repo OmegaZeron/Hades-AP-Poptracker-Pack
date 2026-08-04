@@ -4,7 +4,8 @@
 		"header": "Abilities",
 		"content": {
 			"type": "itemgrid",
-			"item_margin": "3,2",
+			"margin": "-2, -5, 2, 0",
+			"item_margin": "2, 1",
 			"item_size": 56,
 			"rows": [
 				["ability_attack", "ability_special", "ability_dash", "ability_cast", "ability_call"]

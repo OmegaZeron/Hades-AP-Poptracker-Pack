@@ -5,7 +5,7 @@
 		"chest_opened_img": "images/labels/NectarGray.png",
 		"children": [
 			{
-				"name": "Clear Score 1-4",
+				"name": "Clear Score 1-10",
 				"sections": [
 					{
 						"name": "1",
@@ -26,19 +26,7 @@
 						"name": "4",
 						"visibility_rules": ["$CanSeeScore|4"],
 						"access_rules": ["^$CanReachScore|4"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1478,
-						"y": 1824
-					}
-				]
-			},
-			{
-				"name": "Clear Score 5-8",
-				"sections": [
+					},
 					{
 						"name": "5",
 						"visibility_rules": ["$CanSeeScore|5"],
@@ -58,19 +46,7 @@
 						"name": "8",
 						"visibility_rules": ["$CanSeeScore|8"],
 						"access_rules": ["^$CanReachScore|8"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1361,
-						"y": 1824
-					}
-				]
-			},
-			{
-				"name": "Clear Score 9-12",
-				"sections": [
+					},
 					{
 						"name": "9",
 						"visibility_rules": ["$CanSeeScore|9"],
@@ -80,7 +56,19 @@
 						"name": "10",
 						"visibility_rules": ["$CanSeeScore|10"],
 						"access_rules": ["^$CanReachScore|10"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 434,
+						"y": 1802
+					}
+				]
+			},
+			{
+				"name": "Clear Score 11-20",
+				"sections": [
 					{
 						"name": "11",
 						"visibility_rules": ["$CanSeeScore|11"],
@@ -90,19 +78,7 @@
 						"name": "12",
 						"visibility_rules": ["$CanSeeScore|12"],
 						"access_rules": ["^$CanReachScore|12"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1242,
-						"y": 1824
-					}
-				]
-			},
-			{
-				"name": "Clear Score 13-16",
-				"sections": [
+					},
 					{
 						"name": "13",
 						"visibility_rules": ["$CanSeeScore|13"],
@@ -122,19 +98,7 @@
 						"name": "16",
 						"visibility_rules": ["$CanSeeScore|16"],
 						"access_rules": ["^$CanReachScore|16"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1124,
-						"y": 1824
-					}
-				]
-			},
-			{
-				"name": "Clear Score 17-20",
-				"sections": [
+					},
 					{
 						"name": "17",
 						"visibility_rules": ["$CanSeeScore|17"],
@@ -159,13 +123,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 1005,
-						"y": 1824
+						"x": 604,
+						"y": 1802
 					}
 				]
 			},
 			{
-				"name": "Clear Score 21-24",
+				"name": "Clear Score 21-30",
 				"sections": [
 					{
 						"name": "21",
@@ -186,19 +150,7 @@
 						"name": "24",
 						"visibility_rules": ["$CanSeeScore|24"],
 						"access_rules": ["^$CanReachScore|24"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 887,
-						"y": 1824
-					}
-				]
-			},
-			{
-				"name": "Clear Score 25-28",
-				"sections": [
+					},
 					{
 						"name": "25",
 						"visibility_rules": ["$CanSeeScore|25"],
@@ -218,19 +170,7 @@
 						"name": "28",
 						"visibility_rules": ["$CanSeeScore|28"],
 						"access_rules": ["^$CanReachScore|28"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 768,
-						"y": 1824
-					}
-				]
-			},
-			{
-				"name": "Clear Score 29-32",
-				"sections": [
+					},
 					{
 						"name": "29",
 						"visibility_rules": ["$CanSeeScore|29"],
@@ -240,7 +180,19 @@
 						"name": "30",
 						"visibility_rules": ["$CanSeeScore|30"],
 						"access_rules": ["^$CanReachScore|30"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 776,
+						"y": 1802
+					}
+				]
+			},
+			{
+				"name": "Clear Score 31-40",
+				"sections": [
 					{
 						"name": "31",
 						"visibility_rules": ["$CanSeeScore|31"],
@@ -250,19 +202,7 @@
 						"name": "32",
 						"visibility_rules": ["$CanSeeScore|32"],
 						"access_rules": ["^$CanReachScore|32"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 650,
-						"y": 1824
-					}
-				]
-			},
-			{
-				"name": "Clear Score 33-36",
-				"sections": [
+					},
 					{
 						"name": "33",
 						"visibility_rules": ["$CanSeeScore|33"],
@@ -282,19 +222,7 @@
 						"name": "36",
 						"visibility_rules": ["$CanSeeScore|36"],
 						"access_rules": ["^$CanReachScore|36"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 532,
-						"y": 1824
-					}
-				]
-			},
-			{
-				"name": "Clear Score 37-40",
-				"sections": [
+					},
 					{
 						"name": "37",
 						"visibility_rules": ["$CanSeeScore|37"],
@@ -319,13 +247,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 413,
-						"y": 1824
+						"x": 949,
+						"y": 1802
 					}
 				]
 			},
 			{
-				"name": "Clear Score 41-44",
+				"name": "Clear Score 41-50",
 				"sections": [
 					{
 						"name": "41",
@@ -346,19 +274,7 @@
 						"name": "44",
 						"visibility_rules": ["$CanSeeScore|44"],
 						"access_rules": ["^$CanReachScore|44"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1478,
-						"y": 1704
-					}
-				]
-			},
-			{
-				"name": "Clear Score 45-48",
-				"sections": [
+					},
 					{
 						"name": "45",
 						"visibility_rules": ["$CanSeeScore|45"],
@@ -378,19 +294,7 @@
 						"name": "48",
 						"visibility_rules": ["$CanSeeScore|48"],
 						"access_rules": ["^$CanReachScore|48"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1361,
-						"y": 1704
-					}
-				]
-			},
-			{
-				"name": "Clear Score 49-52",
-				"sections": [
+					},
 					{
 						"name": "49",
 						"visibility_rules": ["$CanSeeScore|49"],
@@ -400,7 +304,19 @@
 						"name": "50",
 						"visibility_rules": ["$CanSeeScore|50"],
 						"access_rules": ["^$CanReachScore|50"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 1119,
+						"y": 1802
+					}
+				]
+			},
+			{
+				"name": "Clear Score 51-60",
+				"sections": [
 					{
 						"name": "51",
 						"visibility_rules": ["$CanSeeScore|51"],
@@ -410,19 +326,7 @@
 						"name": "52",
 						"visibility_rules": ["$CanSeeScore|52"],
 						"access_rules": ["^$CanReachScore|52"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1242,
-						"y": 1704
-					}
-				]
-			},
-			{
-				"name": "Clear Score 53-56",
-				"sections": [
+					},
 					{
 						"name": "53",
 						"visibility_rules": ["$CanSeeScore|53"],
@@ -442,19 +346,7 @@
 						"name": "56",
 						"visibility_rules": ["$CanSeeScore|56"],
 						"access_rules": ["^$CanReachScore|56"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1124,
-						"y": 1704
-					}
-				]
-			},
-			{
-				"name": "Clear Score 57-60",
-				"sections": [
+					},
 					{
 						"name": "57",
 						"visibility_rules": ["$CanSeeScore|57"],
@@ -479,13 +371,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 1005,
-						"y": 1704
+						"x": 1287,
+						"y": 1802
 					}
 				]
 			},
 			{
-				"name": "Clear Score 61-64",
+				"name": "Clear Score 61-70",
 				"sections": [
 					{
 						"name": "61",
@@ -506,19 +398,7 @@
 						"name": "64",
 						"visibility_rules": ["$CanSeeScore|64"],
 						"access_rules": ["^$CanReachScore|64"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 887,
-						"y": 1704
-					}
-				]
-			},
-			{
-				"name": "Clear Score 65-68",
-				"sections": [
+					},
 					{
 						"name": "65",
 						"visibility_rules": ["$CanSeeScore|65"],
@@ -538,19 +418,7 @@
 						"name": "68",
 						"visibility_rules": ["$CanSeeScore|68"],
 						"access_rules": ["^$CanReachScore|68"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 768,
-						"y": 1704
-					}
-				]
-			},
-			{
-				"name": "Clear Score 69-72",
-				"sections": [
+					},
 					{
 						"name": "69",
 						"visibility_rules": ["$CanSeeScore|69"],
@@ -560,7 +428,19 @@
 						"name": "70",
 						"visibility_rules": ["$CanSeeScore|70"],
 						"access_rules": ["^$CanReachScore|70"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 1461,
+						"y": 1802
+					}
+				]
+			},
+			{
+				"name": "Clear Score 71-80",
+				"sections": [
 					{
 						"name": "71",
 						"visibility_rules": ["$CanSeeScore|71"],
@@ -570,19 +450,7 @@
 						"name": "72",
 						"visibility_rules": ["$CanSeeScore|72"],
 						"access_rules": ["^$CanReachScore|72"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 650,
-						"y": 1704
-					}
-				]
-			},
-			{
-				"name": "Clear Score 73-76",
-				"sections": [
+					},
 					{
 						"name": "73",
 						"visibility_rules": ["$CanSeeScore|73"],
@@ -602,19 +470,7 @@
 						"name": "76",
 						"visibility_rules": ["$CanSeeScore|76"],
 						"access_rules": ["^$CanReachScore|76"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 532,
-						"y": 1704
-					}
-				]
-			},
-			{
-				"name": "Clear Score 77-80",
-				"sections": [
+					},
 					{
 						"name": "77",
 						"visibility_rules": ["$CanSeeScore|77"],
@@ -639,13 +495,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 413,
-						"y": 1704
+						"x": 434,
+						"y": 1634
 					}
 				]
 			},
 			{
-				"name": "Clear Score 81-84",
+				"name": "Clear Score 81-90",
 				"sections": [
 					{
 						"name": "81",
@@ -666,19 +522,7 @@
 						"name": "84",
 						"visibility_rules": ["$CanSeeScore|84"],
 						"access_rules": ["^$CanReachScore|84"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1478,
-						"y": 1588
-					}
-				]
-			},
-			{
-				"name": "Clear Score 85-88",
-				"sections": [
+					},
 					{
 						"name": "85",
 						"visibility_rules": ["$CanSeeScore|85"],
@@ -698,19 +542,7 @@
 						"name": "88",
 						"visibility_rules": ["$CanSeeScore|88"],
 						"access_rules": ["^$CanReachScore|88"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1361,
-						"y": 1588
-					}
-				]
-			},
-			{
-				"name": "Clear Score 89-92",
-				"sections": [
+					},
 					{
 						"name": "89",
 						"visibility_rules": ["$CanSeeScore|89"],
@@ -720,7 +552,19 @@
 						"name": "90",
 						"visibility_rules": ["$CanSeeScore|90"],
 						"access_rules": ["^$CanReachScore|90"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 604,
+						"y": 1634
+					}
+				]
+			},
+			{
+				"name": "Clear Score 91-100",
+				"sections": [
 					{
 						"name": "91",
 						"visibility_rules": ["$CanSeeScore|91"],
@@ -730,19 +574,7 @@
 						"name": "92",
 						"visibility_rules": ["$CanSeeScore|92"],
 						"access_rules": ["^$CanReachScore|92"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1242,
-						"y": 1588
-					}
-				]
-			},
-			{
-				"name": "Clear Score 93-96",
-				"sections": [
+					},
 					{
 						"name": "93",
 						"visibility_rules": ["$CanSeeScore|93"],
@@ -762,19 +594,7 @@
 						"name": "96",
 						"visibility_rules": ["$CanSeeScore|96"],
 						"access_rules": ["^$CanReachScore|96"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1124,
-						"y": 1588
-					}
-				]
-			},
-			{
-				"name": "Clear Score 97-100",
-				"sections": [
+					},
 					{
 						"name": "97",
 						"visibility_rules": ["$CanSeeScore|97"],
@@ -799,13 +619,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 1005,
-						"y": 1588
+						"x": 776,
+						"y": 1634
 					}
 				]
 			},
 			{
-				"name": "Clear Score 101-104",
+				"name": "Clear Score 101-110",
 				"sections": [
 					{
 						"name": "101",
@@ -826,19 +646,7 @@
 						"name": "104",
 						"visibility_rules": ["$CanSeeScore|104"],
 						"access_rules": ["^$CanReachScore|104"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 887,
-						"y": 1588
-					}
-				]
-			},
-			{
-				"name": "Clear Score 105-108",
-				"sections": [
+					},
 					{
 						"name": "105",
 						"visibility_rules": ["$CanSeeScore|105"],
@@ -858,19 +666,7 @@
 						"name": "108",
 						"visibility_rules": ["$CanSeeScore|108"],
 						"access_rules": ["^$CanReachScore|108"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 768,
-						"y": 1588
-					}
-				]
-			},
-			{
-				"name": "Clear Score 109-112",
-				"sections": [
+					},
 					{
 						"name": "109",
 						"visibility_rules": ["$CanSeeScore|109"],
@@ -880,7 +676,19 @@
 						"name": "110",
 						"visibility_rules": ["$CanSeeScore|110"],
 						"access_rules": ["^$CanReachScore|110"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 949,
+						"y": 1634
+					}
+				]
+			},
+			{
+				"name": "Clear Score 111-120",
+				"sections": [
 					{
 						"name": "111",
 						"visibility_rules": ["$CanSeeScore|111"],
@@ -890,19 +698,7 @@
 						"name": "112",
 						"visibility_rules": ["$CanSeeScore|112"],
 						"access_rules": ["^$CanReachScore|112"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 650,
-						"y": 1588
-					}
-				]
-			},
-			{
-				"name": "Clear Score 113-116",
-				"sections": [
+					},
 					{
 						"name": "113",
 						"visibility_rules": ["$CanSeeScore|113"],
@@ -922,19 +718,7 @@
 						"name": "116",
 						"visibility_rules": ["$CanSeeScore|116"],
 						"access_rules": ["^$CanReachScore|116"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 532,
-						"y": 1588
-					}
-				]
-			},
-			{
-				"name": "Clear Score 117-120",
-				"sections": [
+					},
 					{
 						"name": "117",
 						"visibility_rules": ["$CanSeeScore|117"],
@@ -959,13 +743,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 413,
-						"y": 1588
+						"x": 1119,
+						"y": 1634
 					}
 				]
 			},
 			{
-				"name": "Clear Score 121-124",
+				"name": "Clear Score 121-130",
 				"sections": [
 					{
 						"name": "121",
@@ -986,19 +770,7 @@
 						"name": "124",
 						"visibility_rules": ["$CanSeeScore|124"],
 						"access_rules": ["^$CanReachScore|124"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1478,
-						"y": 1472
-					}
-				]
-			},
-			{
-				"name": "Clear Score 125-128",
-				"sections": [
+					},
 					{
 						"name": "125",
 						"visibility_rules": ["$CanSeeScore|125"],
@@ -1018,19 +790,7 @@
 						"name": "128",
 						"visibility_rules": ["$CanSeeScore|128"],
 						"access_rules": ["^$CanReachScore|128"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1361,
-						"y": 1472
-					}
-				]
-			},
-			{
-				"name": "Clear Score 129-132",
-				"sections": [
+					},
 					{
 						"name": "129",
 						"visibility_rules": ["$CanSeeScore|129"],
@@ -1040,7 +800,19 @@
 						"name": "130",
 						"visibility_rules": ["$CanSeeScore|130"],
 						"access_rules": ["^$CanReachScore|130"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 1287,
+						"y": 1634
+					}
+				]
+			},
+			{
+				"name": "Clear Score 131-140",
+				"sections": [
 					{
 						"name": "131",
 						"visibility_rules": ["$CanSeeScore|131"],
@@ -1050,19 +822,7 @@
 						"name": "132",
 						"visibility_rules": ["$CanSeeScore|132"],
 						"access_rules": ["^$CanReachScore|132"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1242,
-						"y": 1472
-					}
-				]
-			},
-			{
-				"name": "Clear Score 133-136",
-				"sections": [
+					},
 					{
 						"name": "133",
 						"visibility_rules": ["$CanSeeScore|133"],
@@ -1082,19 +842,7 @@
 						"name": "136",
 						"visibility_rules": ["$CanSeeScore|136"],
 						"access_rules": ["^$CanReachScore|136"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1124,
-						"y": 1472
-					}
-				]
-			},
-			{
-				"name": "Clear Score 137-140",
-				"sections": [
+					},
 					{
 						"name": "137",
 						"visibility_rules": ["$CanSeeScore|137"],
@@ -1119,13 +867,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 1005,
-						"y": 1472
+						"x": 1461,
+						"y": 1634
 					}
 				]
 			},
 			{
-				"name": "Clear Score 141-144",
+				"name": "Clear Score 141-150",
 				"sections": [
 					{
 						"name": "141",
@@ -1146,19 +894,7 @@
 						"name": "144",
 						"visibility_rules": ["$CanSeeScore|144"],
 						"access_rules": ["^$CanReachScore|144"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 887,
-						"y": 1472
-					}
-				]
-			},
-			{
-				"name": "Clear Score 145-148",
-				"sections": [
+					},
 					{
 						"name": "145",
 						"visibility_rules": ["$CanSeeScore|145"],
@@ -1178,19 +914,7 @@
 						"name": "148",
 						"visibility_rules": ["$CanSeeScore|148"],
 						"access_rules": ["^$CanReachScore|148"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 768,
-						"y": 1472
-					}
-				]
-			},
-			{
-				"name": "Clear Score 149-152",
-				"sections": [
+					},
 					{
 						"name": "149",
 						"visibility_rules": ["$CanSeeScore|149"],
@@ -1200,7 +924,19 @@
 						"name": "150",
 						"visibility_rules": ["$CanSeeScore|150"],
 						"access_rules": ["^$CanReachScore|150"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 434,
+						"y": 1465
+					}
+				]
+			},
+			{
+				"name": "Clear Score 151-160",
+				"sections": [
 					{
 						"name": "151",
 						"visibility_rules": ["$CanSeeScore|151"],
@@ -1210,19 +946,7 @@
 						"name": "152",
 						"visibility_rules": ["$CanSeeScore|152"],
 						"access_rules": ["^$CanReachScore|152"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 650,
-						"y": 1472
-					}
-				]
-			},
-			{
-				"name": "Clear Score 153-156",
-				"sections": [
+					},
 					{
 						"name": "153",
 						"visibility_rules": ["$CanSeeScore|153"],
@@ -1242,19 +966,7 @@
 						"name": "156",
 						"visibility_rules": ["$CanSeeScore|156"],
 						"access_rules": ["^$CanReachScore|156"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 532,
-						"y": 1472
-					}
-				]
-			},
-			{
-				"name": "Clear Score 157-160",
-				"sections": [
+					},
 					{
 						"name": "157",
 						"visibility_rules": ["$CanSeeScore|157"],
@@ -1279,13 +991,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 413,
-						"y": 1472
+						"x": 604,
+						"y": 1465
 					}
 				]
 			},
 			{
-				"name": "Clear Score 161-164",
+				"name": "Clear Score 161-170",
 				"sections": [
 					{
 						"name": "161",
@@ -1306,19 +1018,7 @@
 						"name": "164",
 						"visibility_rules": ["$CanSeeScore|164"],
 						"access_rules": ["^$CanReachScore|164"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1478,
-						"y": 1356
-					}
-				]
-			},
-			{
-				"name": "Clear Score 165-168",
-				"sections": [
+					},
 					{
 						"name": "165",
 						"visibility_rules": ["$CanSeeScore|165"],
@@ -1338,19 +1038,7 @@
 						"name": "168",
 						"visibility_rules": ["$CanSeeScore|168"],
 						"access_rules": ["^$CanReachScore|168"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1361,
-						"y": 1356
-					}
-				]
-			},
-			{
-				"name": "Clear Score 169-172",
-				"sections": [
+					},
 					{
 						"name": "169",
 						"visibility_rules": ["$CanSeeScore|169"],
@@ -1360,7 +1048,19 @@
 						"name": "170",
 						"visibility_rules": ["$CanSeeScore|170"],
 						"access_rules": ["^$CanReachScore|170"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 776,
+						"y": 1465
+					}
+				]
+			},
+			{
+				"name": "Clear Score 171-180",
+				"sections": [
 					{
 						"name": "171",
 						"visibility_rules": ["$CanSeeScore|171"],
@@ -1370,19 +1070,7 @@
 						"name": "172",
 						"visibility_rules": ["$CanSeeScore|172"],
 						"access_rules": ["^$CanReachScore|172"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1242,
-						"y": 1356
-					}
-				]
-			},
-			{
-				"name": "Clear Score 173-176",
-				"sections": [
+					},
 					{
 						"name": "173",
 						"visibility_rules": ["$CanSeeScore|173"],
@@ -1402,19 +1090,7 @@
 						"name": "176",
 						"visibility_rules": ["$CanSeeScore|176"],
 						"access_rules": ["^$CanReachScore|176"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1124,
-						"y": 1356
-					}
-				]
-			},
-			{
-				"name": "Clear Score 177-180",
-				"sections": [
+					},
 					{
 						"name": "177",
 						"visibility_rules": ["$CanSeeScore|177"],
@@ -1439,13 +1115,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 1005,
-						"y": 1356
+						"x": 949,
+						"y": 1465
 					}
 				]
 			},
 			{
-				"name": "Clear Score 181-184",
+				"name": "Clear Score 181-190",
 				"sections": [
 					{
 						"name": "181",
@@ -1466,19 +1142,7 @@
 						"name": "184",
 						"visibility_rules": ["$CanSeeScore|184"],
 						"access_rules": ["^$CanReachScore|184"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 887,
-						"y": 1356
-					}
-				]
-			},
-			{
-				"name": "Clear Score 185-188",
-				"sections": [
+					},
 					{
 						"name": "185",
 						"visibility_rules": ["$CanSeeScore|185"],
@@ -1498,19 +1162,7 @@
 						"name": "188",
 						"visibility_rules": ["$CanSeeScore|188"],
 						"access_rules": ["^$CanReachScore|188"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 768,
-						"y": 1356
-					}
-				]
-			},
-			{
-				"name": "Clear Score 189-192",
-				"sections": [
+					},
 					{
 						"name": "189",
 						"visibility_rules": ["$CanSeeScore|189"],
@@ -1520,7 +1172,19 @@
 						"name": "190",
 						"visibility_rules": ["$CanSeeScore|190"],
 						"access_rules": ["^$CanReachScore|190"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 1119,
+						"y": 1465
+					}
+				]
+			},
+			{
+				"name": "Clear Score 191-200",
+				"sections": [
 					{
 						"name": "191",
 						"visibility_rules": ["$CanSeeScore|191"],
@@ -1530,19 +1194,7 @@
 						"name": "192",
 						"visibility_rules": ["$CanSeeScore|192"],
 						"access_rules": ["^$CanReachScore|192"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 650,
-						"y": 1356
-					}
-				]
-			},
-			{
-				"name": "Clear Score 193-196",
-				"sections": [
+					},
 					{
 						"name": "193",
 						"visibility_rules": ["$CanSeeScore|193"],
@@ -1562,19 +1214,7 @@
 						"name": "196",
 						"visibility_rules": ["$CanSeeScore|196"],
 						"access_rules": ["^$CanReachScore|196"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 532,
-						"y": 1356
-					}
-				]
-			},
-			{
-				"name": "Clear Score 197-200",
-				"sections": [
+					},
 					{
 						"name": "197",
 						"visibility_rules": ["$CanSeeScore|197"],
@@ -1599,13 +1239,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 413,
-						"y": 1356
+						"x": 1287,
+						"y": 1465
 					}
 				]
 			},
 			{
-				"name": "Clear Score 201-204",
+				"name": "Clear Score 201-210",
 				"sections": [
 					{
 						"name": "201",
@@ -1626,19 +1266,7 @@
 						"name": "204",
 						"visibility_rules": ["$CanSeeScore|204"],
 						"access_rules": ["^$CanReachScore|204"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1478,
-						"y": 1236
-					}
-				]
-			},
-			{
-				"name": "Clear Score 205-208",
-				"sections": [
+					},
 					{
 						"name": "205",
 						"visibility_rules": ["$CanSeeScore|205"],
@@ -1658,19 +1286,7 @@
 						"name": "208",
 						"visibility_rules": ["$CanSeeScore|208"],
 						"access_rules": ["^$CanReachScore|208"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1361,
-						"y": 1236
-					}
-				]
-			},
-			{
-				"name": "Clear Score 209-212",
-				"sections": [
+					},
 					{
 						"name": "209",
 						"visibility_rules": ["$CanSeeScore|209"],
@@ -1680,7 +1296,19 @@
 						"name": "210",
 						"visibility_rules": ["$CanSeeScore|210"],
 						"access_rules": ["^$CanReachScore|210"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 1461,
+						"y": 1465
+					}
+				]
+			},
+			{
+				"name": "Clear Score 211-220",
+				"sections": [
 					{
 						"name": "211",
 						"visibility_rules": ["$CanSeeScore|211"],
@@ -1690,19 +1318,7 @@
 						"name": "212",
 						"visibility_rules": ["$CanSeeScore|212"],
 						"access_rules": ["^$CanReachScore|212"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1242,
-						"y": 1236
-					}
-				]
-			},
-			{
-				"name": "Clear Score 213-216",
-				"sections": [
+					},
 					{
 						"name": "213",
 						"visibility_rules": ["$CanSeeScore|213"],
@@ -1722,19 +1338,7 @@
 						"name": "216",
 						"visibility_rules": ["$CanSeeScore|216"],
 						"access_rules": ["^$CanReachScore|216"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1124,
-						"y": 1236
-					}
-				]
-			},
-			{
-				"name": "Clear Score 217-220",
-				"sections": [
+					},
 					{
 						"name": "217",
 						"visibility_rules": ["$CanSeeScore|217"],
@@ -1759,13 +1363,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 1005,
-						"y": 1236
+						"x": 434,
+						"y": 1296
 					}
 				]
 			},
 			{
-				"name": "Clear Score 221-224",
+				"name": "Clear Score 221-230",
 				"sections": [
 					{
 						"name": "221",
@@ -1786,19 +1390,7 @@
 						"name": "224",
 						"visibility_rules": ["$CanSeeScore|224"],
 						"access_rules": ["^$CanReachScore|224"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 887,
-						"y": 1236
-					}
-				]
-			},
-			{
-				"name": "Clear Score 225-228",
-				"sections": [
+					},
 					{
 						"name": "225",
 						"visibility_rules": ["$CanSeeScore|225"],
@@ -1818,19 +1410,7 @@
 						"name": "228",
 						"visibility_rules": ["$CanSeeScore|228"],
 						"access_rules": ["^$CanReachScore|228"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 768,
-						"y": 1236
-					}
-				]
-			},
-			{
-				"name": "Clear Score 229-232",
-				"sections": [
+					},
 					{
 						"name": "229",
 						"visibility_rules": ["$CanSeeScore|229"],
@@ -1840,7 +1420,19 @@
 						"name": "230",
 						"visibility_rules": ["$CanSeeScore|230"],
 						"access_rules": ["^$CanReachScore|230"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 604,
+						"y": 1296
+					}
+				]
+			},
+			{
+				"name": "Clear Score 231-240",
+				"sections": [
 					{
 						"name": "231",
 						"visibility_rules": ["$CanSeeScore|231"],
@@ -1850,19 +1442,7 @@
 						"name": "232",
 						"visibility_rules": ["$CanSeeScore|232"],
 						"access_rules": ["^$CanReachScore|232"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 650,
-						"y": 1236
-					}
-				]
-			},
-			{
-				"name": "Clear Score 233-236",
-				"sections": [
+					},
 					{
 						"name": "233",
 						"visibility_rules": ["$CanSeeScore|233"],
@@ -1882,19 +1462,7 @@
 						"name": "236",
 						"visibility_rules": ["$CanSeeScore|236"],
 						"access_rules": ["^$CanReachScore|236"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 532,
-						"y": 1236
-					}
-				]
-			},
-			{
-				"name": "Clear Score 237-240",
-				"sections": [
+					},
 					{
 						"name": "237",
 						"visibility_rules": ["$CanSeeScore|237"],
@@ -1919,13 +1487,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 413,
-						"y": 1236
+						"x": 776,
+						"y": 1296
 					}
 				]
 			},
 			{
-				"name": "Clear Score 241-244",
+				"name": "Clear Score 241-250",
 				"sections": [
 					{
 						"name": "241",
@@ -1946,19 +1514,7 @@
 						"name": "244",
 						"visibility_rules": ["$CanSeeScore|244"],
 						"access_rules": ["^$CanReachScore|244"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1478,
-						"y": 1122
-					}
-				]
-			},
-			{
-				"name": "Clear Score 245-248",
-				"sections": [
+					},
 					{
 						"name": "245",
 						"visibility_rules": ["$CanSeeScore|245"],
@@ -1978,19 +1534,7 @@
 						"name": "248",
 						"visibility_rules": ["$CanSeeScore|248"],
 						"access_rules": ["^$CanReachScore|248"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1361,
-						"y": 1122
-					}
-				]
-			},
-			{
-				"name": "Clear Score 249-252",
-				"sections": [
+					},
 					{
 						"name": "249",
 						"visibility_rules": ["$CanSeeScore|249"],
@@ -2000,7 +1544,19 @@
 						"name": "250",
 						"visibility_rules": ["$CanSeeScore|250"],
 						"access_rules": ["^$CanReachScore|250"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 949,
+						"y": 1296
+					}
+				]
+			},
+			{
+				"name": "Clear Score 251-260",
+				"sections": [
 					{
 						"name": "251",
 						"visibility_rules": ["$CanSeeScore|251"],
@@ -2010,19 +1566,7 @@
 						"name": "252",
 						"visibility_rules": ["$CanSeeScore|252"],
 						"access_rules": ["^$CanReachScore|252"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1242,
-						"y": 1122
-					}
-				]
-			},
-			{
-				"name": "Clear Score 253-256",
-				"sections": [
+					},
 					{
 						"name": "253",
 						"visibility_rules": ["$CanSeeScore|253"],
@@ -2042,19 +1586,7 @@
 						"name": "256",
 						"visibility_rules": ["$CanSeeScore|256"],
 						"access_rules": ["^$CanReachScore|256"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1124,
-						"y": 1122
-					}
-				]
-			},
-			{
-				"name": "Clear Score 257-260",
-				"sections": [
+					},
 					{
 						"name": "257",
 						"visibility_rules": ["$CanSeeScore|257"],
@@ -2079,13 +1611,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 1005,
-						"y": 1122
+						"x": 1119,
+						"y": 1296
 					}
 				]
 			},
 			{
-				"name": "Clear Score 261-264",
+				"name": "Clear Score 261-270",
 				"sections": [
 					{
 						"name": "261",
@@ -2106,19 +1638,7 @@
 						"name": "264",
 						"visibility_rules": ["$CanSeeScore|264"],
 						"access_rules": ["^$CanReachScore|264"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 887,
-						"y": 1122
-					}
-				]
-			},
-			{
-				"name": "Clear Score 265-268",
-				"sections": [
+					},
 					{
 						"name": "265",
 						"visibility_rules": ["$CanSeeScore|265"],
@@ -2138,19 +1658,7 @@
 						"name": "268",
 						"visibility_rules": ["$CanSeeScore|268"],
 						"access_rules": ["^$CanReachScore|268"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 768,
-						"y": 1122
-					}
-				]
-			},
-			{
-				"name": "Clear Score 269-272",
-				"sections": [
+					},
 					{
 						"name": "269",
 						"visibility_rules": ["$CanSeeScore|269"],
@@ -2160,7 +1668,19 @@
 						"name": "270",
 						"visibility_rules": ["$CanSeeScore|270"],
 						"access_rules": ["^$CanReachScore|270"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 1287,
+						"y": 1296
+					}
+				]
+			},
+			{
+				"name": "Clear Score 271-280",
+				"sections": [
 					{
 						"name": "271",
 						"visibility_rules": ["$CanSeeScore|271"],
@@ -2170,19 +1690,7 @@
 						"name": "272",
 						"visibility_rules": ["$CanSeeScore|272"],
 						"access_rules": ["^$CanReachScore|272"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 650,
-						"y": 1122
-					}
-				]
-			},
-			{
-				"name": "Clear Score 273-276",
-				"sections": [
+					},
 					{
 						"name": "273",
 						"visibility_rules": ["$CanSeeScore|273"],
@@ -2202,19 +1710,7 @@
 						"name": "276",
 						"visibility_rules": ["$CanSeeScore|276"],
 						"access_rules": ["^$CanReachScore|276"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 532,
-						"y": 1122
-					}
-				]
-			},
-			{
-				"name": "Clear Score 277-280",
-				"sections": [
+					},
 					{
 						"name": "277",
 						"visibility_rules": ["$CanSeeScore|277"],
@@ -2239,13 +1735,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 413,
-						"y": 1122
+						"x": 1461,
+						"y": 1296
 					}
 				]
 			},
 			{
-				"name": "Clear Score 281-284",
+				"name": "Clear Score 281-290",
 				"sections": [
 					{
 						"name": "281",
@@ -2266,19 +1762,7 @@
 						"name": "284",
 						"visibility_rules": ["$CanSeeScore|284"],
 						"access_rules": ["^$CanReachScore|284"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1478,
-						"y": 1006
-					}
-				]
-			},
-			{
-				"name": "Clear Score 285-288",
-				"sections": [
+					},
 					{
 						"name": "285",
 						"visibility_rules": ["$CanSeeScore|285"],
@@ -2298,19 +1782,7 @@
 						"name": "288",
 						"visibility_rules": ["$CanSeeScore|288"],
 						"access_rules": ["^$CanReachScore|288"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1361,
-						"y": 1006
-					}
-				]
-			},
-			{
-				"name": "Clear Score 289-292",
-				"sections": [
+					},
 					{
 						"name": "289",
 						"visibility_rules": ["$CanSeeScore|289"],
@@ -2320,7 +1792,19 @@
 						"name": "290",
 						"visibility_rules": ["$CanSeeScore|290"],
 						"access_rules": ["^$CanReachScore|290"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 434,
+						"y": 1130
+					}
+				]
+			},
+			{
+				"name": "Clear Score 291-300",
+				"sections": [
 					{
 						"name": "291",
 						"visibility_rules": ["$CanSeeScore|291"],
@@ -2330,19 +1814,7 @@
 						"name": "292",
 						"visibility_rules": ["$CanSeeScore|292"],
 						"access_rules": ["^$CanReachScore|292"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1242,
-						"y": 1006
-					}
-				]
-			},
-			{
-				"name": "Clear Score 293-296",
-				"sections": [
+					},
 					{
 						"name": "293",
 						"visibility_rules": ["$CanSeeScore|293"],
@@ -2362,19 +1834,7 @@
 						"name": "296",
 						"visibility_rules": ["$CanSeeScore|296"],
 						"access_rules": ["^$CanReachScore|296"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1124,
-						"y": 1006
-					}
-				]
-			},
-			{
-				"name": "Clear Score 297-300",
-				"sections": [
+					},
 					{
 						"name": "297",
 						"visibility_rules": ["$CanSeeScore|297"],
@@ -2399,13 +1859,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 1005,
-						"y": 1006
+						"x": 604,
+						"y": 1130
 					}
 				]
 			},
 			{
-				"name": "Clear Score 301-304",
+				"name": "Clear Score 301-310",
 				"sections": [
 					{
 						"name": "301",
@@ -2426,19 +1886,7 @@
 						"name": "304",
 						"visibility_rules": ["$CanSeeScore|304"],
 						"access_rules": ["^$CanReachScore|304"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 887,
-						"y": 1006
-					}
-				]
-			},
-			{
-				"name": "Clear Score 305-308",
-				"sections": [
+					},
 					{
 						"name": "305",
 						"visibility_rules": ["$CanSeeScore|305"],
@@ -2458,19 +1906,7 @@
 						"name": "308",
 						"visibility_rules": ["$CanSeeScore|308"],
 						"access_rules": ["^$CanReachScore|308"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 768,
-						"y": 1006
-					}
-				]
-			},
-			{
-				"name": "Clear Score 309-312",
-				"sections": [
+					},
 					{
 						"name": "309",
 						"visibility_rules": ["$CanSeeScore|309"],
@@ -2480,7 +1916,19 @@
 						"name": "310",
 						"visibility_rules": ["$CanSeeScore|310"],
 						"access_rules": ["^$CanReachScore|310"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 776,
+						"y": 1130
+					}
+				]
+			},
+			{
+				"name": "Clear Score 311-320",
+				"sections": [
 					{
 						"name": "311",
 						"visibility_rules": ["$CanSeeScore|311"],
@@ -2490,19 +1938,7 @@
 						"name": "312",
 						"visibility_rules": ["$CanSeeScore|312"],
 						"access_rules": ["^$CanReachScore|312"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 650,
-						"y": 1006
-					}
-				]
-			},
-			{
-				"name": "Clear Score 313-316",
-				"sections": [
+					},
 					{
 						"name": "313",
 						"visibility_rules": ["$CanSeeScore|313"],
@@ -2522,19 +1958,7 @@
 						"name": "316",
 						"visibility_rules": ["$CanSeeScore|316"],
 						"access_rules": ["^$CanReachScore|316"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 532,
-						"y": 1006
-					}
-				]
-			},
-			{
-				"name": "Clear Score 317-320",
-				"sections": [
+					},
 					{
 						"name": "317",
 						"visibility_rules": ["$CanSeeScore|317"],
@@ -2559,13 +1983,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 413,
-						"y": 1006
+						"x": 949,
+						"y": 1130
 					}
 				]
 			},
 			{
-				"name": "Clear Score 321-324",
+				"name": "Clear Score 321-330",
 				"sections": [
 					{
 						"name": "321",
@@ -2586,19 +2010,7 @@
 						"name": "324",
 						"visibility_rules": ["$CanSeeScore|324"],
 						"access_rules": ["^$CanReachScore|324"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1478,
-						"y": 888
-					}
-				]
-			},
-			{
-				"name": "Clear Score 325-328",
-				"sections": [
+					},
 					{
 						"name": "325",
 						"visibility_rules": ["$CanSeeScore|325"],
@@ -2618,19 +2030,7 @@
 						"name": "328",
 						"visibility_rules": ["$CanSeeScore|328"],
 						"access_rules": ["^$CanReachScore|328"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1361,
-						"y": 888
-					}
-				]
-			},
-			{
-				"name": "Clear Score 329-332",
-				"sections": [
+					},
 					{
 						"name": "329",
 						"visibility_rules": ["$CanSeeScore|329"],
@@ -2640,7 +2040,19 @@
 						"name": "330",
 						"visibility_rules": ["$CanSeeScore|330"],
 						"access_rules": ["^$CanReachScore|330"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 1119,
+						"y": 1130
+					}
+				]
+			},
+			{
+				"name": "Clear Score 331-340",
+				"sections": [
 					{
 						"name": "331",
 						"visibility_rules": ["$CanSeeScore|331"],
@@ -2650,19 +2062,7 @@
 						"name": "332",
 						"visibility_rules": ["$CanSeeScore|332"],
 						"access_rules": ["^$CanReachScore|332"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1242,
-						"y": 888
-					}
-				]
-			},
-			{
-				"name": "Clear Score 333-336",
-				"sections": [
+					},
 					{
 						"name": "333",
 						"visibility_rules": ["$CanSeeScore|333"],
@@ -2682,19 +2082,7 @@
 						"name": "336",
 						"visibility_rules": ["$CanSeeScore|336"],
 						"access_rules": ["^$CanReachScore|336"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1124,
-						"y": 888
-					}
-				]
-			},
-			{
-				"name": "Clear Score 337-340",
-				"sections": [
+					},
 					{
 						"name": "337",
 						"visibility_rules": ["$CanSeeScore|337"],
@@ -2719,13 +2107,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 1005,
-						"y": 888
+						"x": 1287,
+						"y": 1130
 					}
 				]
 			},
 			{
-				"name": "Clear Score 341-344",
+				"name": "Clear Score 341-350",
 				"sections": [
 					{
 						"name": "341",
@@ -2746,19 +2134,7 @@
 						"name": "344",
 						"visibility_rules": ["$CanSeeScore|344"],
 						"access_rules": ["^$CanReachScore|344"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 887,
-						"y": 888
-					}
-				]
-			},
-			{
-				"name": "Clear Score 345-348",
-				"sections": [
+					},
 					{
 						"name": "345",
 						"visibility_rules": ["$CanSeeScore|345"],
@@ -2778,19 +2154,7 @@
 						"name": "348",
 						"visibility_rules": ["$CanSeeScore|348"],
 						"access_rules": ["^$CanReachScore|348"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 768,
-						"y": 888
-					}
-				]
-			},
-			{
-				"name": "Clear Score 349-352",
-				"sections": [
+					},
 					{
 						"name": "349",
 						"visibility_rules": ["$CanSeeScore|349"],
@@ -2800,7 +2164,19 @@
 						"name": "350",
 						"visibility_rules": ["$CanSeeScore|350"],
 						"access_rules": ["^$CanReachScore|350"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 1461,
+						"y": 1130
+					}
+				]
+			},
+			{
+				"name": "Clear Score 351-360",
+				"sections": [
 					{
 						"name": "351",
 						"visibility_rules": ["$CanSeeScore|351"],
@@ -2810,19 +2186,7 @@
 						"name": "352",
 						"visibility_rules": ["$CanSeeScore|352"],
 						"access_rules": ["^$CanReachScore|352"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 650,
-						"y": 888
-					}
-				]
-			},
-			{
-				"name": "Clear Score 353-356",
-				"sections": [
+					},
 					{
 						"name": "353",
 						"visibility_rules": ["$CanSeeScore|353"],
@@ -2842,19 +2206,7 @@
 						"name": "356",
 						"visibility_rules": ["$CanSeeScore|356"],
 						"access_rules": ["^$CanReachScore|356"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 532,
-						"y": 888
-					}
-				]
-			},
-			{
-				"name": "Clear Score 357-360",
-				"sections": [
+					},
 					{
 						"name": "357",
 						"visibility_rules": ["$CanSeeScore|357"],
@@ -2879,13 +2231,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 413,
-						"y": 888
+						"x": 434,
+						"y": 961
 					}
 				]
 			},
 			{
-				"name": "Clear Score 361-364",
+				"name": "Clear Score 361-370",
 				"sections": [
 					{
 						"name": "361",
@@ -2906,19 +2258,7 @@
 						"name": "364",
 						"visibility_rules": ["$CanSeeScore|364"],
 						"access_rules": ["^$CanReachScore|364"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1478,
-						"y": 774
-					}
-				]
-			},
-			{
-				"name": "Clear Score 365-368",
-				"sections": [
+					},
 					{
 						"name": "365",
 						"visibility_rules": ["$CanSeeScore|365"],
@@ -2938,19 +2278,7 @@
 						"name": "368",
 						"visibility_rules": ["$CanSeeScore|368"],
 						"access_rules": ["^$CanReachScore|368"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1361,
-						"y": 774
-					}
-				]
-			},
-			{
-				"name": "Clear Score 369-372",
-				"sections": [
+					},
 					{
 						"name": "369",
 						"visibility_rules": ["$CanSeeScore|369"],
@@ -2960,7 +2288,19 @@
 						"name": "370",
 						"visibility_rules": ["$CanSeeScore|370"],
 						"access_rules": ["^$CanReachScore|370"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 604,
+						"y": 961
+					}
+				]
+			},
+			{
+				"name": "Clear Score 371-380",
+				"sections": [
 					{
 						"name": "371",
 						"visibility_rules": ["$CanSeeScore|371"],
@@ -2970,19 +2310,7 @@
 						"name": "372",
 						"visibility_rules": ["$CanSeeScore|372"],
 						"access_rules": ["^$CanReachScore|372"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1242,
-						"y": 774
-					}
-				]
-			},
-			{
-				"name": "Clear Score 373-376",
-				"sections": [
+					},
 					{
 						"name": "373",
 						"visibility_rules": ["$CanSeeScore|373"],
@@ -3002,19 +2330,7 @@
 						"name": "376",
 						"visibility_rules": ["$CanSeeScore|376"],
 						"access_rules": ["^$CanReachScore|376"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 1124,
-						"y": 774
-					}
-				]
-			},
-			{
-				"name": "Clear Score 377-380",
-				"sections": [
+					},
 					{
 						"name": "377",
 						"visibility_rules": ["$CanSeeScore|377"],
@@ -3039,13 +2355,13 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 1005,
-						"y": 774
+						"x": 776,
+						"y": 961
 					}
 				]
 			},
 			{
-				"name": "Clear Score 381-384",
+				"name": "Clear Score 381-390",
 				"sections": [
 					{
 						"name": "381",
@@ -3066,19 +2382,7 @@
 						"name": "384",
 						"visibility_rules": ["$CanSeeScore|384"],
 						"access_rules": ["^$CanReachScore|384"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 887,
-						"y": 774
-					}
-				]
-			},
-			{
-				"name": "Clear Score 385-388",
-				"sections": [
+					},
 					{
 						"name": "385",
 						"visibility_rules": ["$CanSeeScore|385"],
@@ -3098,19 +2402,7 @@
 						"name": "388",
 						"visibility_rules": ["$CanSeeScore|388"],
 						"access_rules": ["^$CanReachScore|388"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 768,
-						"y": 774
-					}
-				]
-			},
-			{
-				"name": "Clear Score 389-392",
-				"sections": [
+					},
 					{
 						"name": "389",
 						"visibility_rules": ["$CanSeeScore|389"],
@@ -3120,7 +2412,19 @@
 						"name": "390",
 						"visibility_rules": ["$CanSeeScore|390"],
 						"access_rules": ["^$CanReachScore|390"]
-					},
+					}
+				],
+				"map_locations": [
+					{
+						"map": "score",
+						"x": 949,
+						"y": 961
+					}
+				]
+			},
+			{
+				"name": "Clear Score 391-400",
+				"sections": [
 					{
 						"name": "391",
 						"visibility_rules": ["$CanSeeScore|391"],
@@ -3130,19 +2434,7 @@
 						"name": "392",
 						"visibility_rules": ["$CanSeeScore|392"],
 						"access_rules": ["^$CanReachScore|392"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 650,
-						"y": 774
-					}
-				]
-			},
-			{
-				"name": "Clear Score 393-396",
-				"sections": [
+					},
 					{
 						"name": "393",
 						"visibility_rules": ["$CanSeeScore|393"],
@@ -3162,19 +2454,7 @@
 						"name": "396",
 						"visibility_rules": ["$CanSeeScore|396"],
 						"access_rules": ["^$CanReachScore|396"]
-					}
-				],
-				"map_locations": [
-					{
-						"map": "score",
-						"x": 532,
-						"y": 774
-					}
-				]
-			},
-			{
-				"name": "Clear Score 397-400",
-				"sections": [
+					},
 					{
 						"name": "397",
 						"visibility_rules": ["$CanSeeScore|397"],
@@ -3199,8 +2479,8 @@
 				"map_locations": [
 					{
 						"map": "score",
-						"x": 413,
-						"y": 774
+						"x": 1119,
+						"y": 961
 					}
 				]
 			}

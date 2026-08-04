@@ -35,10 +35,10 @@ function CanReachScore(score)
 	local styx = tartarus + 6 * fractionLocations
 
 	return Any(
-		CanReach(StyxLate),
-		score <= styx and CanReach(Styx),
-		score <= elysium and CanReach(Elysium),
-		score <= asphodel and CanReach(Asphodel),
+		CanBeatDad() >= AccessibilityLevel.Normal,
+		score <= styx and CanBeatBros() >= AccessibilityLevel.Normal,
+		score <= elysium and CanBeatLernie() >= AccessibilityLevel.Normal,
+		score <= asphodel and CanBeatMeg() >= AccessibilityLevel.Normal,
 		score <= tartarus,
 		AccessibilityLevel.SequenceBreak
 	)
@@ -270,7 +270,7 @@ end
 function HasAbilityPairs(amount)
 	local count = 0
 	for _, weapon in ipairs(Weapons) do
-		if Has(weapon .. " Attack") and Has(weapon .. " Special") then
+		if Has(weapon .. "_attack") and Has(weapon .. "_special") then
 			count = count + 1
 		end
 	end

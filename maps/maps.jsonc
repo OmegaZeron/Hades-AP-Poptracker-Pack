@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "score",
-		"location_size": 88,
+		"location_size": 138,
 		"location_border_thickness": 1,
 		"img": "images/maps/ScoreGrid.png"
 	},
