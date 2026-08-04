@@ -116,13 +116,13 @@ function OnClear(slot_data)
 		end
 	end
 
-	for _, v in ipairs(SlotDataTable) do
-		if (v[2] == "toggle") then
-			Tracker:FindObjectForCode(v[1]).Active = slot_data[v[1]]
-		elseif (v[2] == "progressive") then
-			Tracker:FindObjectForCode(v[1]).CurrentStage = slot_data[v[1]]
-		elseif (v[2] == "consumable") then
-			Tracker:FindObjectForCode(v[1]).AcquiredCount = slot_data[v[1]]
+	for _, data in ipairs(SlotDataTable) do
+		if (data[2] == "toggle") then
+			Tracker:FindObjectForCode(data[1]).Active = slot_data[data[1]]
+		elseif (data[2] == "progressive") then
+			Tracker:FindObjectForCode(data[1]).CurrentStage = slot_data[data[1]]
+		elseif (data[2] == "consumable") then
+			Tracker:FindObjectForCode(data[1]).AcquiredCount = slot_data[data[1]]
 		end
 	end
 	-- location system and heat system are for some reason offset by 1
@@ -326,18 +326,16 @@ end
 
 -- called when a bounce message is received 
 function OnBounce(json)
-	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("called onBounce: %s", dump(json)))
-	end
-	-- if not json["data"] then return end
+	-- print(string.format("called onBounce: %s", dump(json)))
+	if not json["data"] then return end
 
-	-- if json["data"]["Current Room"] then
-	-- 	if json["data"]["Current Room"] == "OnRunStarted" then
-	-- 		Tracker:UiHint("ActivateTab", Tracker:FindObjectForCode("location_system").CurrentStage == 1 and "Score" or "Area")
-	-- 	else
-	-- 		Tracker:UiHint("ActivateTab", "House")
-	-- 	end
-	-- end
+	if json["data"]["Current Room"] then
+		if json["data"]["Current Room"] == "OnRunStarted" then
+			Tracker:UiHint("ActivateTab", Tracker:FindObjectForCode("location_system").CurrentStage == 1 and "Score" or "Area")
+		elseif json["data"]["Current Room"] == "OnHouseOfHades" then
+			Tracker:UiHint("ActivateTab", "House")
+		end
+	end
 end
 
 Archipelago:AddClearHandler("clear handler", OnClear)
