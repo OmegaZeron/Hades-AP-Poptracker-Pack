@@ -28,6 +28,11 @@
 									}
 								},
 								{
+									"type": "layout",
+									"dock": "top",
+									"key": "ability_grid"
+								},
+								{
 									"type": "group",
 									"header": "Keepsakes",
 									"dock": "top",
@@ -53,11 +58,6 @@
 										"type": "layout",
 										"key": "item_grid"
 									}
-								},
-								{
-									"type": "layout",
-									"dock": "top",
-									"key": "ability_grid"
 								},
 								{
 									"type": "layout",
