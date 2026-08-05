@@ -103,3 +103,10 @@ ITEM_MAPPING = {
 	[BaseItemID + 100] = {AbilityAttack, "toggle"},
 	[BaseItemID + 101] = {AbilitySpecial, "toggle"},
 }
+
+-- add mirror items
+local nextID = BaseItemID + 102
+for _, data in ipairs(MirrorData) do
+	ITEM_MAPPING[nextID] = {data.code, "toggle"}
+	nextID = nextID + 1
+end
