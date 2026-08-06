@@ -111,7 +111,10 @@ function CanBeatMeg()
 			HasPactHeat(math.min(TotalPactAmount() // 4, 10)),
 			HasRoutineInspection(Tracker:ProviderCountForCode(RoutineInspectionSetting) - 2),
 			Has("weapon", 2),
-			Has(AbilityDash),
+			Any(
+				Has(AbilitySanityOff),
+				Has(AbilityDash)
+			),
 			HasAbilityPairs(1),
 			HasEnoughMirrorLevels(TotalMirrorItems // 4)
 		),
@@ -124,7 +127,10 @@ function CanBeatLernie()
 			HasPactHeat(math.min(TotalPactAmount() // 2, 20)),
 			HasRoutineInspection(Tracker:ProviderCountForCode(RoutineInspectionSetting) - 1),
 			Has("weapon", 3),
-			Has(AbilityDash),
+			Any(
+				Has(AbilitySanityOff),
+				Has(AbilityDash)
+			),
 			HasAbilityProgression(2),
 			HasAbilityPairs(2),
 			HasEnoughMirrorLevels(TotalMirrorItems // 2)
@@ -138,7 +144,10 @@ function CanBeatBros()
 			HasPactHeat(math.min(TotalPactAmount() * 3 // 4, 30)),
 			HasRoutineInspection(Tracker:ProviderCountForCode(RoutineInspectionSetting)),
 			Has("weapon", 5),
-			Has(AbilityDash),
+			Any(
+				Has(AbilitySanityOff),
+				Has(AbilityDash)
+			),
 			HasAbilityProgression(3),
 			HasAbilityPairs(3),
 			HasEnoughMirrorLevels(3 * TotalMirrorItems // 4)
@@ -151,7 +160,10 @@ function CanBeatDad()
 		All(
 			HasPactHeat(math.min(TotalPactAmount(), 35)),
 			Has("weapon", 6),
-			Has(AbilityDash),
+			Any(
+				Has(AbilitySanityOff),
+				Has(AbilityDash)
+			),
 			HasAbilityProgression(4),
 			HasAbilityPairs(4),
 			HasEnoughMirrorLevels(TotalMirrorItems)
@@ -170,6 +182,7 @@ function CanReachMirrorRank(currentRank, maxRank)
 	local quarter = max // 4
 	local half = max // 2
 	local threeQuarters = max * 3 // 4
+
 	if max <= 3 then return true end
 	if current <= quarter then return true end
 	if current <= half then return CanBeatMeg() end
@@ -192,18 +205,19 @@ function HasAllMirrorTalents()
 		)
 	)
 end
----@param reqRoutine string
----@param currentRank string
----@param maxRank string
-function CanMirror(reqRoutine, currentRank, maxRank)
+---@param mirrorIdx string
+function CanMirror(mirrorIdx)
 	-- TODO replace currentRank with ChestCount - AvailableChestCount?
-	local requiredRI = tonumber(reqRoutine)
-	local cRank = tonumber(currentRank)
-	local mRank = tonumber(maxRank)
+	local mirrorData = MirrorData[tonumber(mirrorIdx)]
+	local section = Tracker:FindObjectForCode("@Mirror of Night/Mirror "..mirrorData.side.." Side/"..mirrorData.name) --[[@as LocationSection]]
+	local cRank = section.ChestCount - section.AvailableChestCount
+	local mRank = section.ChestCount
+	local requiredRI = mirrorData.routineReq
 	if not requiredRI or not cRank or not mRank then return false end
 
 	local totalRI = Tracker:ProviderCountForCode(RoutineInspectionItem)
-	requiredRI = math.min(totalRI, 5 - requiredRI)
+	requiredRI = math.min(totalRI, requiredRI)
+
 	return All(
 		CanReachMirrorRank(cRank, mRank),
 		Any(
@@ -268,6 +282,7 @@ function HasAbilityProgression(amount)
 end
 ---@param amount integer
 function HasAbilityPairs(amount)
+	if Has(AbilitySanityOff) then return true end
 	local count = 0
 	for _, weapon in ipairs(Weapons) do
 		if Has(weapon .. "_attack") and Has(weapon .. "_special") then

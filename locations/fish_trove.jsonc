@@ -92,6 +92,12 @@
 					{"name": "Styx - Gupp", "ref": "Fishing Hole/Styx Fish/Gupp"},
 					{"name": "Styx - Scuffer", "ref": "Fishing Hole/Styx Fish/Scuffer"},
 					{"name": "Styx - Stonewahl", "ref": "Fishing Hole/Styx Fish/Stonewahl"},
+					{"name": "Trove: 60 Seconds", "ref": "Troves/Troves/60 Seconds"},
+					{"name": "Trove: 45 Seconds", "ref": "Troves/Troves/45 Seconds"},
+					{"name": "Trove: 30 Seconds", "ref": "Troves/Troves/30 Seconds"},
+					{"name": "Trove: 15 Seconds", "ref": "Troves/Troves/15 Seconds"},
+					{"name": "5 Infernal Troves", "ref": "Troves/Troves/5 Infernal Troves"},
+					{"name": "10 Infernal Troves", "ref": "Troves/Troves/10 Infernal Troves"},
 					{"name": "Surface - Trout", "ref": "Fishing Hole/Surface Fish/Trout"},
 					{"name": "Surface - Bass", "ref": "Fishing Hole/Surface Fish/Bass"},
 					{"name": "Surface - Sturgeon", "ref": "Fishing Hole/Surface Fish/Sturgeon"}

@@ -107,6 +107,6 @@ ITEM_MAPPING = {
 -- add mirror items
 local nextID = BaseItemID + 102
 for _, data in ipairs(MirrorData) do
-	ITEM_MAPPING[nextID] = {data.code, "toggle"}
+	ITEM_MAPPING[nextID] = {data.code, "consumable"}
 	nextID = nextID + 1
 end
