@@ -106,7 +106,8 @@
 					{
 						"map": "score",
 						"x": 1461,
-						"y": 961
+						"y": 961,
+						"restrict_visibility_rules": ["location_score"]
 					}
 				]
 			}
