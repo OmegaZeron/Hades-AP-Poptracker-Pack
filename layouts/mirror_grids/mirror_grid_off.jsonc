@@ -1,3 +1,6 @@
 {
-	"mirror_grid": {}
+	"mirror_grid": {
+		"type": "array",
+		"content": []
+	}
 }

@@ -1,3 +1,5 @@
 {
-	"ability_grid": {}
+	"ability_grid": {
+		"type": "array"
+	}
 }
