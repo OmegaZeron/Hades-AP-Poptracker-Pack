@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "3.0.3",
+			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v3.0.3/hades_ap.zip",
+			"sha256": "1267876c4033c911ca2d2b2a77a07429c69bbe67a5104a0e2fc7f617831c0031",
+			"changelog": ["Fix mirror logic, mirror item incrementing, boss logic, trove/fishing locations"]
+		},
+		{
 			"package_version": "3.0.2",
 			"download_url": "https://github.com/OmegaZeron/Hades-AP-Poptracker-Pack/releases/download/v3.0.2/hades_ap.zip",
 			"sha256": "7018c83067b9cd43613d901843fbd1528d564071dc8280d974c33b6ca551ec34",
