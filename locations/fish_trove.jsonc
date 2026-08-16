@@ -58,7 +58,7 @@
 				"sections": [
 					{"name": "Gupp", "ref": "Fishing Hole/Styx Fish/Gupp"},
 					{"name": "Scuffer", "ref": "Fishing Hole/Styx Fish/Scuffer"},
-					{"name": "Stonewahl", "ref": "Fishing Hole/Styx Fish/Stonewahl"},
+					{"name": "Stonewhal", "ref": "Fishing Hole/Styx Fish/Stonewhal"},
 					{"name": "First Infernal Trove (Styx)", "ref": "Troves/Styx Trove/First Infernal Trove"}
 				],
 				"map_locations": [
@@ -91,7 +91,7 @@
 					{"name": "First Infernal Trove (Styx)", "ref": "Troves/Styx Trove/First Infernal Trove"},
 					{"name": "Styx - Gupp", "ref": "Fishing Hole/Styx Fish/Gupp"},
 					{"name": "Styx - Scuffer", "ref": "Fishing Hole/Styx Fish/Scuffer"},
-					{"name": "Styx - Stonewahl", "ref": "Fishing Hole/Styx Fish/Stonewahl"},
+					{"name": "Styx - Stonewhal", "ref": "Fishing Hole/Styx Fish/Stonewhal"},
 					{"name": "Trove: 60 Seconds", "ref": "Troves/Troves/60 Seconds"},
 					{"name": "Trove: 45 Seconds", "ref": "Troves/Troves/45 Seconds"},
 					{"name": "Trove: 30 Seconds", "ref": "Troves/Troves/30 Seconds"},
@@ -152,7 +152,7 @@
 				"sections": [
 					{"name": "Gupp"},
 					{"name": "Scuffer"},
-					{"name": "Stonewahl"}
+					{"name": "Stonewhal"}
 				]
 			},
 			{
