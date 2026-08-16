@@ -221,6 +221,27 @@
 		]
 	},
 	{
+		"name": "Legendary Fish",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Legendary Fish Off",
+				"img": "images/labels/Fishsanity.png",
+				"img_mods": "@disabled",
+				"codes": "legendaryfish, legendaryfish_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Legendary Fish On",
+				"img": "images/labels/Fishsanity.png",
+				"codes": "legendaryfish, legendaryfish_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
 		"name": "Trovesanity",
 		"type": "progressive",
 		"loop": true,

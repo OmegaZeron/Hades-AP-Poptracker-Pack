@@ -125,7 +125,7 @@
 				"sections": [
 					{"name": "Hellfish"},
 					{"name": "Knucklehead"},
-					{"name": "Scyllascion"}
+					{"name": "Scyllascion", "visibility_rules": ["legendaryfish_on"]}
 				]
 			},
 			{
@@ -134,7 +134,7 @@
 				"sections": [
 					{"name": "Slavug"},
 					{"name": "Chrustacean"},
-					{"name": "Flameater"}
+					{"name": "Flameater", "visibility_rules": ["legendaryfish_on"]}
 				]
 			},
 			{
@@ -143,7 +143,7 @@
 				"sections": [
 					{"name": "Chlam"},
 					{"name": "Charp"},
-					{"name": "Seamare"}
+					{"name": "Seamare", "visibility_rules": ["legendaryfish_on"]}
 				]
 			},
 			{
@@ -152,7 +152,7 @@
 				"sections": [
 					{"name": "Gupp"},
 					{"name": "Scuffer"},
-					{"name": "Stonewhal"}
+					{"name": "Stonewhal", "visibility_rules": ["legendaryfish_on"]}
 				]
 			},
 			{
@@ -161,7 +161,7 @@
 				"sections": [
 					{"name": "Mati"},
 					{"name": "Projelly"},
-					{"name": "Voidskate"}
+					{"name": "Voidskate", "visibility_rules": ["legendaryfish_on"]}
 				],
 				"map_locations": [
 					{
@@ -179,7 +179,7 @@
 				"sections": [
 					{"name": "Trout"},
 					{"name": "Bass"},
-					{"name": "Sturgeon"}
+					{"name": "Sturgeon", "visibility_rules": ["legendaryfish_on"]}
 				],
 				"map_locations": [
 					{

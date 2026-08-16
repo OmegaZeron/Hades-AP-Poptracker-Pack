@@ -124,6 +124,9 @@ MirrorSanityOff = "mirrorsanity_off"
 FishSanity = "fishsanity"
 FishSanityOn = "fishsanity_on"
 FishSanityFull = "fishsanity_full"
+LegendaryFish = "legendaryfish"
+LegendaryFishOff = "legendaryfish_off"
+LegendaryFishOn = "legendaryfish_on"
 TroveSanity = "trovesanity"
 TroveSanityOn = "trovesanity_on"
 
@@ -272,6 +275,7 @@ SlotDataTable = {
 	{AbilitySanity, "progressive"},
 	{InitialAbility, "progressive"},
 	{FishSanity, "progressive"},
+	{LegendaryFish, "progressive"},
 	{TroveSanity, "progressive"},
 	{MirrorSanity, "progressive"},
 	-- goal settings
