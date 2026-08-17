@@ -330,7 +330,7 @@
 		"name": "Fates Needed",
 		"type": "consumable",
 		"codes": "fates_needed",
-		"max_quantity": 35,
+		"max_quantity": 52,
 		"img": "images/labels/FatesNeeded.png"
 	},
 	{

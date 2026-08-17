@@ -384,10 +384,8 @@
 					},
 					{
 						"name": "Dark Reflections",
-						"access_rules": [
-							"^$CanReach|HadesBoss, mirrorsanity_off",
-							"^$CanReach|HadesBoss, mirrorsanity_on, ^$HasAllMirrorTalents"
-						]
+						"visibility_rules": ["$IsMirrorUpgradeEnabled|4"],
+						"access_rules": ["^$CanReach|HadesBoss, ^$HasAllMirrorTalents"]
 					},
 					{
 						"name": "Close At Heart",

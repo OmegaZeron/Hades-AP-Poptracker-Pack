@@ -9,18 +9,18 @@
 			{
 				"name": "Mirror Front Side",
 				"sections": [
-					{"name": "Shadow Presence", "item_count": 5, "clear_as_group": false, "access_rules": ["^$CanMirror|1"]},
-					{"name": "Chthonic Vitality", "item_count": 3, "clear_as_group": false, "access_rules": ["^$CanMirror|2"]},
-					{"name": "Death Defiance", "item_count": 3, "clear_as_group": false, "access_rules": ["^$CanMirror|3"]},
-					{"name": "Greater Reflex", "item_count": 1, "clear_as_group": false, "access_rules": ["^$CanMirror|4"]},
-					{"name": "Boiling Blood", "item_count": 5, "clear_as_group": false, "access_rules": ["^$CanMirror|5"]},
-					{"name": "Infernal Soul", "item_count": 2, "clear_as_group": false, "access_rules": ["^$CanMirror|6"]},
-					{"name": "Deep Pockets", "item_count": 10, "clear_as_group": false, "access_rules": ["^$CanMirror|7"]},
-					{"name": "Thick Skin", "item_count": 10, "clear_as_group": false, "access_rules": ["^$CanMirror|8"]},
-					{"name": "Privileged Status", "item_count": 2, "clear_as_group": false, "access_rules": ["^$CanMirror|9"]},
-					{"name": "Olympian Favor", "item_count": 40, "clear_as_group": false, "access_rules": ["^$CanMirror|10"]},
-					{"name": "Gods' Pride", "item_count": 20, "clear_as_group": false, "access_rules": ["^$CanMirror|11"]},
-					{"name": "Fated Authority", "item_count": 8, "clear_as_group": false, "access_rules": ["^$CanMirror|12"]}
+					{"name": "Shadow Presence", "item_count": 5, "clear_as_group": false, "access_rules": ["^$CanMirror|1"], "visibility_rules": ["$IsMirrorUpgradeEnabled|1"]},
+					{"name": "Chthonic Vitality", "item_count": 3, "clear_as_group": false, "access_rules": ["^$CanMirror|2"], "visibility_rules": ["$IsMirrorUpgradeEnabled|1"]},
+					{"name": "Death Defiance", "item_count": 3, "clear_as_group": false, "access_rules": ["^$CanMirror|3"], "visibility_rules": ["$IsMirrorUpgradeEnabled|1"]},
+					{"name": "Greater Reflex", "item_count": 1, "clear_as_group": false, "access_rules": ["^$CanMirror|4"], "visibility_rules": ["$IsMirrorUpgradeEnabled|2"]},
+					{"name": "Boiling Blood", "item_count": 5, "clear_as_group": false, "access_rules": ["^$CanMirror|5"], "visibility_rules": ["$IsMirrorUpgradeEnabled|2"]},
+					{"name": "Infernal Soul", "item_count": 2, "clear_as_group": false, "access_rules": ["^$CanMirror|6"], "visibility_rules": ["$IsMirrorUpgradeEnabled|2"]},
+					{"name": "Deep Pockets", "item_count": 10, "clear_as_group": false, "access_rules": ["^$CanMirror|7"], "visibility_rules": ["$IsMirrorUpgradeEnabled|3"]},
+					{"name": "Thick Skin", "item_count": 10, "clear_as_group": false, "access_rules": ["^$CanMirror|8"], "visibility_rules": ["$IsMirrorUpgradeEnabled|3"]},
+					{"name": "Privileged Status", "item_count": 2, "clear_as_group": false, "access_rules": ["^$CanMirror|9"], "visibility_rules": ["$IsMirrorUpgradeEnabled|3"]},
+					{"name": "Olympian Favor", "item_count": 10, "clear_as_group": false, "access_rules": ["^$CanMirror|10"], "visibility_rules": ["$IsMirrorUpgradeEnabled|4"]},
+					{"name": "Gods' Pride", "item_count": 10, "clear_as_group": false, "access_rules": ["^$CanMirror|11"], "visibility_rules": ["$IsMirrorUpgradeEnabled|4"]},
+					{"name": "Fated Authority", "item_count": 8, "clear_as_group": false, "access_rules": ["^$CanMirror|12"], "visibility_rules": ["$IsMirrorUpgradeEnabled|4"]}
 				],
 				"map_locations": [
 					{
@@ -33,18 +33,18 @@
 			{
 				"name": "Mirror Back Side",
 				"sections": [
-					{"name": "Fiery Presence", "item_count": 5, "clear_as_group": false, "access_rules": ["^$CanMirror|13"]},
-					{"name": "Dark Regeneration", "item_count": 2, "clear_as_group": false, "access_rules": ["^$CanMirror|14"]},
-					{"name": "Stubborn Defiance", "item_count": 1, "clear_as_group": false, "access_rules": ["^$CanMirror|15"]},
-					{"name": "Ruthless Reflex", "item_count": 1, "clear_as_group": false, "access_rules": ["^$CanMirror|16"]},
-					{"name": "Abyssal Blood", "item_count": 5, "clear_as_group": false, "access_rules": ["^$CanMirror|17"]},
-					{"name": "Stygian Soul", "item_count": 2, "clear_as_group": false, "access_rules": ["^$CanMirror|18"]},
-					{"name": "Golden Touch", "item_count": 3, "clear_as_group": false, "access_rules": ["^$CanMirror|19"]},
-					{"name": "High Confidence", "item_count": 5, "clear_as_group": false, "access_rules": ["^$CanMirror|20"]},
-					{"name": "Family Favorite", "item_count": 2, "clear_as_group": false, "access_rules": ["^$CanMirror|21"]},
-					{"name": "Dark Foresight", "item_count": 10, "clear_as_group": false, "access_rules": ["^$CanMirror|22"]},
-					{"name": "Gods' Legacy", "item_count": 10, "clear_as_group": false, "access_rules": ["^$CanMirror|23"]},
-					{"name": "Fated Persuasion", "item_count": 4, "clear_as_group": false, "access_rules": ["^$CanMirror|24"]}
+					{"name": "Fiery Presence", "item_count": 5, "clear_as_group": false, "access_rules": ["^$CanMirror|13"], "visibility_rules": ["$IsMirrorUpgradeEnabled|1"]},
+					{"name": "Dark Regeneration", "item_count": 2, "clear_as_group": false, "access_rules": ["^$CanMirror|14"], "visibility_rules": ["$IsMirrorUpgradeEnabled|1"]},
+					{"name": "Stubborn Defiance", "item_count": 1, "clear_as_group": false, "access_rules": ["^$CanMirror|15"], "visibility_rules": ["$IsMirrorUpgradeEnabled|1"]},
+					{"name": "Ruthless Reflex", "item_count": 1, "clear_as_group": false, "access_rules": ["^$CanMirror|16"], "visibility_rules": ["$IsMirrorUpgradeEnabled|2"]},
+					{"name": "Abyssal Blood", "item_count": 5, "clear_as_group": false, "access_rules": ["^$CanMirror|17"], "visibility_rules": ["$IsMirrorUpgradeEnabled|2"]},
+					{"name": "Stygian Soul", "item_count": 2, "clear_as_group": false, "access_rules": ["^$CanMirror|18"], "visibility_rules": ["$IsMirrorUpgradeEnabled|2"]},
+					{"name": "Golden Touch", "item_count": 3, "clear_as_group": false, "access_rules": ["^$CanMirror|19"], "visibility_rules": ["$IsMirrorUpgradeEnabled|3"]},
+					{"name": "High Confidence", "item_count": 5, "clear_as_group": false, "access_rules": ["^$CanMirror|20"], "visibility_rules": ["$IsMirrorUpgradeEnabled|3"]},
+					{"name": "Family Favorite", "item_count": 2, "clear_as_group": false, "access_rules": ["^$CanMirror|21"], "visibility_rules": ["$IsMirrorUpgradeEnabled|3"]},
+					{"name": "Dark Foresight", "item_count": 10, "clear_as_group": false, "access_rules": ["^$CanMirror|22"], "visibility_rules": ["$IsMirrorUpgradeEnabled|4"]},
+					{"name": "Gods' Legacy", "item_count": 10, "clear_as_group": false, "access_rules": ["^$CanMirror|23"], "visibility_rules": ["$IsMirrorUpgradeEnabled|4"]},
+					{"name": "Fated Persuasion", "item_count": 4, "clear_as_group": false, "access_rules": ["^$CanMirror|24"], "visibility_rules": ["$IsMirrorUpgradeEnabled|4"]}
 				],
 				"map_locations": [
 					{

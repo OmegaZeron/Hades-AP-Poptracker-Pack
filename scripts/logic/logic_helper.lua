@@ -15,7 +15,15 @@ function HasFateForGoal()
 			count = count + 1
 		end
 	end
-	return count >= Tracker:ProviderCountForCode(FatesNeeded)
+	local fateSetting = Tracker:FindObjectForCode(FatesNeeded) --[[@as JsonItem]]
+	local fatesNeeded = fateSetting.AcquiredCount
+	local sub = 0
+	-- if minimal heat is active and routine inspection is greater than 0, Darker Reflections is impossible to obtain
+	if Has(MinimalHeat) and Tracker:ProviderCountForCode(RoutineInspectionSetting) > 0 then
+		sub = sub + 1
+	end
+	fatesNeeded = math.min(fatesNeeded, fateSetting.MaxCount - sub)
+	return count >= fatesNeeded
 end
 
 ---@param score integer|string
@@ -116,7 +124,7 @@ function CanBeatMeg()
 				Has(AbilityDash)
 			),
 			HasAbilityPairs(1),
-			HasEnoughMirrorLevels(TotalMirrorItems // 4)
+			HasEnoughMirrorLevels(1)
 		),
 		AccessibilityLevel.SequenceBreak
 	)
@@ -133,7 +141,7 @@ function CanBeatLernie()
 			),
 			HasAbilityProgression(2),
 			HasAbilityPairs(2),
-			HasEnoughMirrorLevels(TotalMirrorItems // 2)
+			HasEnoughMirrorLevels(2)
 		),
 		AccessibilityLevel.SequenceBreak
 	)
@@ -150,7 +158,7 @@ function CanBeatBros()
 			),
 			HasAbilityProgression(3),
 			HasAbilityPairs(3),
-			HasEnoughMirrorLevels(3 * TotalMirrorItems // 4)
+			HasEnoughMirrorLevels(3)
 		),
 		AccessibilityLevel.SequenceBreak
 	)
@@ -166,65 +174,72 @@ function CanBeatDad()
 			),
 			HasAbilityProgression(4),
 			HasAbilityPairs(4),
-			HasEnoughMirrorLevels(TotalMirrorItems)
+			HasEnoughMirrorLevels(4)
 		),
 		AccessibilityLevel.SequenceBreak
 	)
 end
 
----@param currentRank integer|string
----@param maxRank integer|string
-function CanReachMirrorRank(currentRank, maxRank)
-	local current = tonumber(currentRank)
-	local max = tonumber(maxRank)
-	if not current or not max then return false end
-
-	local quarter = max // 4
-	local half = max // 2
-	local threeQuarters = max * 3 // 4
-
-	if max <= 3 then return true end
-	if current <= quarter then return true end
-	if current <= half then return CanBeatMeg() end
-	if current <= threeQuarters then return CanBeatLernie() end
-	if current < max then return CanBeatBros() end
-	return CanBeatDad()
-end
----@param amount integer
-function HasEnoughMirrorLevels(amount)
+---@param tier integer
+function HasEnoughMirrorLevels(tier)
 	if Has(MirrorSanityOff) then return true end
-	return Tracker:ProviderCountForCode("mirror") >= amount
+	-- return Tracker:ProviderCountForCode("mirror") >= amount
+	for _, data in ipairs(MirrorData) do
+		if IsMirrorUpgradeEnabled(data.routineReq) and data.routineReq <= tier then
+			local item = Tracker:FindObjectForCode(data.code) --[[@as JsonItem]]
+			if item.AcquiredCount < item.MaxCount then
+				return false
+			end
+		end
+	end
+	return true
 end
 function HasAllMirrorTalents()
 	return Any(
 		Has(MirrorSanityOff),
 		All(
-			Has(GreaterReflexLevel),
-			Has(RuthlessReflexLevel),
-			Has(StubbornDefianceLevel)
+			Has(MirrorSanityOn),
+			Tracker:ProviderCountForCode("mirror") >= TotalMirrorItems
 		)
 	)
 end
 ---@param mirrorIdx string
+---@return accessibilityLevel
 function CanMirror(mirrorIdx)
-	-- TODO replace currentRank with ChestCount - AvailableChestCount?
 	local mirrorData = MirrorData[tonumber(mirrorIdx)]
-	local section = Tracker:FindObjectForCode("@Mirror of Night/Mirror "..mirrorData.side.." Side/"..mirrorData.name) --[[@as LocationSection]]
-	local cRank = section.ChestCount - section.AvailableChestCount
-	local mRank = section.ChestCount
 	local requiredRI = mirrorData.routineReq
-	if not requiredRI or not cRank or not mRank then return false end
-
-	local totalRI = Tracker:ProviderCountForCode(RoutineInspectionItem)
-	requiredRI = math.min(totalRI, requiredRI)
+	if not requiredRI then return AccessibilityLevel.None end
 
 	return All(
-		CanReachMirrorRank(cRank, mRank),
+		-- use RI as mirror "tier" for boss gating
+		Any(
+			requiredRI == 1,
+			All(
+				requiredRI == 2,
+				CanBeatMeg()
+			),
+			All(
+				requiredRI == 3,
+				CanBeatLernie()
+			),
+			All(
+				requiredRI == 4,
+				CanBeatBros()
+			)
+		),
+		-- actual RI requirement
 		Any(
 			requiredRI == 0,
 			HasRoutineInspection(requiredRI)
 		)
 	)
+end
+---@param neededRI string|number
+function IsMirrorUpgradeEnabled(neededRI)
+	if Tracker:ProviderCountForCode(MinimalHeat) == 0 then return true end
+
+	local routineSetting = Tracker:ProviderCountForCode(RoutineInspectionSetting)
+	return 4 - routineSetting >= tonumber(neededRI)
 end
 
 ---@param ability string

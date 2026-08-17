@@ -678,14 +678,14 @@
 	{
 		"name": "Olympian Favor",
 		"type": "consumable",
-		"max_quantity": 40,
+		"max_quantity": 10, // rando gives 4 levels per item
 		"img": "images/items/MirrorOlympianFavor.png",
 		"codes": "mirror, mirror_olympianfavor"
 	},
 	{
 		"name": "Gods' Pride",
 		"type": "consumable",
-		"max_quantity": 20,
+		"max_quantity": 10, // rando gives 2 levels per item
 		"img": "images/items/MirrorGodsPride.png",
 		"codes": "mirror, mirror_godspride"
 	},
