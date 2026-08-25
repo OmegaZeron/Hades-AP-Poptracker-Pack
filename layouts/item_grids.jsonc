@@ -43,31 +43,40 @@
 		]
 	},
 	"settings": {
-		"type": "array",
-		"orientation": "horizontal",
+		"type": "dock",
 		"content": [
 			{
-				"type": "itemgrid",
-				"h_alignment": "left",
-				"item_size": 100,
-				"item_margin": "1,2",
-				"rows": [
-					["hades_defeats_needed", "weapons_clears_needed", "keepsakes_needed", "fates_needed", "heat_system"],
-					["location_system", "weaponsanity", "keepsakesanity", "fatesanity", "reverse_order_em"],
-					["score_rewards_amount", "hidden_aspectsanity", "abilitysanity", "storesanity", "fishsanity"],
-					["scoremult", "trovesanity", "initial_ability", "mirrorsanity", "disable_late_styx"]
+				"type": "group",
+				"dock": "top",
+				"header": "Settings",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_size": 100,
+						"item_margin": "1, 2",
+						"rows": [
+							["hades_defeats_needed", "weapons_clears_needed", "keepsakes_needed", "fates_needed", "heat_system", "location_system", "score_rewards_amount"],
+							["weaponsanity", "keepsakesanity", "fatesanity", "abilitysanity", "reverse_order_em", "fishsanity", "scoremult"],
+							["hidden_aspectsanity", "mirrorsanity", "storesanity", "initial_ability", "trovesanity", "legendaryfish", "disable_late_styx"]
+						]
+					}
 				]
 			},
 			{
-				"type": "itemgrid",
-				"h_alignment": "left",
-				"item_size": 100,
-				"item_margin": "1,2",
-				"rows": [
-					["hard_labor_pact_amount", "lasting_consequences_pact_amount", "convenience_fee_pact_amount", "jury_summons_pact_amount"],
-					["extreme_measures_pact_amount", "calisthenics_program_pact_amount", "benefits_package_pact_amount", "middle_management_pact_amount"],
-					["underworld_customs_pact_amount", "forced_overtime_pact_amount", "heightened_security_pact_amount", "routine_inspection_pact_amount"],
-					["damage_control_pact_amount", "approval_process_pact_amount", "tight_deadline_pact_amount", "personal_liability_pact_amount"]
+				"type": "group",
+				"header": "Initial Pacts",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_size": 87,
+						"item_margin": "1, 2",
+						"rows": [
+							["hard_labor_pact_amount", "lasting_consequences_pact_amount", "convenience_fee_pact_amount", "jury_summons_pact_amount", "extreme_measures_pact_amount", "calisthenics_program_pact_amount", "benefits_package_pact_amount", "middle_management_pact_amount"],
+							["underworld_customs_pact_amount", "forced_overtime_pact_amount", "heightened_security_pact_amount", "routine_inspection_pact_amount", "damage_control_pact_amount", "approval_process_pact_amount", "tight_deadline_pact_amount", "personal_liability_pact_amount"]
+						]
+					}
 				]
 			}
 		]
