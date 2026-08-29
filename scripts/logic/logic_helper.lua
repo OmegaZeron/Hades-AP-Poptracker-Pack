@@ -82,7 +82,8 @@ function HasRoutineInspection(amount)
 	if not Has("reverse_heat") then
 		return true
 	end
-	return Tracker:ProviderCountForCode(RoutineInspectionSetting) - Tracker:ProviderCountForCode(RoutineInspectionItem) >= amount
+	local riSetting = Tracker:ProviderCountForCode(RoutineInspectionSetting)
+	return riSetting - math.min(riSetting, Tracker:ProviderCountForCode(RoutineInspectionItem)) >= amount
 end
 
 function HasAllApprovalProcess()
@@ -228,10 +229,7 @@ function CanMirror(mirrorIdx)
 			)
 		),
 		-- actual RI requirement
-		Any(
-			requiredRI == 0,
-			HasRoutineInspection(requiredRI)
-		)
+		HasRoutineInspection(requiredRI - (4 - Tracker:ProviderCountForCode(RoutineInspectionSetting)))
 	)
 end
 ---@param neededRI string|number
